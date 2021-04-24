@@ -1,0 +1,16 @@
+title: Libera Chat
+description: A next-generation IRC network for FOSS projects collaboration!
+baseurl: ""
+url: https://libera.chat
+
+twitter:
+  username: liberachat
+  card: summary
+facebook:
+  publisher: liberachat
+
+locale: en_GB
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag

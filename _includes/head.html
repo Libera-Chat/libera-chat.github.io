@@ -1,0 +1,42 @@
+<head>
+  <meta charset="utf-8">
+  <meta content="IE=edge" http-equiv="X-UA-Compatible">
+  <meta content="width=device-width, initial-scale=1" name="viewport">
+  {%- if page.noindex -%}
+  <meta name="robots" content="noindex">
+  {%- endif -%}
+  <!--<link rel="icon" href="/static/img/icon-80.png"> -->
+  {%- seo -%}
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/water.css@2/out/water.css">
+  <style>
+    header,
+    footer {
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      align-items: baseline;
+    }
+
+    header h1 {
+      padding-right: 1ch;
+    }
+
+    header nav {
+      display: flex;
+    }
+
+    header nav span {
+      display: inline-block;
+    }
+
+    header nav span:not(:last-child) {
+      margin-right: 1ch;
+    }
+
+    header nav span:not(:last-child)::after {
+      content: '/';
+      padding-left: 1ch;
+    }
+  </style>
+</head>
