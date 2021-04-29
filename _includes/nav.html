@@ -1,5 +1,9 @@
+<a class="skiplink" href="#main">Skip to content</a>
 <header>
-  <h1>Libera Chat</h1>
+  <a class="logo" href="{{ site.url }}" aria-label="Libera Chat, back to start page">
+    <img alt="Logo" src="/img/libera-color.svg" height="48px">
+    <h1>Libera.Chat</h1>
+  </a>
   <nav>
     {% assign filtered_pages = site.pages | sort: 'title' | where: 'nav', true %}
     {% for page in filtered_pages %}

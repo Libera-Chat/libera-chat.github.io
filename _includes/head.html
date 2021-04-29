@@ -1,4 +1,7 @@
 <head>
+  <link rel="preload" href="/fonts/comfortaa-v30-subset-regular.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="/fonts/roboto-v27-latin-regular.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="/img/libera-color.svg" as="image" type="image/svg+xml">
   <meta charset="utf-8">
   <meta content="IE=edge" http-equiv="X-UA-Compatible">
   <meta content="width=device-width, initial-scale=1" name="viewport">
@@ -7,36 +10,10 @@
   {%- endif -%}
   <!--<link rel="icon" href="/static/img/icon-80.png"> -->
   {%- seo -%}
+  <link rel="icon" type="image/svg+xml" href="/img/libera-color.svg">
+  <link rel="alternate icon" href="/favicon.ico">
   <!-- Stylesheets -->
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/water.css@2/out/water.css">
-  <style>
-    header,
-    footer {
-      display: flex;
-      justify-content: space-between;
-      flex-wrap: wrap;
-      align-items: baseline;
-    }
-
-    header h1 {
-      padding-right: 1ch;
-    }
-
-    header nav {
-      display: flex;
-    }
-
-    header nav span {
-      display: inline-block;
-    }
-
-    header nav span:not(:last-child) {
-      margin-right: 1ch;
-    }
-
-    header nav span:not(:last-child)::after {
-      content: '/';
-      padding-left: 1ch;
-    }
-  </style>
+  <style>{%- include inline-style.css -%}</style>
+  <style>{%- include modern-normalize.css -%}</style>
+  <link rel="stylesheet" href="/css/theme.css">
 </head>

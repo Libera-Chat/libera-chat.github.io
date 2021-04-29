@@ -1,0 +1,8 @@
+@media (prefers-color-scheme: dark) {
+  :root {
+    --c-bg: var(--gray-800);
+    --c-bg-secondary: var(--gray-800);
+    --c-text: var(--gray-200);
+    --c-border: var(--gray-400);
+  }
+}
