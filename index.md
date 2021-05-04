@@ -10,7 +10,7 @@ collaboration!
 ## Who?
 
 Libera Chat is a Swedish non-profit organisation created to provide a
-community platform for free open-source software and peer directed projects
+community platform for free and open-source software and peer directed projects
 on a volunteer basis.
 
 ## How?
