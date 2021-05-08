@@ -4,10 +4,47 @@
     <img alt="Logo" src="/img/libera-color.svg" height="48px">
     <h1>Libera.Chat</h1>
   </a>
-  <nav>
-    {% assign filtered_pages = site.pages | sort: 'title' | where: 'nav', true %}
-    {% for page in filtered_pages %}
-    <span><a href="{{ page.url }}">{{ page.title }}</a></span>
+
+  <a id="nav-toggle" class="nav-toggle hidden" aria-controls="main-nav"><span>Navigation</span></a>
+
+  <nav class="" id="main-nav" aria-labelledby="nav-toggle">
+    <a id="nav-close" class="nav-close hidden" aria-controls="main-nav"><span>Close</span></a>
+    {% for navgroup in site.data.nav %}
+    {% if navgroup.items %}
+    <details>
+      <summary
+        {% if navgroup.highlight %}class="highlight"{% endif %}
+      >{{ navgroup.name }}</summary>
+
+      {% for link in navgroup.items %}
+      <a
+        role="menuitem"
+        href="{{ link.link }}"
+        {% if link.external %} rel="noopener noreferrer" {% endif %}
+      ><span>{{ link.name }}</span></a>
+      {% endfor %}
+    </details>
+    {% else %}
+      <a role="menuitem" href="{{ navgroup.link }}"><span>{{ navgroup.name }}</span></a>
+    {% endif %}
     {% endfor %}
   </nav>
 </header>
+<script async>
+  const navToggle = document.querySelector('#nav-toggle')
+  const navClose = document.querySelector('#nav-close')
+  const mainNav = document.querySelector('#main-nav')
+
+  // progressive enhancement!
+  navToggle.classList.remove('hidden')
+  navClose.classList.remove('hidden')
+
+  navToggle.addEventListener('click', event => {
+    event.preventDefault()
+    mainNav.classList.toggle('show')
+  })
+  navClose.addEventListener('click', event => {
+    event.preventDefault()
+    mainNav.classList.remove('show')
+  })
+</script>

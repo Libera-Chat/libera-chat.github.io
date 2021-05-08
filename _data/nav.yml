@@ -1,0 +1,31 @@
+- name: About
+  items:
+  # - name: Mission and Staff
+  - name: Network Policies
+    link: /policies
+  - name: Channel Guidelines
+    link: /guidelines
+  # - name: Acknowledgements
+# - name: Contribute
+#   items:
+#   - name: Sponsor Us
+#   - name: Development
+- name: Channel Registration
+  link: /chanreg
+# - name: Support # Knowledge Base
+#   link: /support
+- name: Connect
+  highlight: true
+  items:
+  # - name: Webchat
+  - name: irc.libera.chat:6697 (TLS)
+    link: ircs://irc.libera.chat:6697
+  - name: irc.libera.chat:6667 (plaintext)
+    link: irc://irc.libera.chat:6667
+  # - name: How to Connect
+  - name: Twitter
+    external: true
+    link: https://twitter.com/liberachat
+  - name: Facebook
+    external: true
+    link: https://www.facebook.com/liberachat

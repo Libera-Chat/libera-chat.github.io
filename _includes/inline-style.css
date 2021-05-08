@@ -9,18 +9,18 @@
 }
 
 @font-face {
-  /* roboto-regular - latin */
-  src: local(''), url('/fonts/roboto-v27-latin-regular.woff2') format('woff2'), url('/fonts/roboto-v27-latin-regular.woff') format('woff'), url('/fonts/roboto-v27-latin-regular.ttf') format('truetype');
-  font-family: 'Roboto';
+  /* ubuntu-regular - latin */
+  font-family: 'Ubuntu';
+  src: local(''), url('../fonts/ubuntu-v15-latin-regular.woff2') format('woff2'), url('../fonts/ubuntu-v15-latin-regular.woff') format('woff'), url('../fonts/ubuntu-v15-latin-regular.ttf') format('truetype');
   font-style: normal;
   font-weight: 400;
   font-display: swap;
 }
 
 @font-face {
-  /* roboto-mono-regular - latin */
-  font-family: 'Roboto Mono';
-  src: local(''), url('/fonts/roboto-mono-v13-latin-regular.woff2') format('woff2'), url('/fonts/roboto-mono-v13-latin-regular.woff') format('woff'), url('/fonts/roboto-mono-v13-latin-regular.ttf') format('truetype');
+  /* ubuntu-mono-regular - latin */
+  font-family: 'Ubuntu Mono';
+  src: local(''), url('../fonts/ubuntu-mono-v10-latin-regular.woff2') format('woff2'), url('../fonts/ubuntu-mono-v10-latin-regular.woff') format('woff'), url('../fonts/ubuntu-mono-v10-latin-regular.ttf') format('truetype');
   font-style: normal;
   font-weight: 400;
   font-display: swap;
@@ -41,12 +41,14 @@
   --c-bg-secondary: var(--white);
   --c-text: var(--gray-800);
   --c-border: var(--gray-200);
+  --c-highlight: var(--brand-pink);
 }
 
 * {
   color: var(--c-text);
   box-sizing: border-box;
-  font-family: Roboto, sans-serif;
+  font-family: Ubuntu, sans-serif;
+  letter-spacing: .1ch;
 }
 
 body {
@@ -61,8 +63,8 @@ body {
   height: 4rem;
   padding: 1.3rem;
   background-color: var(--c-bg);
-  border-right: 1px solid var(--c-border);
-  border-bottom: 1px solid var(--c-border);
+  border-inline-end: 1px solid var(--c-border);
+  border-block-end: 1px solid var(--c-border);
 }
 
 .skiplink:focus {
@@ -72,11 +74,18 @@ body {
 
 header {
   height: 4rem;
-  border-bottom: 1px solid var(--c-border);
+  border-block-end: 1px solid var(--c-border);
   background-color: var(--c-bg-secondary);
-  padding: 0 1.3rem;
   position: sticky;
   z-index: 1000;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+}
+
+header a {
+  text-decoration: none;
 }
 
 header .logo {
@@ -84,11 +93,11 @@ header .logo {
   flex-wrap: nowrap;
   align-items: center;
   height: 100%;
-  text-decoration: none;
+  padding-inline-start: 1.3rem;
 }
 
 header .logo img {
-  padding-bottom: .3rem;
+  padding-block-end: .3rem;
 }
 
 header .logo h1 {
@@ -96,6 +105,114 @@ header .logo h1 {
   font-size: 1.7rem;
   line-height: 1;
   font-family: 'Comfortaa', sans-serif;
+}
+
+header .nav-toggle {
+  display: block;
+  border-inline-start: 1px solid var(--c-border);
+  padding: 0 1rem;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+header nav details summary, header nav a {
+  border-block-end: 1px solid var(--c-border);
+  padding: 1rem 1rem;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+header nav details summary::before {
+  content: "►";
+  padding-inline-end: .3rem;
+}
+
+header nav details[open] summary::before {
+  content: "▼";
+}
+
+header nav .nav-close {
+  display: none;
+}
+
+header nav.show .nav-close {
+  display: flex;
+}
+
+header nav {
+  transform: translateY(calc(-100% - 1rem));
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  position: fixed;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background-color: var(--c-bg-secondary);
+  min-width: 20rem;
+  max-width: 30rem;
+  border-inline-start: 1px solid var(--c-border);
+  z-index: 10000;
+}
+
+header nav.show, header nav:focus-within {
+  transform: translateY(0);
+}
+
+header nav details summary.highlight, header nav a.highlight {
+  background-color: var(--c-highlight);
+  color: var(--c-bg)
+}
+
+header nav details {
+  display: flex;
+  flex-direction: column;
+}
+
+header nav details a {
+  padding-inline-start: 3rem;
+}
+
+@media screen and (min-width: 800px) {
+  header .nav-toggle, header .nav-close, header nav.show .nav-close {
+    display: none;
+  }
+  header nav {
+    transform: initial;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    position: initial;
+    background-color: initial;
+    min-width: unset;
+    max-width: unset;
+    border-inline-start: none;
+  }
+  header nav.show, header nav:focus-within {
+    transform: initial;
+  }
+  header nav details summary, header nav a {
+    border-block-end: none;
+    border-inline-start: 1px solid var(--c-border);
+    border-inline-end: 1px solid var(--c-border);
+    padding: 0 1rem;
+    display: flex;
+    margin-inline-start: -1px;
+    align-items: center;
+    height: 100%;
+  }
+  header nav details[open] summary {
+    border-block-end: 1px solid var(--c-border);
+    height: calc(100% + 1px);
+  }
+  header nav details a {
+    background-color: var(--c-bg-secondary);
+    border-block-end: 1px solid var(--c-border);
+    padding-inline-start: 1rem;
+  }
 }
 
 aside {}
@@ -107,6 +224,14 @@ main {
 }
 
 footer {
-  border-top: 1px solid var(--c-border);
+  border-block-start: 1px solid var(--c-border);
   padding: .5rem 1.3rem;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+footer div:last-of-type {
+  padding-inline-start: 1rem;
 }
