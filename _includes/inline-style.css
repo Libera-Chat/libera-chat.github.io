@@ -42,6 +42,7 @@
   --c-text: var(--gray-800);
   --c-border: var(--gray-200);
   --c-highlight: var(--brand-pink);
+  --c-text-on-highlight: var(--gray-800);
 }
 
 * {
@@ -164,7 +165,7 @@ header nav.show, header nav:focus-within {
 
 header nav details summary.highlight, header nav a.highlight {
   background-color: var(--c-highlight);
-  color: var(--c-bg)
+  color: var(--c-text-on-highlight);
 }
 
 header nav details {
