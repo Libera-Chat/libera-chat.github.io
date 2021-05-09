@@ -47,7 +47,7 @@ aside details[open] summary::before {
   content: "▼";
 }
 
-aside details summary:hover, aside a:hover {
+aside details summary:hover, aside a:hover, aside a.active {
   background-color: var(--c-bg);
 }
 

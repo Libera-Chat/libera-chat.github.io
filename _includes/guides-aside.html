@@ -9,6 +9,7 @@
       {% for guide in guides %}
       <a
       role="menuitem"
+      {% if page.url == guide.url %}class="active"{% endif %}
       href="{{ guide.url }}"
       ><span>{{ guide.title }}</span></a>
       {% endfor %}

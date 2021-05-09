@@ -23,7 +23,7 @@
   - name: irc.libera.chat:6667 (plaintext)
     link: irc://irc.libera.chat:6667
   - name: How to Connect
-    link: /guides/how-to-connect
+    link: /guides/connect
   - name: Twitter
     external: true
     link: https://twitter.com/liberachat
