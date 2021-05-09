@@ -12,8 +12,8 @@
 #   - name: Development
 - name: Channel Namespaces
   link: /chanreg
-# - name: Support # Knowledge Base
-#   link: /support
+- name: Guides
+  link: /guides
 - name: Connect
   highlight: true
   items:

@@ -27,20 +27,24 @@
 }
 
 :root {
+  --header-height: 4rem;
   /* define our palette for all themes */
   --white: #fff;
   --gray-100: #f3f4f6;
+  --gray-150: #f8f8ff;
   --gray-200: #e5e7eb;
+  --gray-300: #d1d5db;
   --gray-400: #9ca3af;
+  --gray-700: #374151;
   --gray-800: #1f2937;
   --gray-900: #111827;
   --brand-purple: #5555ff;
   --brand-pink: #ff55dd;
   /* light-theme vars */
-  --c-bg: var(--white);
+  --c-bg: var(--gray-100);
   --c-bg-secondary: var(--white);
   --c-text: var(--gray-800);
-  --c-border: var(--gray-200);
+  --c-border: var(--gray-300);
   --c-highlight: var(--brand-pink);
   --c-text-on-highlight: var(--gray-800);
 }
@@ -54,6 +58,19 @@
 
 body {
   background-color: var(--c-bg);
+  min-height: 100vh;
+  display: grid;
+  grid-template-rows: var(--header-height) min-content auto auto 4rem;
+  grid-template-columns: 1fr;
+  grid-template-areas: "header" "hero" "main" "aside" "footer";
+}
+
+@media screen and (min-width: 800px) {
+  body {
+    grid-template-columns: min-content 8fr;
+    grid-template-rows: 4rem min-content auto 3rem;
+    grid-template-areas: "header header" "hero hero" "aside main" "footer footer";
+  }
 }
 
 .skiplink {
@@ -74,7 +91,8 @@ body {
 }
 
 header {
-  height: 4rem;
+  grid-area: header;
+  height: var(--header-height);
   border-block-end: 1px solid var(--c-border);
   background-color: var(--c-bg-secondary);
   position: sticky;
@@ -206,6 +224,9 @@ header nav details a {
     align-items: center;
     height: 100%;
   }
+  header nav details summary:last-of-type {
+    border-inline-end: none;
+  }
   header nav details[open] summary {
     border-block-end: 1px solid var(--c-border);
     height: calc(100% + 1px);
@@ -221,15 +242,21 @@ header nav details a {
   }
 }
 
-aside {}
+aside {
+  grid-area: aside;
+}
 
 main {
-  padding: 0 1em;
+  grid-area: main;
+  padding: 0 2rem;
   max-width: 600px;
   margin: 0 auto;
 }
 
 footer {
+  grid-area: footer;
+  align-self: end;
+  background-color: var(--c-bg-secondary);
   border-block-start: 1px solid var(--c-border);
   padding: .5rem 1.3rem;
   display: flex;
