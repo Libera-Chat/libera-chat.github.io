@@ -81,3 +81,9 @@ table th, table td {
   text-align: start;
   border: 1px solid var(--c-border);
 }
+
+blockquote {
+  border-inline-start: 4px solid var(--c-border);
+  margin: 0;
+  padding-inline-start: var(--content-inline-padding);
+}
