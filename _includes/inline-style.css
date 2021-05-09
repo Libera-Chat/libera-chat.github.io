@@ -119,7 +119,7 @@ header .nav-toggle {
 
 header nav details summary, header nav a {
   border-block-end: 1px solid var(--c-border);
-  padding: 1rem 1rem;
+  padding: 1rem;
   display: flex;
   align-items: center;
   cursor: pointer;
@@ -171,6 +171,7 @@ header nav details summary.highlight, header nav a.highlight {
 header nav details {
   display: flex;
   flex-direction: column;
+  position: relative;
 }
 
 header nav details a {
@@ -209,10 +210,14 @@ header nav details a {
     border-block-end: 1px solid var(--c-border);
     height: calc(100% + 1px);
   }
-  header nav details a {
+  header nav details div {
+    position: absolute;
+    right: 0;
+  }
+  header nav details div a {
     background-color: var(--c-bg-secondary);
     border-block-end: 1px solid var(--c-border);
-    padding-inline-start: 1rem;
+    padding: 1rem;
   }
 }
 
@@ -221,7 +226,7 @@ aside {}
 main {
   padding: 0 1em;
   max-width: 600px;
-  margin: auto;
+  margin: 0 auto;
 }
 
 footer {

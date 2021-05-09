@@ -16,13 +16,15 @@
         {% if navgroup.highlight %}class="highlight"{% endif %}
       >{{ navgroup.name }}</summary>
 
-      {% for link in navgroup.items %}
-      <a
+      <div>
+        {% for link in navgroup.items %}
+        <a
         role="menuitem"
         href="{{ link.link }}"
         {% if link.external %} rel="noopener noreferrer" {% endif %}
-      ><span>{{ link.name }}</span></a>
-      {% endfor %}
+        ><span>{{ link.name }}</span></a>
+        {% endfor %}
+      </div>
     </details>
     {% else %}
       <a role="menuitem" href="{{ navgroup.link }}"><span>{{ navgroup.name }}</span></a>

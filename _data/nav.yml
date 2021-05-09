@@ -10,7 +10,7 @@
 #   items:
 #   - name: Sponsor Us
 #   - name: Development
-- name: Channel Registration
+- name: Channel Namespaces
   link: /chanreg
 # - name: Support # Knowledge Base
 #   link: /support
