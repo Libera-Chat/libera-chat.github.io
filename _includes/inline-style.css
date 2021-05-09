@@ -31,6 +31,8 @@
 
 :root {
   --header-height: 4rem;
+  --content-inline-padding: 1.3rem;
+  --content-max-width: 60ch;
   /* define our palette for all themes */
   --white: #fff;
   --gray-100: #f3f4f6;
@@ -46,8 +48,9 @@
   --c-bg-secondary: var(--white);
   --c-text: var(--gray-800);
   --c-border: var(--gray-300);
-  --c-highlight: var(--brand-pink);
-  --c-text-on-highlight: var(--gray-800);
+  --c-hl: var(--brand-pink);
+  --c-hl-secondary: var(--brand-purple);
+  --c-text-on-hl: var(--gray-800);
 }
 
 @media (prefers-color-scheme: dark) {
@@ -93,7 +96,7 @@ h1, h2, h3, h4, h5, h6, strong {
   display: block;
   position: absolute;
   height: 4rem;
-  padding: 1.3rem;
+  padding: var(--content-inline-padding);
   background-color: var(--c-bg);
   border-inline-end: 1px solid var(--c-border);
   border-block-end: 1px solid var(--c-border);
@@ -126,7 +129,7 @@ header .logo {
   flex-wrap: nowrap;
   align-items: center;
   height: 100%;
-  padding-inline-start: 1.3rem;
+  padding-inline-start: var(--content-inline-padding);
 }
 
 header .logo img {
@@ -137,7 +140,8 @@ header .logo h1 {
   margin: 0;
   font-size: 1.7rem;
   line-height: 1;
-  font-family: 'Comfortaa', sans-serif;
+  font-family: Comfortaa, Ubuntu, sans-serif;
+  font-weight: 400;
 }
 
 header .nav-toggle {
@@ -196,9 +200,17 @@ header nav.show, header nav:focus-within {
 }
 
 header nav details summary.highlight, header nav a.highlight {
-  background-color: var(--c-highlight);
-  color: var(--c-text-on-highlight);
+  background-color: var(--c-hl);
+  color: var(--c-text-on-hl);
   font-weight: 500;
+}
+
+header nav details summary:hover, header nav a:hover {
+  background-color: var(--c-bg);
+}
+
+header nav details summary.highlight:hover, header nav a.highlight:hover {
+  background-color: var(--c-hl-secondary);
 }
 
 header nav details {
@@ -239,7 +251,7 @@ header nav details a {
     align-items: center;
     height: 100%;
   }
-  header nav details summary:last-of-type {
+  header nav details:last-of-type summary {
     border-inline-end: none;
   }
   header nav details[open] summary {
@@ -263,9 +275,9 @@ aside {
 
 main {
   grid-area: main;
-  padding: 0 2rem;
-  max-width: 600px;
-  margin: 0 auto;
+  padding: 0 var(--content-inline-padding);
+  max-width: var(--content-max-width);
+  margin: 2rem auto;
 }
 
 footer {
@@ -273,7 +285,7 @@ footer {
   align-self: end;
   background-color: var(--c-bg-secondary);
   border-block-start: 1px solid var(--c-border);
-  padding: .5rem 1.3rem;
+  padding: .5rem var(--content-inline-padding);
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;

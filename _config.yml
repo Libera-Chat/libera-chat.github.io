@@ -8,6 +8,14 @@ twitter:
   card: summary
 facebook:
   publisher: liberachat
+irc:
+  plaintext:
+    name: irc.libera.chat:6667 (plaintext)
+    link: irc://irc.libera.chat:6667
+  tls:
+    name: irc.libera.chat:6697 (TLS)
+    link: ircs://irc.libera.chat:6697
+
 
 locale: en_GB
 

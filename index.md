@@ -1,7 +1,6 @@
 ---
-layout: default
+layout: hero
 title: Libera Chat
-nav: false
 ---
 
 **COMING SOON**&mdash;Libera Chat, a next-generation IRC projects

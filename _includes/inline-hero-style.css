@@ -1,0 +1,98 @@
+.hero {
+  grid-area: hero;
+  background-color: var(--c-bg-secondary);
+  min-height: 40vh;
+  max-height: min-content;
+  border-block-end: 1px solid var(--c-border);
+  padding: 2rem 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 2fr auto auto;
+  grid-template-areas: "logo logo" "tagline tagline" "cta cta";
+  justify-items: center;
+}
+
+.hero .logo, .hero .tagline, .hero .cta {
+  max-width: var(--content-max-width);
+  padding: 0 var(--content-inline-padding);
+}
+
+.hero .logo {
+  grid-area: logo;
+  justify-self: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.hero .logo img {
+  width: 50%;
+}
+
+.hero .logo h1 {
+  margin: 0;
+  font-family: Comfortaa, Ubuntu, sans-serif;
+  font-weight: 400;
+  font-size: 2rem;
+}
+
+.hero .tagline {
+  grid-area: tagline;
+  align-self: end;
+}
+
+.hero .cta {
+  grid-area: cta;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: center;
+  width: 100%;
+}
+
+.hero .cta a {
+  display: block;
+  background-color: var(--c-hl);
+  color: var(--c-text-on-hl);
+  cursor: pointer;
+  text-decoration: none;
+  font-weight: 500;
+  padding: var(--content-inline-padding);
+  min-width: 25ch;
+  text-align: center;
+  margin: calc(var(--content-inline-padding) / 2);
+}
+
+.hero .cta a:hover {
+  background-color: var(--c-hl-secondary);
+}
+
+@media screen and (min-width: 800px) {
+  .hero {
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: "logo tagline" "logo cta";
+  }
+  .hero .logo, .hero .tagline, .hero .cta {
+    max-width: calc(var(--content-max-width) / 1.5);
+  }
+  .hero .logo {
+    justify-self: end;
+  }
+  .hero .tagline, .hero .cta {
+    justify-self: start;
+  }
+  .hero .logo img {
+    width: 100%;
+  }
+  .hero .cta {
+    justify-content: space-around;
+    flex-direction: column;
+  }
+  .hero .cta a {
+    margin: unset;
+    margin-inline-end: var(--content-inline-padding);
+  }
+}
