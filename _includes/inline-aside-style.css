@@ -1,0 +1,71 @@
+aside {
+  grid-area: aside;
+  background-color: var(--c-bg-secondary);
+  /* padding: var(--content-inline-padding); */
+  border-block-start: 1px solid var(--c-border);
+  width: 100%;
+  height: min-content;
+  align-self: end;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  min-width: 30ch;
+  overflow-y: auto;
+}
+
+aside .title {
+  margin-block-end: 0;
+  margin-inline: var(--content-inline-padding);
+  margin-block-start: 1rem;
+  margin-block-end: .5rem;
+  font-size: 2rem;
+  font-weight: 500;
+}
+
+aside details:not(:last-child) {
+  border-block-end: 1px solid var(--c-border);
+}
+
+aside details summary, aside a {
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+aside a {
+  text-decoration: none;
+}
+
+aside details summary::before {
+  content: "►";
+  padding-inline-end: .3rem;
+}
+
+aside details[open] summary::before {
+  content: "▼";
+}
+
+aside details summary:hover, aside a:hover {
+  background-color: var(--c-bg);
+}
+
+aside details {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+aside details a {
+  padding-inline-start: 2.5rem;
+}
+
+@media screen and (min-width: 800px) {
+  aside {
+    border-block-start: none;
+    border-inline-end: 1px solid var(--c-border);
+    width: max-content;
+    height: 100%;
+  }
+}

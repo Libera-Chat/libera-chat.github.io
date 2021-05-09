@@ -1,0 +1,9 @@
+- slug: about-irc
+  name: About IRC
+  description: ""
+- slug: connecting
+  name: Helping you connect
+- slug: using
+  name: Using the network
+- slug: chanop
+  name: Running a channel

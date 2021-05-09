@@ -73,7 +73,7 @@ body {
   background-color: var(--c-bg);
   min-height: 100vh;
   display: grid;
-  grid-template-rows: var(--header-height) min-content auto auto 4rem;
+  grid-template-rows: var(--header-height) min-content auto auto min-content;
   grid-template-columns: 1fr;
   grid-template-areas: "header" "hero" "main" "aside" "footer";
 }
@@ -82,10 +82,22 @@ h1, h2, h3, h4, h5, h6, strong {
   font-weight: 500;
 }
 
+h1 {
+  font-size: 2.25rem;
+}
+
+h2 {
+  font-size: 1.5rem;
+}
+
+h3 {
+  font-size: 1.25rem;
+}
+
 @media screen and (min-width: 800px) {
   body {
     grid-template-columns: min-content 8fr;
-    grid-template-rows: 4rem min-content auto 3rem;
+    grid-template-rows: 4rem min-content auto min-content;
     grid-template-areas: "header header" "hero hero" "aside main" "footer footer";
   }
 }
@@ -220,7 +232,7 @@ header nav details {
 }
 
 header nav details a {
-  padding-inline-start: 3rem;
+  padding-inline-start: 2.5rem;
 }
 
 @media screen and (min-width: 800px) {
@@ -269,14 +281,11 @@ header nav details a {
   }
 }
 
-aside {
-  grid-area: aside;
-}
-
 main {
   grid-area: main;
   padding: 0 var(--content-inline-padding);
   max-width: var(--content-max-width);
+  width: 100%;
   margin: 2rem auto;
 }
 

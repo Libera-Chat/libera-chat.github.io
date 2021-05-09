@@ -19,5 +19,8 @@
   {% if include.with_hero %}
   <style>{%- include inline-hero-style.css -%}</style>
   {% endif %}
+  {% if include.with_aside %}
+  <style>{%- include inline-aside-style.css -%}</style>
+  {% endif %}
   <link rel="stylesheet" href="/css/additional-styles.css">
 </head>

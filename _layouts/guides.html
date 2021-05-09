@@ -1,15 +1,15 @@
 <!DOCTYPE html>
 <html>
-{%- include head.html -%}
+{%- include head.html with_aside=true -%}
 
 <body>
   {%- include nav.html -%}
-
-  <aside>
-
-  </aside>
+  {%- include guides-aside.html -%}
 
   <main id="main">
+    {% if page.title %}
+    <h1>{{ page.title }}</h1>
+    {% endif %}
     {{ content }}
   </main>
 

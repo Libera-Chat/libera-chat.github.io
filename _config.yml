@@ -16,6 +16,19 @@ irc:
     name: irc.libera.chat:6697 (TLS)
     link: ircs://irc.libera.chat:6697
 
+collections_dir: content
+
+collections:
+  guides:
+    output: true
+    permalink: /:collection/:name
+
+defaults:
+  - scope:
+      path: ""
+      type: guides
+    values:
+      layout: guides
 
 locale: en_GB
 

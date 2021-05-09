@@ -1,0 +1,18 @@
+<aside>
+  <span class="title">Guides</span>
+  {% for category in site.data.guide_categories %}
+  {% assign guides = site.guides | where: "category", category.slug %}
+  <details open>
+    <summary>{{ category.name }}</summary>
+
+    <div>
+      {% for guide in guides %}
+      <a
+      role="menuitem"
+      href="{{ guide.url }}"
+      ><span>{{ guide.title }}</span></a>
+      {% endfor %}
+    </div>
+  </details>
+  {% endfor %}
+</aside>
