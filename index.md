@@ -1,6 +1,5 @@
 ---
 layout: hero
-title: Libera Chat
 ---
 
 **COMING SOON**&mdash;Libera Chat, a next-generation IRC projects

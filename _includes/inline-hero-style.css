@@ -68,6 +68,7 @@
 
 .hero .cta a:hover {
   background-color: var(--c-hl-secondary);
+  color: var(--c-text-on-hl-secondary);
 }
 
 @media screen and (min-width: 800px) {

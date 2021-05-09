@@ -51,6 +51,7 @@
   --c-hl: var(--brand-pink);
   --c-hl-secondary: var(--brand-purple);
   --c-text-on-hl: var(--gray-800);
+  --c-text-on-hl-secondary: var(--white);
 }
 
 @media (prefers-color-scheme: dark) {
@@ -223,6 +224,7 @@ header nav details summary:hover, header nav a:hover {
 
 header nav details summary.highlight:hover, header nav a.highlight:hover {
   background-color: var(--c-hl-secondary);
+  color: var(--c-text-on-hl-secondary);
 }
 
 header nav details {
