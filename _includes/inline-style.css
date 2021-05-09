@@ -1,4 +1,5 @@
 @font-face {
+  /* comfortaa-regular - subset */
   font-family: 'Comfortaa';
   src: url('/fonts/comfortaa-v30-subset-regular.woff2') format('woff2'), url('/fonts/comfortaa-v30-subset-regular.woff') format('woff'), url('/fonts/comfortaa-v30-subset-regular.ttf') format('truetype');
   font-style: normal;
@@ -18,12 +19,14 @@
 }
 
 @font-face {
-  /* ubuntu-mono-regular - latin */
-  font-family: 'Ubuntu Mono';
-  src: local(''), url('../fonts/ubuntu-mono-v10-latin-regular.woff2') format('woff2'), url('../fonts/ubuntu-mono-v10-latin-regular.woff') format('woff'), url('../fonts/ubuntu-mono-v10-latin-regular.ttf') format('truetype');
+  /* ubuntu-500 - subset */
+  font-family: 'Ubuntu';
+  src: local(''), url('../fonts/ubuntu-v15-subset-500.woff2') format('woff2'), url('../fonts/ubuntu-v15-subset-500.woff') format('woff'), url('../fonts/ubuntu-v15-subset-500.ttf') format('truetype');
   font-style: normal;
-  font-weight: 400;
+  font-weight: 500;
   font-display: swap;
+  /*             C      c      e      n      o      t */
+  unicode-range: U+0043 U+0063 U+0065 U+006E U+006F U+0074;
 }
 
 :root {
@@ -31,11 +34,9 @@
   /* define our palette for all themes */
   --white: #fff;
   --gray-100: #f3f4f6;
-  --gray-150: #f8f8ff;
   --gray-200: #e5e7eb;
   --gray-300: #d1d5db;
   --gray-400: #9ca3af;
-  --gray-700: #374151;
   --gray-800: #1f2937;
   --gray-900: #111827;
   --brand-purple: #5555ff;
@@ -47,6 +48,15 @@
   --c-border: var(--gray-300);
   --c-highlight: var(--brand-pink);
   --c-text-on-highlight: var(--gray-800);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --c-bg: var(--gray-800);
+    --c-bg-secondary: var(--gray-900);
+    --c-text: var(--gray-200);
+    --c-border: var(--gray-400);
+  }
 }
 
 * {
@@ -184,6 +194,7 @@ header nav.show, header nav:focus-within {
 header nav details summary.highlight, header nav a.highlight {
   background-color: var(--c-highlight);
   color: var(--c-text-on-highlight);
+  font-weight: 500;
 }
 
 header nav details {
