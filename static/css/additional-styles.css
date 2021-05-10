@@ -1,7 +1,7 @@
 @font-face {
   /* ubuntu-mono-regular - latin */
   font-family: 'Ubuntu Mono';
-  src: local(''), url('../fonts/ubuntu-mono-v10-latin-regular.woff2') format('woff2'), url('../fonts/ubuntu-mono-v10-latin-regular.woff') format('woff'), url('../fonts/ubuntu-mono-v10-latin-regular.ttf') format('truetype');
+  src: local(''), url('/static/fonts/ubuntu-mono-v10-latin-regular.woff2') format('woff2'), url('/static/fonts/ubuntu-mono-v10-latin-regular.woff') format('woff'), url('/static/fonts/ubuntu-mono-v10-latin-regular.ttf') format('truetype');
   font-style: normal;
   font-weight: 400;
   font-display: swap;
@@ -10,7 +10,7 @@
 @font-face {
   /* ubuntu-500 - latin */
   font-family: 'Ubuntu';
-  src: local(''), url('../fonts/ubuntu-v15-latin-500.woff2') format('woff2'), url('../fonts/ubuntu-v15-latin-500.woff') format('woff'), url('../fonts/ubuntu-v15-latin-500.ttf') format('truetype');
+  src: local(''), url('/static/fonts/ubuntu-v15-latin-500.woff2') format('woff2'), url('/static/fonts/ubuntu-v15-latin-500.woff') format('woff'), url('/static/fonts/ubuntu-v15-latin-500.ttf') format('truetype');
   font-style: normal;
   font-weight: 500;
   font-display: swap;
@@ -19,7 +19,7 @@
 @font-face {
   /* ubuntu-italic - latin */
   font-family: 'Ubuntu';
-  src: local(''), url('../fonts/ubuntu-v15-latin-italic.woff2') format('woff2'), url('../fonts/ubuntu-v15-latin-italic.woff') format('woff'), url('../fonts/ubuntu-v15-latin-italic.ttf') format('truetype');
+  src: local(''), url('/static/fonts/ubuntu-v15-latin-italic.woff2') format('woff2'), url('/static/fonts/ubuntu-v15-latin-italic.woff') format('woff'), url('/static/fonts/ubuntu-v15-latin-italic.ttf') format('truetype');
   font-style: italic;
   font-weight: 400;
   font-display: swap;

@@ -1,7 +1,7 @@
 @font-face {
   /* comfortaa-regular - subset */
   font-family: 'Comfortaa';
-  src: url('/fonts/comfortaa-v30-subset-regular.woff2') format('woff2'), url('/fonts/comfortaa-v30-subset-regular.woff') format('woff'), url('/fonts/comfortaa-v30-subset-regular.ttf') format('truetype');
+  src: url('/static/fonts/comfortaa-v30-subset-regular.woff2') format('woff2'), url('/static/fonts/comfortaa-v30-subset-regular.woff') format('woff'), url('/static/fonts/comfortaa-v30-subset-regular.ttf') format('truetype');
   font-style: normal;
   font-weight: 400;
   font-display: swap;
@@ -12,7 +12,7 @@
 @font-face {
   /* ubuntu-regular - latin */
   font-family: 'Ubuntu';
-  src: local(''), url('../fonts/ubuntu-v15-latin-regular.woff2') format('woff2'), url('../fonts/ubuntu-v15-latin-regular.woff') format('woff'), url('../fonts/ubuntu-v15-latin-regular.ttf') format('truetype');
+  src: local(''), url('/static/fonts/ubuntu-v15-latin-regular.woff2') format('woff2'), url('/static/fonts/ubuntu-v15-latin-regular.woff') format('woff'), url('/static/fonts/ubuntu-v15-latin-regular.ttf') format('truetype');
   font-style: normal;
   font-weight: 400;
   font-display: swap;
@@ -21,7 +21,7 @@
 @font-face {
   /* ubuntu-500 - subset */
   font-family: 'Ubuntu';
-  src: local(''), url('../fonts/ubuntu-v15-subset-500.woff2') format('woff2'), url('../fonts/ubuntu-v15-subset-500.woff') format('woff'), url('../fonts/ubuntu-v15-subset-500.ttf') format('truetype');
+  src: local(''), url('/static/fonts/ubuntu-v15-subset-500.woff2') format('woff2'), url('/static/fonts/ubuntu-v15-subset-500.woff') format('woff'), url('/static/fonts/ubuntu-v15-subset-500.ttf') format('truetype');
   font-style: normal;
   font-weight: 500;
   font-display: swap;
@@ -32,7 +32,7 @@
 :root {
   --header-height: 4rem;
   --content-inline-padding: 1.3rem;
-  --content-max-width: 60ch;
+  --content-max-width: 80ch;
   /* define our palette for all themes */
   --white: #fff;
   --gray-100: #f3f4f6;

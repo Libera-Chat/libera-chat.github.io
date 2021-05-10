@@ -1,17 +1,16 @@
 <head>
-  <link rel="preload" href="/fonts/comfortaa-v30-subset-regular.woff2" as="font" type="font/woff2" crossorigin>
-  <link rel="preload" href="/fonts/ubuntu-v15-latin-regular.woff2" as="font" type="font/woff2" crossorigin>
-  <link rel="preload" href="/fonts/ubuntu-v15-subset-500.woff2" as="font" type="font/woff2" crossorigin>
-  <link rel="preload" href="/img/libera-color.svg" as="image" type="image/svg+xml">
+  <link rel="preload" href="/static/fonts/comfortaa-v30-subset-regular.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="/static/fonts/ubuntu-v15-latin-regular.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="/static/fonts/ubuntu-v15-subset-500.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="/static/img/libera-color.svg" as="image" type="image/svg+xml">
   <meta charset="utf-8">
   <meta content="IE=edge" http-equiv="X-UA-Compatible">
   <meta content="width=device-width, initial-scale=1" name="viewport">
   {%- if page.noindex -%}
   <meta name="robots" content="noindex">
   {%- endif -%}
-  <!--<link rel="icon" href="/static/img/icon-80.png"> -->
   {%- seo -%}
-  <link rel="icon" type="image/svg+xml" href="/img/libera-color.svg">
+  <link rel="icon" type="image/svg+xml" href="/static/img/libera-color.svg">
   <link rel="alternate icon" href="/favicon.ico">
   <!-- Stylesheets -->
   <style>{%- include modern-normalize.css -%}</style>
@@ -22,5 +21,5 @@
   {% if include.with_aside %}
   <style>{%- include inline-aside-style.css -%}</style>
   {% endif %}
-  <link rel="stylesheet" href="/css/additional-styles.css">
+  <link rel="stylesheet" href="/static/css/additional-styles.css">
 </head>
