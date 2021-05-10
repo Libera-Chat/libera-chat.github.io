@@ -318,6 +318,7 @@ main {
   grid-area: main;
   padding: 0 var(--content-inline-padding);
   max-width: var(--content-max-width);
+  min-width: 0;
   width: 100%;
   margin: 2rem auto;
 }
