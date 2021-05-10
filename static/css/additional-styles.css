@@ -33,11 +33,13 @@ code, pre, kbd {
 }
 
 code, kbd {
-  padding-inline: .3rem;
+  padding: .1rem .3rem;
+  border: 1px solid var(--c-border);
 }
 
 pre>code {
-  padding-inline: 0;
+  padding: 0;
+  border: none;
 }
 
 pre {

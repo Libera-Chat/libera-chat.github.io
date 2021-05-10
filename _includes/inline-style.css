@@ -70,6 +70,10 @@
   letter-spacing: .1ch;
 }
 
+main *, .hero * {
+  line-height: 1.5;
+}
+
 body {
   background-color: var(--c-bg);
   min-height: 100vh;
@@ -77,6 +81,16 @@ body {
   grid-template-rows: var(--header-height) min-content auto auto min-content;
   grid-template-columns: 1fr;
   grid-template-areas: "header" "hero" "main" "aside" "footer";
+}
+
+a {
+  text-decoration: underline;
+  text-underline-offset: .05rem;
+}
+
+a:hover {
+  text-underline-offset: .25rem;
+  color: var(--c-hl);
 }
 
 h1, h2, h3, h4, h5, h6, p {
