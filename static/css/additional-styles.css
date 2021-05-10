@@ -37,9 +37,10 @@ code, kbd {
   border: 1px solid var(--c-border);
 }
 
-pre>code {
+pre code {
   padding: 0;
   border: none;
+  background-color: transparent;
 }
 
 pre {
@@ -85,7 +86,25 @@ table th, table td {
 }
 
 blockquote {
-  border-inline-start: 4px solid var(--c-border);
+  border-inline-start: .25rem solid var(--c-border);
   margin: 0;
   padding-inline-start: var(--content-inline-padding);
+  font-style: italic;
+}
+
+hr {
+  border: none;
+  border-block-end: 1px solid var(--c-border);
+  margin: 2rem 10%;
+}
+
+hr+* {
+  margin-block-start: 0;
+}
+
+main img {
+  display: block;
+  margin: 1.5rem auto;
+  max-width: var(--content-max-width);
+  max-height: 40vh;
 }

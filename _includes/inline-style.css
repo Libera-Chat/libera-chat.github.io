@@ -105,15 +105,23 @@ em {
   font-style: italic;
 }
 
-h1 {
+h1, h2, h3, h4, h5, h6 {
+  margin-block-end: 0;
+}
+
+h1+*, h2+*, h3+*, h4+*, h5+*, h6+* {
+  margin-block-start: 0;
+}
+
+main h1 {
   font-size: 2.25rem;
 }
 
-h2 {
+main h2 {
   font-size: 1.5rem;
 }
 
-h3 {
+main h3 {
   font-size: 1.25rem;
 }
 
