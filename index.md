@@ -1,8 +1,7 @@
 ---
 layout: hero
+title: Welcome to Libera.Chat
 ---
-
-# Welcome to Libera.Chat
 
 We're excited to announce the launch of Libera.Chat, and welcome you to a
 next-generation IRC network for free and open source software projects and
