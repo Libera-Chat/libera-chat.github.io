@@ -53,8 +53,8 @@ div.table {
   max-width: 100%;
 }
 
-div.table p {
-  margin: none;
+div.table p:first-child, div.table p:last-child {
+  margin: 0;
 }
 
 table {
@@ -83,6 +83,14 @@ table th, table td {
   vertical-align: top;
   text-align: start;
   border: 1px solid var(--c-border);
+}
+
+table td p:last-child {
+  margin-block-end: 0;
+}
+
+table td p:first-child {
+  margin-block-start: 0;
 }
 
 blockquote {

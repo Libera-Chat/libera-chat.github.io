@@ -1,0 +1,38 @@
+- mode: g
+  name: caller-id
+  description: |
+    Ignores private messages from unknown users, instead informing you someone
+    is attempting to message you. You can choose to receive messages with the
+    `/accept` command. Messaging a user automatically accepts them.
+    Messages from unidentified users will still be blocked by `+R`.
+- mode: i
+  name: invisible
+  description: |
+    Hides you from global `WHO` and `WHOIS` by normal users, and shows only
+    shared channels in `/WHOIS` output.
+- mode: Q
+  name: disable forwarding
+  description: |
+    Prevents channel forwards from affecting you. If a channel's modes
+    prevent you from joining, you will receive the relevant error message
+    regardless of any forwards.
+- mode: R
+  name: block unidentified
+  description: |
+    Ignores private messages from users who are not identified with services.
+- mode: u
+  name: unfiltered
+  description: |
+    Receive messages that are filtered server side by Libera.Chat based on
+    content, usually spam. Set `+u` if you want to receive these messages.
+    Also see the corresponding [channel mode](/guides/channelmodes).
+- mode: w
+  name: see wallops
+  description: |
+    Subscribes you to `/wallops` messages from Libera.Chat staff. Used
+    infrequently to highlight interesting announcements from the FOSS
+    community. You will receive important network announcements irrespective
+    of this setting.
+- mode: Z
+  name: connected securely using TLS
+  description: Set automatically by the network when you connect via SSL/TLS.
