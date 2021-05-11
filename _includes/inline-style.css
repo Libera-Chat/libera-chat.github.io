@@ -182,10 +182,11 @@ header .logo img {
 
 header .logo h1 {
   margin: 0;
+  margin-bottom: -.4rem;
   font-size: 1.7rem;
   line-height: 1;
   font-family: Comfortaa, Ubuntu, sans-serif;
-  font-weight: 400;
+  font-weight: bold;
 }
 
 header .nav-toggle {

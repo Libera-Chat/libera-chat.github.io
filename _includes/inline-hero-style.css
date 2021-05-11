@@ -36,6 +36,9 @@
   font-family: Comfortaa, Ubuntu, sans-serif;
   font-weight: 400;
   font-size: 2rem;
+  margin-block-start: -1.5rem;
+  text-align: center;
+  font-weight: bold;
 }
 
 .hero .tagline {
@@ -81,6 +84,10 @@
   }
   .hero .logo {
     justify-self: end;
+  }
+  .hero .logo h1 {
+    font-size: 3.25rem;
+    margin-block-start: -2.5rem;
   }
   .hero .tagline, .hero .cta {
     justify-self: start;
