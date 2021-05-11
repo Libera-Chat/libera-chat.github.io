@@ -1,6 +1,7 @@
 ---
 title: Configuring SASL for WeeChat
 category: sasl
+credits: web7
 ---
 
 Here's a simple guide for password-based authentication, based on the

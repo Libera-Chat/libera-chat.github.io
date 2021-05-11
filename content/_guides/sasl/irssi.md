@@ -1,6 +1,7 @@
 ---
 title: Configuring SASL for Irssi
 category: sasl
+credits: web7
 ---
 
 The setup for SASL on Irssi differs depending on the version you have (you can

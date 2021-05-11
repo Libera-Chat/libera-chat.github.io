@@ -1,6 +1,7 @@
 ---
 title: Using Channels
 category: using
+credits: web7
 ---
 
 ## Channel Policies

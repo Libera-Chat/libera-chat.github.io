@@ -1,6 +1,7 @@
 ---
 title: Configuring SASL for Quassel
 category: sasl
+credits: web7
 ---
 
 Quassel has SASL support built-in.

@@ -1,6 +1,7 @@
 ---
 title: Configuring SASL for HexChat
 category: sasl
+credits: web7
 ---
 
 These instructions were originally contributed by BlueShark. Thanks!

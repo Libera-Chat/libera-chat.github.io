@@ -1,6 +1,7 @@
 ---
 title: Finding Channels
 category: using
+credits: web7
 ---
 
 ## Finding Channels on Libera.Chat

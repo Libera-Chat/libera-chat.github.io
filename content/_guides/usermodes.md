@@ -1,6 +1,7 @@
 ---
 title: User Modes
 category: using
+credits: web7
 ---
 
 Various modes can be set on users. Some of them can be set by the users, others

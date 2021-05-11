@@ -1,6 +1,7 @@
 ---
 title: Creating Channels
 category: chanop
+credits: web7
 ---
 
 ## Choosing the correct namespace

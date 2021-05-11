@@ -1,6 +1,7 @@
 ---
 title: Using SASL
 category: connecting
+credits: web7
 ---
 
 SASL is a method that allows identification to services (NickServ) during the

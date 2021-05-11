@@ -1,6 +1,7 @@
 ---
 title: Configuring SASL for Pidgin
 category: sasl
+credits: web7
 ---
 
 If you have already added Libera.Chat as an account, skip to step 5.

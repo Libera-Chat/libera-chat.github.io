@@ -1,6 +1,7 @@
 ---
 title: Configuring SASL for LimeChat on macOS
 category: sasl
+credits: web7
 ---
 
 If you have already added Libera.Chat as a network, right-click on the network,

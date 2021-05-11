@@ -1,6 +1,7 @@
 ---
 title: Using CertFP
 category: connecting
+credits: web7
 ---
 
 As an alternative to password-based authentication, you can connect to

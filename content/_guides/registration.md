@@ -1,6 +1,7 @@
 ---
 title: Nickname Registration
 category: using
+credits: web7
 ---
 
 Your nick is how people on Libera.Chat know you. If you register it,

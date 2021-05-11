@@ -1,6 +1,7 @@
 ---
 title: Configuring SASL for mIRC
 category: sasl
+credits: web7
 ---
 
 mIRC added built-in SASL support in version 7.48, released April 2017.

@@ -1,6 +1,7 @@
 ---
 title: Configuring SASL for Chatzilla
 category: sasl
+credits: web7
 ---
 
 This script is by Gryllida, for the

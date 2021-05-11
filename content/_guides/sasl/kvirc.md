@@ -1,6 +1,7 @@
 ---
 title: Configuring SASL for KVIrc
 category: sasl
+credits: web7
 ---
 
 If you have already added Libera.Chat as a network, open your servers window,

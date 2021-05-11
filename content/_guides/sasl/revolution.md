@@ -1,6 +1,7 @@
 ---
 title: Configuring SASL for Revolution
 category: sasl
+credits: web7
 ---
 
 If you have already added Libera.Chat as a server, long press on it and select

@@ -1,6 +1,7 @@
 ---
 title: Configuring SASL for Textual
 category: sasl
+credits: web7
 ---
 
 Textual is a lightweight IRC client for Mac OS X. Textual supports SASL out of

@@ -1,6 +1,7 @@
 ---
 title: Configuring SASL for IRCCloud
 category: sasl
+credits: web7
 ---
 
 The below instructions were valid as of the web version (irccloud.com) as of

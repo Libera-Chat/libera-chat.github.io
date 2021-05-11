@@ -1,6 +1,7 @@
 ---
 title: Configuring SASL for Epic5
 category: sasl
+credits: web7
 ---
 
 EPIC5 has the sasl_auth script built-in. Mikhail contributed this explanation

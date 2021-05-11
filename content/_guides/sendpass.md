@@ -1,9 +1,10 @@
 ---
 title: Resetting your Password
 category: using
+credits: web7
 ---
 
-If you have forgotten the password for your NickServ account and are unable to 
+If you have forgotten the password for your NickServ account and are unable to
 log in to it, you can send a password reset mail to the email address on your
 account with:
 
