@@ -1,0 +1,10 @@
+---
+title: News Archive
+---
+
+{% for post in site.posts %}
+{%- include article.html article=post excerpt=true no_nav=true -%}
+{% unless post.previous == null %}
+<hr>
+{% endunless %}
+{% endfor %}

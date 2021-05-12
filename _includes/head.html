@@ -6,8 +6,8 @@
   <meta charset="utf-8">
   <meta content="IE=edge" http-equiv="X-UA-Compatible">
   <meta content="width=device-width, initial-scale=1" name="viewport">
-  {%- if page.noindex -%}
-  <meta name="robots" content="noindex">
+  {%- if page.robots -%}
+  <meta name="robots" content="{{ page.robots }}">
   {%- endif -%}
   {%- seo -%}
   <link rel="icon" type="image/svg+xml" href="/static/img/libera-color.svg">

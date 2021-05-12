@@ -18,10 +18,18 @@ irc:
 
 collections_dir: content
 
+permalink: /:name
+
 collections:
   guides:
     output: true
     permalink: /:collection/:name
+  posts:
+    output: true
+    permalink: /news/:title
+
+feed:
+  path: atom.xml
 
 defaults:
   - scope:
@@ -29,6 +37,15 @@ defaults:
       type: guides
     values:
       layout: guides
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: article
+  - scope:
+      path: ""
+    values:
+      layout: default
 
 locale: en_GB
 

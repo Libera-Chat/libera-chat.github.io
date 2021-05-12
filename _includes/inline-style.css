@@ -324,6 +324,17 @@ main {
   margin: 2rem auto;
 }
 
+nav.article-nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+nav.article-nav div {
+  width: 33%;
+  text-align: center;
+}
+
 footer {
   grid-area: footer;
   align-self: end;

@@ -1,0 +1,40 @@
+<article>
+  {% if include.excerpt %}
+  <h2>{{ include.article.title }}</h2>
+  {% else %}
+  <h1>{{ include.article.title }}</h1>
+  {% endif %}
+
+  <p class="details">
+    <time pubdate datetime="{{ include.article.date | date: "%Y-%m-%d" }}">{{ include.article.date | date_to_long_string: "ordinal", "GB" }}</time>
+    {% if include.article.author %}
+    by {{ include.article.author }}
+    {% endif %}
+  </p>
+
+  {% if include.excerpt %}
+  {{ include.article.excerpt }}
+
+  <p><a href="{{ include.article.url }}">Read more</a></p>
+  {% else %}
+  {{ include.article.content }}
+  {% endif %}
+</article>
+
+{% unless include.no_nav %}
+<nav class="article-nav">
+  <div>
+    {% if include.article.previous %}
+    <a href="{{ include.article.previous.url }}">Previous</a>
+    {% endif %}
+  </div>
+  <div>
+    <a href="/news">Archive</a>
+  </div>
+  <div>
+    {% if include.article.next %}
+    <a href="{{ include.article.next.url }}">Next</a>
+    {% endif %}
+  </div>
+</nav>
+{% endunless %}
