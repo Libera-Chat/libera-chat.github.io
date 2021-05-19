@@ -8,6 +8,10 @@ twitter:
   card: summary
 facebook:
   publisher: liberachat
+mastodon:
+  username: liberachat
+  publisher: '106221516816356604'
+  instance: mastodon.social
 irc:
   plaintext:
     name: irc.libera.chat:6667 (plaintext)
