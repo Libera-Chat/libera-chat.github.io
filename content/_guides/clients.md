@@ -36,8 +36,9 @@ They can be installed on your device directly or accessed in a web browser.
 
 Some commonly chosen graphical clients for personal computers are are
 [Hexchat](https://hexchat.github.io/) (Windows, Linux),
-[Konversation](https://konversation.kde.org/) (Windows, Linux, Mac OS) and
-[Textual](https://www.codeux.com/textual/) (MacOS).
+[Konversation](https://konversation.kde.org/) (Windows, Linux, Mac OS),
+[Textual](https://www.codeux.com/textual/) (MacOS) and
+[Thunderbird](https://www.thunderbird.net/) (Windows, Linux, Mac OS).
 
 On phones,
 [Revolution](https://play.google.com/store/apps/details?id=io.mrarm.irc) is
