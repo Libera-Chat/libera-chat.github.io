@@ -28,8 +28,8 @@ and we will never accept corporate control.
 
 Control of freenode infrastructure will soon be transferred to Freenode Limited
 and its agents. This means your data will soon be available to their personnel.
-We don't knows these people; neither do most of you. We can't claim that this
-is a good or even acceptable outcome, and are loath to entrust your data to a
+We don't know these people; neither do most of you. We can't claim that this
+is a good or even acceptable outcome, and loath to entrust your data to a
 third party, but it appears that we have run out of options.
 
 Together we have built and participated in great communities with IRC, and
