@@ -17,8 +17,8 @@ When it comes to your personal information you may have the right to:
 - File a complaint with us or a Data Protection Authority
 
 Some of the above rights can be exercised yourself through IRC Services,
-see `/msg NickServ HELP`, with a focus on the commands `SET`, `TAXONOMY`
-and `DROP`.
+see `/msg NickServ HELP`, with a focus on the commands `INFO`, `TAXONOMY`,
+`SET` and `DROP`.
 
 In particular:
 
