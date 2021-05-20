@@ -12,30 +12,31 @@ with two `#` characters are informal channels.
 ### Project Channels
 
 Project channels are reserved for on-topic channels as per our [on-topic
-projects], represented by owners with an official claim to that name. A
-registered project as per the [registration below] can claim ownership over
-project channels bearing the group's names or name prefixes. For example,
-Libera.Chat itself owns the channel `#libera` and all channels beginning with
-`#libera-`.  As per our [policies](/policies), these channels do not expire.
+projects](#on-topic-projects), represented by owners with an official claim
+to that name. A registered project as per the
+[registration below](#registering-a-channel) can claim ownership over project
+channels bearing the group's names or name prefixes. For example, Libera.Chat
+itself owns the channel `#libera` and all channels beginning with `#libera-`.
+As per our [policies](/policies), these channels do not expire.
 
 ### Community Channels
 
 Community channels are reserved for on-topic channels as per our [community
-groups]. An official claim to the name is not needed, but not having it bears
-the risk of losing the channel should an on-topic entity with a valid claim
-start an official presence on Libera.Chat. Staff will try to find a good
-solution for both parties in such cases.
+groups](#community-registration). An official claim to the name is not needed,
+but not having it bears the risk of losing the channel should an on-topic
+entity with a valid claim start an official presence on Libera.Chat. Staff
+will try to find a good solution for both parties in such cases.
 
 ### Informal Channels
 
-Informal channels are for topics not covered by our [on-topic projects]. As
-per our [policies](/policies), such channels can exist on Libera.Chat as long
-as they do not disturb the operations of our network and our project and
-community channels, and adhere to the network policies. Informal channels are
-given out on a first-come, first-served basis. They will expire if unused for
-a long time, see our [policies](/policies) for details regarding when this
-occurs. You can contact us on IRC with a request to take over an expired
-secondary channel.
+Informal channels are for topics not covered by our
+[on-topic projects](#on-topic-projects). As per our [policies](/policies),
+such channels can exist on Libera.Chat as long as they do not disturb the
+operations of our network and our project and community channels, and adhere
+to the network policies. Informal channels are given out on a first-come,
+first-served basis. They will expire if unused for a long time, see our
+[policies](/policies) for details regarding when this occurs. You can
+contact us on IRC with a request to take over an expired secondary channel.
 
 ## Registering a channel
 
@@ -48,9 +49,9 @@ Primary channels in the namespace of an already registered project can be
 registered directly via ChanServ's `REGISTER` command. So if e.g. the project
 "MyFossCalendar" wants to add `#myfosscalendar-social` to the existing
 channels, they can just grab it. For Projects not yet registered as such with
-us, please see [project registration]. If you like to add additional channel
-namespaces to your existing project, please contact the projects and community
-team at <projects@libera.chat>.
+us, please see [project registration](#project-registration). If you like to add
+additional channel namespaces to your existing project, please contact the
+projects and community team at <projects@libera.chat>.
 
 ### Community channels
 
@@ -58,7 +59,7 @@ Community channels in the namespace of an already exiting community can be
 registered directly via ChanServs `REGISTER` command. So if e.g. the owners of
 `#linux` would like to add `#linux-social` to the existing channels, they can
 just grab it. For namespaces not yet registered as such with us, please see
-[community registration].
+[community registration](#community-registration).
 
 ### Informal channels
 
@@ -103,7 +104,8 @@ blessing of someone who is able to speak for the project. This could be:
 
 ### How to register as a project
 
-We recommend you contact us as per the [Projects & Community team] section
+We recommend you contact us as per the
+[Projects & Community team](#the-projects--community-team) section
 before registering, so we can already check whether your project is likely to
 be considered eligible to a registration. Once done, we will need the
 following information from you:
@@ -163,7 +165,8 @@ eligible for a project registration but do not have an official representation
 
 ### How to register as a community
 
-We recommend you contact us as per the [Projects & Community team] section
+We recommend you contact us as per the
+[Projects & Community team](#the-projects--community-team) section
 before registering, so we can already check whether your community is likely
 to be considered eligible to a registration. Once done, we will need the
 following information from you:
