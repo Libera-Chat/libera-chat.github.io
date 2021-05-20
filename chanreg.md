@@ -112,14 +112,15 @@ following information from you:
 # About your project
 Your project name(s):
 Your project description:
-Staff member you have discussed this registration with:
+Can we list your project publicly, such as on the libera.chat website:
+Libera Chat staff member you have discussed this registration with:
 Links to places we can find out more about your project:
 (e.g. website, source code repositories or similar)
 
 # About you and your staff
 Your NickServ account:
 Your relationship to / position in the project:
-NickServ of group contacts:
+NickServ of group contacts and if they're primary/secondary, hidden/public:
 
 # Channels and cloaks (see below)
 Channels you'd like to claim:
@@ -171,12 +172,13 @@ following information from you:
 # About your community
 Your community name(s):
 Your community description:
-Staff member you have discussed this registration with:
+Can we list your community publicly, such as on the libera.chat website:
+Libera Chat staff member you have discussed this registration with:
 
 # About you and your staff
 Your NickServ account:
 Your relationship / affiliation with the community:
-NickServ account of group contacts:
+NickServ of group contacts and if they're primary/secondary, hidden/public:
 
 # Channels and cloaks (see below)
 Channels you'd like to claim:
