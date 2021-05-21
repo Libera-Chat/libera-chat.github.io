@@ -45,10 +45,8 @@ commonly used by Android users, and
 [LimeChat](https://apps.apple.com/ch/app/limechat-irc-client/id298766460) is
 popular with iOS users.
 
-For a self-hosted, web-based client, [thelounge](https://thelounge.chat/) is
-a popular option, and comes with a built-in bouncer. It does require more
-configuration and maintenance than other bouncer clients, however.
-
+For a self-hosted, web-based client, [The Lounge](https://thelounge.chat/) is
+a popular option. It acts as a bouncer and works great on phones.
 ### Terminal clients
 
 Terminal or text based clients are clients which you primarily navigate with
