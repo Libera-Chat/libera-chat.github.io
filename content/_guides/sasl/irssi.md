@@ -12,7 +12,7 @@ find out by running `irssi -v` in your nearest shell).
 Recent Irssi versions include built-in SASL support via `/network`:
 
     /network add -sasl_username <login> -sasl_password <password> -sasl_mechanism PLAIN liberachat
-    /server add -auto -net liberachat -ssl -ssl_verify irc.libera.chat 6697
+    /server add -auto -net liberachat -tls -tls_verify irc.libera.chat 6697
     /save
 
 ## Troubleshooting
