@@ -3,11 +3,6 @@ description: A next-generation IRC network for FOSS projects collaboration!
 baseurl: ""
 url: https://libera.chat
 
-twitter:
-  username: liberachat
-  card: summary
-facebook:
-  publisher: liberachat
 mastodon:
   username: liberachat
   instance: fosstodon.org
