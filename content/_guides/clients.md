@@ -12,7 +12,7 @@ instructions for [setting up SASL](/guides/sasl), which is our preferred
 authentication method.
 
 If you're interested in ensuring the security of your connection, please
-refer to our [connection](/guides/connect).
+refer to our [connection guide](/guides/connect).
 
 ## Connecting without installing anything
 
