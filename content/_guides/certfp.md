@@ -131,12 +131,12 @@ You can then check whether you have a fingerprint by using `whois` on yourself:
 
     /whois YourOwnNick
     ...
-    YourOwnNick has client certificate fingerprint f3a1aad46ca88e180c25c9c7021a4b3a
+    YourOwnNick has client certificate fingerprint 959c0bdfa9877d3466c5848f55264f72f132c657b002b79fda65dbe36c67f4bb3d2a3e2e9925cb5896a53c76169c5bb71b7853bd90192068dc77f4b20159a1d8
     ...
 
 To allow NickServ to recognise you based on your certificate, you need to add
-the fingerprint to your account (you will need to log in by other means in
-order to do so).
+the **sha512** fingerprint to your account (you will need to log in by other
+means in order to do so).
 
 You can then authorise your current certificate fingerprint:
 
