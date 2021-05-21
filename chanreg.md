@@ -11,9 +11,9 @@ with two `#` characters are informal channels.
 
 ### Project Channels
 
-Project channels are reserved for on-topic channels as per our [on-topic
-projects](#on-topic-projects), represented by owners with an official claim
-to that name. A registered project as per the
+Project channels are reserved for on-topic channels as per our
+[on-topic projects](#on-topic-projects), represented by owners with an official
+claim to that name. A registered project as per the
 [registration below](#registering-a-channel) can claim ownership over project
 channels bearing the group's names or name prefixes. For example, Libera.Chat
 itself owns the channel `#libera` and all channels beginning with `#libera-`.
@@ -21,11 +21,11 @@ As per our [policies](/policies), these channels do not expire.
 
 ### Community Channels
 
-Community channels are reserved for on-topic channels as per our [community
-groups](#community-registration). An official claim to the name is not needed,
-but not having it bears the risk of losing the channel should an on-topic
-entity with a valid claim start an official presence on Libera.Chat. Staff
-will try to find a good solution for both parties in such cases.
+Community channels are reserved for on-topic channels as per our
+[community groups](#community-registration). An official claim to the name is
+not needed, but not having it bears the risk of losing the channel should an
+on-topic entity with a valid claim start an official presence on Libera.Chat.
+Staff will try to find a good solution for both parties in such cases.
 
 ### Informal Channels
 
