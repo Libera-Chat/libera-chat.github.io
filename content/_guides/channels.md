@@ -44,7 +44,7 @@ ban types; you can see more on the [extbans guide](/guides/extbans)
 If you find a ban which matches you but you feel wasn't intended to keep
 you out, then talk to one of the channel operators to see about having it
 removed. You can find a list of channel operators via the
-`/msg ChanServ ACCESS #channel LIST` command.
+`/msg ChanServ flags #channel` command.
 
 If you're still stuck, feel free to ask a staff member for help in working
 out what's preventing you from joining.
