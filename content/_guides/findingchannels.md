@@ -65,4 +65,4 @@ the following help text:
     ***** End of Help *****
 
 An alternative method to search is to do so via the web, using
-[netsplit.de](http://irc.netsplit.de/channels/?net=libera).
+[netsplit.de](https://netsplit.de/channels/?net=libera.chat).
