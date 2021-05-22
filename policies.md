@@ -163,7 +163,7 @@ certain logs.
 
 If you operate a service that scrapes internal channel content or
 published logs, ensure that you have obtained permission to do so from Libera
-Chat staff or the channel owners before you start scrapping data, also make
+Chat staff or the channel owners before you start scraping data, also make
 sure that there is an easy way for channels to opt out.
 
 If you wish to publish logs of a single conversation, please make sure you
