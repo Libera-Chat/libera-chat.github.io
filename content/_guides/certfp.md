@@ -12,9 +12,11 @@ For `SASL EXTERNAL` to work, you must connect over TLS.
 
 ## Ensuring all created files and directories and non world readable.
 
-To make sure you are the only one who has access to the files your are about to create first run this command:
+To make sure you are the only one who has access to the files your are about to create, first run this command:
 
     umask 077
+    
+ This command will affect all files and directories created during that shell-session.
     
 
 ## Creating a self-signed certificate
