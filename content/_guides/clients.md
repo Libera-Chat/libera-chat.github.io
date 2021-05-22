@@ -40,9 +40,9 @@ Some commonly chosen graphical clients for personal computers are are
 [Textual](https://www.codeux.com/textual/) (MacOS).
 
 On phones,
-[Revolution](https://f-droid.org/de/packages/io.mrarm.irc/) is
+[Revolution](https://f-droid.org/packages/io.mrarm.irc/) is
 commonly used by Android users, and
-[LimeChat](https://apps.apple.com/ch/app/limechat-irc-client/id298766460) is
+[LimeChat](https://apps.apple.com/app/limechat-irc-client/id298766460) is
 popular with iOS users.
 
 ### Terminal clients
