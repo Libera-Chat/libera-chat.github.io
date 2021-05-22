@@ -2,7 +2,7 @@
 title: Libera Chat Bylaws
 ---
 
-v 2021-04-23
+v 2021-05-22
 
 ## Organisation and purpose
 
@@ -22,9 +22,13 @@ v 2021-04-23
 ## Membership
 
 1. Membership is granted by approval of a monthly general meeting to those
-   who seek membership and is determined to be trustworthy by the membership.
+   who seek membership and are determined to be trustworthy by the membership.
 
-2. The membership is terminated if:
+2. There are two levels of membership: ordinary member, and quorum member.
+   Members of either type may at any time switch between the two types of
+   member status by notifying the board. The board are always quorum members.
+
+3. The membership is terminated if:
 
    - The member withdraws their membership, or
 
@@ -35,11 +39,11 @@ v 2021-04-23
 1. The deciding organs of the organisation ranked from highest to lowest
    authority are:
 
-   - Monthly General Meeting
+   - Monthly General Meeting,
 
-   - Board
+   - Board,
 
-   - Specialised Committees
+   - Specialised Committees.
 
 2. All meetings may be held through digital channels such as video, voice, or
    text.
@@ -56,7 +60,7 @@ v 2021-04-23
 
 6. One vote per member of the organ the meeting is held for applies.
 
-7. When electing persons, the following additional points applies:
+7. When electing persons, the following additional points apply:
 
    - Each person who is elected must have own majority, meaning more than
      half the votes must go to that person.
@@ -81,11 +85,11 @@ v 2021-04-23
 3. All meeting documents should be available to the membership at least
    one (1) week before the start of the meeting.
 
-4. All members of the organisations have the right to participate, speak,
-   make proposals, and vote on the meeting.
+4. All members of the organisation have the right to participate, speak, make
+   proposals, and vote on the meeting.
 
 5. The monthly general meeting needs a quorum of at least 50% of the
-   organisation's members.
+   organisation's quorum members.
 
 6. Auditors have the right to participate and speak during the meeting, and
    the right to make proposals in questions pertaining to their duties.
@@ -93,13 +97,13 @@ v 2021-04-23
 7. At least the following should be dealt with in the monthly general
    meeting:
 
-   - The opening of the meeting
+   - The opening of the meeting.
 
    - Election of:
 
-     - The chair for the annual general meeting,
+     - The chair for the monthly general meeting,
 
-     - The secretary for the annual general meeting,
+     - The secretary for the monthly general meeting,
 
      - Two members to adjust the minutes and count votes.
 
@@ -124,7 +128,7 @@ v 2021-04-23
 
      - Audit report.
 
-   - Discharge of last year’s board.
+   - Discharge of last year's board.
 
    - Membership fee.
 
@@ -150,7 +154,7 @@ v 2021-04-23
 
 ## Board
 
-1. The board is responsible for managing the organisation’s member list,
+1. The board is responsible for managing the organisation's member list,
    finances, and other assets in accordance with the will of the monthly
    general meetings. The board should also ensure that the bylaws are
    followed.
@@ -162,7 +166,7 @@ v 2021-04-23
 3. The board consists of the chair and treasurer elected by a general meeting
    and one representative of each specialised committee.
 
-4. The board meets if the chair of the board, the auditors or a majority of
+4. The board meets if the chair of the board, the auditors, or a majority of
    the board members call for it. The board needs a quorum of at least half
    the board members.
 
@@ -170,7 +174,7 @@ v 2021-04-23
    participate and speak at board meetings.
 
 6. The monthly general meeting electing the chair of the board should also
-   elect a vice chair to act as chair in the chair’s absence.
+   elect a vice chair to act as chair in the chair's absence.
 
 ## Auditors
 
@@ -179,8 +183,8 @@ v 2021-04-23
 2. The duties of the auditors are:
 
    - Examine if the board follow the bylaws, and audit the actions of the
-     board, the financial and annual report, and the boards management of the
-     organisation’s bookkeeping.
+     board, the financial and annual report, and the board's management of the
+     organisation's bookkeeping.
 
    - Make an audit report at least one (1) week before the general meeting it
      will be covered during.
@@ -189,25 +193,26 @@ v 2021-04-23
      and a proposal for if the board should be granted discharge in the audit
      report.
 
-3. The auditors have the right to insight in any activities carried out by
+3. The auditors have the right to insight of any activities carried out by
    the organisation as well as meetings of the board and specialised
-   committees
+   committees.
 
 4. The auditors cannot be members of the board.
 
 ## Specialised Committees
 
-1. There are three specialised committees: Infrastructure, Projects and
-   Communities, and Development.
+1. There are three specialised committees: Operations, Engineering, and
+   Projects & Community.
 
 2. Membership in one of the specialised committees is granted either by a
    monthly general meeting, or by the members of the specialised committee.
 
-3. The specialised committees each choses a representative for the board.
+3. The specialised committees each elects a representative for the board,
+   subject to approval by the Monthly General Meeting.
 
 4. The specialised committees are responsible for defining their mission
    statement and rules of operation, as long as they do not conflict with
-   these bylaws.
+   these bylaws, subject to approval by the Monthly General Meeting.
 
 ## Eligibility
 
@@ -230,24 +235,24 @@ v 2021-04-23
 
 ## Interpretation of the bylaws
 
-1. If there are conflicts around interpreting the bylaws the board’s
+1. If there are conflicts around interpreting the bylaws, the board's
    interpretation takes precedent. The board must however account for the
    opinion of the auditors before making their decision.
 
 2. Decisions about interpretations of the bylaws must be raised at the next
-   general meeting where it should be ratified.
+   general meeting where they should be ratified.
 
 ## Changes to the bylaws
 
-1. Changes to the bylaws require a vote and at least two thirds majority on a
-   monthly general meeting.
+1. Changes to the bylaws require a vote and at least a two-thirds majority on
+   a monthly general meeting.
 
 ## Dissolution
 
 1. Proposals to dissolve the organisation must be signed and can only be
    decided by a monthly general meeting.
 
-2. Dissolution requires a vote with at least two thirds majority on two
+2. Dissolution requires a vote with at least a two-thirds majority on two
    consecutive monthly general meetings.
 
 3. The first monthly general meeting that votes for dissolution should also
