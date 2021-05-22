@@ -9,7 +9,7 @@
     link: /bylaws
   # - name: Acknowledgements
 # - name: Contribute
-#   items:
+#    items:
 #   - name: Sponsor Us
 #   - name: Development
 - name: Channel Namespaces
@@ -26,6 +26,9 @@
     link: irc://irc.libera.chat:6667
   - name: How to Connect
     link: /guides/connect
+  - name: Mastodon
+    external: true
+    link: https://fosstodon.org/@liberachat
   - name: Twitter
     external: true
     link: https://twitter.com/liberachat
