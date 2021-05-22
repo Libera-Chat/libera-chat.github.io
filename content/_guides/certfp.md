@@ -10,6 +10,13 @@ automatically.
 
 For `SASL EXTERNAL` to work, you must connect over TLS.
 
+## Ensuring all created files and directories and non world readable.
+
+To make sure you are the only one who has access to the files your are about to create first run this command:
+
+    umask 077
+    
+
 ## Creating a self-signed certificate
 
 In order to follow these instructions, you will need the `openssl` utility. If
