@@ -39,11 +39,13 @@ Some commonly chosen graphical clients for personal computers are are
 [Konversation](https://konversation.kde.org/) (Windows, Linux, Mac OS) and
 [Textual](https://www.codeux.com/textual/) (MacOS).
 
-On phones,
-[Revolution](https://play.google.com/store/apps/details?id=io.mrarm.irc) is
-commonly used by Android users, and
-[LimeChat](https://apps.apple.com/ch/app/limechat-irc-client/id298766460) is
-popular with iOS users.
+On Android phones & tablets,
+[RevolutionIRC](https://github.com/MCMrARM/revolution-irc) is a popular client
+available from [F-Droid](https://f-droid.org/packages/io.mrarm.irc/) and
+[GooglePlay](https://play.google.com/store/apps/details?id=io.mrarm.irc).
+
+On Apple iOS devices LimeChat is a popular client available from the
+[App Store](https://apps.apple.com/ch/app/limechat-irc-client/id298766460).
 
 ### Terminal clients
 
