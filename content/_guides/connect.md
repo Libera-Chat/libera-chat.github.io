@@ -41,7 +41,7 @@ appear in WHOIS (a 276 numeric).
 
 ## Accessing Libera.Chat Via Tor
 
-Libera.Chat is not yet accessible by TOR but we intend to have this available
+Libera.Chat is not yet accessible by Tor but we intend to have this available
 soon.
 
 {% comment %} Libera.Chat is also reachable via
