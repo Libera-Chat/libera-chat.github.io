@@ -10,7 +10,7 @@ Assuming you can connect to IRC (`ircs://irc.libera.chat:6697`), that should be
 your first point of contact with staff.
 
 Use the IRC command `/stats p` to get a list of available staff, and use
-`/msg`_`nick`_ to chat with them.
+`/msg`_`nick`_ to chat with one of them.
 
 If `/stats p` does not report any online staff, or you can't get a response,
 try asking in the `#libera` channel. If your question is sensitive or private,
