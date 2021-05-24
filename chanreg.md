@@ -215,10 +215,12 @@ Registered communities can profit from the following benefits:
 The Projects & Community Team comprises, among others, e, Fuchs, glguy and
 Swant; together they will act as your liaisons during the project registration
 or topic claiming process and throughout your tenure on the Libera.Chat
-network. If you wish to discuss the registration process, find out if
-Libera.Chat could be a good fit for your project or register your project,
-please feel free to drop any of the team members a line on IRC. If none are
-online, feel free to reach out to staff in general and they will forward your
-request to the team, which will get back to you as soon as possible. Once you
-have discussed your project with a staff member, you'll be asked to email
-<projects@libera.chat> with the details of your request as per the above.
+network.
+
+If you wish to discuss the registration process, to find out if Libera.Chat
+could be a good fit for your project, or to register your project, please feel
+free to [contact the staff](/staff) on IRC, and they will forward
+your request to the team, which will get back to you as soon as possible.
+
+Once you have discussed your project with a staff member, you'll be asked to
+email <projects@libera.chat> with the details of your request as per the above.
