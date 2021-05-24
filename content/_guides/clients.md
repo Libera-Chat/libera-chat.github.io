@@ -65,6 +65,9 @@ network. They allow you to see one connection from multiple places
 
 [ZNC](https://znc.in) is a popular stand-alone bouncer.
 
+[The Lounge](https://thelounge.chat) is a self-hosted web IRC client that's
+always connected.
+
 Some other clients have bouncers built in to them but it is not their main
 purpose. These include [Quassel](https://quassel-irc.org/),
 [Weechat](https://weechat.org/), and [Irssi](https://irssi.org/).
