@@ -12,7 +12,7 @@ instructions for [setting up SASL](/guides/sasl), which is our preferred
 authentication method.
 
 If you're interested in ensuring the security of your connection, please
-refer to our [connection](/guides/connect)
+refer to our [connection guide](/guides/connect).
 
 ## Connecting without installing anything
 
@@ -34,7 +34,7 @@ There are three main types of clients for connecting to IRC. These are
 These are clients that you navigate primarily with your mouse cursor or touch.
 They can be installed on your device directly or accessed in a web browser.
 
-Some commonly chosen graphical clients for personal computers are are
+Some commonly chosen graphical clients for personal computers are
 [Hexchat](https://hexchat.github.io/) (Windows, Linux),
 [Konversation](https://konversation.kde.org/) (Windows, Linux, Mac OS) and
 [Textual](https://www.codeux.com/textual/) (MacOS).
@@ -51,7 +51,7 @@ Terminal or text based clients are clients which you primarily navigate with
 keyboard shortcuts. As these typically do not need mouse navigation, they are
 great for running on servers and accessing remotely.
 
-[Weechat](https://weechat.org/) is a popular terminal client which has an
+[WeeChat](https://weechat.org/) is a popular terminal client which has an
 experimental mouse mode option which makes some operations possible with your
 mouse.
 
@@ -61,10 +61,10 @@ mouse.
 
 Bouncers are clients which act as a hub between other clients and the IRC
 network. They allow you to see one connection from multiple places
-(ie, phone, work computer, home computer).
+(i.e. phone, work computer, home computer).
 
 [ZNC](https://znc.in) is a popular stand-alone bouncer.
 
 Some other clients have bouncers built in to them but it is not their main
 purpose. These include [Quassel](https://quassel-irc.org/),
-[Weechat](https://weechat.org/), and [Irssi](https://irssi.org/).
+[WeeChat](https://weechat.org/), and [Irssi](https://irssi.org/).
