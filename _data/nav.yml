@@ -1,10 +1,11 @@
 - name: About
   items:
-  # - name: Mission and Staff
   - name: Network Policies
     link: /policies
   - name: Channel Guidelines
     link: /guidelines
+  - name: About Libera Chat
+    link: /about
   - name: Bylaws
     link: /bylaws
   # - name: Acknowledgements
