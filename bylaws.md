@@ -62,12 +62,12 @@ v 2021-05-22
 
 7. When electing persons, the following additional points apply:
 
-   - Each person who is elected must have a majority, meaning that more than
-     half of the votes must go to that person.
+   - To be elected, each candidate must have:
+      -  (a) the most votes over all, and
+      -  (b) over 50% of the votes cast
 
-   - If no one can get a majority the person with the least votes is
-     eliminated and a new round is held, this is repeated until a person has
-     a majority.
+   - If no candidate fulfils conditions (a) and (b) then the person with the least votes is 
+     eliminated and a new round is held, this is repeated until a person fulfils the conditions.
 
    - If only two persons remain and the round ends in a tie the winner out of
      the two should be determined randomly.
