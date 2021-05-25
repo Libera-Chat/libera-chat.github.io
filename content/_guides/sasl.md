@@ -9,6 +9,9 @@ connection process, before anything else happens - therefore eliminating the
 need to `/msg NickServ identify`. To use SASL, you must
 [register your nickname](/guides/registration).
 
+Libera.Chat [**requires** the use of SASL](#sasl-access-only-ip-ranges) for
+certain IP ranges.
+
 ## SASL Client Configuration
 
 We have instructions on how to configure SASL for some clients, below. If
