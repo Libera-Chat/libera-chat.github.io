@@ -104,7 +104,7 @@ v 2021-05-22
 
      - The secretary for the monthly general meeting,
 
-     - Two members to take minutes and count votes.
+     - Two members to approve the minutes and count votes.
 
    - Determination of eligible voters.
 
