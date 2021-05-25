@@ -190,7 +190,7 @@ Channels you'd like to claim:
 about/YourCommunityNameHere/accountname)
 ```
 
-group contacts are the members in your community that will be the official
+Group contacts are the members in your community that will be the official
 interface between you and Libera.Chat.
 They are the ones who can claim channels in your namespace(s) and request
 cloaks for your members/users.
@@ -219,8 +219,10 @@ network.
 
 If you wish to discuss the registration process, to find out if Libera.Chat
 could be a good fit for your project, or to register your project, please feel
-free to [contact the staff](/staff) on IRC, and they will forward
-your request to the team, which will get back to you as soon as possible.
+free to [contact this team on IRC](/guide/gettinghelp).
 
-Once you have discussed your project with a staff member, you'll be asked to
-email <projects@libera.chat> with the details of your request as per the above.
+Failing that contact the general staff and they will forward your request to
+the team, who will get back to you as soon as possible.
+
+Once you have discussed your project with a team member, you'll be asked to
+email <projects@libera.chat> with the details of your request as above.
