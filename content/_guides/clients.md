@@ -45,6 +45,10 @@ commonly used by Android users, and
 [LimeChat](https://apps.apple.com/ch/app/limechat-irc-client/id298766460) is
 popular with iOS users.
 
+For a self-hosted solution, [Convos](https://convos.chat/) is a great
+alternative. The web server keeps you always online, and the responsive webapp
+works both on your phone or desktop.
+
 ### Terminal clients
 
 Terminal or text based clients are clients which you primarily navigate with
