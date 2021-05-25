@@ -25,9 +25,9 @@ knowledge. Some of the projects we are now supporting include [Ubuntu][1],
 [IRCv3 Working Group][4].
 
 Free and Open Source Software communities and projects are Libera's core
-mission, and we're looking forward to supporting those and and more; by
-providing a space for them to collaborate and coordinate development, support
-their users, socialise, bond with their teams, and form lifelong friendships.
+mission, and we're looking forward to supporting those and more; by providing a
+space for them to collaborate and coordinate development, support their users,
+socialise, bond with their teams, and form lifelong friendships.
 
 We hope to see you chatting with us soon,\
 kline
