@@ -20,7 +20,9 @@
 - name: Connect
   highlight: true
   items:
-  # - name: Webchat
+  - name: Webchat
+    link: https://kiwiirc.com/nextclient/irc.libera.chat:+6697/
+    external: true
   - name: irc.libera.chat:6697 (TLS)
     link: ircs://irc.libera.chat:6697
   - name: irc.libera.chat:6667 (plaintext)
