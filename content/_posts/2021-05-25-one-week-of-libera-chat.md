@@ -41,7 +41,8 @@ PPS: We keep hearing "we will wait with contacting you as you must be
 overworked, right now" a lot. We've established a ticketing system in order to
 improve our ability to process requests. Simply send your request by email, you
 will no longer have to worry about it, we can get back to you easily, and we
-can plan our capacities better.
+can plan our capacities better. For more information, please visit our page on
+[project registration](https://libera.chat/chanreg#registering-a-channel).
 
 [1]: https://lists.ubuntu.com/archives/ubuntu-irc/2021-May/001923.html
 [2]: https://www.postgresql.org/about/news/migration-of-postgresql-irc-channels-2216/
