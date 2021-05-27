@@ -41,18 +41,15 @@ appear in WHOIS (a 276 numeric).
 
 ## Accessing Libera.Chat Via Tor
 
-Libera.Chat is not yet accessible by Tor but we intend to have this available
-soon.
-
-{% comment %} Libera.Chat is also reachable via
+Libera.Chat is also reachable via
 [Tor](https://www.torproject.org/), bound to some restrictions. You can't
 directly connect to irc.libera.chat via Tor; use the following hidden service
 as the server address instead:
 
-    <TO BE ANNOUNCED>
+    libera75jm6of4wxpxt4aynol3xjmbtxgfyjpu34ss4d7r7q2v5zrpyd.onion
 
-The hidden service requires SASL authentication. In addition, due to the abuse
-that led Tor access to be disabled in the past, we have unfortunately had to
+The hidden service requires SASL authentication. In addition, due to abuse
+we have seen across other networks in the past, we have unfortunately had to
 add another couple of restrictions:
 
 - You must log in using SASL `EXTERNAL` or `ECDSA-NIST256P-CHALLENGE` (more
@@ -62,7 +59,8 @@ add another couple of restrictions:
 
 If you haven't set up the requisite SASL authentication, we recommend SASL
 EXTERNAL. You'll need to generate a client certificate and add that to your
-NickServ account. This is documented [in our knowledge base](certfp.html).
+NickServ account. We describe how to in detail under our
+[guide on setting up CertFP](/guides/certfp.html).
 
 Connecting using SASL EXTERNAL requires that you connect using TLS encryption.
 
@@ -74,17 +72,14 @@ clients, so please check their docs for instructions for now.
 
 A Tor hidden service name securely identifies the service you are connecting
 to. Verifying the TLS server certificate is strictly-speaking unnecessary
-while using the hidden service. Nonetheless the following methods can be used
-to verify the hidden service's TLS server certificate.
-
-The best way to ensure the TLS server-side certificate successfully validates
-is to add the following fragment to your `torrc` configuration file and
-configure your client to connect to `<TO BE ANNOUNCED>.libera.chat` via Tor.
-The TLS server certificate used by the hidden service will validate using
-this hostname.
+while using the hidden service. Nonetheless you may verify the hidden service's
+TLS server certificate by adding the following fragment to your `torrc`
+configuration file and configure your client to connect to
+`palladium.libera.chat` via Tor. The TLS server certificate used by the hidden
+service will validate using this hostname.
 
     # torrc snippet:
-    <TO BE ANNOUNCED>
+    MapAddress palladium.libera.chat libera75jm6of4wxpxt4aynol3xjmbtxgfyjpu34ss4d7r7q2v5zrpyd.onion
 
 Older clients that don't support SOCKS4a or later will need to use `MapAddress`
 with an IP address, and the certificate will not validate successfully.
@@ -92,9 +87,4 @@ In this case validation will need to be disabled.
 
 Note that the hidden service's certificate changes periodically as it is
 updated. This means that the *certificate fingerprint* can not be reliably
-pinned. A few clients support *public key pinning*, however. For these clients
-the following *public key fingerprint* can be pinned:
-
-    # sha256 public key fingerprint
-    <TO BE ANNOUNCED>
-{% endcomment %}
+pinned.
