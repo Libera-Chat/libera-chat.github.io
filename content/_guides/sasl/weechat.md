@@ -18,8 +18,35 @@ commands to ensure that SSL/TLS is enabled for your connection:
 
     /set irc.server.liberachat.addresses "irc.libera.chat/6697"
     /set irc.server.liberachat.ssl on
+    /save
 
-Now, configure SASL:
+If you don't have an account, you will then need to connect to liberachat first
+to obtain one. If you are not connected yet, you can use the following commands
+to connect:
+
+    /connect liberachat
+
+Once you chose a nickname, you can try to use it with the following command:
+
+    /nick <nickname>
+
+If the nickname is already taken you might have a message like `Nickname is
+already in use.`, so you will need to try again with another nickname.
+
+Once this is done you can register it with the following command:
+
+    /msg NickServ REGISTER <nickname> <email>
+
+You should then receive an email with further instructions on how to complete
+the registration.
+
+Once done, you can also configure WeeChat to automatically use that nickname
+for liberachat:
+
+    /set irc.server.liberachat.nicks "<nickname>"
+    /save
+
+Once done, you can then configure SASL:
 
     /set irc.server.liberachat.sasl_mechanism PLAIN
     /set irc.server.liberachat.sasl_username <nickname>
