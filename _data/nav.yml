@@ -20,7 +20,9 @@
 - name: Connect
   highlight: true
   items:
-  # - name: Webchat
+  - name: Webchat
+    external: true
+    link: https://web.libera.chat
   - name: irc.libera.chat:6697 (TLS)
     link: ircs://irc.libera.chat:6697
   - name: irc.libera.chat:6667 (plaintext)

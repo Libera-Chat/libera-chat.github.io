@@ -51,11 +51,9 @@ follow the instructions above to configure many commonly used clients.
 
 To [create a NickServ account](/guides/registration) from a restricted IP
 address, you can first connect with a web client such as
-[Kiwi IRC](https://kiwiirc.com). {% comment %}
-or [our Libera.Chat webchat](https://webchat.libera.chat)
-{% endcomment %} Webchat is not affected by the SASL restriction. Once your
-NickServ account's email address has been verified you can use that account to
-satisfy the SASL requirement.
+[our webchat](https://web.libera.chat). Webchat is not affected by the SASL
+restriction. Once your NickServ account's email address has been verified you
+can use that account to satisfy the SASL requirement.
 
 SASL access only restrictions are typically applied to address ranges that are
 the source of frequent policy violations due to providing easy access to

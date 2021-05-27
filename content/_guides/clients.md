@@ -18,7 +18,7 @@ refer to our [connection guide](/guides/connect).
 
 If you cannot install apps on your computer, you can use a web app.
 
-[Kiwi IRC](https://kiwiirc.com) is a popular free web client that you don't
+[Our webchat](https://web.libera.chat) is a free web client that you don't
 have to sign up for.
 
 [IRCCloud](https://irccloud.com) is a popular web client service that keeps
