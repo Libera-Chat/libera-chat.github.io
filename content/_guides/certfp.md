@@ -68,11 +68,11 @@ Now disconnect and remove the current Libera.Chat server(s). Re-add it with
 the SSL flag, using your newly generated certificate. Note that these commands
 are just examples, you have to adapt them to your current servers.
 
-    /set irc.server.libera.addresses irc.libera.chat/6697
-    /set irc.server.libera.ssl on
-    /set irc.server.libera.ssl_verify on
-    /set irc.server.libera.ssl_cert %h/certs/libera.pem
-    /set irc.server.libera.sasl_mechanism external
+    /set irc.server.liberachat.addresses irc.libera.chat/6697
+    /set irc.server.liberachat.ssl on
+    /set irc.server.liberachat.ssl_verify on
+    /set irc.server.liberachat.ssl_cert %h/certs/libera.pem
+    /set irc.server.liberachat.sasl_mechanism external
 
 and then reconnect to Libera.Chat.
 
