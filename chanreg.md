@@ -212,11 +212,11 @@ Registered communities can profit from the following benefits:
 
 ## The Projects & Community Team
 
-The Projects & Community Team comprises, among others, e, Fuchs, glguy and
-Swant; together they will act as your liaisons during the project registration
-or topic claiming process and throughout your tenure on the Libera.Chat
-network. If you wish to discuss the registration process, find out if
-Libera.Chat could be a good fit for your project or register your project,
+The Projects & Community Team comprises, among others, e, Fuchs, kline, glguy
+and Swant; together they will act as your liaisons during the project
+registration or topic claiming process and throughout your tenure on the
+Libera.Chat network. If you wish to discuss the registration process, find out
+if Libera.Chat could be a good fit for your project or register your project,
 please feel free to drop any of the team members a line on IRC. If none are
 online, feel free to reach out to staff in general and they will forward your
 request to the team, which will get back to you as soon as possible. Once you
