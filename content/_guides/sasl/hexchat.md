@@ -15,7 +15,7 @@ procedure is simple.
    ahead to step 5
 3. If it does not yet exist in the list, click Add and type Libera.Chat,
    then hit enter and click on Edit
-4. Replace the string `newserver/6667` with `irc.libera.chat/6667`
+4. Replace the string `newserver/6667` with `irc.libera.chat/+6697`
 5. In the `User name` field, enter your primary nick
 6. Select `SASL (username + password)` for the `Login method` field
 7. In the `Password` field, enter your NickServ password
