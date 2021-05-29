@@ -44,18 +44,33 @@ configure them to offer it to the server. If yours is not yet listed here,
 advice in this section is unlikely to apply, but guides may be available
 elsewhere on the web.
 
-### irssi
+### Irssi
 
 Move the certificates you created above to ~/.irssi/certs
 
     mkdir ~/.irssi/certs
     mv libera.pem ~/.irssi/certs
 
-Now configure your `/server` entry for Libera.Chat to use this certificate. You
+Configure your `/server` entry for Libera.Chat to use this certificate. You
 may need to adapt this example for your existing configuration (the network
 and hostname should match what you already use).
 
-    /server add -auto -ssl -ssl_cert ~/.irssi/certs/libera.pem -network libera irc.libera.chat 6697
+    /server add -tls_cert ~/.irssi/certs/libera.pem -network LiberaChat irc.libera.chat 6697
+
+For the first time, connect to Libera.Chat using password authentication so
+that you can add the certificate fingerprint to NickServ.
+
+    /connect LiberaChat
+
+Now follow the instructions [to add the fingerprint](#add-your-fingerprint-to-nickserv).
+When done, you can switch the authentication to certificates.
+
+    /disconnect LiberaChat
+    /network add -sasl_password '' -sasl_mechanism EXTERNAL LiberaChat
+    /connect LiberaChat
+
+If you did everthing right you should now be authenticated using your
+certificate.
 
 ### weechat
 
