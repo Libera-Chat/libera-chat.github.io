@@ -72,7 +72,7 @@ atmosphere in line with our policies first.
 
 ## Network bans
 
-Violations of the rules can lead to temporary or permanent removal of the
+Violations of the rules can lead to temporary or permanent removal from the
 network. There might not always be prior warning of this.
 
 In addition to that, there are many reasons why we might remove someone from
