@@ -127,6 +127,8 @@ NickServ of group contacts and if they're primary/secondary, hidden/public:
 # Channels and cloaks (see below)
 Channels you'd like to claim:
 (typically #projectname and #projectname-*)
+Would you like ONLY group contacts to be able to register these channels with
+ChanServ?:
 Cloak namespaces you'd like to claim:
 (typically projectname/*)
 ```
@@ -186,6 +188,8 @@ NickServ of group contacts and if they're primary/secondary, hidden/public:
 # Channels and cloaks (see below)
 Channels you'd like to claim:
 (typically #communityname and #communityname-*)
+Would you like ONLY group contacts to be able to register these channels with
+ChanServ?:
 (The cloaks will be formatted like this:
 about/YourCommunityNameHere/accountname)
 ```
