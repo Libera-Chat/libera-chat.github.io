@@ -21,7 +21,7 @@ you can kick it if you wish. it won't come back.
 
 ## litharge
 
-A channel bans/quiets management bot ( an instance of [ChanTracker](https://github.com/ncoevoet/ChanTracker)
+A channel bans/quiets management bot (an instance of [ChanTracker](https://github.com/ncoevoet/ChanTracker))
 It keeps records of channel mode changes and permits management of them over time. 
 It stores affected users, enabling deep searching through them, reviewing actives, editing duration, marking/annotating them.
 
