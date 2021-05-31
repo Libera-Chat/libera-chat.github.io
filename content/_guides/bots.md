@@ -57,7 +57,7 @@ If you want to check the results of a mode change before it's placed, and which 
 
     /msg litharge check #example *!*@*.com
 
-That show all channels with .com in hostmask being affected by any intended mode change 
+That will show all users with `.com` in their hostmask being affected by any intended mode change 
 
     /msg litharge match #example troll
 
