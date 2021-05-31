@@ -209,9 +209,10 @@ will then get in touch with you.
 
 Registered communities can profit from the following benefits:
 
-- Channels in their namespace can be claimed
+- Channels in their namespace can be claimed (with `/msg ChanServ CLAIM`)
 - Optional cloaks are available for members.
-  These replace the hostname part with `@about/yourcommunity/username`
+  These replace the hostname part with `@about/yourcommunity/username`,
+  and can be requested on `#libera-communities`.
 
 
 ## The Projects & Community Team
