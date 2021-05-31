@@ -42,7 +42,7 @@ Some commonly chosen graphical clients for personal computers are are
 On Android phones & tablets,
 [RevolutionIRC](https://github.com/MCMrARM/revolution-irc) is a popular client
 available from [F-Droid](https://f-droid.org/packages/io.mrarm.irc/) and
-[GooglePlay](https://play.google.com/store/apps/details?id=io.mrarm.irc).
+[Google Play](https://play.google.com/store/apps/details?id=io.mrarm.irc).
 
 On Apple iOS devices LimeChat is a popular client available from the
 [App Store](https://apps.apple.com/app/limechat-irc-client/id298766460).
