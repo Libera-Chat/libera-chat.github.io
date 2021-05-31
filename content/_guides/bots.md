@@ -64,3 +64,7 @@ That show all channels with .com in hostmask being affected by any intended mode
 You can search inside the ban database
 
     /msg litharge query troll
+    
+You can also get info about a ban/quiet
+
+    /msg litharge info 1238
