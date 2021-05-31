@@ -45,7 +45,7 @@ available from [F-Droid](https://f-droid.org/packages/io.mrarm.irc/) and
 [GooglePlay](https://play.google.com/store/apps/details?id=io.mrarm.irc).
 
 On Apple iOS devices LimeChat is a popular client available from the
-[App Store](https://apps.apple.com/ch/app/limechat-irc-client/id298766460).
+[App Store](https://apps.apple.com/app/limechat-irc-client/id298766460).
 
 ### Terminal clients
 
