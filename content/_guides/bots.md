@@ -45,6 +45,10 @@ You will receive a PM from litharge asking you to document the mode change. Foll
 
     <litharge> For [#1238 +b *!*@255.255.255.255 in #example - 1 user(s)] type <duration> <reason>, you have 5 minutes
 
+You can search inside the ban database, for expired or active elements
+
+    /msg litharge query *!*@255.255.255.255 
+
 If you do not reply within 5 minutes, you can view all pending mode changes (ie: view all mode changes that have not been marked or edited yet) and document them by doing the following: 
 
     /msg litharge pending #example --oper <yournick>
@@ -63,11 +67,7 @@ Or, you can combine the edit and mark commands, or edit and mark multiples eleme
 You can also get info about a ban/quiet
 
     /msg litharge info 1238
-    
-You can search inside the ban database, for expired or active elements
 
-    /msg litharge query troll
-    
 you want to check the results of a mode change before it's placed, and which bans would affect a given user (assuming the bot shares a channel with the user): 
 
     /msg litharge check #example *!*@*.com
