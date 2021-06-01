@@ -27,12 +27,18 @@ It stores affected users, enabling deep searching through them, reviewing active
 
 When requesting litharge for your channel, **contact us** in `#libera-bots` with the following informations:
 - do you have an -ops channel or a channel where the bot should announce bans/quiets changes
-- do you want the bans/quiets to be removed after a given period if no duration given by the operator ?
+- do you want the bans/quiets to be removed after a given period if no duration given by the operator?
+- ensure `/msg ChanServ flags #example litharge +o` is in place
 
 To create an account on litharge `/msg litharge hello`
 This only works if you are identified to services `/msg NickServ help register` or `/msg NickServ help identify`
 
 ### usage
+
+At any time, once registered on the bot you can seek for online help
+
+    /msg litharge list chantracker
+    /msg litharge help <command>
 
 After you quiet/kick/ban (ie: a "mode change") the offending user, you need to set the mode change expiration and document with litharge.
 
@@ -49,22 +55,25 @@ Change the mode change expiration from the default (if one has been chosen):
     /msg litharge edit 1238 6d
     /msg litharge mark 1238 continuing to troll
 
-Or, you can combine the edit and mark commands: 
+Or, you can combine the edit and mark commands, or edit and mark multiples elements in a row: 
 
     /msg litharge editandmark 1553 30d came back to troll from this hostmask in other chans
+    /msg litharge mark 1238, 1112, 938 same user
+    /msg litharge edit 1238, 1112, 938 1w
 
 If you want to check the results of a mode change before it's placed, and which bans would affect a given user (assuming the bot shares a channel with the user): 
 
     /msg litharge check #example *!*@*.com
 
-That will show all users with `.com` in their hostmask being affected by any intended mode change 
-
-    /msg litharge match #example troll
-
-You can search inside the ban database
+You can search inside the ban database, for expired or active elements
 
     /msg litharge query troll
     
 You can also get info about a ban/quiet
 
     /msg litharge info 1238
+    
+    
+That will show all users with `.com` in their hostmask being affected by any intended mode change 
+
+    /msg litharge match #example troll
