@@ -1,7 +1,6 @@
 ---
 title: Network bots
 category: chanop
-credits: web7
 ---
 
 We runs various irc bots, some of them have a public facing usage.
