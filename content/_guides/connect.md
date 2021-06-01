@@ -6,9 +6,22 @@ credits: web7
 
 Libera.Chat can be accessed using an [IRC client](/guides/clients).
 
-You can connect to Libera.Chat by pointing your IRC client at
-`irc.libera.chat` on ports 6665-6667 and 8000-8002 for plain-text connections,
-or ports 6697, 7000 and 7070 for TLS-encrypted connections.
+Connect to Libera.Chat with TLS at `irc.libera.chat` on port `6697`.
+
+Additional regional and address-specific hostnames are available:
+
+| ------------------------- | ---------------------- |
+| Default                   | `irc.libera.chat`      |
+| Australia and New Zealand | `irc.au.libera.chat`   |
+| East Asia                 | `irc.ea.libera.chat`   |
+| IPv4 only                 | `irc.ipv4.libera.chat` |
+| IPv6 only                 | `irc.ipv6.libera.chat` |
+
+Additional ports are available:
+
+| ---------- | -------------------- |
+| Plain-text | 6665-6667, 8000-8002 |
+| TLS        | 6697, 7000, 7070     |
 
 ## Accessing Libera.Chat Via TLS
 
