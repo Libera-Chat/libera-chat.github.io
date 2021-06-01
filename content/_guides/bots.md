@@ -59,20 +59,17 @@ Or, you can combine the edit and mark commands, or edit and mark multiples eleme
     /msg litharge editandmark 1553 30d came back to troll from this hostmask in other chans
     /msg litharge mark 1238, 1112, 938 same user
     /msg litharge edit 1238, 1112, 938 1w
-
-If you want to check the results of a mode change before it's placed, and which bans would affect a given user (assuming the bot shares a channel with the user): 
-
-    /msg litharge check #example *!*@*.com
-
-You can search inside the ban database, for expired or active elements
-
-    /msg litharge query troll
     
 You can also get info about a ban/quiet
 
     /msg litharge info 1238
     
-    
-That will show all users with `.com` in their hostmask being affected by any intended mode change 
+You can search inside the ban database, for expired or active elements
 
-    /msg litharge match #example troll
+    /msg litharge query troll
+    
+you want to check the results of a mode change before it's placed, and which bans would affect a given user (assuming the bot shares a channel with the user): 
+
+    /msg litharge check #example *!*@*.com
+
+That will show all users with `.com` in their hostmask being affected by any intended mode change 
