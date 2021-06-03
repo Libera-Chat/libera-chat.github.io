@@ -66,7 +66,7 @@ Or, you can combine the edit and mark commands, or edit and mark multiples eleme
     /msg litharge mark 1238, 1112, 938 same user
     /msg litharge edit 1238, 1112, 938 1w
     
-You can also get info about a ban/quiet
+You can also get info about a ban/quiet:
 
     /msg litharge info 1238
 
