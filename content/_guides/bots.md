@@ -68,7 +68,7 @@ You can also get info about a ban/quiet
 
     /msg litharge info 1238
 
-you want to check the results of a mode change before it's placed, and which bans would affect a given user (assuming the bot shares a channel with the user): 
+If you want to check the results of a mode change before it's placed, and which bans would affect a given user (assuming the bot shares a channel with the user):
 
     /msg litharge check #example *!*@*.com
 
