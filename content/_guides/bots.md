@@ -29,7 +29,7 @@ When requesting litharge for your channel, **contact us** in `#libera-bots` with
 - do you want the bans/quiets to be removed after a given period if no duration given by the operator?
 - ensure `/msg ChanServ flags #example litharge +o` is in place
 
-To create an account on litharge `/msg litharge hello`
+To create an account on litharge: `/msg litharge hello`
 This only works if you are identified to services `/msg NickServ help register` or `/msg NickServ help identify`
 
 ### usage
