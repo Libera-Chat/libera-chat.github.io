@@ -20,7 +20,7 @@ If you wish to get rid of the bot again, you can kick it and it won't come back.
 
 ## litharge
 
-A channel bans/quiets management bot (an instance of [ChanTracker](https://github.com/ncoevoet/ChanTracker))
+Litharge is a channel bans and quiets management bot. It is an instance of [ChanTracker](https://github.com/ncoevoet/ChanTracker).
 It keeps records of channel mode changes and permits management of them over time. 
 It stores affected users, enabling deep searching through them, reviewing actives, editing duration, marking/annotating them.
 
