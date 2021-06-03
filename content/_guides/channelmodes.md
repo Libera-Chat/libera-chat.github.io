@@ -15,7 +15,7 @@ that corresponds to the mode. To unset a mode, use `/mode #channel -(mode)`
 
 ## Available channel modes
 
-{% assign channel_modes = site.data.channelmodes | where: 'restricted', nil %}
+{% assign channel_modes = site.data.channelmodes | where_exp:"item","item.restricted != true" %}
 
 {%- include modetable.md modes=channel_modes -%}
 
