@@ -4,7 +4,7 @@ category: chanop
 ---
 
 We run various IRC bots, some of them have a public facing usage.
-Any request or questions about our utility bots can be asked in #libera-bots
+Any requests or questions about our utility bots can be asked in `#libera-bots`.
 
 ## ozone
 
