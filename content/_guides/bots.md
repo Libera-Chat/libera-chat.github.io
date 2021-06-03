@@ -34,7 +34,7 @@ This only works if you are identified to services `/msg NickServ help register` 
 
 ### usage
 
-At any time, once registered on the bot you can seek for online help
+Once you’re registered with the bot you can ask it for help at any time:
 
     /msg litharge list chantracker
     /msg litharge help <command>
