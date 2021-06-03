@@ -3,7 +3,7 @@ title: Network bots
 category: chanop
 ---
 
-We runs various irc bots, some of them have a public facing usage.
+We run various IRC bots, some of them have a public facing usage.
 Any request or questions about our utility bots can be asked in #libera-bots
 
 ## ozone
