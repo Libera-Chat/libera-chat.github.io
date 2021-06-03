@@ -72,4 +72,4 @@ you want to check the results of a mode change before it's placed, and which ban
 
     /msg litharge check #example *!*@*.com
 
-That will show all users with `.com` in their hostmask being affected by any intended mode change 
+That will show all users with `.com` in their hostmask being affected by any intended mode change.
