@@ -1,0 +1,18 @@
+{
+    "problemMatcher": [
+      {
+        "owner": "htmlproofer",
+        "pattern": [
+          {
+            "regexp": "^- (.*)$",
+            "file": 1
+          },
+          { 
+            "regexp": "^\\s+\\*\\s(.*)$",
+            "message": 1,
+            "loop": true
+          }
+        ]
+      }
+    ]
+  }

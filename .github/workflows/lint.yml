@@ -48,6 +48,7 @@ jobs:
         with:
           path: tmp/.htmlproofer
           key: ${{ runner.os }}-htmlproofer
+      - run: echo "::add-matcher::.github/workflow-support/htmlproofer-matcher.json"
       - name: Check for broken links
         run: bundle exec htmlproofer --assume-extension ./_site
       - run: echo "::remove-matcher owner=htmlproofer::"
