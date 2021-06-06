@@ -31,5 +31,5 @@ you should instead use the following command:
 
 If your account is compromised and you are unable to change or reset the
 password, please contact Libera.Chat staff in #libera or /stats p as soon as
-possible for assistance. You can also reach us at support@libera.chat if you
+possible for assistance. You can also reach us at <support@libera.chat> if you
 would prefer to discuss over email.
