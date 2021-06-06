@@ -36,6 +36,7 @@ MD033:
     - sup
     - sub
     - br
+    - kbd
 
 # MD035/hr-style - Horizontal rule style
 MD035:
