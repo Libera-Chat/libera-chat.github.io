@@ -56,7 +56,7 @@ MD044:
 # MD046/code-block-style - Code block style
 MD046:
   # Block style
-  style: fenced
+  style: indented
 
 # MD048/code-fence-style - Code fence style
 MD048:
