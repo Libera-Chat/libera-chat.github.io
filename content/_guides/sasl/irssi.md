@@ -7,7 +7,7 @@ credits: web7
 The setup for SASL on Irssi differs depending on the version you have (you can
 find out by running `irssi -v` in your nearest shell).
 
-# Irssi 0.8.18 or later
+## Irssi 0.8.18 or later
 
 Recent Irssi versions include built-in SASL support via `/network`:
 
@@ -17,7 +17,7 @@ Recent Irssi versions include built-in SASL support via `/network`:
 /save
 ```
 
-## Troubleshooting
+### Troubleshooting
 
 To check that the setting was correct, run `/network` and confirm that the
 Libera.Chat entry looks like this:
@@ -28,7 +28,7 @@ liberachat: sasl_mechanism: plain, sasl_username: TheCoolestNick, sasl_password:
 
 All three items (mechanism, username, and password) must be set.
 
-# Older versions
+## Older versions
 
 These versions need a separate script in order to support SASL: `cap_sasl.pl`.
 You can install it from <https://scripts.irssi.org>:
