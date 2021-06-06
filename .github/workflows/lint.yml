@@ -24,7 +24,7 @@ jobs:
           node-version: 12
 
       - uses: xt0rted/markdownlint-problem-matcher@v1
-      - run: npx markdownlint-cli '**/*.md' --ignore node_modules
+      - run: npx markdownlint-cli '**/*.md'
       - uses: xt0rted/markdownlint-problem-matcher@v1
         if: success() || failure()
         with:
