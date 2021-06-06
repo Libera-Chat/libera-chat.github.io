@@ -12,6 +12,8 @@ Additional regional and address-specific hostnames are available:
 
 | ------------------------- | ---------------------- |
 | Default                   | `irc.libera.chat`      |
+| Europe                    | `irc.eu.libera.chat`   |
+| US & Canada               | `irc.us.libera.chat`   |
 | Australia and New Zealand | `irc.au.libera.chat`   |
 | East Asia                 | `irc.ea.libera.chat`   |
 | IPv4 only                 | `irc.ipv4.libera.chat` |
