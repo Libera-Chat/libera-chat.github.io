@@ -18,7 +18,7 @@ Replace username with your primary nick. The password may be replaced with
 your password or omitted, in which case EPIC5 will prompt for the password
 when it connects. You may change `*.libera.chat` to something more specific
 if desired, but the `*` means SASL authentication will be attempted for any
-libera.chat server.
+irc.libera.chat server.
 Only `plain` is supported as the authentication mechanism. You may want to
 use SSL to protect your password.
 

@@ -214,7 +214,6 @@ Registered communities can profit from the following benefits:
   These replace the hostname part with `@about/yourcommunity/username`,
   and can be requested on `#libera-communities`.
 
-
 ## The Projects & Community Team
 
 The Projects & Community Team comprises, among others, e, Fuchs, kline, glguy
