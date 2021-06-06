@@ -61,7 +61,9 @@ Libera.Chat is also reachable via
 directly connect to irc.libera.chat via Tor; use the following hidden service
 as the server address instead:
 
-    libera75jm6of4wxpxt4aynol3xjmbtxgfyjpu34ss4d7r7q2v5zrpyd.onion
+```hostname
+libera75jm6of4wxpxt4aynol3xjmbtxgfyjpu34ss4d7r7q2v5zrpyd.onion
+```
 
 The hidden service requires SASL authentication. In addition, due to abuse
 we have seen across other networks in the past, we have unfortunately had to
@@ -93,8 +95,10 @@ configuration file and configure your client to connect to
 `palladium.libera.chat` via Tor. The TLS server certificate used by the hidden
 service will validate using this hostname.
 
-    # torrc snippet:
-    MapAddress palladium.libera.chat libera75jm6of4wxpxt4aynol3xjmbtxgfyjpu34ss4d7r7q2v5zrpyd.onion
+```config
+# torrc snippet:
+MapAddress palladium.libera.chat libera75jm6of4wxpxt4aynol3xjmbtxgfyjpu34ss4d7r7q2v5zrpyd.onion
+```
 
 Older clients that don't support SOCKS4a or later will need to use `MapAddress`
 with an IP address, and the certificate will not validate successfully.

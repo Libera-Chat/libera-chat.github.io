@@ -20,7 +20,9 @@ MD009:
   strict: false
 
 # MD013/line-length - Line length
-MD013: 78
+MD013:
+  line_length: 78
+  code_blocks: false
 
 # MD024/no-duplicate-heading/no-duplicate-header - Multiple headings with the same content
 MD024:
@@ -56,7 +58,7 @@ MD044:
 # MD046/code-block-style - Code block style
 MD046:
   # Block style
-  style: indented
+  style: fenced
 
 # MD048/code-fence-style - Code fence style
 MD048:

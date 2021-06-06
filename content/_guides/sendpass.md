@@ -8,7 +8,9 @@ If you have forgotten the password for your NickServ account and are unable to
 log in to it, you can send a password reset mail to the email address on your
 account with:
 
-    /msg NickServ SENDPASS youraccountnamehere
+```irc
+/msg NickServ SENDPASS youraccountnamehere
+```
 
 You should receive an email containing a command with a password reset key,
 which you can use on IRC to reset your password.
@@ -23,7 +25,9 @@ Password resets do not work if someone is currently logged in to the account.
 If you are logged in to your account already and need to change its password,
 you should instead use the following command:
 
-    /msg NickServ SET PASSWORD newpasswordhere
+```irc
+/msg NickServ SET PASSWORD newpasswordhere
+```
 
 If your account is compromised and you are unable to change or reset the
 password, please contact Libera.Chat staff in #libera or /stats p as soon as
