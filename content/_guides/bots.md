@@ -16,15 +16,15 @@ When your channel is being targeted by spam bots, you can `/invite ozone`
 If it bans a legit user, op yourself on your channel `/msg chanserv op $channel` and ask ozone to unkline the  user `/msg ozone unkline $nick`
 
 If you want ozone to stay permanently on your channel, contact us.
-ozone may requires a minimum numbers of users on the channel before joining, this varies over time.
+ozone may require a minimum numbers of users on the channel before joining, this varies over time.
 ozone may also enter a channel on it's own if it believes that the channel is under attack.
 If you wish to get rid of the bot again, you can kick it and it won't come back.
 
 ## litharge
 
 Litharge is a channel bans and quiets management bot. It is an instance of [ChanTracker](https://github.com/ncoevoet/ChanTracker).
-It keeps a record of channel mode changes and permits management of them over time. 
-It stores affected users, enabling deep searching through them, reviewing actives, editing duration, marking/annotating them.
+It keeps a record of channel mode changes and allows management of them over time. 
+It stores affected users, allows deep searching of mode changes, reviewing active modes, editing duration of mode changes, and marking and annotation of them.
 
 When requesting litharge for your channel, **contact us** in `#libera-bots` with the following informations:
 - do you have an -ops channel or a channel where the bot should announce bans/quiets changes
@@ -32,9 +32,9 @@ When requesting litharge for your channel, **contact us** in `#libera-bots` with
 - ensure `/msg ChanServ flags #example litharge +o` is in place
 
 To create an account on litharge: `/msg litharge hello`
-This only works if you are identified to services: `/msg NickServ help register` or `/msg NickServ help identify`
+This only works if you are [identified to services](https://libera.chat/guides/registration).
 
-### usage
+### Usage
 
 Once you’re registered with the bot you can ask it for help at any time:
 
