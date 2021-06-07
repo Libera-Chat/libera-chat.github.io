@@ -38,10 +38,9 @@ effect immediately.
 
 ## Project or community cloaks
 
-If you are involved with a well-known project or community, you may request a
-cloak indicating your affiliation. For help with this, ask someone associated
-with your project or community who can coordinate with Libera.Chat to
-administer cloaks.
+If you are involved with a registered [project](https://libera.chat/chanreg#project-registration) or [community](https://libera.chat/chanreg#community-registration), you may request a
+cloak indicating your affiliation. For help with this, ask a group
+contact for your project or community who can request cloaks.
 
 ## Re-identifying with NickServ
 
