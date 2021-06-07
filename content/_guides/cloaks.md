@@ -63,5 +63,4 @@ only to you and is not part of the hostmask visible to others.
 While a cloak helps limit the exposure of your IP address, other tools can
 more reliably provide a greater degree of privacy protection, including
 bouncers, cloud-based hosts, and Tor. To connect to Libera.Chat via Tor, see
-[Connecting to Libera.Chat](/guides/connect).
-
+[Connecting to Libera.Chat](/guides/connect#accessing-liberachat-via-tor).
