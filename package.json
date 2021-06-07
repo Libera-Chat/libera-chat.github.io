@@ -1,0 +1,17 @@
+{
+  "name": "libera-chat.github.io",
+  "version": "1.0.0",
+  "description": "Libera Chat website",
+  "dependencies": {},
+  "devDependencies": {
+    "markdownlint-cli": "^0.27.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Libera-Chat/libera-chat.github.io.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Libera-Chat/libera-chat.github.io/issues"
+  },
+  "homepage": "https://github.com/Libera-Chat/libera-chat.github.io#readme"
+}
