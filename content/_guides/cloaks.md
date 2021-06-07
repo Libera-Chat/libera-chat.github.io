@@ -38,8 +38,10 @@ effect immediately.
 
 ## Project or community cloaks
 
-If you are involved with a registered [project](https://libera.chat/chanreg#project-registration) or [community](https://libera.chat/chanreg#community-registration), you may request a
-cloak indicating your affiliation. For help with this, ask a group
+If you are involved with a registered
+[project](https://libera.chat/chanreg#project-registration) or
+[community](https://libera.chat/chanreg#community-registration), you may
+request a cloak indicating your affiliation. For help with this, ask a group
 contact for your project or community who can request cloaks.
 
 ## Re-identifying with NickServ
@@ -56,6 +58,12 @@ network.
 
 You may see your own IP address when you `/whois` yourself. This is visible
 only to you and is not part of the hostmask visible to others.
+
+## Removing your cloak
+
+Cloak removal is not automated. To remove your cloak, ask for help from
+[someone on
+staff](https://libera.chat/about#wider-staff-and-organisation-membership).
 
 ## Anonymity and privacy
 
