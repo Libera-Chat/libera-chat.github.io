@@ -15,7 +15,7 @@
   terminals can edit the text without their editor "paging over" horizontally
   when their cursor reaches the end of the line
 
-## Code
+### Code
 
 - Use 2 spaces of indentation in code
 - Be mindful about making the site accessible to all users, including those
