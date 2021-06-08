@@ -2,7 +2,7 @@
 title: Libera Chat Bylaws
 ---
 
-v 2021-05-22
+v 2021-05-22, organisation number 802535-6448
 
 ## Organisation and purpose
 
