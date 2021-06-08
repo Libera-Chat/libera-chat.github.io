@@ -41,14 +41,17 @@ effect immediately.
 If you are involved with a registered
 [project](https://libera.chat/chanreg#project-registration) or
 [community](https://libera.chat/chanreg#community-registration), you may
-request a cloak indicating your affiliation. For help with this, ask a group
-contact for your project or community who can request cloaks.
+request a cloak indicating your affiliation. Rules and procedures for project
+or community cloaks vary by group. For help with this, ask a group contact for
+your project or community. If your project has listed group contacts publicly,
+they will be listed as "Public contacts" in `/msg ChanServ INFO <channel>`. If
+not, ask for help in the relevant channel.
 
 ## Re-identifying with NickServ
 
 If you are not [using SASL](/guides/sasl) or a server password in your client,
 you may need to re-identify with `NickServ` to associate your cloaked hostmask
-with your account. See `/msg NickServ help identify` for more information.
+with your account. See `/msg NickServ HELP IDENTIFY` for more information.
 
 ## Checking your cloak
 
@@ -61,9 +64,10 @@ only to you and is not part of the hostmask visible to others.
 
 ## Removing your cloak
 
-Cloak removal is not automated. To remove your cloak, ask for help from
-[someone on
-staff](https://libera.chat/about#wider-staff-and-organisation-membership).
+Cloak removal is not automated. To remove your user cloak, ask [someone on
+staff](https://libera.chat/about#wider-staff-and-organisation-membership) for
+help. To remove your project or community affiliation cloak, ask the group
+contact for your project or community.
 
 ## Anonymity and privacy
 
