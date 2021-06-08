@@ -2,11 +2,12 @@
 title: About Libera Chat
 ---
 
-Libera Chat is a Swedish nonprofit organisation, feel free to
-[read our bylaws](/bylaws). The organisation is run entirely by volunteer staff
-who are the members of, and have equal voting power in, the organisation.
-Libera Chat's purpose is to provide services such as a community platform for
-free open-source software and peer directed projects on a volunteer basis.
+Libera Chat is a Swedish nonprofit organisation with organisation number
+802535-6448, feel free to [read our bylaws](/bylaws). The organisation is run
+entirely by volunteer staff who are the members of, and have equal voting power
+in, the organisation. Libera Chat's purpose is to provide services such as a
+community platform for free open-source software and peer directed projects on
+a volunteer basis.
 
 Most decisions are taken by the membership as a whole. The board
 primarily deals with organisational tasks like managing our bookkeeping
