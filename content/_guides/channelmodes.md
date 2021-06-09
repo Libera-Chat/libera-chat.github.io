@@ -1,3 +1,8 @@
+---
+title: Channel Modes
+category: chanop
+credits: web7
+---
 
 Fully administering a channel involves the use of [channel
 modes](#channel-modes), `ChanServ` [user flags](#chanserv-user-flags), and
