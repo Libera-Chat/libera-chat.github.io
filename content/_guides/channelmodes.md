@@ -109,18 +109,18 @@ To list modes currently enforced by `ChanServ`:
 ### Available channel modes
 
 Channel operators can set the following modes.
-
-{% assign channel_modes = site.data.channelmodes |
-where_exp:"item","item.restricted != true" %}
+<!-- markdownlint-disable MD013 -->
+{% assign channel_modes = site.data.channelmodes | where_exp:"item","item.restricted != true" %}
+<!-- markdownlint-enable MD013 -->
 
 {%- include modetable.md modes=channel_modes -%}
 
 ### Restricted channel modes
 
 Only Libera.Chat staff can set the following modes.
-
-{% assign restricted_modes = site.data.channelmodes | where: 'restricted',
-true %}
+<!-- markdownlint-disable MD013 -->
+{% assign restricted_modes = site.data.channelmodes | where: 'restricted', true %}
+<!-- markdownlint-enable MD013 -->
 
 {%- include modetable.md modes=restricted_modes -%}
 
@@ -150,12 +150,13 @@ ChanServ user flags control:
   flagged a founder (`+F`). 
 
 ### Command summary
-
+<!-- markdownlint-disable MD013 -->
 | Purpose          | Command                                                  |
 |------------------|----------------------------------------------------------|
 | List user flags  | `/msg ChanServ FLAGS <channel> <nick\|hostmask>`         |
 | Set user flags   | `/msg ChanServ FLAGS <channel> <nick\|hostmask> +<flags>`|
 | Unset user flags | `/msg ChanServ FLAGS <channel> <nick\|hostmask> -<flags>`|
+<!-- markdownlint-enable MD013 -->
 
 ### Granting limited user privileges
 
