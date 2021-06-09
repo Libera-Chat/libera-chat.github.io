@@ -17,7 +17,7 @@ If it bans a legit user, op yourself on your channel `/msg chanserv op $channel`
 
 If you want ozone to stay permanently on your channel, contact us.
 ozone may require a minimum numbers of users on the channel before joining, this varies over time.
-ozone may also enter a channel on it's own if it believes that the channel is under attack.
+ozone may also enter a channel on its own if it believes that the channel is under attack.
 If you wish to get rid of the bot again, you can kick it and it won't come back.
 
 ## litharge
