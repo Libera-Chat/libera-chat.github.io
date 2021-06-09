@@ -15,7 +15,9 @@ that corresponds to the mode. To unset a mode, use `/mode #channel -(mode)`
 
 ## Available channel modes
 
+<!-- markdownlint-disable MD013 -->
 {% assign channel_modes = site.data.channelmodes | where_exp:"item","item.restricted != true" %}
+<!-- markdownlint-enable MD013 -->
 
 {%- include modetable.md modes=channel_modes -%}
 
@@ -23,6 +25,8 @@ that corresponds to the mode. To unset a mode, use `/mode #channel -(mode)`
 
 The following channel modes can only be added by Libera.Chat staff.
 
+<!-- markdownlint-disable MD013 -->
 {% assign restricted_modes = site.data.channelmodes | where: 'restricted', true %}
+<!-- markdownlint-enable MD013 -->
 
 {%- include modetable.md modes=restricted_modes -%}
