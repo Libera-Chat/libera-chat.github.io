@@ -5,7 +5,7 @@ credits: web7
 ---
 
 This script is by Gryllida, for the
-[ChatZilla add-on](https://addons.mozilla.org/addon/16 ) to Firefox.
+[ChatZilla add-on](http://chatzilla.hacksrus.com/ ) to Firefox.
 
 1. Install [the cz_sasl script](/static/files/cz_sasl-0.6.3.js) as you would
    any other script, following the
