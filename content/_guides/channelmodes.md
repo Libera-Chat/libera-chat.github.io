@@ -15,7 +15,7 @@ Channel modes are a feature of the IRC protocol for setting permissions and
 attributes on a channel. Modes are set using the IRC `/mode` command, and they
 apply directly to channels.
 
-What channel modes control:
+Channel modes control:
 
 - Bans (`b`, `e`)
 - Moderation (`m`, `n`, `q`, `u`, `v`, `z`)
@@ -24,7 +24,9 @@ What channel modes control:
 - Channel access controls (`g`, `i`, `I`, `j`, `k`, `l`, `n`, `o`, `Q`, `r`,
   `S`)
 
-To set modes, you must be a channel operator.
+### Requirements
+
+To set modes, you must be a channel operator (`+o`).
 
 ### Listing current channel modes
 
@@ -32,18 +34,20 @@ To list current channel modes:
 
 `/mode <channel>`
 
-### Setting and un-setting channel modes
+### Setting and unsetting channel modes
 
 To set a mode:
 
 `/mode <channel> +<mode>`
 
-To un-set a mode:
+To unset a mode:
 
 `/mode <channel> -<mode>`
 
-For example, to set a user `bar` as an operator on `#foo` using the user's
-cloaked hostmask:
+### Example
+
+To set a user `bar` as an operator on `#foo` using the user's cloaked
+hostmask:
 
 `/mode #foo +o bar*!*@user/bar`
 
@@ -51,7 +55,7 @@ cloaked hostmask:
 
 `ChanServ` can help ensure that desired modes are always set or unset for your
 channel, using the `MLOCK` [control flag](#chanserv-control-flags). If someone
-attempts to change them, `ChanServ` can change them back. 
+attempts to change the channel modes, `ChanServ` can change them back. 
 
 For example, to ensure that setting the topic on `#foo` is always restricted
 to operators:
@@ -73,7 +77,7 @@ preserve modes, set the `GUARD` [control flag](#chanserv-control-flags):
 `/msg ChanServ SET <channel> GUARD ON`
 
 `ChanServ` will join your channel and remain there, ensuring the channel is
-never empty and the modes are never lost.
+never empty and preventing the modes from being lost.
 
 ### Available channel modes
 
@@ -98,10 +102,6 @@ true %}
 `ChanServ` user flags grant privileges for `ChanServ` functions. They apply to
 users identified by nick, `NickServ` group name, or hostmask. 
 
-To set user flags, send a private message to `ChanServ`:
-
-`/msg ChanServ FLAGS <channel> <hostmask> <flags>`
-
 User flags are similar to modes, but they control what users can do via
 `ChanServ` rather than what they can do directly with the channel. Because
 `ChanServ` is always opped, it can perform actions on behalf of users who are
@@ -114,14 +114,28 @@ ChanServ user flags control the following:
 - Who can use `ChanServ` commands to manage the channel (`s`, `i`, `R`, `t`,
   `A`, `S`, `F`)
 
+### Requirements
+
 To set `ChanServ` user flags for users other than yourself, you must be
 flagged a founder (`+F`). 
 
 `ChanServ` must be joined to your channel; see `/msg ChanServ HELP SET GUARD`.
 
-For a complete list of `ChanServ` user flags, see `/msg ChanServ HELP FLAGS`.
+### Listing user flags
 
-For more about managing a channel with `ChanServ` , see `/msg ChanServ HELP`.
+To see the flags set for a user, send a private message to `ChanServ`:
+
+`/msg ChanServ FLAGS <channel> <user|nick|hostmask>`
+
+### Setting or unsetting user flags
+
+To set user flags, send a private message to `ChanServ`:
+
+`/msg ChanServ FLAGS <channel> <user|nick|hostmask> +<flags>`
+
+To unset user flags:
+
+`/msg ChanServ FLAGS <channel> <user|nick|hostmask> -<flags>`
 
 ### Granting limited user privileges
 
@@ -140,14 +154,16 @@ With this set, the user `bar` can set the topic on your channel by using the
 
 `/msg ChanServ TOPIC #foo <channel topic>`
 
+### Further information
+
+For a complete list of `ChanServ` user flags, see `/msg ChanServ HELP FLAGS`.
+
+For more about managing a channel with `ChanServ` , see `/msg ChanServ HELP`.
+
 ## ChanServ control flags
 
 `ChanServ` control flags set the actions `ChanServ` will take to help
 administer your channel. They apply to `ChanServ`. 
-
-To set control flags, send a private message to `ChanServ`:
-
-`/msg ChanServ SET <channel> <flag> [option]`
 
 Control flags are useful for helping maintain control of your channel on your
 behalf, even when all other ops leave the channel. Functions include:
@@ -157,12 +173,35 @@ behalf, even when all other ops leave the channel. Functions include:
 - Managing access control lists (`RESTRICTED`, etc.)
 - Automatically posting messages to users when they join (`ENTRYMSG`)
 
-`ChanServ` can also set attributes that appear in `INFO`, including `URL` and
-`EMAIL`, or hide them with `PRIVATE`.
+### Requirements
 
 To set `ChanServ` control flags, you must be flagged a founder (`+F`).
 
 `ChanServ` must be joined to your channel; see `/msg ChanServ HELP SET GUARD`.
+
+### Listing control flags
+
+To list control flags currently set on a channel, see `Flags` in the channel's
+`INFO`:
+
+`/msg ChanServ INFO <channel>`
+
+### Setting or unsetting control flags
+
+To set a control flag, send a private message to `ChanServ`:
+
+`/msg ChanServ SET <channel> +<flag> [option]`
+
+To unset a control flag:
+
+`/msg ChanServ SET <channel> -<flag> [option]`
+
+### Setting channel info
+
+`ChanServ` can also set attributes that appear in `INFO`, including `URL` and
+`EMAIL`, or hide them with `PRIVATE`.
+
+### Further information
 
 For a complete list of control flags that can be set in `ChanServ`, see `/msg
 ChanServ HELP SET`. 
