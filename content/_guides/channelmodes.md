@@ -13,7 +13,7 @@ overview of these tools, their distinctions, and how they work together.
 
 Channel modes are a feature of the IRC protocol for setting permissions and
 attributes on a channel. Modes are set using the IRC `/mode` command, and they
-apply directly to channels.
+apply directly to the channel.
 
 Channel modes control:
 
@@ -150,8 +150,9 @@ might restrict topic changes on `#foo` to ops, but then allow non-op user
 /msg ChanServ FLAGS #foo bar*!*@user/bar +t
 ```
 
-With this set, the user `bar` can set the topic on your channel by using the
-`ChanServ TOPIC` command instead of the IRC `/topic` command:
+With these set, the non-op user `bar` _is not_ allowed set the topic on your
+channel using the IRC `/topic` command, but _is_ allowed to set the topic by
+using the `ChanServ TOPIC` command:
 
 `/msg ChanServ TOPIC #foo <channel topic>`
 
