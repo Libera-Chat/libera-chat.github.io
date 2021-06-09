@@ -53,7 +53,7 @@ hostmask:
 
 ### Enforcing channel modes
 
-`ChanServ` can help ensure that desired modes are always set or unset for your
+`ChanServ` can help ensure desired modes are always set or unset for your
 channel, using the `MLOCK` [control flag](#chanserv-control-flags). If someone
 attempts to change the channel modes, `ChanServ` can change them back. 
 
@@ -72,7 +72,8 @@ To see the modes that are currently enforced by `ChanServ`:
 ### Preserving channel modes
 
 By default, all channel modes are lost when a channel becomes empty. To
-preserve modes, set the `GUARD` [control flag](#chanserv-control-flags): 
+preserve modes, set the `ChanServ` `GUARD` [control
+flag](#chanserv-control-flags): 
 
 `/msg ChanServ SET <channel> GUARD ON`
 
@@ -123,19 +124,19 @@ flagged a founder (`+F`).
 
 ### Listing user flags
 
-To see the flags set for a user, send a private message to `ChanServ`:
+To see the flags set for a user:
 
 `/msg ChanServ FLAGS <channel> <user|nick|hostmask>`
 
 ### Setting or unsetting user flags
 
-To set user flags, send a private message to `ChanServ`:
+To set user flags:
 
-`/msg ChanServ FLAGS <channel> <user|nick|hostmask> +<flags>`
+`/msg ChanServ FLAGS <channel> <nick|group|hostmask> +<flags>`
 
 To unset user flags:
 
-`/msg ChanServ FLAGS <channel> <user|nick|hostmask> -<flags>`
+`/msg ChanServ FLAGS <channel> <nick|group|hostmask> -<flags>`
 
 ### Granting limited user privileges
 
@@ -154,7 +155,7 @@ With this set, the user `bar` can set the topic on your channel by using the
 
 `/msg ChanServ TOPIC #foo <channel topic>`
 
-### Further information
+### More information
 
 For a complete list of `ChanServ` user flags, see `/msg ChanServ HELP FLAGS`.
 
@@ -163,10 +164,10 @@ For more about managing a channel with `ChanServ` , see `/msg ChanServ HELP`.
 ## ChanServ control flags
 
 `ChanServ` control flags set the actions `ChanServ` will take to help
-administer your channel. They apply to `ChanServ`. 
+administer your channel on your behalf. They apply to `ChanServ` itself. 
 
-Control flags are useful for helping maintain control of your channel on your
-behalf, even when all other ops leave the channel. Functions include:
+Control flags are useful for helping maintain control of your channel, even
+when all other ops leave the channel. Functions include:
 
 - Enforcing modes (`MLOCK`)
 - Managing the topic (`TOPIC`, `TOPICLOCK`, `KEEPTOPIC`)
@@ -188,7 +189,7 @@ To list control flags currently set on a channel, see `Flags` in the channel's
 
 ### Setting or unsetting control flags
 
-To set a control flag, send a private message to `ChanServ`:
+To set a control flag:
 
 `/msg ChanServ SET <channel> +<flag> [option]`
 
@@ -201,7 +202,7 @@ To unset a control flag:
 `ChanServ` can also set attributes that appear in `INFO`, including `URL` and
 `EMAIL`, or hide them with `PRIVATE`.
 
-### Further information
+### More information
 
 For a complete list of control flags that can be set in `ChanServ`, see `/msg
 ChanServ HELP SET`. 
