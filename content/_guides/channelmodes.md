@@ -51,12 +51,16 @@ Channel modes control:
 
 To allow only operators to set the topic on `#foo`:
 
-`/mode #foo +t`
+```irc
+/mode #foo +t
+```
 
 To set a user `bar` as an operator on `#foo` using the user's cloaked
 hostmask:
 
-`/mode #foo +o bar*!*@user/bar`
+```irc
+/mode #foo +o bar*!*@user/bar
+```
 
 ### Preserving channel modes
 
@@ -64,7 +68,9 @@ By default, all channel modes are lost when a channel becomes empty. To
 preserve modes, set the `ChanServ` `GUARD` [control
 flag](#chanserv-control-flags): 
 
-`/msg ChanServ SET <channel> GUARD ON`
+```irc
+/msg ChanServ SET <channel> GUARD ON
+```
 
 `ChanServ` will join your channel and remain there, which ensures the channel
 is never empty, which prevents the modes from being lost.
@@ -80,19 +86,25 @@ to change the channel modes, `ChanServ` will change them back.
 To set a mode `ChanServ` should enforce, set the `MLOCK` [control
 flag](#chanserv-control-flags):
 
-`/msg ChanServ SET <channel> MLOCK <mode>`
+```irc
+/msg ChanServ SET <channel> MLOCK <mode>
+```
 
 For example, to ensure setting the topic on `#foo` is always restricted to
 operators:
 
-`/msg ChanServ SET #foo MLOCK +t`
+```irc
+/msg ChanServ SET #foo MLOCK +t
+```
 
 With this set, if someone were to attempt `/mode #foo -t`, `ChanServ` would
 immediately revert the change with `/mode #foo +t`.
 
 To list modes currently enforced by `ChanServ`:
 
-`/msg ChanServ INFO <channel>`
+```irc
+/msg ChanServ INFO <channel>
+```
 
 ### Available channel modes
 
@@ -152,7 +164,7 @@ without granting them full privileges on the channel itself. For example, you
 might restrict topic changes on `#foo` to ops, but then allow non-op user
 `bar` to ask `ChanServ` to set the topic: 
 
-```
+```irc
 /mode #foo +t
 /msg ChanServ FLAGS #foo bar*!*@user/bar +t
 ```
@@ -161,7 +173,9 @@ With these set, the non-op user `bar` _is not_ allowed set the topic on your
 channel using the IRC `/topic` command but _is_ allowed to set the topic by
 using the `ChanServ TOPIC` command:
 
-`/msg ChanServ TOPIC #foo <channel topic>`
+```irc
+/msg ChanServ TOPIC #foo <channel topic>
+```
 
 ### More information
 
