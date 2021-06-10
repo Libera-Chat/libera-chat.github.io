@@ -55,11 +55,16 @@ To allow only operators to set the topic on `#foo`:
 /mode #foo +t
 ```
 
-To set a user `bar` as an operator on `#foo` using the user's cloaked
-hostmask:
+To set a user `bar` as an operator on `#foo`:
 
 ```irc
-/mode #foo +o bar*!*@user/bar
+/mode #foo +o bar
+```
+
+To ban any user connecting to `#foo` from a given host:
+
+```irc
+/mode #foo +b *!*@10-10-32-1.res.example.com
 ```
 
 ### Preserving channel modes
@@ -72,8 +77,11 @@ flag](#chanserv-control-flags):
 /msg ChanServ SET <channel> GUARD ON
 ```
 
-`ChanServ` will join your channel and remain there, which ensures the channel
-is never empty, which prevents the modes from being lost.
+`ChanServ` will join your channel and remain there, which helps prevent the
+channel from being empty, which helps prevent the modes from being lost.
+
+In addition, to prevent modes being lost even if `ChanServ` were to go offline
+and leave the channel empty, set the modes with `MLOCK` as described below.
 
 For more information, see `/msg ChanServ HELP SET GUARD`.
 
@@ -167,7 +175,7 @@ might restrict topic changes on `#foo` to ops, but then allow non-op user
 
 ```irc
 /mode #foo +t
-/msg ChanServ FLAGS #foo bar*!*@user/bar +t
+/msg ChanServ FLAGS #foo bar +t
 ```
 
 With these set, the non-op user `bar` _is not_ allowed set the topic on your
