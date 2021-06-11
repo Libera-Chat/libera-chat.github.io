@@ -20,6 +20,7 @@ OR
 
 THEN
 
+{:start="3"}
 3. Enter a nick that is grouped to your account in the Nickname field
 4. Click advanced options
 5. Enter your password in the `NickServ Password` field

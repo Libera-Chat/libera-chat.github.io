@@ -1,0 +1,30 @@
+name: Lint
+
+on: [push, pull_request]
+
+jobs:
+  markdownlint:
+    name: Check markdown for style issues
+    runs-on: ubuntu-latest
+
+    # Steps represent a sequence of tasks that will be executed as part of the job
+    steps:
+      - uses: actions/checkout@v2
+      - name: Cache
+        uses: actions/cache@v2.1.4
+        with:
+          path: ~/.npm
+          key: ${{ runner.os }}-node-${{ hashFiles('**/package.json') }}
+          restore-keys: |
+            ${{ runner.os }}-node-
+      - uses: actions/setup-node@v2
+        with:
+          node-version: 12
+      - run: npm i --prefer-offline
+
+      - uses: xt0rted/markdownlint-problem-matcher@v1
+      - run: npm run lint:md
+      - uses: xt0rted/markdownlint-problem-matcher@v1
+        if: success() || failure()
+        with:
+          action: remove

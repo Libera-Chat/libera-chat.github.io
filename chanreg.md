@@ -110,7 +110,7 @@ before registering, so we can already check whether your project is likely to
 be considered eligible to a registration. Once done, we will need the
 following information from you:
 
-```
+```markdown
 # About your project
 Your project name(s):
 Your project description:
@@ -173,7 +173,7 @@ before registering, so we can already check whether your community is likely
 to be considered eligible to a registration. Once done, we will need the
 following information from you:
 
-```
+```markdown
 # About your community
 Your community name(s):
 Your community description:
@@ -213,7 +213,6 @@ Registered communities can profit from the following benefits:
 - Optional cloaks are available for members.
   These replace the hostname part with `@about/yourcommunity/username`,
   and can be requested on `#libera-communities`.
-
 
 ## The Projects & Community Team
 
