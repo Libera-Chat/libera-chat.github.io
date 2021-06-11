@@ -36,8 +36,9 @@ Channel modes control:
 ### Requirements
 
 - To use `/mode`, you must be a channel operator (`+o`).
-- To use `ChanServ`, your channel must be registered and your privileges must
-  allow you to take actions that set modes.
+- To use `ChanServ`, your channel must be
+  [registered](/creatingchannels#registering-the-new-channel) and your user
+  flags must allow you to take actions that set modes.
 
 ### Mode command summary
 
@@ -81,7 +82,8 @@ flag](#chanserv-control-flags):
 channel from being empty, which helps prevent the modes from being lost.
 
 In addition, to prevent modes being lost even if `ChanServ` were to go offline
-and leave the channel empty, set the modes with `MLOCK` as described below.
+and leave the channel empty, set the modes with `MLOCK` as described
+[below](#enforcing-channel-modes).
 
 For more information, see `/msg ChanServ HELP SET GUARD`.
 
@@ -151,7 +153,7 @@ ChanServ user flags control:
 
 ### Requirements
 
-- Your channel must be registered.
+- Your channel must be [registered](/creatingchannels#registering-the-new-channel).
 - `ChanServ` must have joined your channel. See [preserving channel
   modes](#preserving-channel-modes).
 - To set `ChanServ` user flags for users other than yourself, you must be
@@ -209,7 +211,7 @@ when all other ops leave the channel. Functions include:
 
 ### Requirements
 
-- Your channel must be registered.
+- Your channel must be [registered](/creatingchannels#registering-the-new-channel).
 - `ChanServ` must have joined your channel. See [preserving channel
   modes](#preserving-channel-modes).
 - To set `ChanServ` control flags, you must be flagged a founder (`+F`).
