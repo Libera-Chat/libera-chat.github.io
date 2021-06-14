@@ -8,9 +8,20 @@ v 2021-05-22, organisation number 802535-6448
 
 1. The legal name of the organisation is Libera Chat.
 
-2. The purpose of the organisation is to provide services such as a community
-   platform for free open-source software and peer-directed projects on a
-   volunteer basis.
+2. The purpose of the organisation is to encourage and facilitate community
+   space, tools, and facilities intended to further the development and adoption 
+   of free & open source (FOSS) software and peer directed projects (PDP).
+
+   The organisation will primarily do this by maintaining for general use
+   an IRC network, operated and supported by volunteers.
+
+   It may also engage in other activities which complement this purpose, such 
+   as community events, or provision of other services and tools or the
+   undertaking of other activities which benefit FOSS or PDP.
+   
+   It may also engage in activity which supports this purpose, such as the
+   development and maintenance of software, training, or other activities which 
+   benefit FOSS or PDP, fundraising, or sale of goods and merchandise.
 
 3. The organisation is an ideologically and religiously unaffiliated Swedish
    "ideell förening".
