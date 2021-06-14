@@ -52,7 +52,7 @@ and [Atheme Services](https://atheme.github.io/) as well as our websites,
 tools and bots.
 
 The engineering team comprises: amdj, bigpresh, edk, Fuchs, glguy,
-ilbelkyr, jess, mniip, niko, and Swant.
+ilbelkyr, jess, mniip, niko, spb, Swant, and tomaw.
 
 ## Operations team
 
@@ -60,8 +60,8 @@ The operations team manage our infrastructure, making sure the network stays
 operational and ensuring we have the right hardware and server platforms to
 operate the services we provide.
 
-The operations team comprises: bigpresh, edk, Fuchs, glguy, Md, mquin, and
-nhandler.
+The operations team comprises: bigpresh, edk, Fuchs, glguy, Md, mquin,
+nhandler, and tomaw.
 
 ## Wider staff and organisation membership
 
@@ -71,9 +71,9 @@ be in vain and more importantly day to day operation of the network would be
 impossible.
 
 Staff and membership comprises: amdj, bakerst, bigpresh, coffee-cup, deedra,
-edk, el, emerson, emilsp, Freso, Fuchs, glguy, ilbelkyr, jess, JonathanD,
-jose, kline, li, Md, mniip, mquin, nhandler, niko, njan, Stx, Swant,
-and Unit193.
+edk, el, emerson, emilsp, Freso, Fuchs, glguy, jess, jewel, JonathanD, jose,
+kline, li, marienz, Md, mniip, mquin, nhandler, nicole, niko, njan, Pricey,
+RichiH, spb, Stx, Swant, tomaw, and Unit193.
 
 The best way to reach staff is the channel `#libera` or via the command
 `/stats p` which lists immediately available staff.
