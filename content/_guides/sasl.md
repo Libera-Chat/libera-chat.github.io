@@ -16,8 +16,7 @@ asked to choose an authentication mechanism, be aware that Libera.Chat does
 not support `DH-BLOWFISH`
 
 - [AdiIRC](https://dev.adiirc.com/projects/adiirc/wiki/SASL)
-- [AndroIRC](http://wiki.androirc.com/nickserv_sasl) or
-  [archived here](https://web.archive.org/web/20210319221818/http://wiki.androirc.com/nickserv_sasl)
+- [AndroIRC](https://web.archive.org/web/20210319221818/http://wiki.androirc.com/nickserv_sasl)
 - [Chatzilla](/guides/chatzilla)
 - [EPIC5](/guides/epic5)
 - [glirc](https://github.com/glguy/irc-core/wiki/Automatically-authenticating-to-NickServ)

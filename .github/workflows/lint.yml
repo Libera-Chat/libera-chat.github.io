@@ -28,3 +28,28 @@ jobs:
         if: success() || failure()
         with:
           action: remove
+
+  htmlproofer:
+    name: Run htmlproofer
+    runs-on: ubuntu-latest
+    env:
+      BUNDLE_PATH: vendor/bundle
+    steps:
+      - uses: actions/checkout@v2
+      - name: Ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: 2.7
+          bundler-cache: true
+      - run: bundle exec jekyll build
+      - name: Cache HTMLProofer
+        id: cache-htmlproofer
+        uses: actions/cache@v2
+        with:
+          path: tmp/.htmlproofer
+          key: ${{ runner.os }}-htmlproofer
+      - run: echo "::add-matcher::.github/workflow-support/htmlproofer-matcher.json"
+      - name: Check for broken links
+        run: bundle exec htmlproofer --assume-extension ./_site
+      - run: echo "::remove-matcher owner=htmlproofer::"
+        if: success() || failure()
