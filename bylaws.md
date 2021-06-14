@@ -6,18 +6,19 @@ v 2021-05-22, organisation number 802535-6448
 
 ## Organisation and purpose
 
-1. The legal name of the organization is Libera Chat.
+1. The legal name of the organisation is Libera Chat.
 
 2. The purpose of the organisation is to provide services such as a community
-   platform for free open-source software and peer directed projects on a
+   platform for free open-source software and peer-directed projects on a
    volunteer basis.
 
 3. The organisation is an ideologically and religiously unaffiliated Swedish
    "ideell förening".
 
-4. The organisation is seated in Höganäs, Höganäs Kommun.
+4. The seat of the organisation is in Höganäs, Höganäs Kommun.
 
-5. The fiscal year of the organisation is January 1 to December 31.
+5. The fiscal year of the organisation is from the 1st January to the 31st
+   December.
 
 ## Membership
 
@@ -28,7 +29,7 @@ v 2021-05-22, organisation number 802535-6448
    Members of either type may at any time switch between the two types of
    member status by notifying the board. The board are always quorum members.
 
-3. The membership is terminated if:
+3. Membership is terminated if:
 
    - The member withdraws their membership, or
 
@@ -36,8 +37,8 @@ v 2021-05-22, organisation number 802535-6448
 
 ## Decisions
 
-1. The deciding organs of the organisation ranked from highest to lowest
-   authority are:
+1. The decision-making organs of the organisation ranked from highest to
+   lowest authority are:
 
    - Monthly General Meeting,
 
@@ -54,20 +55,19 @@ v 2021-05-22, organisation number 802535-6448
 4. Decisions are generally taken by consensus. If consensus cannot be reached
    a vote should be held.
 
-5. If a vote is held, simple majority is enforced. In other words, more than
-   50% of the votes are needed for a proposal to win. Abstained votes are not
+5. If a vote is held, a simple majority is enforced. In other words, more than
+   50% of the votes are needed for a proposal to win. Abstentions are not
    counted when determining the majority.
 
-6. One vote per member of the organ the meeting is held for applies.
+6. For each meeting each member of the given organ has one vote.
 
 7. When electing persons, the following additional points apply:
 
-   - Each person who is elected must have own majority, meaning more than
-     half the votes must go to that person.
+   - To be elected, each candidate must have over 50% of the votes cast
 
-   - If no one can get own majority the person with the least votes is
-     eliminated and a new round is held, this is repeated until a person has
-     own majority.
+   - If no candidate has more than 50% of the votes cast then the person with
+     the least votes is eliminated and a new round is held, this is repeated
+     until a person fulfils this condition.
 
    - If only two persons remain and the round ends in a tie the winner out of
      the two should be determined randomly.
@@ -80,7 +80,7 @@ v 2021-05-22, organisation number 802535-6448
 
 2. The board should invite the membership to the monthly general meeting at
    least one (1) week before it commences. The invitation should include
-   date, time, and location for the meeting.
+   the date, time, and location for the meeting.
 
 3. All meeting documents should be available to the membership at least
    one (1) week before the start of the meeting.
@@ -94,8 +94,7 @@ v 2021-05-22, organisation number 802535-6448
 6. Auditors have the right to participate and speak during the meeting, and
    the right to make proposals in questions pertaining to their duties.
 
-7. At least the following should be dealt with in the monthly general
-   meeting:
+7. The monthly general meeting should deal with at least the following:
 
    - The opening of the meeting.
 
@@ -105,7 +104,7 @@ v 2021-05-22, organisation number 802535-6448
 
      - The secretary for the monthly general meeting,
 
-     - Two members to adjust the minutes and count votes.
+     - Two members to approve the minutes and count votes.
 
    - Determination of eligible voters.
 
@@ -168,7 +167,7 @@ v 2021-05-22, organisation number 802535-6448
 
 4. The board meets if the chair of the board, the auditors, or a majority of
    the board members call for it. The board needs a quorum of at least half
-   the board members.
+   of the board members.
 
 5. In addition to the board members, the auditors have the right to
    participate and speak at board meetings.
@@ -182,7 +181,7 @@ v 2021-05-22, organisation number 802535-6448
 
 2. The duties of the auditors are:
 
-   - Examine if the board follow the bylaws, and audit the actions of the
+   - Examine if the board follows the bylaws, and audit the actions of the
      board, the financial and annual report, and the board's management of the
      organisation's bookkeeping.
 
@@ -193,7 +192,7 @@ v 2021-05-22, organisation number 802535-6448
      and a proposal for if the board should be granted discharge in the audit
      report.
 
-3. The auditors have the right to insight of any activities carried out by
+3. The auditors have the right to inspect any activities carried out by
    the organisation as well as meetings of the board and specialised
    committees.
 
@@ -207,12 +206,12 @@ v 2021-05-22, organisation number 802535-6448
 2. Membership in one of the specialised committees is granted either by a
    monthly general meeting, or by the members of the specialised committee.
 
-3. The specialised committees each elects a representative for the board,
+3. The specialised committees each elect a representative to the board,
    subject to approval by the Monthly General Meeting.
 
 4. The specialised committees are responsible for defining their mission
-   statement and rules of operation, as long as they do not conflict with
-   these bylaws, subject to approval by the Monthly General Meeting.
+   statement and rules of operation, providing these do not conflict with
+   these bylaws, and subject to approval by the Monthly General Meeting.
 
 ## Eligibility
 
@@ -225,7 +224,7 @@ v 2021-05-22, organisation number 802535-6448
 ## Signing authority
 
 1. The board should appoint one or more board members to sign on behalf of
-   the organization, either jointly or individually.
+   the organisation, either jointly or individually.
 
 ## Suspension
 
