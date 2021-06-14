@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Libera Chat website",
   "scripts": {
-    "lint:md": "markdownlint '**/*.md'",
+    "lint:md": "markdownlint -p .gitignore '**/*.md'",
     "lint:md:fix": "npm run lint:md -- --fix"
   },
   "dependencies": {},
