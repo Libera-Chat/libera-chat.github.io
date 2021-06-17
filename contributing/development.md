@@ -10,3 +10,6 @@ title: Contributing to Libera Chat
   - [Atheme](https://github.com/atheme/atheme) - the services in use (e.g NickServ, ChanServ)
   - [Kiwi IRC](https://github.com/kiwiirc/kiwiirc/) - the web chat (https://web.libera.chat)
   - [gamja](https://sr.ht/~emersion/gamja/) - an alternative to Kiwi IRC (https://web.libera.chat/gamja/)
+  - [Sigyn (called ozone here)](https://github.com/Libera-Chat/Sigyn) - helps to defend against abuse.
+  - [ChanTracker (called litharge here)](https://github.com/ncoevoet/ChanTracker) - ban tracking which is used by many channels.
+  - [Limnoria](https://github.com/ProgVal/Limnoria) - it powers ozone, litharge and countless other community-managed bots on the network.
