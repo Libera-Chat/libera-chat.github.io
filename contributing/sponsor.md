@@ -15,7 +15,7 @@ Our requirements for public-facing IRCd servers are as follows:
 - Disk: 20 GB
 - Network: Normal usage is in the single-digit megabits per second, but peak requirements are much higher, thanks to attacks. You will need to be able to handle 100G-plus floods, and the facilities to drop them at your border.
 - The servers will run Debian stable.
-- The servers are named after [chemical elements](https://en.wikipedia.org/wiki/Chemical_element), you are free to suggest a name for your contributed server but there is no guarantee that it will be accepted.
+- The servers are named after [metals](https://en.wikipedia.org/wiki/Metal), you are free to suggest a name for your contributed server but there is no guarantee that it will be accepted.
 
 If you can provide networking and rack space, but not hardware, we may be able to work something out.
 
