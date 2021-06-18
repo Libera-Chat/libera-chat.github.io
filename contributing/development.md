@@ -8,7 +8,7 @@ title: Contributing to Libera Chat
 - Contribute to the technologies powering Libera Chat, which include:
   - [Solanum](https://github.com/solanum-ircd/solanum) - the IRCd powering the network
   - [Atheme](https://github.com/atheme/atheme) - the services in use (e.g NickServ, ChanServ)
-  - [Kiwi IRC](https://github.com/kiwiirc/kiwiirc/) - the web chat (https://web.libera.chat)
+  - [Kiwi IRC](https://github.com/kiwiirc/kiwiirc/) - our [web chat](https://web.libera.chat)
   - [gamja](https://sr.ht/~emersion/gamja/) - an alternative to Kiwi IRC (https://web.libera.chat/gamja/)
   - [Sigyn (called ozone here)](https://github.com/Libera-Chat/Sigyn) - helps to defend against abuse.
   - [ChanTracker (called litharge here)](https://github.com/ncoevoet/ChanTracker) - ban tracking which is used by many channels.
