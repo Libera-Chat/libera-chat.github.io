@@ -13,3 +13,5 @@ title: Contributing to Libera Chat
   - [Sigyn (called ozone here)](https://github.com/Libera-Chat/Sigyn) - helps to defend against abuse.
   - [ChanTracker (called litharge here)](https://github.com/ncoevoet/ChanTracker) - ban tracking which is used by many channels.
   - [Limnoria](https://github.com/ProgVal/Limnoria) - it powers ozone, litharge and countless other community-managed bots on the network.
+
+Come visit us in `#libera-dev` if you want to collaborate.
