@@ -362,6 +362,20 @@ footer {
   justify-content: space-between;
 }
 
-footer div:last-of-type {
-  padding-inline-start: 1rem;
+footer div {
+  line-height: 1.5;
+}
+
+footer div {
+  padding-block-end: .7rem;
+}
+
+footer div a {
+  white-space: nowrap;
+}
+
+@media screen and (min-width: 800px) {
+  footer div:last-of-type {
+    padding-inline-start: 1rem;
+  }
 }
