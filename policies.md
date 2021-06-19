@@ -147,7 +147,7 @@ of Libera Chat's services.
 
 ## Libera Chat and financial transactions
 
-In some instances user may want to reward a project or one of its
+In some instances a user may want to reward a project or one of its
 contributors with, for example, a donation to the project. However, it is
 expected that you carry out your own due diligence before entering into
 financial transactions. Libera Chat accepts no liability for any losses
