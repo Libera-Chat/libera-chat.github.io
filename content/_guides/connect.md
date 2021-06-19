@@ -58,14 +58,14 @@ appear in WHOIS (a 276 numeric).
 
 Libera.Chat is also reachable via
 [Tor](https://www.torproject.org/), bound to some restrictions. You can't
-directly connect to `irc.libera.chat` via Tor; use the following hidden service
+directly connect to `irc.libera.chat` via Tor; use the following onion service
 as the server address instead:
 
 ```hostname
 libera75jm6of4wxpxt4aynol3xjmbtxgfyjpu34ss4d7r7q2v5zrpyd.onion
 ```
 
-The hidden service requires SASL authentication. In addition, due to abuse
+The onion service requires SASL authentication. In addition, due to abuse
 we have seen across other networks in the past, we have unfortunately had to
 add another couple of restrictions:
 
@@ -87,12 +87,12 @@ clients, so please check their docs for instructions for now.
 
 ### Verifying Tor TLS connections
 
-A Tor hidden service name securely identifies the service you are connecting
+A Tor onion service name securely identifies the service you are connecting
 to. Verifying the TLS server certificate is strictly-speaking unnecessary
-while using the hidden service. Nonetheless you may verify the hidden service's
+while using the onion service. Nonetheless you may verify the onion service's
 TLS server certificate by adding the following fragment to your `torrc`
 configuration file and configure your client to connect to
-`palladium.libera.chat` via Tor. The TLS server certificate used by the hidden
+`palladium.libera.chat` via Tor. The TLS server certificate used by the onion
 service will validate using this hostname.
 
 ```config
@@ -104,6 +104,6 @@ Older clients that don't support SOCKS4a or later will need to use `MapAddress`
 with an IP address, and the certificate will not validate successfully.
 In this case validation will need to be disabled.
 
-Note that the hidden service's certificate changes periodically as it is
+Note that the onion service's certificate changes periodically as it is
 updated. This means that the *certificate fingerprint* can not be reliably
 pinned.
