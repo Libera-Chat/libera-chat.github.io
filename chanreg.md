@@ -122,7 +122,9 @@ Links to places we can find out more about your project:
 # About you and your staff
 Your NickServ account:
 Your relationship to / position in the project:
-NickServ of group contacts and if they're primary/secondary, hidden/public:
+NickServ accounts of group contacts:
+(and if they're primary/secondary, hidden/public)
+(please remember to include yourself if you would like to be a contact)
 
 # Channels and cloaks (see below)
 Channels you'd like to claim:
@@ -183,7 +185,9 @@ Libera Chat staff member you have discussed this registration with:
 # About you and your staff
 Your NickServ account:
 Your relationship / affiliation with the community:
-NickServ of group contacts and if they're primary/secondary, hidden/public:
+NickServ accounts of group contacts:
+(and if they're primary/secondary, hidden/public)
+(please remember to include yourself if you would like to be a contact)
 
 # Channels and cloaks (see below)
 Channels you'd like to claim:
