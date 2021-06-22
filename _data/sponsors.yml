@@ -1,0 +1,30 @@
+---
+
+- name: Aalto University, Finland
+  link: https://www.aalto.fi/en/department-of-communications-and-networking
+  current: true
+
+- name: Academic Computer Club @ Umeå University
+  link: https://www.acc.umu.se/
+  image: /static/img/acclogo.svg
+  current: true
+
+- name: Linode
+  link: https://linode.com/
+  image: /static/img/linode-logo.svg
+  current: true
+
+- name: MediaHub Ltd
+  link: https://www.mediahub.eu.com
+  image: /static/img/mediahub_logo.svg
+  current: true
+
+- name: Psychz Networks, A Profuse Solutions Inc Company
+  link: https://www.psychz.net/
+  image: /static/img/psychz-networks-logo.png
+  current: true
+
+- name: Ziax
+  link: https://ziax.com/
+  image: /static/img/ziax-logo-dark.png
+  current: true
