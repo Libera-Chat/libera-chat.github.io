@@ -7,6 +7,7 @@ who provide both time and resources to Libera Chat. Without them none of this
 would be possible
 
 {::nomarkdown}
+<!-- markdownlint-disable MD013 MD033 -->
 
 <div class="sponsors">
   {% assign current_sponsors = site.data.sponsors | where: 'current', true %}
