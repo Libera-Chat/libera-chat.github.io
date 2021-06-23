@@ -8,7 +8,7 @@
   current: true
 
 - name: Linode
-  link: https://linode.com/
+  link: https://www.linode.com/
   image: /static/img/linode-logo.svg
   current: true
 
