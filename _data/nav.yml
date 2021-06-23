@@ -10,10 +10,12 @@
     link: /bylaws
   - name: Sponsors
     link: /sponsors
-# - name: Contribute
-#    items:
-#   - name: Sponsor Us
-#   - name: Development
+- name: Contribute
+  items:
+  - name: Sponsor Us
+    link: /contributing/sponsor
+  - name: Development
+    link: /contributing/development
 - name: Channel Namespaces
   link: /chanreg
 - name: Guides
