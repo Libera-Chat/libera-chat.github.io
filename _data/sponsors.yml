@@ -22,6 +22,11 @@
   image: /static/img/psychz-networks-logo.png
   current: true
 
+- name: Seeweb
+  link: https://www.seeweb.it/
+  image: /static/img/seeweb_black.png
+  current: true
+
 - name: Ziax
   link: https://ziax.com/
   image: /static/img/ziax-logo-dark.png
