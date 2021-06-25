@@ -36,4 +36,4 @@ ccess, and we ask that you do not attempt to use technical means to gain
 such access.
 
 If you are interested and meet the requirements, please email the operations
-team at hosting@libera.chat.
+team at <hosting@libera.chat>.
