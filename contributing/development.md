@@ -2,8 +2,8 @@
 title: Contributing to Libera Chat
 ---
 
-- Help out with issues and PRs in [Libera-Chat/libera-chat.github.io]
-(https://github.com/Libera-Chat/libera-chat.github.io)
+- Help out with issues and PRs in
+[Libera-Chat/libera-chat.github.io](https://github.com/Libera-Chat/libera-chat.github.io)
 - Make artwork and choose an appropriate license for it (at least CC-BY-SA)
 - Be helpful and nice to others and maybe even assist people who need help
 - Contribute to the technologies powering Libera Chat, which include:
