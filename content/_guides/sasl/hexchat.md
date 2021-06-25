@@ -10,6 +10,9 @@ HexChat is a fork of XChat with in-built [SASL](/guides/sasl) support.
 It doesn't require any additional scripts for that purpose. The setup
 procedure is simple.
 
+Please note that at the time of writing, HexChat supports a maximum password
+length of __85 characters__.
+
 1. Open the Network List (Ctrl + S)
 2. If the Libera.Chat network exists in the list, then click on Edit and skip
    ahead to step 5
