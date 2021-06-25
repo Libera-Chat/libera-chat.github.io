@@ -59,10 +59,12 @@ appear in WHOIS (a 276 numeric).
 Libera.Chat is reachable via [Tor](https://www.torproject.org/) using our
 [onion service](https://community.torproject.org/onion-services/).
 
-1. Update `torrc` config file to map to the onion service.
-2. Configure your client to use your Tor SOCKS proxy (typically `localhost:9050`).
-3. Configure public-key SASL authentication.
-4. Connect to `palladium.libera.chat`.
+Configuration requirements with details below:
+
+- Update `torrc` configuration file to map to the onion service.
+- Configure your client to use your Tor SOCKS proxy (typically `localhost:9050`).
+- Configure public-key SASL authentication.
+- Connect to `palladium.libera.chat`.
 
 ```
 # torrc entry for libera.chat onion service
