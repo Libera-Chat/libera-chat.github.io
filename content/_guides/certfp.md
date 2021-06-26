@@ -17,7 +17,9 @@ you are using Windows and do not have a copy, you might consider using Cygwin.
 
 You can generate a certificate with the following command:
 
-    openssl req -x509 -new -newkey rsa:4096 -sha256 -days 1096 -nodes -out libera.pem -keyout libera.pem
+```sh
+openssl req -x509 -new -newkey rsa:4096 -sha256 -days 1096 -nodes -out libera.pem -keyout libera.pem
+```
 
 You will be prompted for various pieces of information about the certificate.
 The contents do not matter for our purposes, but `openssl` needs at least one
@@ -31,11 +33,15 @@ password does, so take appropriate care in securing it.
 
 The expiration date can be checked with the following command:
 
-    openssl x509 -in libera.pem -noout -enddate
+```sh
+openssl x509 -in libera.pem -noout -enddate
+```
 
 The fingerprint can be checked with the following command:
 
-    openssl x509 -in libera.pem -outform der | sha512sum -b | cut -d' ' -f1
+```sh
+openssl x509 -in libera.pem -outform der | sha512sum -b | cut -d' ' -f1
+```
 
 ## Connecting to Libera.Chat with your certificate
 
@@ -48,31 +54,39 @@ elsewhere on the web.
 
 Move the certificates you created above to ~/.irssi/certs
 
-    mkdir ~/.irssi/certs
-    mv libera.pem ~/.irssi/certs
+```sh
+mkdir ~/.irssi/certs
+mv libera.pem ~/.irssi/certs
+```
 
 Now configure your `/server` entry for Libera.Chat to use this certificate. You
 may need to adapt this example for your existing configuration (the network
 and hostname should match what you already use).
 
-    /server add -auto -ssl -ssl_cert ~/.irssi/certs/libera.pem -network libera irc.libera.chat 6697
+```irc
+/server add -auto -ssl -ssl_cert ~/.irssi/certs/libera.pem -network libera irc.libera.chat 6697
+```
 
 ### weechat
 
 Move the certificates you created above to ~/.weechat/certs
 
-    mkdir ~/.weechat/certs
-    mv libera.pem ~/.weechat/certs
+```sh
+mkdir ~/.weechat/certs
+mv libera.pem ~/.weechat/certs
+```
 
 Now disconnect and remove the current Libera.Chat server(s). Re-add it with
 the SSL flag, using your newly generated certificate. Note that these commands
 are just examples, you have to adapt them to your current servers.
 
-    /set irc.server.liberachat.addresses irc.libera.chat/6697
-    /set irc.server.liberachat.ssl on
-    /set irc.server.liberachat.ssl_verify on
-    /set irc.server.liberachat.ssl_cert %h/certs/libera.pem
-    /set irc.server.liberachat.sasl_mechanism external
+```irc
+/set irc.server.liberachat.addresses irc.libera.chat/6697
+/set irc.server.liberachat.ssl on
+/set irc.server.liberachat.ssl_verify on
+/set irc.server.liberachat.ssl_cert %h/certs/libera.pem
+/set irc.server.liberachat.sasl_mechanism external
+```
 
 and then reconnect to Libera.Chat.
 
@@ -129,10 +143,12 @@ right of the screen to save.
 
 You can then check whether you have a fingerprint by using `whois` on yourself:
 
-    /whois YourOwnNick
-    ...
-    YourOwnNick has client certificate fingerprint 959c0bdfa9877d3466c5848f55264f72f132c657b002b79fda65dbe36c67f4bb3d2a3e2e9925cb5896a53c76169c5bb71b7853bd90192068dc77f4b20159a1d8
-    ...
+```irc
+/whois YourOwnNick
+...
+YourOwnNick has client certificate fingerprint 959c0bdfa9877d3466c5848f55264f72f132c657b002b79fda65dbe36c67f4bb3d2a3e2e9925cb5896a53c76169c5bb71b7853bd90192068dc77f4b20159a1d8
+...
+```
 
 To allow NickServ to recognise you based on your certificate, you need to add
 the **sha512** fingerprint to your account (you will need to log in by other
@@ -140,7 +156,9 @@ means in order to do so).
 
 You can then authorise your current certificate fingerprint:
 
-    /msg NickServ CERT ADD
+```irc
+/msg NickServ CERT ADD
+```
 
 In the future, any connections you make to Libera.Chat with your certificate
 will be logged into your account automatically. Optionally, or if you wish to

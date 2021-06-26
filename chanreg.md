@@ -110,7 +110,7 @@ before registering, so we can already check whether your project is likely to
 be considered eligible to a registration. Once done, we will need the
 following information from you:
 
-```
+```markdown
 # About your project
 Your project name(s):
 Your project description:
@@ -127,6 +127,8 @@ NickServ of group contacts and if they're primary/secondary, hidden/public:
 # Channels and cloaks (see below)
 Channels you'd like to claim:
 (typically #projectname and #projectname-*)
+Would you like ONLY group contacts to be able to register these channels with
+ChanServ?:
 Cloak namespaces you'd like to claim:
 (typically projectname/*)
 ```
@@ -171,7 +173,7 @@ before registering, so we can already check whether your community is likely
 to be considered eligible to a registration. Once done, we will need the
 following information from you:
 
-```
+```markdown
 # About your community
 Your community name(s):
 Your community description:
@@ -186,6 +188,8 @@ NickServ of group contacts and if they're primary/secondary, hidden/public:
 # Channels and cloaks (see below)
 Channels you'd like to claim:
 (typically #communityname and #communityname-*)
+Would you like ONLY group contacts to be able to register these channels with
+ChanServ?:
 (The cloaks will be formatted like this:
 about/YourCommunityNameHere/accountname)
 ```
@@ -205,10 +209,10 @@ will then get in touch with you.
 
 Registered communities can profit from the following benefits:
 
-- Channels in their namespace can be claimed
+- Channels in their namespace can be claimed (with `/msg ChanServ CLAIM`)
 - Optional cloaks are available for members.
-  These replace the hostname part with `@about/yourcommunity/username`
-
+  These replace the hostname part with `@about/yourcommunity/username`,
+  and can be requested on `#libera-communities`.
 
 ## The Projects & Community Team
 

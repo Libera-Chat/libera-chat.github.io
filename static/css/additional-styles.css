@@ -116,3 +116,40 @@ main img {
   max-width: var(--content-max-width);
   max-height: 40vh;
 }
+
+main .sponsors {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+main .sponsors a {
+  width: 100%;
+  min-height: 5rem;
+  font-size: 1.25rem;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: .5rem;
+}
+
+main .sponsors a:hover {
+  background-color: var(--c-bg-secondary);
+}
+
+main .sponsors a img {
+  height: unset;
+  max-height: 4rem;
+  max-width: 100%;
+  margin: 0;
+}
+
+@media screen and (min-width: 800px) {
+  main .sponsors {
+    grid-template-columns: 1fr 1fr;
+  }
+  main .sponsors a {
+    height: 5rem;
+  }
+}

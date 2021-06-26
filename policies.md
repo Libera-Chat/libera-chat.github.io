@@ -72,7 +72,7 @@ atmosphere in line with our policies first.
 
 ## Network bans
 
-Violations of the rules can lead to temporary or permanent removal of the
+Violations of the rules can lead to temporary or permanent removal from the
 network. There might not always be prior warning of this.
 
 In addition to that, there are many reasons why we might remove someone from
@@ -97,12 +97,14 @@ additional names to your account, but please remember that these are not
 collectibles and should not be hoarded or squatted.
 
 Nickname and account registrations expire ten weeks after they are last used.
-For grouped nicknames, "used" means that you were using the nickname while
-logged in to the account which owns it. For accounts, "used" means that you
-logged in to the account, regardless of the nickname you used to do so.
-Nicknames which are the primary account name expire only when the entire
-account is expired. If you know or plan to be absent for longer, please
-contact network staff in advance for potential options.
+Nicknames belonging to accounts that are older than two weeks but were last
+used within two hours of registration are also considered to be expired. For
+grouped nicknames, "used" means that you were using the nickname while logged
+in to the account which owns it. For accounts, "used" means that you logged
+in to the account, regardless of the nickname you used to do so. Nicknames
+which are the primary account name expire only when the entire account is
+expired. If you know or plan to be absent for longer, please contact network
+staff in advance for potential options.
 
 In some cases, such as for very old accounts, we may, at our discretion,
 extend the expiry time of a nickname or account, usually not beyond 15 weeks
@@ -145,7 +147,7 @@ of Libera Chat's services.
 
 ## Libera Chat and financial transactions
 
-In some instances user may want to reward a project or one of its
+In some instances a user may want to reward a project or one of its
 contributors with, for example, a donation to the project. However, it is
 expected that you carry out your own due diligence before entering into
 financial transactions. Libera Chat accepts no liability for any losses

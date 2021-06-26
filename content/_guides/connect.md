@@ -6,9 +6,24 @@ credits: web7
 
 Libera.Chat can be accessed using an [IRC client](/guides/clients).
 
-You can connect to Libera.Chat by pointing your IRC client at
-`irc.libera.chat` on ports 6665-6667 and 8000-8002 for plain-text connections,
-or ports 6697, 7000 and 7070 for TLS-encrypted connections.
+Connect to Libera.Chat with TLS at `irc.libera.chat` on port `6697`.
+
+Additional regional and address-specific hostnames are available:
+
+| ------------------------- | ---------------------- |
+| Default                   | `irc.libera.chat`      |
+| Europe                    | `irc.eu.libera.chat`   |
+| US & Canada               | `irc.us.libera.chat`   |
+| Australia and New Zealand | `irc.au.libera.chat`   |
+| East Asia                 | `irc.ea.libera.chat`   |
+| IPv4 only                 | `irc.ipv4.libera.chat` |
+| IPv6 only                 | `irc.ipv6.libera.chat` |
+
+Additional ports are available:
+
+| ---------- | -------------------- |
+| Plain-text | 6665-6667, 8000-8002 |
+| TLS        | 6697, 7000, 7070     |
 
 ## Accessing Libera.Chat Via TLS
 
@@ -41,50 +56,27 @@ appear in WHOIS (a 276 numeric).
 
 ## Accessing Libera.Chat Via Tor
 
-Libera.Chat is also reachable via
-[Tor](https://www.torproject.org/), bound to some restrictions. You can't
-directly connect to irc.libera.chat via Tor; use the following hidden service
-as the server address instead:
+Libera.Chat is reachable via [Tor](https://www.torproject.org/) using our
+[onion service](https://community.torproject.org/onion-services/).
 
-    libera75jm6of4wxpxt4aynol3xjmbtxgfyjpu34ss4d7r7q2v5zrpyd.onion
+Configuration requirements with details below:
 
-The hidden service requires SASL authentication. In addition, due to abuse
-we have seen across other networks in the past, we have unfortunately had to
-add another couple of restrictions:
+- Update `torrc` configuration file to map to the onion service.
+- Configure your client to use your Tor SOCKS proxy (typically `localhost:9050`).
+- Configure public-key SASL authentication.
+- Connect to `palladium.libera.chat`.
 
-- You must log in using SASL `EXTERNAL` or `ECDSA-NIST256P-CHALLENGE` (more
-  below)
-- If you log out while connected via Tor, you will not be able to log in
-  without reconnecting.
+```
+# torrc entry for libera.chat onion service
+MapAddress palladium.libera.chat libera75jm6of4wxpxt4aynol3xjmbtxgfyjpu34ss4d7r7q2v5zrpyd.onion
+```
 
-If you haven't set up the requisite SASL authentication, we recommend SASL
-EXTERNAL. You'll need to generate a client certificate and add that to your
-NickServ account. We describe how to in detail under our
-[guide on setting up CertFP](/guides/certfp.html).
+This service requires public-key SASL authentication using either the
+`EXTERNAL` or `ECDSA-NIST256P-CHALLENGE` mechanisms.  See our
+[guide on setting up CertFP](/guides/certfp.html) for more information.
 
-Connecting using SASL EXTERNAL requires that you connect using TLS encryption.
-
-You'll then want to tell your client to try the `EXTERNAL` mechanism. We lack
-comprehensive documentation for this, but it's a feature in most modern
-clients, so please check their docs for instructions for now.
-
-### Verifying Tor TLS connections
-
-A Tor hidden service name securely identifies the service you are connecting
-to. Verifying the TLS server certificate is strictly-speaking unnecessary
-while using the hidden service. Nonetheless you may verify the hidden service's
-TLS server certificate by adding the following fragment to your `torrc`
-configuration file and configure your client to connect to
-`palladium.libera.chat` via Tor. The TLS server certificate used by the hidden
-service will validate using this hostname.
-
-    # torrc snippet:
-    MapAddress palladium.libera.chat libera75jm6of4wxpxt4aynol3xjmbtxgfyjpu34ss4d7r7q2v5zrpyd.onion
-
-Older clients that don't support SOCKS4a or later will need to use `MapAddress`
-with an IP address, and the certificate will not validate successfully.
-In this case validation will need to be disabled.
-
-Note that the hidden service's certificate changes periodically as it is
-updated. This means that the *certificate fingerprint* can not be reliably
-pinned.
+Some clients lack SOCKS4a or later support. In this case you will need to
+change your `torrc` file to map a private IP address to the onion service
+address instead and disable TLS hostname verification in your client. Onion
+service names securely identify a service. The connection will still be
+secure.
