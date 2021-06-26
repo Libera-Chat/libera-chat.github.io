@@ -96,21 +96,21 @@ discretion if we believe that this has not been the case. You can group
 additional names to your account, but please remember that these are not
 collectibles and should not be hoarded or squatted.
 
-Nickname and account registrations expire ten weeks after they are last used.
-Nicknames belonging to accounts that are older than two weeks but were last
-used within two hours of registration are also considered to be expired. For
-grouped nicknames, "used" means that you were using the nickname while logged
-into the account which owns it. For accounts, "used" means that you logged
-into the account, regardless of the nickname you used to do so. Nicknames
-which are the primary account name expire only when the entire account is
-expired. If you know or plan to be absent for longer, please contact network
-staff in advance for potential options.
+### Nickname Expiration
 
-In some cases, such as for very old accounts, we may, at our discretion,
-extend the expiry time of a nickname or account, usually not beyond 15 weeks
-past the last use. In some rare cases, staff might deny a drop request. Some
-nicknames and accounts do not expire at all. These accounts can be identified
-by the "Hold" flag in their NickServ info output.
+- Account names expire when the whole account has been unused for more than 10
+  weeks.
+- Additional grouped nicknames expire when the grouped nickname has been
+  unused for more than 10 weeks.
+- *Special case:* Whole accounts used for less than 2 hours after creation
+  expire after 2 weeks.
+
+If you will be absent for longer than normal expiration times, please contact
+network staff in advance for potential options.
+
+Expiration times can be extended by staff for other reasons including account
+age to as much as 15 weeks past the last use. In rare cases, staff might deny
+a drop request. Accounts marked "Hold" in NickServ INFO output do not expire.
 
 Nicknames and accounts which are expired will not automatically be dropped.
 Please contact network staff if you would like to take over an expired
