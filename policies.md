@@ -97,14 +97,14 @@ additional names to your account, but please remember that these are not
 collectibles and should not be hoarded or squatted.
 
 Nickname and account registrations expire ten weeks after they are last used.
-Accounts that are older than two weeks that were last used within two hours of
-registration will have all their nicknames considered to be expired. For
-grouped nicknames, "used" means that you were using the nickname while logged
-in to the account which owns it. For accounts, "used" means that you logged
-in to the account, regardless of the nickname you used to do so. Nicknames
-which are the primary account name expire only when the entire account is
-expired. If you know or plan to be absent for longer, please contact network
-staff in advance for potential options.
+In addition, if an account is older than two weeks and was last used within
+two hours of its registration, all its nicknames are considered to be expired.
+For grouped nicknames, "used" means that you were using the nickname while
+logged in to the account which owns it. For accounts, "used" means that you
+logged in to the account, regardless of the nickname you used to do so.
+Nicknames which are the primary account name expire only when the entire
+account is expired. If you know or plan to be absent for longer, please
+contact network staff in advance for potential options.
 
 In some cases, such as for very old accounts, we may, at our discretion,
 extend the expiry time of a nickname or account, usually not beyond 15 weeks
