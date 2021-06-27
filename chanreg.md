@@ -191,7 +191,7 @@ Channels you'd like to claim:
 Would you like ONLY group contacts to be able to register these channels with
 ChanServ?:
 (The cloaks will be formatted like this:
-about/YourCommunityNameHere/accountname)
+about/YourCommunityNameHere/name or about/YourCommunityNameHere/role/name)
 ```
 
 group contacts are the members in your community that will be the official
@@ -211,7 +211,7 @@ Registered communities can profit from the following benefits:
 
 - Channels in their namespace can be claimed (with `/msg ChanServ CLAIM`)
 - Optional cloaks are available for members.
-  These replace the hostname part with `@about/yourcommunity/username`,
+  These replace the hostname part with `@about/yourcommunity/custompart`,
   and can be requested on `#libera-communities`.
 
 ## The Projects & Community Team
