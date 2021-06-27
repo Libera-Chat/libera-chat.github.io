@@ -31,8 +31,8 @@ we do not usually accept rented consumer servers. List-price VPSs are great
 value, but experience has shown that they are not sufficiently resilient.
 
 We manage servers centrally, for which we will need full, and *exclusive*,
-root privileges. Please note that sponsoring a server does not confer staff a
-ccess, and we ask that you do not attempt to use technical means to gain
+root privileges. Please note that sponsoring a server does not confer staff
+access, and we ask that you do not attempt to use technical means to gain
 such access.
 
 If you are interested and meet the requirements, please email the operations
