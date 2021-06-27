@@ -66,7 +66,7 @@ Configuration requirements with details below:
 - Configure public-key SASL authentication.
 - Connect to `palladium.libera.chat`.
 
-```
+```config
 # torrc entry for libera.chat onion service
 MapAddress palladium.libera.chat libera75jm6of4wxpxt4aynol3xjmbtxgfyjpu34ss4d7r7q2v5zrpyd.onion
 ```
