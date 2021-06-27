@@ -122,7 +122,7 @@ Links to places we can find out more about your project:
 # About you and your staff
 Your NickServ account:
 Your relationship to / position in the project:
-NickServ of group contacts and if they're primary/secondary, hidden/public:
+NickServ of group contacts and if their status is hidden/public:
 
 # Channels and cloaks (see below)
 Channels you'd like to claim:
@@ -138,8 +138,8 @@ official interface between Libera.Chat and your organization.
 They are the ones who can claim channels in your namespace(s) and
 request cloaks for your members/users.
 You can tell us whether these should be visible to the public or not.
-There are different categories of group contacts, check with our team to get
-the option that fits your structure best.
+If you need specific rules or abilities for your group contacts,
+check with our team to get the option that fits your structure best.
 
 Please send this information as an e-mail to <projects@libera.chat>.
 
@@ -183,7 +183,7 @@ Libera Chat staff member you have discussed this registration with:
 # About you and your staff
 Your NickServ account:
 Your relationship / affiliation with the community:
-NickServ of group contacts and if they're primary/secondary, hidden/public:
+NickServ of group contacts and if their status is hidden/public:
 
 # Channels and cloaks (see below)
 Channels you'd like to claim:
@@ -199,8 +199,8 @@ interface between you and Libera.Chat.
 They are the ones who can claim channels in your namespace(s) and request
 cloaks for your members/users.
 You can tell us whether these should be visible to the public or not.
-There are different categories of group contacts, check with our team to get
-the option that fits your structure best.
+If you need specific rules or abilities for your group contacts,
+check with our team to get the option that fits your structure best.
 
 Please send this information as an e-mail to <projects@libera.chat>, our team
 will then get in touch with you.
