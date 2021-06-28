@@ -41,8 +41,9 @@ The projects and community team manages our relationships with
 and community registration, coordinating with projects and communities, and
 managing our social media.
 
-The Projects and community team comprises: edk, Fuchs, glguy, kline, mquin,
-nhandler, Swant, and Unit193.
+The Projects and community team comprises: bakerst, edk, Freso, Fuchs,
+glguy, jess, jose, kline, mniip, mquin, nicole, njan, nhandler, Swant,
+tomaw, and Unit193.
 
 ## Engineering team
 
