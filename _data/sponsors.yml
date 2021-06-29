@@ -1,5 +1,6 @@
 - name: Aalto University, Finland
   link: https://www.aalto.fi/en/department-of-communications-and-networking
+  image: /static/img/aalto-logo-light.svg
   current: true
 
 - name: Academic Computer Club @ Umeå University
