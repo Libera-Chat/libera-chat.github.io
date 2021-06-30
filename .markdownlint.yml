@@ -50,9 +50,13 @@ MD042: false
 # MD044/proper-names - Proper names should have the correct capitalization
 MD044:
   # List of proper names
+  # Add our domains so they don't count for capitalization
   names:
     - Libera.Chat
     - Libera Chat
+    - irc.libera.chat
+    - irc.eu.libera.chat
+    - irc.us.libera.chat
   # Include code blocks
   code_blocks: false
 
