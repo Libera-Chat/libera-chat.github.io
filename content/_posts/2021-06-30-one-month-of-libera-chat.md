@@ -23,7 +23,7 @@ an acknowledgements page will be on the website shortly to list them all.
 When we launched, we had a small handful of EU-based servers, mostly sponsored
 by the Libera volunteer staff team themselves out of their own pockets.
 Now, we have 20+ boxes across the world, and new regional rotations
-(irc.eu.libera.chat, irc.us.libera.chat etc.
+(irc.eu.libera.chat, irc.us.libera.chat
 [and others](https://libera.chat/guides/connect)) allowing users to connect to
 a server closer to them.
 
