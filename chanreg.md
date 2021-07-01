@@ -55,7 +55,7 @@ projects and community team at <projects@libera.chat>.
 
 ### Community channels
 
-Community channels in the namespace of an already exiting community can be
+Community channels in the namespace of an already existing community can be
 registered directly via ChanServs `REGISTER` command. So if e.g. the owners of
 `#linux` would like to add `#linux-social` to the existing channels, they can
 just grab it. For namespaces not yet registered as such with us, please see
