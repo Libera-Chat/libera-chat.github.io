@@ -38,9 +38,11 @@ You must be identified to services, your channel must be registere and
 litharge must have +o on the access list `/msg ChanServ flags #example litharge +o`.
 
 - Do you have an -ops channel or a channel where the bot should announce
-  bans/quiets changes? contact us in #libera-bots
-- do you want the bans/quiets to be removed after a given period if no
-  duration given by the operator? contact us in #libera-bots
+  bans/quiets changes?
+- Do you want the bans/quiets to be removed after a given period if no
+  duration given by the operator?
+
+If yes answered: contact us in #libera-bots
 
 ### Usage
 
