@@ -12,6 +12,7 @@
   link: https://www.linode.com/
   image: /static/img/linode-logo.svg
   current: true
+  skip_htmlproofer: true
 
 - name: MediaHub Ltd
   link: https://www.mediahub.eu.com
