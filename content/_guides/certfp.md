@@ -40,7 +40,7 @@ openssl x509 -in libera.pem -noout -enddate
 The fingerprint can be checked with the following command:
 
 ```sh
-openssl x509 -in libera.pem -outform der | sha512sum -b | cut -d' ' -f1
+openssl x509 -in libera.pem -noout -fingerprint -sha512 | awk -F= '{gsub(":",""); print tolower ($2)}'
 ```
 
 ## Connecting to Libera.Chat with your certificate
