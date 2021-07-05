@@ -101,4 +101,4 @@ without notice. The currently active version can be found on this website.
 For any inquiries or concerns about how Libera Chat process your data,
 please email <policy@libera.chat>.
 
-[imy]: https://www.imy.se/other-lang/in-english/
+[imy]: https://www.imy.se/en/
