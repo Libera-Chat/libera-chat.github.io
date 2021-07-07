@@ -35,17 +35,6 @@ editing duration of mode changes, and marking and annotation of them.
 
 When requesting litharge for your channel, simply `/invite litharge #yourchannel`:
 
-- you must be identified to services
-- your channel must be registered and
-- litharge must have +o on the access list `/msg ChanServ flags #example litharge +o`.
-
-- do you have an -ops channel or a channel where the bot should announce
-  bans/quiets changes?
-- do you want the bans/quiets to be removed after a given period if no
-  duration given by the operator?
-
-If yes answered: contact us in #libera-bots
-
 ### Usage
 
 Once litharge has joined your channel, place a new ban/quiet: litharge will recognize you
