@@ -37,8 +37,8 @@ When requesting litharge for your channel, simply `/invite litharge #yourchannel
 
 ### Usage
 
-Once litharge has joined your channel, place a new ban/quiet: litharge will recognize you
-as a channel operator and will grant you access to commands:
+Once litharge has joined your channel, place a new ban/quiet: 
+litharge will recognize you as a channel operator.
 
 ```irc
 /msg litharge list chantracker
