@@ -33,7 +33,7 @@ channel mode changes and allows management of them over time. It stores
 affected users, allows deep searching of mode changes, reviewing active modes,
 editing duration of mode changes, and marking and annotation of them.
 
-When requesting litharge for your channel, simply `/invite litharge #yourchannel`:
+When requesting litharge for your channel, simply `/invite litharge #yourchannel`.
 
 ### Usage
 
