@@ -60,6 +60,16 @@ Inciting violence is not allowed. The same goes for any other behaviour meant
 to deliberately harass, alarm, or distress a person. We also do
 not tolerate libel and defamation.
 
+Collecting or sharing the private or confidential information of other people
+is not allowed. This includes but is not limited to information such as phone
+numbers, post addresses, email addresses, employment information, usernames or
+sign-in credentials. This does not apply to widely available public
+information such as the office phone number of a public official. Libera.Chat
+users and staff members have the ability to remain pseudonymous. Linking a
+Libera.Chat username of someone operating under a pseudonym to other
+identities against their will is not considered acceptable either on or off
+IRC. Libera.Chat staff will not answer questions about such information.
+
 While we believe in the concept of freedom of thought and freedom of
 expression, Libera.Chat does not operate on the basis of absolute freedom of
 speech, and we impose limitations based on the above rules.
