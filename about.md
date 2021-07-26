@@ -52,8 +52,8 @@ network such as contributions to the [Solanum IRCd](https://solanum.chat),
 and [Atheme Services](https://atheme.github.io/) as well as our websites,
 tools and bots.
 
-The engineering team comprises: amdj, bigpresh, edk, Fuchs, glguy,
-ilbelkyr, jess, mniip, niko, spb, Swant, and tomaw.
+The engineering team comprises: amdj, bakerst, bigpresh, edk, Fuchs, glguy,
+ilbelkyr, jess, kline, mniip, niko, spb, Swant, and tomaw.
 
 ## Operations team
 
