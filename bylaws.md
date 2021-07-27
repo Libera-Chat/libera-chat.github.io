@@ -156,11 +156,36 @@ v 2021-06-12, organisation number 802535-6448
 9. All documents, including the minutes, from a monthly general meeting
    should be adjusted and published to the membership no more than four (4)
    weeks after the end of the meeting.
+   
+10. All documents, including the adjusted minutes from a monthly general 
+    meeting should be released publicly no more than six (6) weeks after the
+    end of the meeting.
+    
+    Minutes should normally include the essence of discussion and substantive
+    decision-making, but not specific comments or identifiable details of 
+    members.
+    
+    Publicly-released documents may redact 'confidential' items, which if 
+    disclosed may be harmful to individuals or infrastructure, could breach 
+    legal privilege, or are otherwise sensitive. 
+    
+    The reason for treating an item as 'confidential' must be noted in the 
+    released minutes, and items to be redacted should normally be discussed 
+    during the meeting, but may also be introduced by the secretary 
+    following the meeting.
+    
+    In either case, redactions must be included by the secretary in the 
+    minutes published to the membership to allow for concerns or 
+    objections to be raised and ideally resolved prior to public release.
+    
+    In the event of irresolvable objections being raised, items will be 
+    presumed to be 'redacted' but must be brought by the secretary to the 
+    next meeting for resolution.
 
-10. An extraordinary general meeting can be called if the board, the
+11. An extraordinary general meeting can be called if the board, the
     auditors, or a majority of the membership requests so.
 
-11. Extraordinary general meetings are governed by the same bylaws as an
+12. Extraordinary general meetings are governed by the same bylaws as an
     ordinary monthly general meeting.
 
 ## Board
