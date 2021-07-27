@@ -30,12 +30,3 @@
     link: ircs://irc.libera.chat:6697
   - name: How to Connect
     link: /guides/connect
-  - name: Mastodon
-    external: true
-    link: https://fosstodon.org/@liberachat
-  - name: Twitter
-    external: true
-    link: https://twitter.com/liberachat
-  - name: Facebook
-    external: true
-    link: https://www.facebook.com/liberachat
