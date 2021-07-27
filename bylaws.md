@@ -34,14 +34,24 @@ v 2021-06-12, organisation number 802535-6448
 
 ## Membership
 
-1. Membership is granted by approval of a monthly general meeting to those
-   who seek membership and are determined to be trustworthy by the membership.
+1. Membership is open to and required for staff of the Libera Chat IRC network
+   and granted by approval of a monthly general meeting. Staff status on the
+   Libera Chat IRC network is limited to members.
 
-2. There are two levels of membership: ordinary member, and quorum member.
+2. The monthly general meeting may extend an invitation to a person to become
+   staff of the Libera Chat IRC network. The monthly general meeting may not
+   invite a person who have failed a vote for membership in the last two (2)
+   years without simultaneously approving them for membership.
+
+3. All staff of the Libera Chat IRC network must be approved for membership no
+   later than two (2) regularly scheduled monthly general meetings after
+   becoming staff, or have their staff status revoked.
+
+4. There are two levels of membership: ordinary member, and quorum member.
    Members of either type may at any time switch between the two types of
    member status by notifying the board. The board are always quorum members.
 
-3. Membership is terminated if:
+5. Membership is terminated if:
 
    - The member withdraws their membership, or
 
@@ -268,6 +278,11 @@ v 2021-06-12, organisation number 802535-6448
 1. The monthly general meeting may suspend a member from the organisation for
    any reason. The person in question to be suspended may not vote or
    participate during the discussion of their suspension.
+
+2. If a member's staff status on the Libera Chat IRC network is suspended, a
+   discussion and vote on suspending their membership should be held on the
+   next monthly general meeting. If the member is not suspended, their staff
+   status should be reinstated.
 
 ## Interpretation of the bylaws
 
