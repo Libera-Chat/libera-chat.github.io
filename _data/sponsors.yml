@@ -1,6 +1,9 @@
 - name: Aalto University, Finland
   link: https://www.aalto.fi/en/department-of-communications-and-networking
-  image: /static/img/aalto-logo-light.svg
+  image: /static/img/aalto-logo-dark.svg
+  sources:
+    - srcset: /static/img/aalto-logo-light.svg
+      media: '(prefers-color-scheme: dark)'
   current: true
 
 - name: Academic Computer Club @ Umeå University
@@ -10,7 +13,10 @@
 
 - name: Linode
   link: https://www.linode.com/
-  image: /static/img/linode-logo.svg
+  image: /static/img/linode-dark.svg
+  sources:
+    - srcset: /static/img/linode-light.svg
+      media: '(prefers-color-scheme: dark)'
   current: true
   skip_htmlproofer: true
 
