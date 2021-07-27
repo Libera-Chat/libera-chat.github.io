@@ -30,6 +30,9 @@ collections:
   posts:
     output: true
     permalink: /news/:title
+  minutes:
+    output: true
+    permalink: /minutes/:year-:month-:day-:title
 
 feed:
   path: atom.xml
@@ -43,6 +46,11 @@ defaults:
   - scope:
       path: ""
       type: posts
+    values:
+      layout: article
+  - scope:
+      path: ""
+      type: minutes
     values:
       layout: article
   - scope:

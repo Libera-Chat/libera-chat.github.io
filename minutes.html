@@ -1,0 +1,10 @@
+---
+title: Meeting Minutes
+---
+
+{% for minutes in site.minutes %}
+{%- include article.html article=minutes link_only=true no_nav=true -%}
+{% unless post.previous == null %}
+<hr>
+{% endunless %}
+{% endfor %}

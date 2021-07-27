@@ -1,5 +1,5 @@
 <article>
-  {% if include.excerpt %}
+  {% if include.excerpt or include.link_only %}
   <h2>{{ include.article.title }}</h2>
   {% else %}
   <h1>{{ include.article.title }}</h1>
@@ -12,10 +12,12 @@
     {% endif %}
   </p>
 
-  {% if include.excerpt %}
+  {% if include.excerpt and include.link_only != true %}
   {{ include.article.excerpt }}
 
   <p><a href="{{ include.article.url }}">Read more</a></p>
+  {% elsif include.link_only %}
+  <p><a href="{{ include.article.url }}">Read</a></p>
   {% else %}
   {{ include.article.content }}
   {% endif %}
