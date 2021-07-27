@@ -14,7 +14,20 @@ would be possible
   {% for sponsor in current_sponsors %}
   <a href="{{ sponsor.link }}" {% if sponsor.skip_htmlproofer %}data-proofer-ignore {% endif %}rel="noopener noreferrer">
     {% if sponsor.image %}
+    {% if sponsor.sources %}
+    <picture>
+    {% for source in sponsor.sources %}
+    <source
+      srcset="{{ source.srcset }}"
+      {% if source.type %}type="{{ source.type }}"{% endif %}
+      {% if source.media %}media="{{ source.media }}"{% endif %}
+    >
+    {% endfor %}
+    {% endif %}
     <img src="{{ sponsor.image }}" alt="{{ sponsor.name }}" loading="lazy" height="64" />
+    {% if sponsor.sources %}
+    </picture>
+    {% endif %}
     {% else %}
     {{ sponsor.name }}
     {% endif %}

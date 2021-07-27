@@ -21,16 +21,31 @@
 
 - name: Psychz Networks, A Profuse Solutions Inc Company
   link: https://www.psychz.net/
-  image: /static/img/psychz-networks-logo.webp
+  image: /static/img/psychz-networks-logo.png
+  sources:
+    - srcset: /static/img/psychz-networks-logo.png
+      type: image/webp
   current: true
 
 - name: Seeweb
   link: https://www.seeweb.it/
-  image: /static/img/seeweb_black.png
+  image: /static/img/seeweb-black.png
+  sources:
+    - srcset: /static/img/seeweb-black.webp
+      type: image/webp
   current: true
 
 - name: Ziax
   link: https://ziax.com/
-  image: /static/img/ziax-logo-dark.webp
-  image_dark: /static/img/ziax-logo-white.webp
+  image: /static/img/ziax-logo-dark.png
+  sources:
+    - srcset: /static/img/ziax-logo-dark.webp
+      media: '(prefers-color-scheme: light)'
+      type: image/webp
+    - srcset: /static/img/ziax-logo-white.png
+      media: '(prefers-color-scheme: dark)'
+      type: image/png
+    - srcset: /static/img/ziax-logo-white.webp
+      media: '(prefers-color-scheme: dark)'
+      type: image/webp
   current: true
