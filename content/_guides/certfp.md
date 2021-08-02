@@ -8,7 +8,7 @@ As an alternative to password-based authentication, you can connect to
 Libera.Chat with a TLS certificate and have services recognise it
 automatically.
 
-For `SASL EXTERNAL` to work, you must connect over TLS.
+For `SASL EXTERNAL` to work, you must [connect over TLS](/guides/connect).
 
 ## Creating a self-signed certificate
 
@@ -162,4 +162,4 @@ You can then authorise your current certificate fingerprint:
 
 In the future, any connections you make to Libera.Chat with your certificate
 will be logged into your account automatically. Optionally, or if you wish to
-connect via Tor, you can enable SASL with the `EXTERNAL` mechanism.
+[connect via Tor](/guides/connect), you can enable SASL with the `EXTERNAL` mechanism.
