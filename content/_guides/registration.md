@@ -102,6 +102,13 @@ For example:
 /connect irc.libera.chat 6667 YourNick:YourPassword
 ```
 
+If you are already connected to the network and do not wish to reconnect to
+log in, you can manually identify:
+
+```irc
+/msg NickServ IDENTIFY YourNick YourPassword
+```
+
 ## Unable to Speak
 
 If a channel is set to mode `+r`, you won't be able to join it unless you
