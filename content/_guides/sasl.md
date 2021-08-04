@@ -51,11 +51,9 @@ existing NickServ account with a **verified email address**. Connections from
 these ranges will be refused with the message `SASL access only`. You can
 follow the instructions above to configure many commonly used clients.
 
-To [create a NickServ account](/guides/registration) from a restricted IP
-address, you can first connect with a web client such as
-[our webchat](https://web.libera.chat). Webchat is not affected by the SASL
-restriction. Once your NickServ account's email address has been verified you
-can use that account to satisfy the SASL requirement.
+Our webchat is **no longer exempt** from the SASL access only restriction. You 
+will need to find an alternative connection to register your account on before
+swapping to using the SASL access only connection.
 
 SASL access only restrictions are typically applied to address ranges that are
 the source of frequent policy violations due to providing easy access to
