@@ -32,7 +32,7 @@ You can request a generic user cloak from the bot in `#libera-cloak`. The
 cloak will be in the form of `user/<NickServ username>`. Registration with
 `NickServ` is required.
 
-### To request a cloak from the bot:
+### Requesting a self-service user cloak
 
 Please note: This process may change in the future.
 
@@ -41,13 +41,13 @@ Please note: This process may change in the future.
 2. `/join #libera-cloak`
 3. Say `!cloakme`
 
-The bot will give your account a generic user cloak and then — because its work
-is done — politely kick and ban you from the channel.
+The bot will give your account a generic user cloak and then — because its
+work is done — politely kick and ban you from the channel.
 
 Your new cloak takes effect immediately. It will automatically activate each
 time you log in to your nickserv account in the future.
 
-### It didn't work!
+### If it does not work
 
 If you already have a cloak and wish to change the nickname in it, you will
 need to have a staff member update it. This is to prevent abuse.
@@ -96,10 +96,11 @@ bearer's behaviour will reflect onto the reputation of your project or community
 
 ## Re-identifying with NickServ
 
-Assigned cloaks must be associated with an account and will not appear if you are
-not identified. If you are not [using SASL](/guides/sasl) or a server password in
-your client, you may need to re-identify with `NickServ` before getting cloaked or
-before the cloak is active. See `/msg NickServ HELP IDENTIFY` for more information.
+Assigned cloaks must be associated with an account and will not appear if you
+are not identified. If you are not [using SASL](/guides/sasl) or a server
+password in your client, you may need to re-identify with `NickServ` before
+getting cloaked or before the cloak is active. See
+`/msg NickServ HELP IDENTIFY` for more information.
 
 ## Checking your cloak
 
@@ -129,22 +130,25 @@ bouncers, cloud-based hosts, and Tor. To connect to Libera.Chat via Tor, see
 
 ### Caveats of Cloaks
 
- * Caveat: Your ip and hostname is visible when you join channels before 
- your account is associated with a cloak
+- Caveat: Your ip or hostname is visible when you join channels before
+your account is associated with a cloak.
  
-   Workaround: Do not visit channels, other than the cloaking channel, before 
-   you are cloaked
+  - Workaround: Do not visit channels, other than the cloaking channel,
+before you are cloaked
 
- * Your ip or hostname is visible if you join channels after connecting but 
- before identifying to your account
- 
-   Workaround: Use only the [SASL](sasl) authentication method and configure 
-   the client to abort or retry if authentication fails.
+  - Even with the above, `/whowas yournick` will show your pre-cloaked ip
+or hostname for an indeterminate number of hours.
 
- * Caveat: If you click on links, your internet browser can disclose your ip.
+- Your ip or hostname is visible if you join channels after connecting but
+before identifying to your account
  
-   Workaround: Copy-paste the link into a browser that you know is using a VPN 
-   or Tor.
+  - Workaround: Use only the [SASL](sasl) authentication method and configure
+the client to abort or retry if authentication fails.
+
+- Caveat: If you click on links, your internet browser can disclose your ip.
+ 
+  - Workaround: Copy-paste the link into a browser that you know is using a
+VPN or Tor.
    
- * Caveat: Some IRC functionality will inherently reveal your IP or hostname.
- We do the best we can to prevent this but we cannot prevent all of it.
+- Caveat: Some IRC functionality will inherently reveal your IP or hostname.
+We do the best we can to prevent this but we cannot prevent all of it.
