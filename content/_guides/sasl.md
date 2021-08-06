@@ -51,9 +51,9 @@ existing NickServ account with a **verified email address**. Connections from
 these ranges will be refused with the message `SASL access only`. You can
 follow the instructions above to configure many commonly used clients.
 
-Our webchat is **no longer exempt** from the SASL access only restriction. You 
-will need to find an alternative connection to register your account on before
-swapping to using the SASL access only connection.
+Our webchat is **no longer exempt** from the SASL access only restriction.
+You will need to find an alternative connection to register your account on
+before swapping to using the SASL access only connection.
 
 SASL access only restrictions are typically applied to address ranges that are
 the source of frequent policy violations due to providing easy access to
