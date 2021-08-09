@@ -37,7 +37,8 @@ cloak will be in the form of `user/<NickServ username>`. Registration with
 Please note: This process may change in the future.
 
 1. [Register with NickServ](/guides/registration) if you have not already
-   done so. You will also need to be [identified](registration#logging-in).
+   done so. You will also need to be
+   [identified](/guides/registration#logging-in).
 2. `/join #libera-cloak`
 3. Say `!cloakme`
 
