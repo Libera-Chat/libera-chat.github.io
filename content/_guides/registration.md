@@ -34,11 +34,15 @@ may have.
 
 2. **Switch** to your desired nickname. This will also be your account name.
 
-       /nick YourNick
+   ```irc
+   /nick YourNick
+   ```
 
 3. **Register** your IRC nick:
 
-       /msg NickServ REGISTER YourPassword youremail@example.com
+   ```irc
+   /msg NickServ REGISTER YourPassword youremail@example.com
+   ```
 
    Replace "YourPassword" with a secure, unguessable, and unique password
    that you keep secret. Reusing passwords between services can result in
@@ -61,15 +65,21 @@ may have.
 4. It's useful, but not required, to have an alternate nick grouped to your
    account. For example, if your primary nick is "YourNick":
 
-       /nick YourNick2
+   ```irc
+   /nick YourNick2
+   ```
 
    then identify to your primary account:
 
-       /msg NickServ IDENTIFY YourNick YourPassword
+   ```irc
+   /msg NickServ IDENTIFY YourNick YourPassword
+   ```
 
    and finally, group the new nick to your account
 
-       /msg NickServ GROUP
+   ```irc
+   /msg NickServ GROUP
+   ```
 
    We prefer you to use just one account, and group nicks to it as described
    above, rather than registering for multiple accounts. Grouping nicks in
@@ -88,7 +98,16 @@ your login details, in the form `<account>:<password>`, as a server password
 and they will be forwarded to NickServ when you finish connecting.
 For example:
 
-    /connect irc.libera.chat 6667 YourNick:YourPassword
+```irc
+/connect irc.libera.chat 6667 YourNick:YourPassword
+```
+
+If you are already connected to the network and do not wish to reconnect to
+log in, you can manually identify:
+
+```irc
+/msg NickServ IDENTIFY YourNick YourPassword
+```
 
 ## Unable to Speak
 

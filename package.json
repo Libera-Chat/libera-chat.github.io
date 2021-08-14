@@ -1,0 +1,21 @@
+{
+  "name": "libera-chat.github.io",
+  "version": "1.0.0",
+  "description": "Libera Chat website",
+  "scripts": {
+    "lint:md": "markdownlint -p .gitignore '**/*.md'",
+    "lint:md:fix": "npm run lint:md -- --fix"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "markdownlint-cli": "^0.27.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Libera-Chat/libera-chat.github.io.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Libera-Chat/libera-chat.github.io/issues"
+  },
+  "homepage": "https://github.com/Libera-Chat/libera-chat.github.io#readme"
+}

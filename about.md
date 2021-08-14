@@ -2,11 +2,12 @@
 title: About Libera Chat
 ---
 
-Libera Chat is a Swedish nonprofit organisation, feel free to
-[read our bylaws](/bylaws). The organisation is run entirely by volunteer staff
-who are the members of, and have equal voting power in, the organisation.
-Libera Chat's purpose is to provide services such as a community platform for
-free open-source software and peer directed projects on a volunteer basis.
+Libera Chat is a Swedish nonprofit organisation with organisation number
+802535-6448, feel free to [read our bylaws](/bylaws). The organisation is run
+entirely by volunteer staff who are the members of, and have equal voting power
+in, the organisation. Libera Chat's purpose is to provide services such as a
+community platform for free open-source software and peer directed projects on
+a volunteer basis.
 
 Most decisions are taken by the membership as a whole. The board
 primarily deals with organisational tasks like managing our bookkeeping
@@ -40,8 +41,9 @@ The projects and community team manages our relationships with
 and community registration, coordinating with projects and communities, and
 managing our social media.
 
-The Projects and community team comprises: edk, Fuchs, glguy, kline, mquin,
-nhandler, Swant, and Unit193.
+The Projects and community team comprises: bakerst, edk, Freso, Fuchs,
+glguy, jess, jose, kline, mniip, mquin, nicole, njan, nhandler, Swant,
+tomaw, and Unit193.
 
 ## Engineering team
 
@@ -50,8 +52,8 @@ network such as contributions to the [Solanum IRCd](https://solanum.chat),
 and [Atheme Services](https://atheme.github.io/) as well as our websites,
 tools and bots.
 
-The engineering team comprises: amdj, bigpresh, edk, Fuchs, glguy,
-ilbelkyr, jess, mniip, niko, and Swant.
+The engineering team comprises: amdj, bakerst, bigpresh, edk, Fuchs, glguy,
+ilbelkyr, jess, kline, mniip, niko, spb, Swant, and tomaw.
 
 ## Operations team
 
@@ -59,8 +61,8 @@ The operations team manage our infrastructure, making sure the network stays
 operational and ensuring we have the right hardware and server platforms to
 operate the services we provide.
 
-The operations team comprises: bigpresh, edk, Fuchs, glguy, Md, mquin, and
-nhandler.
+The operations team comprises: bigpresh, edk, Fuchs, glguy, Md, mquin,
+nhandler, and tomaw.
 
 ## Wider staff and organisation membership
 
@@ -70,9 +72,9 @@ be in vain and more importantly day to day operation of the network would be
 impossible.
 
 Staff and membership comprises: amdj, bakerst, bigpresh, coffee-cup, deedra,
-edk, el, emerson, emilsp, Freso, Fuchs, glguy, ilbelkyr, jess, JonathanD,
-jose, kline, li, Md, mniip, mquin, nhandler, niko, njan, Stx, Swant,
-and Unit193.
+edk, el, emerson, emilsp, Freso, Fuchs, glguy, jess, jewel, JonathanD, jose,
+kline, li, marienz, Md, mniip, mquin, nhandler, nicole, niko, njan, Pricey,
+RichiH, spb, Stx, Swant, tomaw, and Unit193.
 
 The best way to reach staff is the channel `#libera` or via the command
 `/stats p` which lists immediately available staff.

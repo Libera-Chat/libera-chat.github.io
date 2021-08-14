@@ -8,11 +8,14 @@
     link: /about
   - name: Bylaws
     link: /bylaws
-  # - name: Acknowledgements
-# - name: Contribute
-#    items:
-#   - name: Sponsor Us
-#   - name: Development
+  - name: Sponsors
+    link: /sponsors
+- name: Contribute
+  items:
+  - name: Sponsor Us
+    link: /contributing/sponsor
+  - name: Development
+    link: /contributing/development
 - name: Channel Namespaces
   link: /chanreg
 - name: Guides
@@ -25,16 +28,5 @@
     link: https://web.libera.chat
   - name: irc.libera.chat:6697 (TLS)
     link: ircs://irc.libera.chat:6697
-  - name: irc.libera.chat:6667 (plaintext)
-    link: irc://irc.libera.chat:6667
   - name: How to Connect
     link: /guides/connect
-  - name: Mastodon
-    external: true
-    link: https://fosstodon.org/@liberachat
-  - name: Twitter
-    external: true
-    link: https://twitter.com/liberachat
-  - name: Facebook
-    external: true
-    link: https://www.facebook.com/liberachat

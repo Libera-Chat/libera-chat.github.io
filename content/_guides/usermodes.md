@@ -4,15 +4,20 @@ category: using
 credits: web7
 ---
 
-Various modes can be set on users. Some of them can be set by the users, others
-are set by the network. You can list your current user modes with the
+Various modes can be set on users. Some of them can be set by the users,
+others are set by the network. You can list your current user modes with the
 `/mode yourname` command.
 
-For those that can be set by users, `/mode yourname +mode` will work.
+For those that can be set by users, `/mode yourname +<mode>` will work. For
+example to set the mode that subscribes you to announcements (also called
+wallops):
 
-Keep in mind that all user modes are per session, so you have to set them again
-every time you connect—most clients can automate this for you.
+```irc
+/mode yourname +w
+```
 
+Keep in mind that all user modes are per session, so you have to set them
+again every time you connect—most clients can automate this for you.
 
 ## Available user modes
 

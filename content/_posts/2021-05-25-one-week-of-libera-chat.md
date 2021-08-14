@@ -33,6 +33,7 @@ We hope to see you chatting with us soon,\
 kline
 
 PS: Some other "staff pick" projects we're excited to show you!
+
 - [SourceHut](https://sourcehut.org/blog/2021-05-19-liberachat/)
 - [Battle for Wesnoth](https://twitter.com/Wesnoth/status/1396298348118913025)
 - [Mutt](http://lists.mutt.org/pipermail/mutt-announce/Week-of-Mon-20210517/000037.html)

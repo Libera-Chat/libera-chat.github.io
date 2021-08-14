@@ -1,0 +1,55 @@
+name: Lint
+
+on: [push, pull_request]
+
+jobs:
+  markdownlint:
+    name: Check markdown for style issues
+    runs-on: ubuntu-latest
+
+    # Steps represent a sequence of tasks that will be executed as part of the job
+    steps:
+      - uses: actions/checkout@v2
+      - name: Cache
+        uses: actions/cache@v2.1.4
+        with:
+          path: ~/.npm
+          key: ${{ runner.os }}-node-${{ hashFiles('**/package.json') }}
+          restore-keys: |
+            ${{ runner.os }}-node-
+      - uses: actions/setup-node@v2
+        with:
+          node-version: 12
+      - run: npm i --prefer-offline
+
+      - uses: xt0rted/markdownlint-problem-matcher@v1
+      - run: npm run lint:md
+      - uses: xt0rted/markdownlint-problem-matcher@v1
+        if: success() || failure()
+        with:
+          action: remove
+
+  htmlproofer:
+    name: Run htmlproofer
+    runs-on: ubuntu-latest
+    env:
+      BUNDLE_PATH: vendor/bundle
+    steps:
+      - uses: actions/checkout@v2
+      - name: Ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: 2.7
+          bundler-cache: true
+      - run: bundle exec jekyll build
+      - name: Cache HTMLProofer
+        id: cache-htmlproofer
+        uses: actions/cache@v2
+        with:
+          path: tmp/.htmlproofer
+          key: ${{ runner.os }}-htmlproofer
+      - run: echo "::add-matcher::.github/workflow-support/htmlproofer-matcher.json"
+      - name: Check for broken links
+        run: bundle exec htmlproofer --assume-extension ./_site
+      - run: echo "::remove-matcher owner=htmlproofer::"
+        if: success() || failure()
