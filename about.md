@@ -41,8 +41,9 @@ The projects and community team manages our relationships with
 and community registration, coordinating with projects and communities, and
 managing our social media.
 
-The Projects and community team comprises: edk, Fuchs, glguy, kline, mquin,
-nhandler, Swant, and Unit193.
+The Projects and community team comprises: bakerst, edk, Freso, Fuchs,
+glguy, jess, jose, kline, mniip, mquin, nicole, njan, nhandler, Swant,
+tomaw, and Unit193.
 
 ## Engineering team
 
@@ -51,8 +52,8 @@ network such as contributions to the [Solanum IRCd](https://solanum.chat),
 and [Atheme Services](https://atheme.github.io/) as well as our websites,
 tools and bots.
 
-The engineering team comprises: amdj, bigpresh, edk, Fuchs, glguy,
-ilbelkyr, jess, mniip, niko, spb, Swant, and tomaw.
+The engineering team comprises: amdj, bakerst, bigpresh, edk, Fuchs, glguy,
+ilbelkyr, jess, kline, mniip, niko, spb, Swant, and tomaw.
 
 ## Operations team
 

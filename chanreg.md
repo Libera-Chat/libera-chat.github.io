@@ -55,8 +55,8 @@ projects and community team at <projects@libera.chat>.
 
 ### Community channels
 
-Community channels in the namespace of an already exiting community can be
-registered directly via ChanServs `REGISTER` command. So if e.g. the owners of
+Community channels in the namespace of an already existing community can be
+registered directly via ChanServ's `REGISTER` command. So if e.g. the owners of
 `#linux` would like to add `#linux-social` to the existing channels, they can
 just grab it. For namespaces not yet registered as such with us, please see
 [community registration](#community-registration).
@@ -122,7 +122,7 @@ Links to places we can find out more about your project:
 # About you and your staff
 Your NickServ account:
 Your relationship to / position in the project:
-NickServ of group contacts and if they're primary/secondary, hidden/public:
+NickServ of group contacts and if their status is hidden/public:
 
 # Channels and cloaks (see below)
 Channels you'd like to claim:
@@ -138,8 +138,8 @@ official interface between Libera.Chat and your organization.
 They are the ones who can claim channels in your namespace(s) and
 request cloaks for your members/users.
 You can tell us whether these should be visible to the public or not.
-There are different categories of group contacts, check with our team to get
-the option that fits your structure best.
+If you need specific rules or abilities for your group contacts,
+check with our team to get the option that fits your structure best.
 
 Please send this information as an e-mail to <projects@libera.chat>.
 
@@ -183,7 +183,7 @@ Libera Chat staff member you have discussed this registration with:
 # About you and your staff
 Your NickServ account:
 Your relationship / affiliation with the community:
-NickServ of group contacts and if they're primary/secondary, hidden/public:
+NickServ of group contacts and if their status is hidden/public:
 
 # Channels and cloaks (see below)
 Channels you'd like to claim:
@@ -191,7 +191,7 @@ Channels you'd like to claim:
 Would you like ONLY group contacts to be able to register these channels with
 ChanServ?:
 (The cloaks will be formatted like this:
-about/YourCommunityNameHere/accountname)
+about/YourCommunityNameHere/name or about/YourCommunityNameHere/role/name)
 ```
 
 group contacts are the members in your community that will be the official
@@ -199,8 +199,8 @@ interface between you and Libera.Chat.
 They are the ones who can claim channels in your namespace(s) and request
 cloaks for your members/users.
 You can tell us whether these should be visible to the public or not.
-There are different categories of group contacts, check with our team to get
-the option that fits your structure best.
+If you need specific rules or abilities for your group contacts,
+check with our team to get the option that fits your structure best.
 
 Please send this information as an e-mail to <projects@libera.chat>, our team
 will then get in touch with you.
@@ -211,12 +211,12 @@ Registered communities can profit from the following benefits:
 
 - Channels in their namespace can be claimed (with `/msg ChanServ CLAIM`)
 - Optional cloaks are available for members.
-  These replace the hostname part with `@about/yourcommunity/username`,
+  These replace the hostname part with `@about/yourcommunity/custompart`,
   and can be requested on `#libera-communities`.
 
 ## The Projects & Community Team
 
-The Projects & Community Team comprises, among others, e, Fuchs, kline, glguy
+The Projects & Community Team comprises, among others, e, Fuchs, kline
 and Swant; together they will act as your liaisons during the project
 registration or topic claiming process and throughout your tenure on the
 Libera.Chat network. If you wish to discuss the registration process, find out

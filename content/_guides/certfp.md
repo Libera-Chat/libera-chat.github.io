@@ -8,7 +8,7 @@ As an alternative to password-based authentication, you can connect to
 Libera.Chat with a TLS certificate and have services recognise it
 automatically.
 
-For `SASL EXTERNAL` to work, you must connect over TLS.
+For `SASL EXTERNAL` to work, you must [connect over TLS](/guides/connect).
 
 ## Creating a self-signed certificate
 
@@ -40,7 +40,7 @@ openssl x509 -in libera.pem -noout -enddate
 The fingerprint can be checked with the following command:
 
 ```sh
-openssl x509 -in libera.pem -outform der | sha512sum -b | cut -d' ' -f1
+openssl x509 -in libera.pem -noout -fingerprint -sha512 | awk -F= '{gsub(":",""); print tolower ($2)}'
 ```
 
 ## Connecting to Libera.Chat with your certificate
@@ -50,7 +50,7 @@ configure them to offer it to the server. If yours is not yet listed here,
 advice in this section is unlikely to apply, but guides may be available
 elsewhere on the web.
 
-### irssi
+### Irssi
 
 Move the certificates you created above to ~/.irssi/certs
 
@@ -59,13 +59,32 @@ mkdir ~/.irssi/certs
 mv libera.pem ~/.irssi/certs
 ```
 
-Now configure your `/server` entry for Libera.Chat to use this certificate. You
+Configure your `/server` entry for Libera.Chat to use this certificate. You
 may need to adapt this example for your existing configuration (the network
 and hostname should match what you already use).
 
 ```irc
-/server add -auto -ssl -ssl_cert ~/.irssi/certs/libera.pem -network libera irc.libera.chat 6697
+/server add -tls_cert ~/.irssi/certs/libera.pem -network LiberaChat irc.libera.chat 6697
 ```
+
+For the first time, connect to Libera.Chat using password authentication so
+that you can add the certificate fingerprint to NickServ.
+
+```irc
+/connect LiberaChat
+```
+
+Now follow the instructions [to add the fingerprint](#add-your-fingerprint-to-nickserv).
+When done, you can switch the authentication to certificates.
+
+```irc
+/disconnect LiberaChat
+/network add -sasl_password '' -sasl_mechanism EXTERNAL LiberaChat
+/connect LiberaChat
+```
+
+If you did everthing right you should now be authenticated using your
+certificate.
 
 ### weechat
 
@@ -81,11 +100,11 @@ the SSL flag, using your newly generated certificate. Note that these commands
 are just examples, you have to adapt them to your current servers.
 
 ```irc
-/set irc.server.libera.addresses irc.libera.chat/6697
-/set irc.server.libera.ssl on
-/set irc.server.libera.ssl_verify on
-/set irc.server.libera.ssl_cert %h/certs/libera.pem
-/set irc.server.libera.sasl_mechanism external
+/set irc.server.liberachat.addresses irc.libera.chat/6697
+/set irc.server.liberachat.ssl on
+/set irc.server.liberachat.ssl_verify on
+/set irc.server.liberachat.ssl_cert %h/certs/libera.pem
+/set irc.server.liberachat.sasl_mechanism external
 ```
 
 and then reconnect to Libera.Chat.
@@ -162,4 +181,4 @@ You can then authorise your current certificate fingerprint:
 
 In the future, any connections you make to Libera.Chat with your certificate
 will be logged into your account automatically. Optionally, or if you wish to
-connect via Tor, you can enable SASL with the `EXTERNAL` mechanism.
+[connect via Tor](/guides/connect), you can enable SASL with the `EXTERNAL` mechanism.

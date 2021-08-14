@@ -4,7 +4,9 @@
 
 ### Content
 
-- Use British English
+- Use British English. Exceptions apply to content:
+  - copied verbatim from external sources (notably the LICENSE files); or
+  - that must comply with technical standards
 - Channel names, nicknames, channel modes, user modes, IRC verbs, and IRC
   commands should be escaped (as code), for example: `/join #libera`
 - Filenames will be the URL slug; use lowercase alphanumeric characters and

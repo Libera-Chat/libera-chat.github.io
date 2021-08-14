@@ -5,6 +5,14 @@
     is attempting to message you. You can choose to receive messages with the
     `/accept` command. Messaging a user automatically accepts them.
     Messages from unidentified users will still be blocked by `+R`.
+- mode: G
+  name: soft caller-id
+  description: |
+    Ignores private messages from users who you do not share channels with, 
+    instead informing you someone is attempting to message you. You can 
+    choose to receive messages with the `/accept` command. Messaging a user 
+    automatically accepts them.
+    Messages from unidentified users will still be blocked by `+R`.
 - mode: i
   name: invisible
   description: |

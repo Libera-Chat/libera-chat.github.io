@@ -33,28 +33,19 @@ channel mode changes and allows management of them over time. It stores
 affected users, allows deep searching of mode changes, reviewing active modes,
 editing duration of mode changes, and marking and annotation of them.
 
-When requesting litharge for your channel, **contact us** in `#libera-bots`
-with the following informations:
-
-- do you have an -ops channel or a channel where the bot should announce
-  bans/quiets changes
-- do you want the bans/quiets to be removed after a given period if no
-  duration given by the operator?
-- ensure `/msg ChanServ flags #example litharge +o` is in place
-
-To create an account on litharge: `/msg litharge hello`. This only works if you
-are [identified to services](https://libera.chat/guides/registration).
+When requesting litharge for your channel, simply `/invite litharge #yourchannel`.
 
 ### Usage
 
-Once you’re registered with the bot you can ask it for help at any time:
+Once litharge has joined your channel, place a new ban/quiet and
+litharge will recognize you as a channel operator.
 
 ```irc
 /msg litharge list chantracker
 /msg litharge help <command>
 ```
 
-After you quiet/kick/ban (ie: a "mode change") the offending user, you need to
+After you quiet/ban (ie: a "mode change") the offending user, you need to
 set the mode change expiration and document with litharge.
 
 You will receive a PM from litharge asking you to document the mode change.

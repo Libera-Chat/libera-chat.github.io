@@ -34,14 +34,24 @@ v 2021-06-12, organisation number 802535-6448
 
 ## Membership
 
-1. Membership is granted by approval of a monthly general meeting to those
-   who seek membership and are determined to be trustworthy by the membership.
+1. Membership is open to and required for staff of the Libera Chat IRC network
+   and granted by approval of a monthly general meeting. Staff status on the
+   Libera Chat IRC network is limited to members.
 
-2. There are two levels of membership: ordinary member, and quorum member.
+2. The monthly general meeting may extend an invitation to a person to become
+   staff of the Libera Chat IRC network. The monthly general meeting may not
+   invite a person who have failed a vote for membership in the last two (2)
+   years without simultaneously approving them for membership.
+
+3. All staff of the Libera Chat IRC network must be approved for membership no
+   later than two (2) regularly scheduled monthly general meetings after
+   becoming staff, or have their staff status revoked.
+
+4. There are two levels of membership: ordinary member, and quorum member.
    Members of either type may at any time switch between the two types of
    member status by notifying the board. The board are always quorum members.
 
-3. Membership is terminated if:
+5. Membership is terminated if:
 
    - The member withdraws their membership, or
 
@@ -157,10 +167,35 @@ v 2021-06-12, organisation number 802535-6448
    should be adjusted and published to the membership no more than four (4)
    weeks after the end of the meeting.
 
-10. An extraordinary general meeting can be called if the board, the
+10. All documents, including the adjusted minutes from a monthly general
+    meeting should be released publicly no more than six (6) weeks after the
+    end of the meeting.
+
+    Minutes should normally include the essence of discussion and substantive
+    decision-making, but not specific comments or identifiable details of
+    members.
+
+    Publicly-released documents may redact 'confidential' items, which if
+    disclosed may be harmful to individuals or infrastructure, could breach
+    legal privilege, or are otherwise sensitive.
+
+    The reason for treating an item as 'confidential' must be noted in the
+    released minutes, and items to be redacted should normally be discussed
+    during the meeting, but may also be introduced by the secretary
+    following the meeting.
+
+    In either case, redactions must be included by the secretary in the
+    minutes published to the membership to allow for concerns or
+    objections to be raised and ideally resolved prior to public release.
+
+    In the event of irresolvable objections being raised, items will be
+    presumed to be 'redacted' but must be brought by the secretary to the
+    next meeting for resolution.
+
+11. An extraordinary general meeting can be called if the board, the
     auditors, or a majority of the membership requests so.
 
-11. Extraordinary general meetings are governed by the same bylaws as an
+12. Extraordinary general meetings are governed by the same bylaws as an
     ordinary monthly general meeting.
 
 ## Board
@@ -243,6 +278,11 @@ v 2021-06-12, organisation number 802535-6448
 1. The monthly general meeting may suspend a member from the organisation for
    any reason. The person in question to be suspended may not vote or
    participate during the discussion of their suspension.
+
+2. If a member's staff status on the Libera Chat IRC network is suspended, a
+   discussion and vote on suspending their membership should be held on the
+   next monthly general meeting. If the member is not suspended, their staff
+   status should be reinstated.
 
 ## Interpretation of the bylaws
 
