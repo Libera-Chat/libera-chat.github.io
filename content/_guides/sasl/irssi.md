@@ -12,8 +12,8 @@ find out by running `irssi -v` in your nearest shell).
 Recent Irssi versions include built-in SASL support via `/network`:
 
 ```irc
-/network add -sasl_username <login> -sasl_password <password> -sasl_mechanism PLAIN liberachat
-/server add -auto -net liberachat -tls -tls_verify irc.libera.chat 6697
+/network add -sasl_username <login> -sasl_password <password> -sasl_mechanism PLAIN LiberaChat
+/server add -auto -net LiberaChat -tls -tls_verify irc.libera.chat 6697
 /save
 ```
 
@@ -23,7 +23,7 @@ To check that the setting was correct, run `/network` and confirm that the
 Libera.Chat entry looks like this:
 
 ```irc
-liberachat: sasl_mechanism: plain, sasl_username: TheCoolestNick, sasl_password: (pass)
+LiberaChat: sasl_mechanism: plain, sasl_username: TheCoolestNick, sasl_password: (pass)
 ```
 
 All three items (mechanism, username, and password) must be set.
@@ -57,9 +57,9 @@ Now load and configure it inside Irssi:
 
 ```irc
 /script load cap_sasl
-/network add liberachat
-/server add -auto -net liberachat -ssl -ssl_verify irc.libera.chat 6697
-/sasl set liberachat <login> <password> PLAIN
+/network add LiberaChat
+/server add -auto -net LiberaChat -ssl -ssl_verify irc.libera.chat 6697
+/sasl set LiberaChat <login> <password> PLAIN
 /sasl save
 /save
 ```
