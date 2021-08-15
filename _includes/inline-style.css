@@ -383,6 +383,10 @@ footer div a:not([rel*=license]) {
     line-height: 1.5;
   }
 
+  footer div:last-of-type {
+    padding-inline-start: 1rem;
+  }
+
   footer div .mobile-hide {
     display: inline;
   }
