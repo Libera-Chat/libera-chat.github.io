@@ -16,6 +16,7 @@
 - Lines should be no longer than 78 characters, so that people in 80-column
   terminals can edit the text without their editor "paging over" horizontally
   when their cursor reaches the end of the line
+- Internal links must be root-relative
 
 ### Code
 

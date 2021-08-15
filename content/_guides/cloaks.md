@@ -143,7 +143,7 @@ or hostname for an indeterminate number of hours.
 - Your ip or hostname is visible if you join channels after connecting but
 before identifying to your account.
 
-  - Workaround: Use only the [SASL](sasl) authentication method and configure
+  - Workaround: Use only the [SASL](/guides/sasl) authentication method and configure
 the client to abort or retry if authentication fails.
 
 - Caveat: If you click on links, your internet browser can disclose your ip.
