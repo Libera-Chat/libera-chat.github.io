@@ -83,7 +83,7 @@ When done, you can switch the authentication to certificates.
 /connect LiberaChat
 ```
 
-If you did everthing right you should now be authenticated using your
+If you did everything right you should now be authenticated using your
 certificate.
 
 ### weechat

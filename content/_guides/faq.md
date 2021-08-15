@@ -9,7 +9,7 @@ category: about-irc
 ## You need to identify via SASL to use this server
 
 You have tried to connect from a
-[SASL access only range](guides/sasl#sasl-access-only-ip-ranges)
+[SASL access only range](/guides/sasl#sasl-access-only-ip-ranges)
 
 ## Cannot send to nick/channel
 
@@ -42,9 +42,8 @@ If you have been banned from or quieted in a channel, you will need to resolve
 the issue with the people who run the channel. If you cannot remember who
 banned or quieted you, there are a few options.
 
-You can also try to find your ban/quiet, and the operator who set it, by
-viewingthe ban and quiet lists for the channel (this may output a lot of
-lines):
+You can try to find your ban/quiet, and the operator who set it, by viewing
+the ban and quiet lists for the channel (this may output a lot of lines):
 
 ```irc
 /mode #channelname bq
