@@ -9,7 +9,7 @@ category: about-irc
 ## You need to identify via SASL to use this server
 
 You have tried to connect from a
-[SASL access only range](guides/sasl#sasl-access-only-ip-ranges)
+[SASL access only range](/guides/sasl#sasl-access-only-ip-ranges)
 
 ## Cannot send to nick/channel
 
