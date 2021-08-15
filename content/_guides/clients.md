@@ -18,8 +18,9 @@ If you cannot or do not wish to install a client on your computer, you can use
 a web client.
 
 We provide two web clients:
-* [KiwiIRC](https://web.libera.chat), a robust web client
-* [gamja](https://web.libera.chat/gamja), a lightweight web client
+
+- [KiwiIRC](https://web.libera.chat), a robust web client
+- [gamja](https://web.libera.chat/gamja), a lightweight web client
 
 [IRCCloud](https://irccloud.com) is a popular web client service that keeps
 you connected after closing the page and has a limited free plan. It also
@@ -35,16 +36,20 @@ clients that are easy to install and use:
 These are clients that you navigate primarily with your mouse cursor or touch.
 
 Desktop clients:
-* [Hexchat](https://hexchat.github.io/) - Windows, Linux (free)
-* [LimeChat](http://limechat.net/mac/) - macOS (free)
-* [Konversation](https://konversation.kde.org/) - Windows, Linux (free)
-* [mIRC](http://www.mirc.com/) - Windows (paid)
-* [Textual](https://www.codeux.com/textual/) - macOS (paid)
+
+- [Hexchat](https://hexchat.github.io/) - Windows, Linux (free)
+- [LimeChat](http://limechat.net/mac/) - macOS (free)
+- [Konversation](https://konversation.kde.org/) - Windows, Linux (free)
+- [mIRC](http://www.mirc.com/) - Windows (paid)
+- [Textual](https://www.codeux.com/textual/) - macOS (paid)
 
 Mobile clients:
-* [LimeChat](https://apps.apple.com/app/limechat-irc-client/id298766460) - iOS (paid)
-* [Palaver](https://apps.apple.com/us/app/palaver/id538073623) - iOS (paid)
-* [RevolutionIRC](https://play.google.com/store/apps/details?id=io.mrarm.irc) - Android, also on [F-Droid](https://f-droid.org/packages/io.mrarm.irc/) (free)
+
+- [LimeChat](https://apps.apple.com/app/limechat-irc-client/id298766460) -
+iOS (paid)
+- [Palaver](https://apps.apple.com/us/app/palaver/id538073623) - iOS (paid)
+- [RevolutionIRC](https://play.google.com/store/apps/details?id=io.mrarm.irc)
+\- Android, also on [F-Droid](https://f-droid.org/packages/io.mrarm.irc/) (free)
 
 ### Terminal clients
 
@@ -54,6 +59,6 @@ great for running on servers and accessing remotely.
 
 All of these are free and run under Linux, macOS, and Windows (using WSL or Cygwin)
 
-* [glirc](https://hackage.haskell.org/package/glirc)
-* [Irssi](https://irssi.org/)
-* [WeeChat](https://weechat.org/)
+- [glirc](https://hackage.haskell.org/package/glirc)
+- [Irssi](https://irssi.org/)
+- [WeeChat](https://weechat.org/)
