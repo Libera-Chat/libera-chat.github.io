@@ -60,7 +60,7 @@ directly if the self-service channel does not cloak you.
 ### Generic bot cloaks
 
 If you run a bot on the network, you may also get the bot cloaked. While you
-can sinply obtain a self-service user cloak for the bot, it is recommended to
+can simply obtain a self-service user cloak for the bot, it is recommended to
 get a proper bot cloak. These are look like
 `user/<your username>/bot/<bot's username>` and help
 other users know to find you if something goes wrong with the bot.
