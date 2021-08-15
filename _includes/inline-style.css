@@ -374,7 +374,7 @@ footer div a {
   white-space: nowrap;
 }
 
-footer div a:not([rel*=license]) {
+footer div a:not([rel*=license]), footer div .copyright {
   display: block;
 }
 
@@ -391,7 +391,7 @@ footer div a:not([rel*=license]) {
     display: inline;
   }
 
-  footer div a:not([rel*=license]) {
+  footer div a:not([rel*=license]), footer div .copyright {
     display: initial;
   }
 }
