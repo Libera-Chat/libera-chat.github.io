@@ -3,10 +3,8 @@ title: Choosing an IRC client
 category: about-irc
 ---
 
-Whether you are connecting to IRC for the first time or as a seasoned user,
-the features you want your client to have will vary from person to person.
-We hope this page will help new users make a good choice from the start.
-
+There are several different ways to connect to IRC; this page gives
+an overview of good clients for first-time IRC users.
 Once you have chosen a client to use, please refer to our repository of
 instructions for [setting up SASL](/guides/sasl), which is our preferred
 authentication method.
@@ -16,57 +14,50 @@ refer to our [connection guide](/guides/connect).
 
 ## Connecting without installing anything
 
-If you cannot install apps on your computer, you can use a web app.
+If you cannot or do not wish to install a client on your computer, you can use
+a web client.
 
-[Our webchat](https://web.libera.chat) is a free web client that you don't
-have to sign up for.
+We provide two web clients:
+
+- [KiwiIRC](https://web.libera.chat), a robust web client
+- [gamja](https://web.libera.chat/gamja), a lightweight web client
 
 [IRCCloud](https://irccloud.com) is a popular web client service that keeps
-you connected after you close the page and has a limited free plan.
+you connected after closing the page and has a limited free plan. It also
+has iOS and Android apps.
 
-## Installing a client
+## Installing an IRC client
 
-There are three main types of clients for connecting to IRC. These are
-"graphical clients", "terminal clients" and "bouncers".
+There are dozens of IRC clients to choose from, here are a selection of
+clients that are easy to install and use:
 
-### Graphical clients
+### GUI clients
 
 These are clients that you navigate primarily with your mouse cursor or touch.
-They can be installed on your device directly or accessed in a web browser.
 
-Some commonly chosen graphical clients for personal computers are
-[Hexchat](https://hexchat.github.io/) (Windows, Linux),
-[Konversation](https://konversation.kde.org/) (Windows, Linux, Mac OS) and
-[Textual](https://www.codeux.com/textual/) (MacOS).
+Desktop clients:
 
-On Android phones & tablets,
-[RevolutionIRC](https://github.com/MCMrARM/revolution-irc) is a popular client
-available from [F-Droid](https://f-droid.org/packages/io.mrarm.irc/) and
-[Google Play](https://play.google.com/store/apps/details?id=io.mrarm.irc).
+- [Hexchat](https://hexchat.github.io/) - Windows, Linux (free)
+- [LimeChat](http://limechat.net/mac/) - macOS (free)
+- [Konversation](https://konversation.kde.org/) - Windows, Linux (free)
+- [mIRC](http://www.mirc.com/) - Windows (paid)
+- [Textual](https://www.codeux.com/textual/) - macOS (paid)
 
-On Apple iOS devices LimeChat is a popular client available from the
-[App Store](https://apps.apple.com/app/limechat-irc-client/id298766460).
+Mobile clients:
+
+- [LimeChat](https://apps.apple.com/app/limechat-irc-client/id298766460) -
+iOS (paid)
+- [Palaver](https://apps.apple.com/us/app/palaver/id538073623) - iOS (paid)
+- [RevolutionIRC](https://play.google.com/store/apps/details?id=io.mrarm.irc)
+\- Android, also on [F-Droid](https://f-droid.org/packages/io.mrarm.irc/) (free)
 
 ### Terminal clients
 
-Terminal or text based clients are clients which you primarily navigate with
-keyboard shortcuts. As these typically do not need mouse navigation, they are
+Terminal or text-based clients are clients which you primarily navigate with
+keyboard shortcuts. These typically do not need mouse navigation, so they are
 great for running on servers and accessing remotely.
 
-[WeeChat](https://weechat.org/) is a popular terminal client which has an
-experimental mouse mode option which makes some operations possible with your
-mouse.
+Both of these are free and run under Linux, macOS, and Windows (using WSL or Cygwin)
 
-[Irssi](https://irssi.org/) is another popular and mature terminal client.
-
-### Bouncer clients
-
-Bouncers are clients which act as a hub between other clients and the IRC
-network. They allow you to see one connection from multiple places
-(i.e. phone, work computer, home computer).
-
-[ZNC](https://znc.in) is a popular stand-alone bouncer.
-
-Some other clients have bouncers built in to them but it is not their main
-purpose. These include [Quassel](https://quassel-irc.org/),
-[WeeChat](https://weechat.org/), and [Irssi](https://irssi.org/).
+- [Irssi](https://irssi.org/)
+- [WeeChat](https://weechat.org/)
