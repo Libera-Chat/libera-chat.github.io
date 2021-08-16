@@ -15,15 +15,16 @@ You have tried to connect from a
 
 ## Cannot change nickname while banned on channel
 
-First, check that you are [registered](registration).
+First, check that you are [registered](/guides/registration).
 
-If you already have an account then [identify](registration#logging-in) to it.
+If you already have an account then [identify](/guides/registration#logging-in)
+to it.
 
 Some channels require users to be registered to participate. This is because
 most botnets and disruptive people do not make accounts.
 
 If you are both registered and identified and still cannot join or talk, you
-might be [banned or quieted](faq#how-do-i-get-unbanned-or-unquieted)
+might be [banned or quieted](/guides/faq#how-do-i-get-unbanned-or-unquieted)
 in that channel.
 
 ## You must log in with services to message this user
@@ -33,8 +34,9 @@ not currently logged in then you will also be affected.
 
 This is probably **not** targetted at you personally.
 
-First, check if you are [registered](registration). If you do have an account
-then make sure you have [identified](registration#logging-in) to it.
+First, check if you are [registered](/guides/registration). If you do have
+an account then make sure you have
+[identified](/guides/registration#logging-in) to it.
 
 ## How do I get unbanned or unquieted?
 
@@ -87,13 +89,13 @@ If all this fails it is likely best for everyone involved if you just move on.
 
 ## Why is my nickname in use?
 
-Nicknames are only reserved for you if you have [registered](registration)
-them and they have not [expired](registration#nickname-expiry).
+Nicknames are only reserved for you if you have [registered](/guides/registration)
+them and they have not [expired](/guides/registration#nickname-expiry).
 
 If someone else is currently using an unexpired nick you have registered, you
 can use `RELEASE` to bounce them off it onto a Guest nick and then `REGAIN`
 use of that nick for yourself. If you are not logged in, please first
-[identify](registration#logging-in) to the account, then:
+[identify](/guides/registration#logging-in) to the account, then:
 
 ```irc
 /msg NickServ RELEASE yournick
@@ -150,8 +152,9 @@ Consider informing users that what they say may be visible to people not
 represented in the channel at the time. The spirit of our
 [public logging policy](/policies#public-logging) applies here.
 
-It is recommended that your bridge has an [account](registration) and some way
-to identify who runs it, such as in the gecos or "real name" field.
+It is recommended that your bridge has an [account](/guides/registration)
+and some way to identify who runs it, such as in the gecos or "real name"
+field.
 
 We prefer one to many bridging over one to one bridging, especially if the
 majority of users are not on irc.

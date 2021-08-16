@@ -22,7 +22,7 @@ If the name you choose is currently in use, the webchat will add some
 numbers to the end of it.
 
 You can leave the password field blank if you have not
-[registered with network services](registration) yet.
+[registered with network services](/guides/registration) yet.
 
 You do not need to sign up for anything to connect to Libera.Chat using
 the webchat. However, once connected, some things may require you to be
