@@ -21,7 +21,7 @@ irc:
 
 collections_dir: content
 
-permalink: /:name
+permalink: /:name/
 
 collections:
   guides:
