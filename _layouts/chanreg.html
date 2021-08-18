@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+{%- include head.html with_aside=true -%}
+
+<body>
+  {%- include nav.html -%}
+  {%- include chanreg-aside.html -%}
+
+  <main id="main">
+    {% if page.title %}
+    <h1>{{ page.title }}</h1>
+    {% endif %}
+    {{ content }}
+
+    {% if page.credits %}
+    <hr>
+    {{ site.data.credits[page.credits] | markdownify }}
+    {% endif %}
+  </main>
+
+  {%- include footer.html -%}

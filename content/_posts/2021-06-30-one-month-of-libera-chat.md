@@ -50,8 +50,7 @@ roughly 150 open ones remaining, and new ones come in daily.
 
 This does not mean you shouldn't register your project today.
 If you have a project or community you'd like to register, view our
-[channel registration](https://libera.chat/chanreg#registering-a-channel)
-guide for information.
+[channel registration](https://libera.chat/chanreg) guide for information.
 
 ## Culture and Organisation
 

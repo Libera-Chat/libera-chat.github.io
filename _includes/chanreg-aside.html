@@ -1,0 +1,15 @@
+<aside role="menu">
+  {% assign pages = site.chanreg %}
+    <a role="menuitem" href="/chanreg">
+      <summary>Channel Namespaces</summary>
+    </a>
+    <div>
+      {% for page in pages %}
+      <a
+      role="menuitem"
+      {% if page.url == page.url %}class="active"{% endif %}
+      href="{{ page.url }}"
+      ><span>{{ page.title }}</span></a>
+      {% endfor %}
+    </div>
+</aside>
