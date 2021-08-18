@@ -63,7 +63,7 @@ Configuration requirements with details below:
 
 - Update `torrc` configuration file to map to the onion service.
 - Configure your client to use your Tor SOCKS proxy (typically `localhost:9050`).
-- Configure public-key SASL authentication.
+- Configure *public-key* (not plain) SASL authentication.
 - Connect to `palladium.libera.chat`.
 
 ```config
