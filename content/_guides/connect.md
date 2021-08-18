@@ -63,7 +63,7 @@ Configuration requirements with details below:
 
 - Update `torrc` configuration file to map to the onion service.
 - Configure your client to use your Tor SOCKS proxy (typically `localhost:9050`).
-- Configure public-key SASL authentication.
+- Configure *public-key* (not plain) SASL authentication.
 - Connect to `palladium.libera.chat`.
 
 ```config
@@ -72,7 +72,7 @@ MapAddress palladium.libera.chat libera75jm6of4wxpxt4aynol3xjmbtxgfyjpu34ss4d7r7
 ```
 
 This service requires public-key SASL authentication using either the
-`EXTERNAL` or `ECDSA-NIST256P-CHALLENGE` mechanisms.  See our
+`EXTERNAL` or `ECDSA-NIST256P-CHALLENGE` (but not `PLAIN`) mechanisms.  See our
 [guide on setting up CertFP](/guides/certfp.html) for more information.
 
 Some clients lack SOCKS4a or later support. In this case you will need to
