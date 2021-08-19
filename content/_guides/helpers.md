@@ -145,7 +145,7 @@ user to confirm if it covers what they want.
 
 ## When to stop engaging
 
-When a situation requires intervention and your own attempts to diffuse it to
+When a situation requires intervention and your own attempts to diffuse it do
 not seem to be working, it is sometimes best to stand down and stop
 contributing to the noise. Instead, try to seek out a channel operator
 quietly, such as with private messages or in an `-ops` channel if there is
