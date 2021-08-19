@@ -53,11 +53,26 @@ the ban and quiet lists for the channel (this may output a lot of lines):
 
 If that is too overwhelming, or if `PUBACL` (public access control lists) is
 off, or if all the bans are attributed to Libera.Chat domains, you can instead
-try to find out who runs the channel:
+try to
+[find out who runs the channel](faq#how-to-find-out-who-runs-a-channel).
+
+Remember, channel ops are **not** obligated to negotiate with you, and evading
+bans (sneaking back in) usually makes the matter worse.
+
+Asking network staff will not work as we **will not** override a ban or quiet
+set by a channel operator, and will not reveal information that is private. We
+also **will not** confiscate channels for "unfair" banning practices.
+
+If all this fails it is likely best for everyone involved if you just move on.
+
+## How to find out who runs a channel?
+
+There are several ways to find who owns or runs a channel. `ChanServ` might
+show you some information.
 
 ```irc
-/msg chanserv info #channelname
-/msg chanserv flags #channelname
+/msg ChanServ info #channelname
+/msg ChanServ flags #channelname
 ```
 
 You can also see if there is a `-ops` or `-mods` channel mentioned in the
@@ -70,20 +85,11 @@ topic:
 If the channel is set `PRIVATE` then you will not get information with those
 commands.
 
-Your only remaining option is to find someone else who in the channel who
-might help you get in contact.
+Your only remaining option is to find someone else in the channel who might
+help you get in contact.
 
 **Be considerate of other channels when doing this as it can be seen as
 dragging drama in from other places!**
-
-Remember, channel ops are **not** obligated to negotiate with you, and evading
-bans (sneaking back in) usually makes the matter worse.
-
-Asking network staff will not work as we **will not** override a ban or quiet
-set by a channel operator, and will not reveal information that is private. We
-also **will not** confiscate channels for "unfair" banning practices.
-
-If all this fails it is likely best for everyone involved if you just move on.
 
 ## Nick/channel is temporarily unavailable
 
