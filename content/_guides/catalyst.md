@@ -25,7 +25,9 @@ like some other networks.
 We recommend that operators in channels refrain from being "opped up" unless
 it is necessary for immediate channel management activities like changing a
 locked topic or removing a problematic user. We discourage using the `+O`
-flag, which automatically "ops up" the flagged user on join.
+flag, which automatically "ops up" the flagged user on join. There are other 
+ways for [users to find out](faq#how-to-find-out-who-runs-a-channel) who runs
+the channel.
 
 Being opped up (or even voiced `+v` for manual or `+V` for automatic) in your
 channel means you appear above normal users in your channel's user list, which
