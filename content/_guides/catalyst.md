@@ -149,7 +149,7 @@ way of evading into the channel, becoming even more problematic.
 
 It's an excellent idea for your channel to have a way for people to appeal a
 ban and negotiate being allowed back. Consider having an "ops" channel; most
-channels use #<channelname>-ops for this. Discourage non-ops from lingering
+channels use `#<channelname>-ops` for this. Discourage non-ops from lingering
 in the channel, so people who approach you can do so with some privacy. When
 talking to banned users in an -ops channel, de-escalation tools and building
 rapport are critically important.
