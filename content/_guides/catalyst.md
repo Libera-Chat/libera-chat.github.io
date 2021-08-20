@@ -44,7 +44,7 @@ only appears when things are heated. Having a rapport with your users will
 make it easier to de-escalate heated situations, making it easier to avoid
 having to forcefully remove people from your community.
 
-### Why is #libera different?
+### Why is `#libera` different?
 
 You may have noticed that the #libera channel doesn't follow this guideline.
 
