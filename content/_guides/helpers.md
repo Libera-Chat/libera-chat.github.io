@@ -114,7 +114,7 @@ If the user needs to be identified, and they are not, they might need
 reminding. You can do this when redirecting them politely.
 
 ```irc
-<You> I don't know much about Windows, but the people in #windows will! You will need to be registered to talk in there. If you have an account, see '/msg nickserv help identify'. If not, see '/msg nickserv help register' :)
+<You> I don't know much about Windows, but the people in #windows will! You will need to be registered to talk in there. If you have an account, see '/msg NickServ HELP IDENTIFY'. If not, see '/msg NickServ HELP REGISTER' :)
 ```
 
 ## They didn't read the topic

@@ -46,13 +46,13 @@ having to forcefully remove people from your community.
 
 ### Why is `#libera` different?
 
-You may have noticed that the #libera channel doesn't follow this guideline.
+You may have noticed that the `#libera` channel doesn't follow this guideline.
 
 The `#libera` channel is relatively large and is a focal point for botnets and
 other nefarious behavior. It uses channel mode `+z` when dealing with unwanted
 messages, which requires staff to be opped, so they don't miss messages.
 
-Additionally, people often come to #libera to find network staff with
+Additionally, people often come to `#libera` to find network staff with
 network-level permissions. Having staff highlighted in the user list makes it
 clear who has those permissions. In a "normal" support channel, everyone can
 provide support, so there is no need to differentiate between ops and users.
@@ -153,10 +153,10 @@ It's an excellent idea for your channel to have a way for people to appeal a
 ban and negotiate being allowed back. Consider having an "ops" channel; most
 channels use `#<channelname>-ops` for this. Request that non-ops leave the
 channel if they do not have an immediate issue, so that people can raise
-their issues with some privacy. When talking to banned users in an -ops
+their issues with some privacy. When talking to banned users in an `-ops`
 channel, de-escalation tools and building rapport are critically important.
 
-If many channel operators speak to a person at once in an -ops channel, it can
+If many channel operators speak to a person at once in an `-ops` channel, it can
 seem like "ganging up on" the person. You may want to informally limit how
 many ops are involved in such discussions at once.
 
@@ -165,7 +165,7 @@ escalating situations in the channel. It is a good idea to advertise it in the
 channel's topic. If people cannot get into your ops channel, they cannot use
 it, so banning from that should be very rare.
 
-It is also a good idea to ensure that people can use ChanServ to find nicks of
+It is also a good idea to ensure that people can use `ChanServ` to find nicks of
 channel operators so they can contact them directly. As a result, we suggest
 avoiding the `PRIVATE` ChanServ flag and keeping the `PUBACL` flag unless you
 have specific reasons to use them.
