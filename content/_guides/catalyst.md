@@ -49,7 +49,7 @@ having to forcefully remove people from your community.
 You may have noticed that the #libera channel doesn't follow this guideline.
 
 The `#libera` channel is relatively large and is a focal point for botnets and
-other nefarious behavior. It uses channel mode +z when dealing with unwanted
+other nefarious behavior. It uses channel mode `+z` when dealing with unwanted
 messages, which requires staff to be opped, so they don't miss messages.
 
 Additionally, people often come to #libera to find network staff with
