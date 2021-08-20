@@ -36,7 +36,7 @@ process.
 ### Typos and non-fluent language
 
 Don't draw attention to someone else's typos or pick on them for their use of
-abbreviations like 'u', unless they specifically request help with wording.
+abbreviations like "u", unless they specifically request help with wording.
 They could be typing from a phone keyboard, be non-fluent in the language, or
 have some condition that affects their typing.
 
@@ -161,5 +161,4 @@ person who is misbehaving may derail the Operator's efforts, as the person may
 become defensive at being "ganged up on".
 
 If necessary, use the `/ignore` functionality in your client to stop
-contributing. You don't want to cause the situation to escalate, or you might
-also end up in trouble.
+contributing.
