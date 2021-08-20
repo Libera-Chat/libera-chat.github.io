@@ -30,6 +30,9 @@ collections:
   posts:
     output: true
     permalink: /news/:title
+  chanreg:
+    output: true
+    permalink: /:collection/:name
 
 feed:
   path: atom.xml
@@ -40,6 +43,11 @@ defaults:
       type: guides
     values:
       layout: guides
+  - scope:
+      path: ""
+      type: chanreg
+    values:
+      layout: chanreg
   - scope:
       path: ""
       type: posts

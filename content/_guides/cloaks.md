@@ -67,8 +67,8 @@ other users know to find you if something goes wrong with the bot.
 
 ## Project or community cloaks
 
-[Projects](https://libera.chat/chanreg#project-registration) and
-[communities](https://libera.chat/chanreg#community-registration) that are
+[Projects](https://libera.chat/chanreg/registration-projects) and
+[communities](https://libera.chat/chanreg/registration-communities) that are
 aligned with our mission are eligible for group registrations. One of the
 perks of group registration is the ability to request cloaks for participants.
 
