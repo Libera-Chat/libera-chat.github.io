@@ -59,7 +59,7 @@ provide support, so there is no need to differentiate between ops and users.
 
 ## De-escalate heated situations
 
-### Assume Good Faith
+### Assume good faith
 
 When you initiate conversations, try to assume that the other person is doing
 what they're doing in good faith. People don't tend to wake up one day and
@@ -82,7 +82,7 @@ Note that some support channels discourage private interactions between
 channel members. Therefore, this technique may be limited to channel ops if
 that is the case in your community.
 
-### Listen and Ask Questions
+### Listen and ask questions
 
 Asking someone why they are doing something will encourage them to reflect on
 their behaviour. Once they are paying attention to their actions, they will
