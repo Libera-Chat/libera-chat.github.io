@@ -23,11 +23,11 @@ To register and manage channels, you will need to be [identified to](registratio
 
 ## Pick a name
 
-Before doing that, you'll obviously need to pick a channel name! Think of one
-that is descriptive of the channel's purpose, and has no spaces or commas.
-The name you choose will become what's called your namespace. You can use
-some punctuation such as ".", "_" or "+" instead of spaces, but it is better
-to just drop the space.
+Before you can register it, you'll obviously need to pick a channel name!
+Think of one that is descriptive of the channel's purpose, and has no spaces
+or commas. The name you choose will become what's called your namespace. You
+can use some punctuation such as ".", "\_" or "+" instead of spaces, but it is
+better to just drop the space.
 
 It is typical to reserve `-` as a delimiter for additional channels within the
 namespace, such as `-dev` or `-ops`. Using a `-` in the root name might result
