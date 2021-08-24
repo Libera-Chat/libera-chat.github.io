@@ -52,7 +52,7 @@ You can check that a channel is registered or not with `ChanServ`. To see if
 for example `#libera` is registered, you would do:
 
 ```irc
-/msg ChanServ info #libera
+/msg ChanServ INFO #libera
 ```
 
 Since it is registered, ChanServ will tell you the registration details you're
