@@ -17,10 +17,11 @@ ways of responding.
 
 ## Only be "opped up" when necessary
 
-Most channels have a select few operators who are responsible for managing the
-culture of the channel. These are the people with `+o` flags. Most clients
-display a `@` next to their nick. Libera.Chat does not have "halfops" flags
-like some other networks.
+Most channels have a select few Operators who are responsible for managing the
+culture of the channel. These are the people with the `+o`
+[flags in `ChanServ`](faq#how-to-find-out-who-runs-a-channel). Most clients 
+display an `@` or another symbol next to their nick. Libera.Chat does not have
+"halfops" flags like some other networks.
 
 We recommend that operators in channels refrain from being "opped up" unless
 it is necessary for immediate channel management activities like changing a
