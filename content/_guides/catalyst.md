@@ -19,7 +19,7 @@ ways of responding.
 
 Most channels have a select few Operators who are responsible for managing the
 culture of the channel. These are the people with the `+o`
-[flags in `ChanServ`](faq#how-to-find-out-who-runs-a-channel). Most clients 
+[flags in `ChanServ`](faq#how-to-find-out-who-runs-a-channel). Most clients
 display an `@` or another symbol next to their nick. Libera.Chat does not have
 "halfops" flags like some other networks.
 
