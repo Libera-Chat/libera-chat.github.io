@@ -68,7 +68,7 @@ Otherwise, set up your ERC with basic functionality, as follows:
 ;; (see also https://libera.chat/guides/connect for regional hostnames)
 (defun my-erc-connect ()
   (interactive)
-  (erc :server "irc.libera.chat" :port 6667 :nick "MYNICK" :full-name "MY NAME"))
+  (erc-tls :server "irc.libera.chat" :port 6697 :nick "MYNICK" :full-name "MY NAME"))
 (global-set-key (kbd "C-c e") 'my-erc-connect)
 
 ;; Channel-tracking: Convenience functions for easily flipping between channels you are logged into
@@ -141,7 +141,7 @@ Otherwise, register a nick with libera.chat, as follows:
 ```
 (defun my-erc-connect ()
   (interactive)
-  (erc :server "irc.libera.chat" :port 6667 :nick "NICKNAME" :full-name "MY FULL NAME" :password "PASSWORD"))
+  (erc-tls :server "irc.libera.chat" :port 6697 :nick "NICKNAME" :full-name "MY FULL NAME" :password "PASSWORD"))
 (global-set-key (kbd "C-c e") 'my-erc-connect)
 ```
 ## D. Test
