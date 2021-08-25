@@ -19,7 +19,7 @@ ways of responding.
 
 Most channels have a select few Operators who are responsible for managing the
 culture of the channel. These are the people with the `+o`
-[flags in `ChanServ`](faq#how-to-find-out-who-runs-a-channel). Most clients
+[flags in `ChanServ`](guides/faq#how-to-find-out-who-runs-a-channel). Most clients
 display an `@` or another symbol next to their nick. Libera.Chat does not have
 "halfops" flags like some other networks.
 
@@ -27,7 +27,7 @@ We recommend that operators in channels refrain from being "opped up" unless
 it is necessary for immediate channel management activities like changing a
 locked topic or removing a problematic user. We discourage using the `+O`
 flag, which automatically "ops up" the flagged user on join. There are other
-ways for [users to find out](faq#how-to-find-out-who-runs-a-channel) who runs
+ways for [users to find out](guides/faq#how-to-find-out-who-runs-a-channel) who runs
 the channel.
 
 Being opped up (or even voiced `+v` for manual or `+V` for automatic) in your
