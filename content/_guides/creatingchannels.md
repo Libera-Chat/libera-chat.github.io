@@ -150,7 +150,8 @@ registered a channel before taking it from them.
 ## Setting channel modes
 
 Channels differ in what `cmodes` they need. Refer to
-[the channel modes guide](/guides/channelmodes) for detailed information about them.
+[the channel modes guide](/guides/channelmodes) for detailed information about
+them.
 
 The default modes set on a new channel are `+Cnst`.
 
@@ -176,9 +177,9 @@ To toggle `r` off, so everyone else can join again:
 ## Setting up permissions
 
 Once you have your channel registered, and your users start dropping in, you
-might also need to do some [channel management](/guides/catalyst) if some of them
-outstay their welcome. If you enlist help for this, you will need to give your
-new Operators permissions.
+might also need to do some [channel management](/guides/catalyst) if some of
+them outstay their welcome. If you enlist help for this, you will need to give
+your new Operators permissions.
 
 The permissions you can give are outlined in the output of
 `/msg ChanServ HELP FLAGS`, along with instructions about the use of
