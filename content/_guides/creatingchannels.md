@@ -18,7 +18,7 @@ appropriately from the beginning. This will avoid disruptions in the future.
 
 ## Be identified
 
-To register and manage channels, you will need to be [identified to](registration#logging-in)
+To register and manage channels, you will need to be [identified to](/guides/registration#logging-in)
 `NickServ`.
 
 ## Pick a name
@@ -99,13 +99,13 @@ type of namespace it belongs to. As part of the expiry process, staff will
 take input from both you and any existing channel members.
 
 If you are a representative of a project and you wish to use a channel that is
-already registered, you can ask staff about a [group registration](chanreg).
+already registered, you can ask staff about a [group registration](/chanreg).
 
 If you are unsure of any of the above, talk with Libera.Chat staff. You can
 find staff either in `#libera` or on `/stats p`.
 
 Once you have resolved the conflict, you can resume
-[the registration process](creatingchannels#registering-with-chanserv).
+[the registration process](#registering-with-chanserv).
 
 ### Special Instructions for Group Contacts
 
@@ -150,14 +150,14 @@ registered a channel before taking it from them.
 ## Setting channel modes
 
 Channels differ in what `cmodes` they need. Refer to
-[the channel modes guide](channelmodes) for detailed information about them.
+[the channel modes guide](/guides/channelmodes) for detailed information about them.
 
 The default modes set on a new channel are `+Cnst`.
 
 To set channel modes, you use `/mode <#channelname> [+|-]<mode>`.
 
 For example, during a spambot attack you might choose to only allow users who
-are [logged in](registration#logging_in) to join your channel. This is
+are [logged in](/guides/registration#logging_in) to join your channel. This is
 effective as most bots do not log in to accounts. To set the requirement, you
 would use the `r` mode.
 
@@ -176,7 +176,7 @@ To toggle `r` off, so everyone else can join again:
 ## Setting up permissions
 
 Once you have your channel registered, and your users start dropping in, you
-might also need to do some [channel management](catalyst) if some of them
+might also need to do some [channel management](/guides/catalyst) if some of them
 outstay their welcome. If you enlist help for this, you will need to give your
 new Operators permissions.
 
@@ -191,7 +191,7 @@ safer option.
 
 Unless the channel is assigned to a registered group you are listed as a Group
 Contact (GC) of, you will not have
-[GC permissions](creatingchannels#special-instructions-for-group-contacts) and
+[GC permissions](#special-instructions-for-group-contacts) and
 will not be able to get the channel back without their cooperation or by
 [registering as a group](/chanreg)
 
