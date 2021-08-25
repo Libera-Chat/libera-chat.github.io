@@ -6,16 +6,18 @@ category: chanop
 Communities are healthiest when everyone works together to maintain the space
 and shape the culture. If we leave all the emotional labor for Operators to
 deal with, they will be more likely to
-[burn out](catalyst#remember-to-take-breaks-to-avoid-burn-out).
+[burn out](/guides/catalyst#remember-to-take-breaks-to-avoid-burn-out).
 
 These are some things non-Operator helpers can keep in mind during challenging
 situations to avoid making more work for others.
 
 ## Let small things slide
 
-The best response to minor annoying behavior is often to ignore it. Drawing
-attention to it can encourage more bad behaviour, which is the last thing the
-channel needs.
+The best response to minor annoying behaviour is often to _initially_ ignore
+it. Drawing attention to it can encourage more bad behaviour, which is the
+last thing the channel needs.
+
+If the behaviour is persistent, it can be addressed later.
 
 ### Attention seeking
 
@@ -60,7 +62,7 @@ want to answer, ignore it quietly.
 
 While it would be very nice if people were never rude, it **is** going to
 happen. However,
-[don't automatically assume people are rude](catalyst#assume-good-faith).
+[don't automatically assume people are rude](/guides/catalyst#assume-good-faith).
 They may have different cultural norms or a language barrier that
 unintentionally changes their perceived tone.
 
@@ -147,7 +149,7 @@ user to confirm if it covers what they want.
 
 When a situation requires intervention and your own attempts to defuse it do
 not seem to be working, it is sometimes best to stand down and stop
-contributing to the noise. Instead, try to [seek out a channel operator](faq#how-to-find-out-who-runs-a-channel)
+contributing to the noise. Instead, try to [seek out a channel operator](/guides/faq#how-to-find-out-who-runs-a-channel)
 quietly, such as with private messages or in an `-ops` channel if there is
 one.
 
