@@ -9,7 +9,7 @@ category: about-irc
 ## How to find Libera Chat staff?
 
 Most [staff](/about#wider-staff-and-organisation-membership) have the
-Operator mode in #libera to make them easy to find when they're connected.
+Operator mode in `#libera` to make them easy to find when they're connected.
 There are also some robots, currently `ChanServ` and `ozone`, with that mode.
 The robots do not answer questions.
 
