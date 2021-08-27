@@ -21,7 +21,7 @@ by the membership. The current board members are:
 
 - **Chair**: njan (James Eaton-Lee)
 - **Treasurer**: Swant (Svante Bengtson)
-- **Projects and Community Rep**: Fuchs (Christian Loosli)
+- **Projects and Community Rep**: Fuchs (Christian L.)
 - **Engineering Rep, Vice Chair**: edk (Ed Kellett)
 - **Operations Rep**: glguy (Eric Mertens)
 
