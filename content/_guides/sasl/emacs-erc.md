@@ -7,14 +7,20 @@ category: sasl
 
 ## Set up ERC IRC client
 
-If you have ERC already installed and running on your emacs system, then skip to [Register](#user-content-register).
+If you have ERC already installed and running on your emacs system, then skip to [Connect for the First Time](#user-content-connect-for-the-first-time).
+
 Otherwise, set up your ERC with basic functionality, as follows:
+
+Here we will set up your emacs with a package called "ERC", which will be an IRC "client" app.
+
+Once set up, we will Using it, you can connect to libera.chat and log in for the first time, unregistered and over a non-VPN connection
 
 1. Download and Install the erc package from melpa, etc. (`M-x package-list-packages`)
 2. Set up your ERC for plain (unregistered) sign-in.
   - There are some basic setup instructions [here](https://www.emacswiki.org/emacs/ERC)
   - Below is my own setup (before adding the SASL stuff below), though by no means do you need all this to set up a basic ERC for yourself.
-```
+
+```elisp
 ;; ======== ERC START ==============================
 
 ;; Most of these are just for convenience options. I believe the only
@@ -87,26 +93,37 @@ Otherwise, set up your ERC with basic functionality, as follows:
 (global-set-key (kbd "C-c n") 'erc-next-channel-buffer)
 ;; ======== ERC END ================================
 ```
-3. In the `my-erc-connect` command you've defined, replace MYNICK with your nickname you plan to use (assuming no one else uses and has registered this nick).
+
+3. In the `my-erc-connect` command you've defined, replace `MYNICK` with your nickname you plan to use (assuming no one else uses and has registered this nick).
 4. Either shut down your emacs and restart, or evaluate all the above lines.
 
-## Register
+## Connect for the First Time
 
-If you have registered a nickname with libera already, and you remember the password, then skip to [Install ERC-SASL Functionality](#user-content-install-erc-sasl-functionality).
-Otherwise, register a nick with libera.chat, as follows:
+If you have registered a nickname with libera already, and you remember the password, then skip to [Reconfigure
+your ERC for SASL functionality](#user-content-reconfigure-your-erc-for-sasl-functionality).
 
-1. NOTE: In order to connect to irc.libera.chat without SASL (as you'll need to do here in order to register in the first place, right?) you can't be using a VPN. See [our notes on IP Range restrictions](guides/sasl#sasl-access-only-ip-ranges). Later, once you connect via SASL, below, you'll be able to use your VPN to connect.
-2. Connect to irc.libera.chat (unregistered), using the nick you plan to register. (You should be able to use the global key C-c n using the global-set-key you defined above to connect).
-3. Make sure the nick you plan to use is allowed. (libera's NickServ will give you an error if you are trying to use a nick that is already registered.)
-4. Register: Follow our instructions here to [register a nickname and password](/guides/registration) while signed in.
-5. Once your registration appears successful, then save your username/password to your password safe of preference (Unix *pass*, or *keepassxc*, etc.).
+Otherwise, connect for the first time (unregistered), as follows:
 
-## Install ERC-SASL functionality
+1. First, make sure you are not using a VPN to connect to libera.chat. In most cases, you won't be allowed to connect unregistered and "un-SASL'd", from a VPN. (See [our notes on IP Range restrictions](guides/sasl#sasl-access-only-ip-ranges).) Later, once you connect as a registered user via SASL, below, you'll be able to use your VPN to connect.
+2. Connect to irc.libera.chat (unregistered), using the nick you plan to register. (You should be able to connect by using the global shortcut `C-c e` you defined above.)
+
+## Register a Permanent Nickname and Password
+
+Now that you are logged in, please follow our instructions [register a nickname and password](/guides/registration) while signed in. When you are done registering, return here.
+
+## Disconnect
+
+After registering, disconnect now, so you can reconfigure your ERC client.
+
+## Reconfigure your ERC for SASL functionality
+
+Here we will reconfigure your ERC to add in SASL functionality using your registration credentials.
 
 1. Download a copy of erc-sasl.el from [Sylvain Benner's GitHub Repo](https://github.com/syl20bnr/spacemacs/blob/master/layers/%2Bchat/erc/local/erc-sasl/erc-sasl.el). (Note-1)
 2. Save it into one of the directorys listed in your emacs’ *load-path* variable. (Note-2)
 3. Add the following to your .emacs or init.el file in your ERC section (Note-3).
-```
+
+```elisp
 ;; Require ERC-SASL package
 (require 'erc-sasl)
 
@@ -137,23 +154,27 @@ Otherwise, register a nick with libera.chat, as follows:
        erc-session-user-full-name))
   (erc-update-mode-line))
 ```
+
 4. Change the already-existing connection function you had above, so that it now includes the password you registered
-```
+
+```elisp
 (defun my-erc-connect ()
   (interactive)
   (erc-tls :server "irc.libera.chat" :port 6697 :nick "NICKNAME" :full-name "MY FULL NAME" :password "PASSWORD"))
 (global-set-key (kbd "C-c e") 'my-erc-connect)
 ```
 
-## Test
+## Reconnect and Test
 
-1. Either close down your emacs completely and restart, or evaluate the lines you added, above, including re-evaluating the `my-erc-connect` function, and try logging in via SASL, again via your `my-erc-connect` shortcut.
+Either close down your emacs completely and restart, or evaluate the lines you added, above, including re-evaluating the `my-erc-connect` function, and try logging in via SASL, again via your `my-erc-connect` shortcut.
 
 ## Notes
 
 - Note-1: If Sylvain’s repo happens to be deleted by the time you read this, then a back-up location is [psachin's gitlab repo](https://gitlab.com/psachin/erc-sasl). The erc-sasl.el there is exactly the same, with one exception: You'll need to change line 54's "loop" to read "cl-loop" (or macro/alias the former to the latter, as some folks do, because cl-loop is a Common Lisp function):
-```
+
+```elisp
    (cl-loop for re in erc-sasl-server-regexp-list
 ```
+
 - Note-2: In my case, I saved it to ~/jeff/.emacs.d/elisp/erc-sasl.el because ~/jeff/.emacs.d/elisp/ directory is on my emacs’ `load-path`.
 - Note-3: Thanks to John2x ([his home page](https://www.john2x.com/emacs.html), [his answer on StackExchange](https://emacs.stackexchange.com/questions/47572/how-to-open-an-irc-session-using-sasl)).
