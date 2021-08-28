@@ -41,9 +41,8 @@ The projects and community team manages our relationships with
 and community registration, coordinating with projects and communities, and
 managing our social media.
 
-The Projects and community team comprises: bakerst, edk, Freso, Fuchs,
-glguy, jess, jose, kline, mniip, mquin, nicole, njan, nhandler, Swant,
-tomaw, and Unit193.
+{% assign pac_team = site.data.staff | where: "projects and community", "y" | map: "nick" %}
+The Projects and community team comprises: {{ pac_team | join: ", " }}.
 
 ## Engineering team
 
@@ -52,8 +51,8 @@ network such as contributions to the [Solanum IRCd](https://solanum.chat),
 and [Atheme Services](https://atheme.github.io/) as well as our websites,
 tools and bots.
 
-The engineering team comprises: amdj, bakerst, bigpresh, edk, Fuchs, glguy,
-ilbelkyr, jess, kline, mniip, niko, spb, Swant, and tomaw.
+{% assign engineering_team = site.data.staff | where: "engineering team", "y" | map: "nick" %}
+The engineering team comprises: {{ engineering_team | join: ", " }}.
 
 ## Operations team
 
@@ -61,8 +60,8 @@ The operations team manage our infrastructure, making sure the network stays
 operational and ensuring we have the right hardware and server platforms to
 operate the services we provide.
 
-The operations team comprises: bigpresh, edk, Fuchs, glguy, Md, mquin,
-nhandler, and tomaw.
+{% assign ops_team = site.data.staff | where: "operations team", "y" | map: "nick" %}
+The operations team comprises: {{ ops_team | join: ", " }}.
 
 ## Wider staff and organisation membership
 
@@ -71,10 +70,8 @@ specialised teams, yet without them the efforts of the specialised teams would
 be in vain and more importantly day to day operation of the network would be
 impossible.
 
-Staff and membership comprises: amdj, bakerst, bigpresh, coffee-cup, deedra,
-edk, el, emerson, emilsp, Freso, Fuchs, glguy, jess, jewel, JonathanD, jose,
-kline, li, marienz, Md, mniip, mquin, nhandler, nicole, niko, njan, Pricey,
-RichiH, spb, Stx, Swant, tomaw, and Unit193.
+{% assign nicks = site.data.staff | map: "nick" %}
+Staff and membership comprises: {{ nicks | join: ", " }}.
 
 The best way to reach staff is the channel `#libera` or via the command
 `/stats p` which lists immediately available staff.
