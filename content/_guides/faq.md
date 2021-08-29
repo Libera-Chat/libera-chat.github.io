@@ -6,6 +6,43 @@ category: about-irc
 - TOC
 {:toc}
 
+## How to find Libera Chat staff?
+
+Most [staff](/about#wider-staff-and-organisation-membership) have the
+Operator mode in `#libera` to make them easy to find when they're connected.
+There are also some robots, currently `ChanServ` and `ozone`, with that mode.
+The robots do not answer questions.
+
+You can confirm that someone you are talking to is a member of network
+staff by their `@libera/staff/<TheirNick>` vhost, also known as a
+[cloak](/guides/cloaks).
+
+In many clients the cloak might appear at the top of a PM window. If not, it
+will show in the information you get when you `/whois <TheirNick>`. For
+example, the first line of the output for `/whois el` looks like:
+
+```irc
+06:50 -- [el] (~el@libera/staff/el): el
+```
+
+Staff make use of `/stats p` to highlight staff who are immediately available.
+They will only be listed by this command if they have set themselves as "on
+call."
+
+If no staff are listed by `/stats p`, you can find staff you share channels
+with by doing:
+
+```irc
+/who libera/staff/*
+```
+
+**You do not need to ask permission to send private messages to any staff
+member.** They will answer if they notice your message in time. If they're not
+responsive, you may attempt to talk to other staff members instead.
+
+If you are unable to [connect to the network](/guides/connect) at all, you can
+contact staff by email: <support@libera.chat>.
+
 ## You need to identify via SASL to use this server
 
 You have tried to connect from a
