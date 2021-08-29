@@ -36,6 +36,9 @@ collections:
 
 feed:
   path: atom.xml
+  collections:
+    minutes:
+      path: "/minutes/atom.xml"
 
 defaults:
   - scope:
