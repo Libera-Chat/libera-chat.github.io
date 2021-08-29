@@ -158,7 +158,7 @@ The default modes set on a new channel are `+Cnst`.
 To set channel modes, you use `/mode <#channelname> [+|-]<mode>`.
 
 For example, during a spambot attack you might choose to only allow users who
-are [logged in](/guides/registration#logging_in) to join your channel. This is
+are [logged in](/guides/registration#logging-in) to join your channel. This is
 effective as most bots do not log in to accounts. To set the requirement, you
 would use the `r` mode.
 
