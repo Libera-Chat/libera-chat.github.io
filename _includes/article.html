@@ -31,7 +31,8 @@
     {% endif %}
   </div>
   <div>
-    <a href="/news">Archive</a>
+    {% assign c = include.article.collection %}
+    <a href="/{% if c == "posts" %}news{% else %}{{ c }}{% endif %}">Archive</a>
   </div>
   <div>
     {% if include.article.next %}
