@@ -38,7 +38,7 @@ with by doing:
 
 **You do not need to ask permission to send private messages to any staff
 member.** They will answer if they notice your message in time. If they're not
-responsive, you may attempt to talk to other staff member instead.
+responsive, you may attempt to talk to other staff members instead.
 
 If you are unable to [connect to the network](/guides/connect) at all, you can
 contact staff on the support address: <support@libera.chat>.
