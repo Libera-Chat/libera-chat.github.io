@@ -41,7 +41,7 @@ member.** They will answer if they notice your message in time. If they're not
 responsive, you may attempt to talk to other staff members instead.
 
 If you are unable to [connect to the network](/guides/connect) at all, you can
-contact staff on the support address: <support@libera.chat>.
+contact staff by email: <support@libera.chat>.
 
 ## You need to identify via SASL to use this server
 
