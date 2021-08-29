@@ -123,7 +123,7 @@ is actually a need to do so.
 
 ## Remember to take breaks to avoid burn-out
 
-When previously rewarding tasks, like helping in channels, becomes tiring and
+When previously rewarding tasks, like helping in channels, become tiring and
 less enjoyable, this is a sign of burn-out.
 
 If you manage a space alone, it is easy to feel obligated to spend all your
