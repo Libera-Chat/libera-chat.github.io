@@ -41,8 +41,10 @@ The projects and community team manages our relationships with
 and community registration, coordinating with projects and communities, and
 managing our social media.
 
-{% assign pac_team = site.data.staff | where: "projects and community", "y" | map: "nick" %}
-The Projects and community team comprises: {{ pac_team | join: ", " }}.
+{% assign staff = site.data.staff %}
+{% assign pac_team = staff | where: "projects and community", "y" %}
+The Projects and community team comprises:
+{{ pac_team | map: "nick" | join: ", " }}.
 
 ## Engineering team
 
@@ -51,8 +53,8 @@ network such as contributions to the [Solanum IRCd](https://solanum.chat),
 and [Atheme Services](https://atheme.github.io/) as well as our websites,
 tools and bots.
 
-{% assign engineering_team = site.data.staff | where: "engineering team", "y" | map: "nick" %}
-The engineering team comprises: {{ engineering_team | join: ", " }}.
+{% assign eng_team = staff | where: "engineering team", "y" %}
+The engineering team comprises: {{ eng_team | map: "nick" | join: ", " }}.
 
 ## Operations team
 
@@ -60,8 +62,8 @@ The operations team manage our infrastructure, making sure the network stays
 operational and ensuring we have the right hardware and server platforms to
 operate the services we provide.
 
-{% assign ops_team = site.data.staff | where: "operations team", "y" | map: "nick" %}
-The operations team comprises: {{ ops_team | join: ", " }}.
+{% assign ops_team = staff | where: "operations team", "y" %}
+The operations team comprises: {{ ops_team | map: "nick" | join: ", " }}.
 
 ## Wider staff and organisation membership
 
@@ -70,8 +72,7 @@ specialised teams, yet without them the efforts of the specialised teams would
 be in vain and more importantly day to day operation of the network would be
 impossible.
 
-{% assign nicks = site.data.staff | map: "nick" %}
-Staff and membership comprises: {{ nicks | join: ", " }}.
+Staff and membership comprises: {{ staff | map: "nick" | join: ", " }}.
 
 The best way to reach staff is the channel `#libera` or via the command
 `/stats p` which lists immediately available staff.
