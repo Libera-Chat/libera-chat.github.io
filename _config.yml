@@ -32,7 +32,7 @@ collections:
     permalink: /news/:title
   minutes:
     output: true
-    permalink: /minutes/:year-:month-:day-:title
+    permalink: /:collection/:year-:month-:day-:title
 
 feed:
   path: atom.xml

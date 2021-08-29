@@ -1,6 +1,9 @@
 ---
 title: Monthly General Meeting, July 2021
 author: Swant
+excerpt: >
+  De-listing proprietary platforms from our website, defining processes in case of staff misconduct,
+  transparency - real names on the website, consensus building, and meeting timing.
 ---
 
 ## Propositions and motions
