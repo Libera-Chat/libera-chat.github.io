@@ -121,6 +121,18 @@ mistake will not improve your community and could lead to distrust.
 You can always amend a lenient decision or concession in the future if there
 is actually a need to do so.
 
+## Avoid policing external behaviour
+
+People are often part of multiple communities. They often behave differently
+in each space, as various communities have their own cultures.
+
+Confronting and punishing someone for behaviour that is happening somewhere
+else often escalates something small into a bigger issue affecting more
+people. Pre-emptive banning is rarely a good idea.
+
+It can also make people in your channel feel like they're being spied on,
+which makes both your community and other spaces feel less friendly.
+
 ## Remember to take breaks to avoid burn-out
 
 When previously rewarding tasks, like helping in channels, become tiring and
