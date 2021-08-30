@@ -52,7 +52,7 @@ If you wish for your new visitors to have a different pre-filled nick then
 you can replace `Guest` in the URLs with the prefix of your choice.
 
 Keep in mind that webchat visitors frequently don’t have accounts. Often it's
-their first time on IRC. If your channel has set the `+r` mode then they will
+their first time on IRC. If your channel has set the `+r` mode, then they will
 not be able to join. You may need to reconsider the use of `+r`. While it is a
 good idea to [advise users to register](/guides/registration), if this is
 required it will discourage some users.
