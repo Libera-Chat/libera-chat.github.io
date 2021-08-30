@@ -10,26 +10,35 @@ Here's a simple guide for password-based authentication, based on the
 If you haven't already set up your connection to Libera.Chat, use this command:
 
 ```irc
-/server add liberachat irc.libera.chat/6697 -ssl
+/server add libera irc.libera.chat/6697 -ssl
 ```
 
 If you have already set up a connection to Libera.Chat, or if that command
 fails with a message like
-`irc: server "liberachat" already exists, can't add it!`, then use these
+`irc: server "libera" already exists, can't add it!`, then use these
 commands to ensure that SSL/TLS is enabled for your connection:
 
 ```irc
-/set irc.server.liberachat.addresses "irc.libera.chat/6697"
-/set irc.server.liberachat.ssl on
+/set irc.server.libera.addresses "irc.libera.chat/6697"
+/set irc.server.libera.ssl on
 ```
 
 Now, configure SASL:
 
 ```irc
-/set irc.server.liberachat.sasl_mechanism PLAIN
-/set irc.server.liberachat.sasl_username <nickname>
-/set irc.server.liberachat.sasl_password <password>
+/set irc.server.libera.sasl_mechanism PLAIN
+/set irc.server.libera.sasl_username <nickname>
+/set irc.server.libera.sasl_password <password>
 /save
+```
+
+It is recommended to store the password as secured data (skip setting
+passphrase if already set):
+
+```irc
+/secure passphrase <passphrase>
+/secure set libera_password <password>
+/set irc.server.libera.sasl_password "${sec.data.libera_password}"
 ```
 
 For more complete instructions, including non-password-based mechanisms,
