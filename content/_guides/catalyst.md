@@ -128,7 +128,7 @@ in each space, as various communities have their own cultures.
 
 Confronting and punishing someone for behaviour that is happening somewhere
 else often escalates something small into a bigger issue affecting more
-people. Situations where pre-emptive banning is a good idea are quite rare.
+people. Pre-emptive banning is rarely a good idea.
 
 It can also make people in your channel feel like they're being spied on,
 which makes both your community and other spaces feel less friendly.
