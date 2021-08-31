@@ -55,3 +55,8 @@
       media: '(prefers-color-scheme: dark)'
       type: image/webp
   current: true
+
+- name: Capitol Hosting Solutions
+  link: https://capitolsolutions.cloud/
+  image: /static/img/chs-logo-light.png
+  current: true
