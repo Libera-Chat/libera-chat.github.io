@@ -38,6 +38,9 @@ may have.
    /nick YourNick
    ```
 
+   Lines starting with the `/` symbol are commands, which you can type into
+   the chat field in the IRC client.
+
 3. **Register** your IRC nick:
 
    ```irc
