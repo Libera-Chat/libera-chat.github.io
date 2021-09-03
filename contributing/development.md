@@ -15,7 +15,7 @@ title: Contributing to Libera Chat
     our [web chat](https://web.libera.chat)
   - [gamja](https://sr.ht/~emersion/gamja/) -
     Our [alternative webchat](https://web.libera.chat/gamja/)
-  - [Sigyn (called ozone here)](https://github.com/Libera-Chat/Sigyn) -
+  - [Ozone (also known as Sigyn)](https://github.com/Libera-Chat/ozone) -
     helps to defend against abuse.
   - [ChanTracker
     (called litharge here)](https://github.com/ncoevoet/ChanTracker) -
