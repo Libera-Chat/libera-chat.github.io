@@ -61,8 +61,9 @@ directly if the self-service channel does not cloak you.
 
 If you run a bot on the network, you may also get the bot cloaked. While you
 can simply obtain a self-service user cloak for the bot, it is recommended to
-get a proper bot cloak. These are look like
-`user/<your username>/bot/<bot's username>` and help
+get a proper bot cloak by
+[contacting staff](/guides/faq#how-to-find-libera-chat-staff). These look
+like `user/<your username>/bot/<bot's username>` and help
 other users know to find you if something goes wrong with the bot.
 
 ## Project or community cloaks
@@ -132,24 +133,17 @@ bouncers, cloud-based hosts, and Tor. To connect to Libera.Chat via Tor, see
 ### Caveats of Cloaks
 
 - Caveat: Your ip or hostname is visible when you join channels before
-your account is associated with a cloak.
-
+  your account is associated with a cloak.
   - Workaround: Do not visit channels, other than the cloaking channel,
-before you are cloaked.
-
+    before you are cloaked.
   - Even with the above, `/whowas yournick` will show your pre-cloaked ip
-or hostname for an indeterminate number of hours.
-
+    or hostname for an indeterminate number of hours.
 - Your ip or hostname is visible if you join channels after connecting but
-before identifying to your account.
-
+  before identifying to your account.
   - Workaround: Use only the [SASL](/guides/sasl) authentication method and configure
-the client to abort or retry if authentication fails.
-
+    the client to abort or retry if authentication fails.
 - Caveat: If you click on links, your internet browser can disclose your ip.
-
   - Workaround: Copy-paste the link into a browser that you know is using a
-VPN or Tor.
-
+    VPN or Tor.
 - Caveat: Some IRC functionality will inherently reveal your IP or hostname.
-We do the best we can to prevent this but we cannot prevent all of it.
+  We do the best we can to prevent this but we cannot prevent all of it.
