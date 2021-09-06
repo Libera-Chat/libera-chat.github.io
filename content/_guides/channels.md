@@ -2,6 +2,7 @@
 title: Using Channels
 category: using
 credits: web7
+weight: 50
 ---
 
 ## Channel Policies

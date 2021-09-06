@@ -1,6 +1,7 @@
 ---
 title: Advice for Helpers
 category: chanop
+weight: 60
 ---
 
 Communities are healthiest when everyone works together to maintain the space

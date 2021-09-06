@@ -1,6 +1,7 @@
 ---
 title: Catalysing and De-escalation
 category: chanop
+weight: 50
 ---
 
 People often use Libera.Chat to get help with something on their computer.

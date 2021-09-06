@@ -2,6 +2,7 @@
 title: Finding Channels
 category: using
 credits: web7
+weight: 40
 ---
 
 ## Finding Channels on Libera.Chat

@@ -1,6 +1,7 @@
 ---
 title: Choosing an IRC client
 category: about-irc
+weight: 30
 ---
 
 There are several different ways to connect to IRC; this page gives

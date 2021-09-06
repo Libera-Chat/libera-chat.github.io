@@ -1,6 +1,7 @@
 ---
 title: Using Our Webchat
 category: connecting
+weight: 20
 ---
 
 ## What is a webchat?

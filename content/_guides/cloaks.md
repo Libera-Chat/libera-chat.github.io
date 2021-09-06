@@ -1,6 +1,7 @@
 ---
 title: Cloaks 
 category: using
+weight: 30
 ---
 
 A cloak is a custom hostmask that replaces your client hostname or IP address,

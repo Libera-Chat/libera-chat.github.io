@@ -2,6 +2,7 @@
 title: Connecting to Libera.Chat
 category: connecting
 credits: web7
+weight: 10
 ---
 
 Libera.Chat can be accessed using an [IRC client](/guides/clients).
