@@ -7,7 +7,7 @@ category: sasl
 
 ## Set up ERC IRC client
 
-If you have ERC already installed and running on your emacs system, then skip to [Connect for the First Time](#user-content-connect-for-the-first-time).
+If you have ERC already installed and running on your emacs system, then skip to [Connect for the First Time](#connect-for-the-first-time).
 
 Otherwise, set up your ERC with basic functionality, as follows:
 
@@ -100,11 +100,11 @@ Once set up, we will Using it, you can connect to libera.chat and log in for the
 ## Connect for the First Time
 
 If you have registered a nickname with libera already, and you remember the password, then skip to [Reconfigure
-your ERC for SASL functionality](#user-content-reconfigure-your-erc-for-sasl-functionality).
+your ERC for SASL functionality](#reconfigure-your-erc-for-sasl-functionality).
 
 Otherwise, connect for the first time (unregistered), as follows:
 
-1. First, make sure you are not using a VPN to connect to libera.chat. In most cases, you won't be allowed to connect unregistered and "un-SASL'd", from a VPN. (See [our notes on IP Range restrictions](guides/sasl#sasl-access-only-ip-ranges).) Later, once you connect as a registered user via SASL, below, you'll be able to use your VPN to connect.
+1. First, make sure you are not using a VPN to connect to libera.chat. In most cases, you won't be allowed to connect unregistered and "un-SASL'd", from a VPN. (See [our notes on IP Range restrictions](/guides/sasl#sasl-access-only-ip-ranges).) Later, once you connect as a registered user via SASL, below, you'll be able to use your VPN to connect.
 2. Connect to irc.libera.chat (unregistered), using the nick you plan to register. (You should be able to connect by using the global shortcut `C-c e` you defined above.)
 
 ## Register a Permanent Nickname and Password
