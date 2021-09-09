@@ -2,6 +2,7 @@
 title: Extbans
 category: chanop
 credits: web7
+weight: 30
 ---
 
 Bans, quiets and invite and ban exemptions conventionally accept the format

@@ -1,6 +1,7 @@
 ---
 title: Creating Channels
 category: chanop
+weight: 10
 ---
 
 A person who joins an _empty_ and unregistered channel is granted

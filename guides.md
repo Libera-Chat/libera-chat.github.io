@@ -4,7 +4,9 @@ layout: guides
 ---
 
 {% for category in site.data.guide_categories %}
-{% assign guides = site.guides | where: "category", category.slug %}
+{% assign guides = site.guides
+  | sort: "weight"
+  | where: "category", category.slug %}
 
 ## {{ category.name }}
 

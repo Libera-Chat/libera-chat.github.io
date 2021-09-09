@@ -2,6 +2,7 @@
 title: Channel Modes
 category: chanop
 credits: web7
+weight: 20
 ---
 
 Various modes can be set on channels. Use `/mode #channel` to list current

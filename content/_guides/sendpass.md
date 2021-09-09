@@ -2,6 +2,7 @@
 title: Resetting your Password
 category: using
 credits: web7
+weight: 20
 ---
 
 If you have forgotten the password for your NickServ account and are unable to

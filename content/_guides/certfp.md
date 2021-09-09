@@ -2,6 +2,7 @@
 title: Using CertFP
 category: connecting
 credits: web7
+weight: 40
 ---
 
 As an alternative to password-based authentication, you can connect to

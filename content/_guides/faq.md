@@ -1,6 +1,7 @@
 ---
 title: Frequently Asked Questions
 category: about-irc
+weight: 20
 ---
 
 - TOC

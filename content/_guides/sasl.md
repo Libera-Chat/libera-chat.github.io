@@ -2,6 +2,7 @@
 title: Using SASL
 category: connecting
 credits: web7
+weight: 30
 ---
 
 SASL is a method that allows identification to services (NickServ) during the

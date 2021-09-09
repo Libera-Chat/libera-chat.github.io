@@ -1,6 +1,7 @@
 ---
 title: Network bots
 category: chanop
+weight: 40
 ---
 
 We run various IRC bots, some of them have a public facing usage. Any requests
