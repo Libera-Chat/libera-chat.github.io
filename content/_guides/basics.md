@@ -164,7 +164,7 @@ Command parts shown in `[]` are optional.
 
 - `/join #libera`
   - Enter the channel `#libera`.
-- `/part [#libera][message]`
+- `/part [#libera] [message]`
   - Exit the channel `#libera`.
   - If no channel is given, you will part the channel you type this into.
   - The optional message will be shown to only this channel on your departure.
