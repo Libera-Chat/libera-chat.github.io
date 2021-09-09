@@ -1,6 +1,7 @@
 ---
 title: Basics of IRC
 category: about-irc
+weight: 10
 ---
 
 You are likely here because you want to know more about this "IRC" stuff
