@@ -90,14 +90,22 @@ Congratulations on your new Libera.Chat channel!
 
 ### Troubleshooting
 
-If you do not get the Operator status on join, it could be because there are
-people already in the channel. You will need to ask them to leave while you
-set it up. If they do not cooperate, you will likely need to pick a new name.
+If you do not get the Operator status, but believe you already registered
+this channel during a previous session, try using `ChanServ OP`:
 
-If the channel is already registered but not in use, or there are no active
-Operators, it may be subject to [expiry](/policies#channels), depending on the
-type of namespace it belongs to. As part of the expiry process, staff will
-take input from both you and any existing channel members.
+```irc
+/msg ChanServ OP <#channel>
+```
+
+If you did not previously attempt to register, and you do not get the
+Operator status on join, it could be because there are people already in the
+channel. You will need to ask them to leave while you set it up. If they do
+not cooperate, you will likely need to pick a new name.
+
+If the channel is already registered by someone else, but not in use, or there
+are no active Operators, it may be subject to [expiry](/policies#channels),
+depending on the type of namespace it belongs to. As part of the expiry
+process, staff will take input from both you and any existing channel members.
 
 If you are a representative of a project and you wish to use a channel that is
 already registered, you can ask staff about a [group registration](/chanreg).
@@ -186,16 +194,36 @@ The permissions you can give are outlined in the output of
 `/msg ChanServ HELP FLAGS`, along with instructions about the use of
 `TEMPLATE` functionality.
 
+If your channel is **not** set `SECURE`, then you can trial new Operators by
+_temporarily_ giving them the Operator status.
+
+```irc
+/msg ChanServ OP <#channel> [nickname]
+```
+
+Substitute `DEOP` in place of `OP` to remove their status if you don't like
+their performance. `VOICE` and `DEVOICE` are the equivalents for giving and
+taking Voiced status.
+
+The `SECURE` channel flag limits `OP|DEOP|VOICE|DEVOICE` functionality to
+only those who possess the corresponding `ChanServ` flags, which will prevent
+people from receiving these statuses on a temporary basis.
+
 **Be very careful who you grant the `F` flag to. They will have full
 permissions on the channel and will be able to remove your own `F`.** The `f`
-flag will allow them to assign permissions they already have and is thus a
-safer option.
+flag will allow them to assign or unassign permissions they already have and
+is thus a safer option.
 
 Unless the channel is assigned to a registered group you are listed as a Group
 Contact (GC) of, you will not have
 [GC permissions](#special-instructions-for-group-contacts) and
 will not be able to get the channel back without their cooperation or by
-[registering as a group](/chanreg)
+[registering as a group](/chanreg).
+
+We also recommend against using `+O` or `+V` as these flags mean people will
+be given Operator or Voiced status on joining a channel. See
+[the catalyst guide](/guides/catalyst#only-be-opped-up-when-necessary)
+for the philosophy behind this.
 
 ## Other channel settings
 
