@@ -193,7 +193,8 @@ The permissions you can give are outlined in the output of
 `/msg ChanServ HELP FLAGS`, along with instructions about the use of
 `TEMPLATE` functionality.
 
-You can trial new Operators by _temporarily_ giving them the Operator status.
+If your channel is **not** set `SECURE`, then you can trial new Operators by
+_temporarily_ giving them the Operator status.
 
 ```irc
 /msg ChanServ OP <#channel> [nickname]
@@ -202,6 +203,10 @@ You can trial new Operators by _temporarily_ giving them the Operator status.
 Substitute `DEOP` in place of `OP` to remove their status if you don't like
 their performance. `VOICE` and `DEVOICE` are the equivalents for giving and
 taking Voiced status.
+
+The `SECURE` channel flag limits `OP|DEOP|VOICE|DEVOICE` functionality to
+only those who possess the corresponding `ChanServ` flags, which will prevent
+people from receiving these statuses on a temporary basis.
 
 **Be very careful who you grant the `F` flag to. They will have full
 permissions on the channel and will be able to remove your own `F`.** The `f`
