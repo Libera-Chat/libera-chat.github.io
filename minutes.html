@@ -2,7 +2,7 @@
 title: Meeting Minutes
 ---
 
-{% for minutes in site.minutes %}
+{% for minutes in site.minutes reversed %}
 {%- include article.html article=minutes excerpt=true no_nav=true -%}
 {% unless post.previous == null %}
 <hr>
