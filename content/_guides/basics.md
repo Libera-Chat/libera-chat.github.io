@@ -139,7 +139,7 @@ by channel name or by topic description.
 
 There are lots of different topics on any IRC network. On Libera Chat, most of
 our channels are about freely-licenced software and collaborative projects.
-Our [network policy](/policies) define what we want the network to be like.
+Our [network policies](/policies) define what we want the network to be like.
 
 ## Channel roles
 
