@@ -2,6 +2,8 @@
 title: Frequently Asked Questions
 category: about-irc
 weight: 20
+seo:
+  type: FAQPage
 ---
 
 - TOC
