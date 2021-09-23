@@ -46,16 +46,22 @@ defaults:
       type: guides
     values:
       layout: guides
+      seo:
+        type: TechArticle
   - scope:
       path: ""
       type: posts
     values:
       layout: article
+      seo:
+        type: Article
   - scope:
       path: ""
       type: minutes
     values:
       layout: article
+      seo:
+        type: Article
   - scope:
       path: ""
     values:
