@@ -8,7 +8,8 @@ weight: 30
 SASL is a method that allows identification to services (NickServ) during the
 connection process, before anything else happens - therefore eliminating the
 need to `/msg NickServ identify`. To use SASL, you must
-[register your nickname](/guides/registration).
+[register your nickname](/guides/registration). This includes following the
+emailed instructions to verify the address on your account.
 
 Libera.Chat [**requires** the use of SASL](#sasl-access-only-ip-ranges) for
 certain IP ranges.
