@@ -42,7 +42,7 @@ staff members. Two potential candidates were brought to the meeting, the
 meeting agreed to extend invitations to them. A working group was spun off to
 work on one potential path for identifying further candidates.
 
-## Bridging
+### Bridging
 
 Discussion around various means of double-bridging was held since it may
 cause channels to become too large for clients to handle, while it is also
