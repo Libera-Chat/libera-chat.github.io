@@ -51,7 +51,11 @@ v 2021-06-12, organisation number 802535-6448
    Members of either type may at any time switch between the two types of
    member status by notifying the board. The board are always quorum members.
 
-5. Membership is terminated if:
+5. Any quorum member who, in any two full, consecutive calendar months, does
+   not attend any Monthly General Meetings, becomes an ordinary member
+   immediately after the end of the second such month.
+
+6. Membership is terminated if:
 
    - The member withdraws their membership, or
 
