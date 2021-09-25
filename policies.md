@@ -98,10 +98,10 @@ collectibles and should not be hoarded or squatted.
 
 ### Nickname Expiration
 
-- Account names expire when the whole account has been unused for more than 10
+- Account names expire when the whole account has been unused for more than 20
   weeks.
 - Additional grouped nicknames expire when the grouped nickname has been
-  unused for more than 10 weeks.
+  unused for more than 20 weeks.
 - *Special case:* Whole accounts used for less than 2 hours after creation
   expire after 2 weeks.
 
