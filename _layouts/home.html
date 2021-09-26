@@ -2,12 +2,12 @@
 <html lang="en">
 {%- include head.html with_hero=true -%}
 
-<body>
+<body style="overflow-y: scroll;">
   {%- include nav.html -%}
 
   {%- include hero.html -%}
 
-  <main id="main">
+  <main id="main" style="overflow-y: visible;">
     {%- include article.html article=site.posts.first -%}
   </main>
 
