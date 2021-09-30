@@ -15,7 +15,7 @@ seo:
 
 [Staff](/about#wider-staff-and-organisation-membership) make use of a list
 to highlight staff members who are immediately available. This allows you to
-find and contact staff discretely and is our preferred method of taking
+find and contact staff discreetly and is our preferred method of taking
 questions.
 
 The list may appear in your network window instead of the current one.
