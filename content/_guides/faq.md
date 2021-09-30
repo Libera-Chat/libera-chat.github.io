@@ -11,10 +11,25 @@ seo:
 
 ## How to find Libera Chat staff?
 
-Most [staff](/about#wider-staff-and-organisation-membership) have the
-Operator mode in `#libera` to make them easy to find when they're connected.
-There are also some robots, currently `ChanServ` and `ozone`, with that mode.
-The robots do not answer questions.
+### Immediately available staff
+
+[Staff](/about#wider-staff-and-organisation-membership) make use of a list
+to highlight staff members who are immediately available. This allows you to
+find and contact staff discretely and is our preferred method of taking
+questions.
+
+The list may appear in your network window instead of the current one.
+Request the list by doing:
+
+```irc
+/stats p
+```
+
+### Contacting staff privately
+
+**You do not need to ask permission to send private messages to any staff
+member.** They will answer if they notice your message in time. If they're not
+responsive, you may attempt to talk to other staff members instead.
 
 You can confirm that someone you are talking to is a member of network
 staff by their `@libera/staff/<TheirNick>` vhost, also known as a
@@ -28,20 +43,18 @@ example, the first line of the output for `/whois el` looks like:
 06:50 -- [el] (~el@libera/staff/el): el
 ```
 
-Staff make use of `/stats p` to highlight staff who are immediately available.
-They will only be listed by this command if they have set themselves as "on
-call."
+### Other ways to find staff
 
-If no staff are listed by `/stats p`, you can find staff you share channels
+If no staff are listed with `/stats p` you can find staff you share channels
 with by doing:
 
 ```irc
 /who libera/staff/*
 ```
 
-**You do not need to ask permission to send private messages to any staff
-member.** They will answer if they notice your message in time. If they're not
-responsive, you may attempt to talk to other staff members instead.
+Additionally, most staff have the Operator mode in `#libera` to make them easy
+to find when they're connected. There are also some robots, currently
+`ChanServ` and `ozone`, with that mode. The robots do not answer questions.
 
 If you are unable to [connect to the network](/guides/connect) at all, you can
 contact staff by email: <support@libera.chat>.
