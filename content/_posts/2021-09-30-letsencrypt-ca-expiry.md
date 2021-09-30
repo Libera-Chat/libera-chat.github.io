@@ -25,7 +25,7 @@ path if it's served a chain that is (as in this instance) trusted but invalid.
 We've chosen to remove the cross-signed root from our chains for now, fixing the
 clients that we've been able to test. This will be subject to review based on
 your feedback, so please let us know if you were relying on the cross-signed
-root. We can be reached at support@libera.chat; you can of course disable
+root. We can be reached at <support@libera.chat>; you can of course disable
 validation or connect insecurely as a workaround, but please weigh any such
 workaround against the security risks it carries.
 
