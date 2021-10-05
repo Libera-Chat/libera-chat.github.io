@@ -22,6 +22,8 @@
   link: /chanreg
 - name: Guides
   link: /guides
+- name: FAQ
+  link: /guides/faq
 - name: Connect
   highlight: true
   items:
