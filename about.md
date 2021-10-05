@@ -74,5 +74,6 @@ impossible.
 
 Staff and membership comprises: {{ staff | map: "nick" | join: ", " }}.
 
-The best way to reach staff is the channel `#libera` or via the command
-`/stats p` which lists immediately available staff.
+Staff who are immediately available for contact can be found with `/stats p`.
+See our [FAQ](/guides/faq#how-to-find-libera-chat-staff) for other ways to
+find staff.
