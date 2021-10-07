@@ -109,7 +109,7 @@ If you will be absent for longer than normal expiration times, please contact
 network staff in advance for potential options.
 
 Expiration times can be extended by staff for other reasons including account
-age to as much as 15 weeks past the last use. In rare cases, staff might deny
+age to as much as 30 weeks past the last use. In rare cases, staff might deny
 a drop request. Accounts marked "Hold" in NickServ INFO output do not expire.
 
 Nicknames and accounts which are expired will not automatically be dropped.
