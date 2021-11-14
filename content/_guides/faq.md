@@ -202,6 +202,22 @@ may take offense to unauthorised bots that are noisy or interactive.
 If your bot is storing information in a publicly accessible way, you should
 follow our [public logging policy](/policies#public-logging).
 
+### Flood exemptions for bots
+
+Users and bots with the flags `+v` or `+o` within a channel have protection
+against triggering flood mitigation. For this reason, it is recommended that
+noisy bots have one of these flags.
+
+Additional exemptions may be allocated when the need for them is demonstrated.
+If you find that your bot is hitting limits, email <support@libera.chat> for
+advice.
+
+### Workaround for bots that don't support SASL
+
+If you're trying to run a bot on a SASL-only range, your bot will need SASL
+support. If it lacks this support, you can connect it through a bouncer that
+does support SASL.
+
 ## Are bridges allowed?
 
 We do allow user operated bridges on Libera.Chat. Please get permission from
@@ -220,7 +236,7 @@ majority of users are not on irc.
 
 We also recommend that staff are notified about one to one bridging as it may
 hit connection limits or trip anti-abuse measures. Please contact
-`support@libera.chat` about such issues.
+<support@libera.chat> about such issues.
 
 ## Can I connect with Matrix?
 
