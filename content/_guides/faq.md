@@ -309,3 +309,15 @@ Libera.Chat bridge and may request intervention if any bridged channels cause
 problems. At our request, the EMS-hosted Libera.Chat bridge regularly prunes
 idle connections to minimize disruptions to IRC channels during bridge
 restarts.
+
+## Why did you scan my address?
+
+To reduce network abuses, we perform open proxy checks on hosts at connection
+time. If an open proxy is detected, then the connection will be terminated.
+
+Open proxies mean that anyone on the internet can use your connection if they
+know the right tricks. This means that an open proxy would allow them to use
+your connection for abusive purposes, even without you knowing.
+
+If you are unsure why a proxy is being detected on your address, you're
+welcome to contact staff by email: <support@libera.chat>.
