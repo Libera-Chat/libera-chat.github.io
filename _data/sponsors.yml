@@ -60,3 +60,8 @@
   link: https://capitolsolutions.cloud/
   image: /static/img/chs-logo-light.png
   current: true
+
+- name: Hyperfilter
+  link: https://www.hyperfilter.com/
+  image: /static/img/hyperlogo.png
+  current: true
