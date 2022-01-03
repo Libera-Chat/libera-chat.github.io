@@ -7,7 +7,7 @@ credits: web7
 The setup for SASL on Irssi differs depending on the version you have (you can
 find out by running `irssi -v` in your nearest shell).
 
-## Irssi 1.2.1 or later
+## Irssi 1.0.8, or 1.1.3, or 1.2.1, or later
 
 Recent Irssi versions include built-in SASL support via `/network`:
 
