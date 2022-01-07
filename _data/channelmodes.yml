@@ -151,7 +151,7 @@
   description: Only channel operators may set the channel topic.
 - mode: T
   name: block notice
-  description: Blocks channel notice (other than CTCP replies, see `+C`)
+  description: Blocks channel notices (other than CTCP replies, see `+C`).
 - mode: u
   name: unfiltered
   description: |
