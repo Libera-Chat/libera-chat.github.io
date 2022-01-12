@@ -23,5 +23,8 @@ title: Contributing to Libera Chat
   - [Limnoria](https://github.com/ProgVal/Limnoria) -
     it powers ozone, litharge and countless other community-managed bots on
     the network.
+  - [ircrobots](https://github.com/jesopo/ircrobots) -
+    powers a number of internal utility bots; such as beryllia, bismite,
+    spinel, tungstite.
 
 Come visit us in `#libera-dev` if you want to collaborate.
