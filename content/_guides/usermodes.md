@@ -26,5 +26,5 @@ again every time you connect—most clients can automate this for you.
 
 By default, user mode +Z (connected securely using TLS) is set only if you are
 using a secure connection, and it cannot be unset during the session. User
-mode `+i` (invisible) is also set by default, and can be unset. Other user
-modes can be set, but are disabled by default.
+mode `+i` (invisible) and `+w` (see wallops) are also set by default,
+and can be unset. Other user modes can be set, but are disabled by default.
