@@ -13,7 +13,9 @@
     is supported in bans.
 
     The [second form](/guides/extbans) can be used for bans based on user
-    data. You can append `$#channel` to any ban to redirect banned users to
+    data.
+    
+    You can append `$#channel` to any ban to redirect banned users to
     another channel.
 - mode: c
   name: colour filter
