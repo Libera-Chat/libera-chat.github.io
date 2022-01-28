@@ -78,6 +78,16 @@ Libera Chat normally stores your data collected on the IRC network for the
 purpose of debugging and restoration for no more than 60 days after you last
 connect to the network, or delete your account. Whichever comes last.
 
+Data collected for the purposes of recording and mitigating abuse may be kept
+for up to 365 days after the abuse occured, or the mitigation ended, whichever
+comes last. The following information is covered by this policy:
+
+- network bans (target, setter, reason, duration, timestamp, known aliases)
+- connections affected by network bans (nickname, username, hostname,
+  IP address, timestamp of effect)
+- account registrations for the purposes of network policy violation (email
+  address, nickname, username, hostname, IP address, timestamp, known aliases)
+
 Data collected by email or our support system in relation to project
 registration, sponsorship and channel namespace management will be stored at
 least until the project is deregistered or the sponsorship is terminated, this
