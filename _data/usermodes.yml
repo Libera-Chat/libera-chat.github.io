@@ -1,3 +1,7 @@
+- mode: D
+  name: deaf
+  description: |
+    Ignores all channel messages
 - mode: g
   name: caller-id
   description: |
