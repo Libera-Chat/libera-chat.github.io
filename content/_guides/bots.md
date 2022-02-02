@@ -34,6 +34,9 @@ channel mode changes and allows management of them over time. It stores
 affected users, allows deep searching of mode changes, reviewing active modes,
 editing duration of mode changes, and marking and annotation of them.
 
+This bot will need the `+o` flag in your channel so that it can op itself to
+remove bans when they expire; `/msg chanserv flags #yourchannel litharge +o`.
+
 When requesting litharge for your channel, simply `/invite litharge #yourchannel`.
 
 ### Usage
