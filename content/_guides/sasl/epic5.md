@@ -27,8 +27,8 @@ Prefered method of connecting to Libera.Chat on EPIC5 is configuring your
 ircII.servers file with proper connection line. This file is located in
 `$IRCLIB` directory (you must set this environment variable in your shell
 configuration file like .bashrc or .zshrc). The format is described in
-http://help.epicsol.org/server_description, as an example you can use
-following line:
+[this documentation](http://help.epicsol.org/server_description), as an
+example you can use following line:
 
 `irc.libera.chat:7000:password=MYPASSWORD:nick=MYNICK:type=IRC-SSL`
 
@@ -43,7 +43,7 @@ or `~/.ircrc` files:
 
 `sasl_nistp256_ecdsatool` setting must point to ecdsatool binary, you must
 compile your own, source code is available on
-https://github.com/kaniini/ecdsatool
+[GitHub](https://github.com/kaniini/ecdsatool).
 
 `sasl_nistp256` command has three arguments - server mask where to attempt
 the authentication, account name and pem file, generated with ecdsatool.
