@@ -7,7 +7,7 @@ credits: web7
 EPIC5 has the sasl_auth and sasl_nistp256 scripts built-in. Mikhail
 contributed this explanation of how to use it.
 
-For SASL authetication with PLAIN method open your EPIC5 configuration
+For SASL authentication with PLAIN method open your EPIC5 configuration
 file, `~/.epicrc` or `~/.ircrc`, in your preferred editor. Add the
 following lines:
 
@@ -20,10 +20,11 @@ your password or omitted, in which case EPIC5 will prompt for the password
 when it connects. You may change `*.libera.chat` to something more specific
 if desired, but the `*` means SASL authentication will be attempted for any
 `irc.libera.chat` server.
-The sciprt supports only `plain` authentication mechanism, you must use SSL
+
+The script supports only `plain` authentication mechanism, you must use SSL
 to protect your password.
 
-Prefered method of connecting to Libera.Chat on EPIC5 is configuring your
+Preferred method of connecting to Libera.Chat on EPIC5 is configuring your
 ircII.servers file with proper connection line. This file is located in
 `$IRCLIB` directory (you must set this environment variable in your shell
 configuration file like .bashrc or .zshrc). The format is described in
@@ -46,8 +47,8 @@ compile your own, source code is available on
 [GitHub](https://github.com/kaniini/ecdsatool).
 
 `sasl_nistp256` command has three arguments - server mask where to attempt
-the authentication, account name and pem file, generated with ecdsatool.
-Take serious consideration regarding pem file - you should place it only on
+the authentication, account name and PEM file, generated with ecdsatool.
+Take serious consideration regarding PEM file - you should place it only on
 trusted machines and with 0600 permissions, because everyone who can get
 the file can access your IRC account.
 
