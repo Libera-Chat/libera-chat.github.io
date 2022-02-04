@@ -59,6 +59,23 @@ to find when they're connected. There are also some robots, currently
 If you are unable to [connect to the network](/guides/connect) at all, you can
 contact staff by email: <support@libera.chat>.
 
+## What are Global Notices and Wallops, and can I opt out of them?
+
+`Global Notices` are network wide messages that staff can send to everyone on
+the network, and are reserved for important news, warnings, or explanations
+about network related things such as netsplits or downtime. You **cannot** opt
+out of `Global Notices`.
+
+`Wallops` are messages sent to everyone who has the +w [user mode](/guides/usermodes)
+set. These messages might be additional information about an incident
+mentioned in a `Global Notice`, messages that are intended to encourage
+community building, or to celebrate milestones in the projects and communities
+that are the network's primary stakeholders. Messages sent with `Wallops`
+**can** be opted out of with `/mode yourname -w`. This will need to be done
+each time you connect to the network as this is a default user mode on Libera
+Chat. Nearly all clients can send commands at connection time, see their
+documentation or support channels for details.
+
 ## You need to identify via SASL to use this server
 
 You have tried to connect from a
