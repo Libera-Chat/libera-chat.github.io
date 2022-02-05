@@ -10,7 +10,6 @@ package for Emacs. A script is used to provide SASL support; you should first
 download [erc-sasl.el from GitHub](https://github.com/syl20bnr/spacemacs/blob/master/layers/%2Bchat/erc/local/erc-sasl/erc-sasl.el)
 and save it into one of the directories listed in your emacs `load-path`.
 
-
 Once the script is downloaded, add the following to your `.emacs` or `init.el`
 file in your ERC section:
 
