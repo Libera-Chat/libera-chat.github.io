@@ -6,11 +6,13 @@ category: sasl
 These instructions were originally contributed by androclus. Thanks!
 
 [ERC](https://www.emacswiki.org/emacs/ERC) is an IRC client which comes as a
-package for Emacs. A script is used to provide SASL support.
+package for Emacs. A script is used to provide SASL support; you should first
+download [erc-sasl.el from GitHub](https://github.com/syl20bnr/spacemacs/blob/master/layers/%2Bchat/erc/local/erc-sasl/erc-sasl.el)
+and save it into one of the directories listed in your emacs `load-path`.
 
-1. Download [erc-sasl.el from GitHub](https://github.com/syl20bnr/spacemacs/blob/master/layers/%2Bchat/erc/local/erc-sasl/erc-sasl.el).
-2. Save it into one of the directories listed in your emacs `load-path`.
-3. Add the following to your `.emacs` or `init.el` file in your ERC section:
+
+Once the script is downloaded, add the following to your `.emacs` or `init.el`
+file in your ERC section:
 
 ```elisp
 ;; Require ERC-SASL package
@@ -44,8 +46,8 @@ package for Emacs. A script is used to provide SASL support.
   (erc-update-mode-line))
 ```
 
-4. Update your connection function to include your NickServ password, for
-  example when using [erc-tls](https://www.emacswiki.org/emacs/ErcSSL):
+Finally, update your connection function to include your NickServ password,
+for example when using [erc-tls](https://www.emacswiki.org/emacs/ErcSSL):
 
 ```elisp
 (erc-tls :server "irc.libera.chat" :port 6697 :nick "YourNick"
