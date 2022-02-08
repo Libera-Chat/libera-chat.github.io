@@ -112,7 +112,7 @@ and then reconnect to Libera.Chat.
 
 ### znc
 
-Refer to znc's [official documentation](http://wiki.znc.in/Cert).
+Refer to znc's [official documentation](https://wiki.znc.in/Cert).
 
 ### HexChat
 

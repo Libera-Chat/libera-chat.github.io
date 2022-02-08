@@ -37,7 +37,7 @@ not support `DH-BLOWFISH`
 - [Revolution](/guides/revolution)
 - [Textual](/guides/textual)
 - [WeeChat](/guides/weechat)
-- [ZNC](http://wiki.znc.in/Sasl#Example)
+- [ZNC](https://wiki.znc.in/Sasl#Example)
 - [IRCCloud](/guides/irccloud)
 
 If you know of any additions or corrections to the lists above, or would like
@@ -66,8 +66,8 @@ work campuses. If you are concerned about access point privacy, you can
 
 Connecting bots which lack SASL support from SASL access only ranges can be
 achieved if you connect the bot via a bouncer that does support SASL
-authentication. [ZNC](https://wiki.znc.in) is a popular bouncer that supports
-SASL.
+authentication. [ZNC](https://wiki.znc.in/ZNC) is a popular bouncer that
+supports SASL.
 
 SASL access only restrictions are typically applied to address ranges that are
 the source of frequent policy violations due to providing easy access to
