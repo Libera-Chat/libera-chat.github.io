@@ -64,16 +64,16 @@ contact staff by email: <support@libera.chat>.
 `Global Notices` are network wide messages that staff can send to everyone on
 the network, and are reserved for important news, warnings, or explanations
 about network related things such as netsplits or downtime. You **cannot** opt
-out of `Global Notices`.
+out of global notices.
 
-`Wallops` are messages sent to everyone who has the +w [user mode](/guides/usermodes)
+**Wallops** are messages sent to everyone who has the `+w` [user mode](/guides/usermodes)
 set. These messages might be additional information about an incident
-mentioned in a `Global Notice`, messages that are intended to encourage
+mentioned in a global notice, messages that are intended to encourage
 community building, or to celebrate milestones in the projects and communities
-that are the network's primary stakeholders. Messages sent with `Wallops`
+that are the network's primary stakeholders. Messages sent with wallops
 **can** be opted out of with `/mode yourname -w`. This will need to be done
 each time you connect to the network as this is a default user mode on Libera
-Chat. Nearly all clients can send commands at connection time, see their
+Chat. Nearly all clients can send commands at connection time; see their
 documentation or support channels for details.
 
 ## You need to identify via SASL to use this server
