@@ -61,7 +61,7 @@ contact staff by email: <support@libera.chat>.
 
 ## What are Global Notices and Wallops, and can I opt out of them?
 
-`Global Notices` are network wide messages that staff can send to everyone on
+**Global Notices** are network wide messages that staff can send to everyone on
 the network, and are reserved for important news, warnings, or explanations
 about network related things such as netsplits or downtime. You **cannot** opt
 out of global notices.
