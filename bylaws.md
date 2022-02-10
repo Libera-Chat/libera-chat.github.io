@@ -2,7 +2,7 @@
 title: Libera Chat Bylaws
 ---
 
-v 2021-09-27, organisation number 802535-6448
+v 2022-01-28, organisation number 802535-6448
 
 ## Organisation and purpose
 
@@ -248,6 +248,100 @@ v 2021-09-27, organisation number 802535-6448
    committees.
 
 4. The auditors cannot be members of the board.
+
+## Complaints
+
+1. The membership shall appoint a Complaints Rota to handle complaints about the
+   organisation's staff. Members on the Complaints Rota must be members of the
+   organisation.
+
+2. If, at the time of a Monthly General Meeting, there are fewer than four
+   members on the Complaints Rota, the meeting should attempt to appoint more
+   members until there are at least four such members.
+
+3. On receiving a complaint, the Complaints Rota shall select two of its
+   members, at random, to hear the complaint. Members with known conflicts of
+   interest shall be excluded from selection. These members shall be known, in
+   the context of the particular complaint, as the "Complaint Processors"
+
+4. The Complaint Processors must agree on the action to be taken, if any.
+
+5. The Complaint Processors must respect the privacy of complainants and all
+   other parties. The Complaint Processors may recruit other members of the
+   organisation to assist with their invstigation. Other members, including the
+   Board and Complaints Rota members who are not actively working on the
+   complaint, should not have automatic access to it.
+
+6. If any party to a complaint disagrees with the result, they can appeal it.
+   Libera Chat members require no permission to appeal, while non-members must
+   seek the permission of the Board. If the Board denies such permission, it
+   must give a reason.
+
+   There are two appeals to be used in order:
+
+   - Appeal to another two random Complaints Rota members, and
+
+   - Appeal to the entire membership.
+
+   Any party wishing to appeal must immediately inform the Board. If a party has
+   not informed the Board of their intention to appeal after 30 calendar days
+   from the date of the result, their right to appeal lapses.
+
+7. In the event that a complaint is appealed to the entire membership of the
+   organisation, the Board is responsible for scheduling a meeting of the
+   membership to hear the appeal.
+
+8. A complaint that is appealed to the entire membership of the organisation may
+   contain sensitive information that should not be shared widely. The Complaint
+   Processors should prepare a case for the membership, excluding such details.
+   The Auditors of the organisation may be called upon to attest that the
+   Complaint Processors' case is a faithful account of the complaint.
+
+9. Parties to complaints who are Libera Chat members have the right to speak at
+   their own final appeal, and to hear all sides' arguments. They should not be
+   present when the resulting actions are discussed. The Board should dismiss
+   any such party if they reveal, or threaten to reveal, private information
+   about the complaint, or the other parties to it.
+
+10. An appeal to the entire membership is decided by a vote between two options:
+    to carry or vacate the outcome of the complaint. This may optionally be
+    preceded by any number of votes to amend or not amend the decision. Each
+    vote is a simple majority vote between exactly two choices. If a vote to
+    amend has no majority, the decision is not amended. If a vote on the outcome
+    has no majority, the complaint is carried.
+
+11. If the outcome of any stage of a complaint is to relieve a Libera Chat staff
+    member of some or all of their duties, those duties can be temporarily
+    suspended pending the conclusion of the appeal process. If a staff member
+    whose duties are temporarily suspended is a member of Libera Chat, their
+    membership is unaffected by this status.
+
+12. At most two members can be temporarily suspended at any time.
+
+13. Time constraints are imposed on the complaints process as follows:
+
+    - Complaints must be acknowledged within 7 calendar days of receipt by the
+      Complaints Rota.
+
+    - An initial result must be returned by the Complaint Processors within 30
+      calendar days of receipt of the complaint by the Complaints Rota.
+
+    - A party wishing to appeal has 7 calendar days to prepare their appeal,
+      starting from the date they notified the Board of their intention to
+      appeal.
+
+    - The result of the first appeal must be returned by the Complaint
+      Processors not before all parties have exercised or waived their right to
+      appeal, and within 14 days of the end of the first 30-day appeal period.
+
+    - The Board must schedule the hearing for the second appeal not before all
+      parties have exercised or waived their right to appeal, and within 21 days
+      of the end of the second 30-day appeal period.
+
+14. If, at the time of any Monthly General Meeting, a member is temporarily
+    suspended, and will have been temporarily suspended for more than 59
+    calendar days by the end of the current calendar month, the Monthly General
+    Meeting must decide whether or not to continue their temporary suspension.
 
 ## Specialised Committees
 
