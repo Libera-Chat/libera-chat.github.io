@@ -13,7 +13,7 @@
   </p>
 
   {% if include.excerpt and include.link_only != true %}
-  {{ include.article.excerpt }}
+  {{ include.article.excerpt | markdownify }}
 
   <p><a href="{{ include.article.url }}">Read more</a></p>
   {% elsif include.link_only %}
