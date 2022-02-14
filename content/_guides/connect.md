@@ -11,6 +11,7 @@ Connect to Libera.Chat with TLS at `irc.libera.chat` on port `6697`.
 
 Additional regional and address-specific hostnames are available:
 
+|                           |                        |
 | ------------------------- | ---------------------- |
 | Default                   | `irc.libera.chat`      |
 | Europe                    | `irc.eu.libera.chat`   |
@@ -22,6 +23,7 @@ Additional regional and address-specific hostnames are available:
 
 Additional ports are available:
 
+|            |                      |
 | ---------- | -------------------- |
 | Plain-text | 6665-6667, 8000-8002 |
 | TLS        | 6697, 7000, 7070     |
