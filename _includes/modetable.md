@@ -1,4 +1,4 @@
-<!-- markdownlint-disable MD033 MD041 -->
+<!-- markdownlint-disable MD013 MD033 MD041 -->
 <div class="table">
 
 <table>

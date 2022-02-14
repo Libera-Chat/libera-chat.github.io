@@ -137,17 +137,17 @@ already taken.
 
 ```irc
 09:23 -- ChanServ: ***** ChanServ Help *****
-09:23 -- ChanServ:  
+09:23 -- ChanServ:
 09:23 -- ChanServ: Help for CLAIM:
-09:23 -- ChanServ:  
+09:23 -- ChanServ:
 09:23 -- ChanServ: The CLAIM command allows you to take control of a channel
 09:23 -- ChanServ: belonging to a project you are authorized to represent.
-09:23 -- ChanServ:  
-09:23 -- ChanServ: Syntax: CLAIM <#channel>                            
-09:23 -- ChanServ:  
+09:23 -- ChanServ:
+09:23 -- ChanServ: Syntax: CLAIM <#channel>
+09:23 -- ChanServ:
 09:23 -- ChanServ: Examples:
-09:23 -- ChanServ:     /msg ChanServ CLAIM #coolproject-dev            
-09:23 -- ChanServ:  
+09:23 -- ChanServ:     /msg ChanServ CLAIM #coolproject-dev
+09:23 -- ChanServ:
 09:23 -- ChanServ: ***** End of Help *****
 ```
 
@@ -222,7 +222,7 @@ will not be able to get the channel back without their cooperation or by
 
 We also recommend against using `+O` or `+V` as these flags mean people will
 be given Operator or Voiced status on joining a channel. See
-[the catalyst guide](/guides/catalyst#only-be-opped-up-when-necessary)
+[the catalyst guide](/guides/catalyst#only-be-quotopped-upquot-when-necessary)
 for the philosophy behind this.
 
 ## Other channel settings
