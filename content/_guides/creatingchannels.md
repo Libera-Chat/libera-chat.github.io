@@ -114,7 +114,7 @@ If you are unsure of any of the above, talk with Libera.Chat staff. You can
 find staff either in `#libera` or on `/stats p`.
 
 Once you have resolved the conflict, you can resume
-[the registration process](#registering-with-chanserv).
+[the registration process](#registering-with-codechanservcode).
 
 ### Special Instructions for Group Contacts
 
