@@ -304,7 +304,8 @@ The bridge is run by [EMS](https://ems.element.io/). The
 [Privacy Policy](https://element.io/privacy) apply when using it. Libera.Chat
 staff do **not** have access to EMS data.
 
-Libera.Chat prohibits double-bridging IRC to IRC through the Libera.Chat EMS
-and may request intervention if any bridged channel causes problems. We
-request that idle connections are cleaned up by Matrix staff to minimize
-disruptions to IRC channels during bridge restarts.
+Libera.Chat prohibits double-bridging IRC to IRC through the EMS-hosted
+Libera.Chat bridge and may request intervention if any bridged channels cause
+problems. At our request, the EMS-hosted Libera.Chat bridge regularly prunes
+idle connections to minimize disruptions to IRC channels during bridge
+restarts.
