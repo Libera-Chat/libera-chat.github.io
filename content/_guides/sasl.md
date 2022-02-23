@@ -22,6 +22,7 @@ not support `DH-BLOWFISH`
 
 - [AdiIRC](https://dev.adiirc.com/projects/adiirc/wiki/SASL)
 - [AndroIRC](https://web.archive.org/web/20210319221818/http://wiki.androirc.com/nickserv_sasl)
+- [catgirl](/guides/catgirl)
 - [Chatzilla](/guides/chatzilla)
 - [Emacs ERC](/guides/emacs-erc)
 - [EPIC5](/guides/epic5)
