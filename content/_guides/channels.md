@@ -39,8 +39,9 @@ to check for yourself. Some of the common causes, in no particular order, are:
 
 If you've not been in the channel in question recently, it's possible that
 you're affected by a wide-ranging ban, so pay attention to any bans that
-include `*` or `?` wildcards. Bans that begin with a `$` sign are extended
-ban types; you can see more on the [extbans guide](/guides/extbans)
+include `*` or `?` wildcards and to extended bans starting with `$`.
+You can read more about the different types of ban masks in the
+[masks guide](/guides/channelmodes.md#masks).
 
 If you find a ban which matches you but you feel wasn't intended to keep
 you out, then talk to one of the channel operators to see about having it

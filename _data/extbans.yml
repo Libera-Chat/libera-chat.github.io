@@ -3,6 +3,8 @@
   description: |
     Match users identified to the account specified in the parameter.
     Accepts wildcards; an empty `$a` matches any logged-in user.
+    For example: `/mode #channel +q $a:example` would quiet a user identified
+    to services as example.
 - type: $j
   name: cannot join other channel
   description: |
