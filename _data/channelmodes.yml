@@ -1,22 +1,19 @@
 - mode: b
   name: channel ban
   description: |
-    Prevent users from joining or speaking. Sending `/mode #channel +b` alone
-    will return the current ban list. While on the channel, banned users will
-    be unable to send to the channel or change nick.
+    Takes a [mask](#masks) as a parameter. Users matching the mask are
+    prevented from joining or speaking. Sending `/mode #channel +b` alone will
+    return the current ban list. While in the channel, banned users will be
+    unable to send to the channel or change nick.
 
-    The most common form for a ban is `+b nick!user@host`. The wildcards `*`
-    and `?` are allowed, matching zero-or-more and exactly-one characters,
-    respectively. Bans set on IP addresses will apply even if the affected
-    user joins with a resolved or cloaked hostname.
-    [CIDR notation](https://en.wikipedia.org/wiki/Classless_Inter-Domain_Routing#CIDR_notation)
-    is supported in bans.
-
-    The [second form](/guides/extbans) can be used for bans based on user
-    data.
-    
     You can append `$#channel` to any ban to redirect banned users to
     another channel.
+
+    For example:
+    `/mode #channel +b example!*@*$##fix_your_connection` would forward the
+    user with nick example to the channel `##fix_your_connection`.
+    `/mode #channel +b $~a$#channel-unreg would forward unidentified users to
+    the channel `#channel-unreg`.
 - mode: c
   name: colour filter
   description: Strip colour and formatting codes from channel messages.
@@ -26,8 +23,7 @@
 - mode: e
   name: ban exemption
   description: |
-    Takes one parameter, just like ban (above). Wildcards and
-    [extbans](/guides/extbans) can be used, like ban. Ban exemption matches
+    Takes a [mask](#masks) as a parameter. Ban exemption matches
     override `+b` and `+q` bans for all clients it matches, allowing the
     exempted user to join/speak as if they were not banned or quieted.
     This can be useful if it is necessary to ban an entire ISP due to
@@ -71,12 +67,14 @@
 - mode: I
   name: invite exemption
   description: |
-    Takes a ban parameter. [Extbans](/guides/extbans) are supported and
-    common, e.g. for setting an exemption for a specific registered user.
-    Matching clients do not need to be invited to join the channel when it is
-    invite-only (`+i`). Unlike the `/invite` command, this does not override
-    `+j`, `+l` and `+r`. Only channel operators can see `+I` changes or see
-    the list with `/mode #channel +I`.
+    Takes a [mask](#masks) parameter. Matching clients do not need to be invited
+    to join the channel when it is invite-only (`+i`). Unlike the `/invite`
+    command, this does not override `+j`, `+l` and `+r`. Only channel operators
+    can see `+I` changes or see the list with `/mode #channel +I`.
+
+    Commonly used with the $a extban.
+    `/mode #channel +I $a:example`
+    would allow a user identified to services as example to enter #channel.
 - mode: j
   name: join throttle
   description: |
@@ -128,8 +126,8 @@
 - mode: q
   name: quiet
   description: |
-    Works like `+b` (channel ban), but allows matching users to join the
-    channel.
+    Takes a [mask](#masks) parameter. Works like `+b` (channel ban), but allows
+    matching users to join the channel.
 - mode: Q
   name: block forwarded users
   description: |
