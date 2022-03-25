@@ -19,11 +19,11 @@ The board of the organisation comprises a chair, a treasurer and a
 representative from each of our specialised teams. Board seats are elected
 by the membership. The current board members are:
 
-- **Chair**: njan (James Eaton-Lee)
-- **Treasurer**: Swant (Svante Bengtson)
-- **Projects and Community Rep**: Fuchs (Christian L.)
-- **Engineering Rep, Vice Chair**: edk (Ed Kellett)
-- **Operations Rep**: glguy (Eric Mertens)
+- **Chair**: moonmoon
+- **Treasurer**: Swant
+- **Projects and Community Rep**: Fuchs
+- **Engineering Rep, Vice Chair**: edk
+- **Operations Rep**: glguy
 
 In addition to this the organisation has two auditors elected by the membership.
 Their role is to audit the board's actions on behalf of the membership.
@@ -31,8 +31,8 @@ Their yearly audit report, along with the annual report and bookkeeping of the
 organisation, will be published in a yearly transparency report.
 The current auditors are:
 
-- **Auditor**: Md (Marco d'Itri)
-- **Auditor**: kline (Gareth Pulham)
+- **Auditor**: A_Dragon
+- **Auditor**: Allie
 
 ## Projects and community team
 
