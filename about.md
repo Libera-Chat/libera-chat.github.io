@@ -67,7 +67,7 @@ The operations team comprises: {{ ops_team | map: "nick" | join: ", " }}.
 
 ## Wider staff and organisation membership
 
-There are several staff and members who are not involved in either of the
+There are several staff and members who are not involved in any of the
 specialised teams, yet without them the efforts of the specialised teams would
 be in vain and more importantly day to day operation of the network would be
 impossible.
