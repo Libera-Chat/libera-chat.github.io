@@ -19,7 +19,7 @@ whose name contains the term in question - for instance,
 You can also search on the channel's current topic, require a minimum number of
 users (to weed out barely-used channels), and use various wildcards to control
 your search - for instance, `/msg alis LIST #libera* -min 10` would find all
-channels in the Libera.Chat namespace with at least 10 users.
+channels whose names begin with `#libera` and which have at least 10 users.
 
 For full details on how to use alis, `/msg alis HELP LIST` will send you back
 the following help text:
