@@ -28,7 +28,8 @@ by the membership. The current board members are:
 In addition to this the organisation has two auditors elected by the membership.
 Their role is to audit the board's actions on behalf of the membership.
 Their yearly audit report, along with the annual report and bookkeeping of the
-organisation, will be published in a yearly transparency report.
+organisation, will be published in a yearly
+[transparency report](/annual-reports/).
 The current auditors are:
 
 - **Auditor**: A_Dragon

@@ -16,5 +16,6 @@ Libera Chat is committed to being a volunteer-run organisation, and will never
 pay network staff for their work or engage them for any other paid work during
 their service as staff.
 
-Per [our bylaws](/bylaws) we publish an annual financial statement that is
-reviewed by our appointed layperson [auditors](/about).
+Per [our bylaws](/bylaws) we publish an
+[annual financial statement](/annual-reports/) that is reviewed by our
+appointed layperson [auditors](/about).
