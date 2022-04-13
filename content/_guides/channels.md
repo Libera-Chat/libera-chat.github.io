@@ -41,7 +41,7 @@ If you've not been in the channel in question recently, it's possible that
 you're affected by a wide-ranging ban, so pay attention to any bans that
 include `*` or `?` wildcards and to extended bans starting with `$`.
 You can read more about the different types of ban masks in the
-[masks guide](/guides/channelmodes.md#masks).
+[masks guide](/guides/channelmodes#masks).
 
 If you find a ban which matches you but you feel wasn't intended to keep
 you out, then talk to one of the channel operators to see about having it
