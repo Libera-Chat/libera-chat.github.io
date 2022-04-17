@@ -62,3 +62,4 @@ Both of these are free and run under Linux, macOS, and Windows (using WSL or Cyg
 
 - [Irssi](https://irssi.org/)
 - [WeeChat](https://weechat.org/)
+- [catgirl](https://git.causal.agency/catgirl/about/)
