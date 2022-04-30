@@ -14,6 +14,9 @@ emailed instructions to verify the address on your account.
 Libera.Chat [**requires** the use of SASL](#sasl-access-only-ip-ranges) for
 certain IP ranges.
 
+SASL is **not** the same thing as SSL or TLS. You should also [use TLS](/guides/connect#accessing-liberachat-via-tls)
+to connect.
+
 ## SASL Client Configuration
 
 We have instructions on how to configure SASL for some clients, below. If
