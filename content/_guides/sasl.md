@@ -31,6 +31,7 @@ not support `DH-BLOWFISH`
 - [EPIC5](/guides/epic5)
 - [glirc](https://github.com/glguy/irc-core/wiki/Automatically-authenticating-to-NickServ)
 - [HexChat](/guides/hexchat)
+- [IceChat](https://wiki.icechat.net/index.php/New_Server#IRCv3_tab)
 - [irssi](/guides/irssi)
 - [Konversation](http://userbase.kde.org/Konversation/Configuring_SASL_authentication)
 - [KVIrc](/guides/kvirc)
