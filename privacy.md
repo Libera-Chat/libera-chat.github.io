@@ -57,22 +57,22 @@ This data may be used for the following purposes:
 - To respond to support inquiries by email or our support system.
 - Compliance with valid legal processes and legislation.
 
-This data will generally be collected directly from you or sent to us by your 
+This data will generally be collected directly from you or sent to us by your
 computer(s) when you use our systems. Rarely, for instance if we receive an
 abuse report connected with our system, we may receive data which is not
 collected directly from you.
 
 Where data is necessary to run our service, the Lawful Basis we use will
-generally be "Legitimate Interest" - where our 'Interest' is the need of Libera 
-Chat to process data on you in order to operate a service which you benefit 
-from, and where you have chosen to use the service, in order to make it 
-available to you and others, support you effectively and prevent misuse. In 
-rare instances where required by law to hold or process data, our lawful basis 
+generally be "Legitimate Interest" - where our 'Interest' is the need of Libera
+Chat to process data on you in order to operate a service which you benefit
+from, and where you have chosen to use the service, in order to make it
+available to you and others, support you effectively and prevent misuse. In
+rare instances where required by law to hold or process data, our lawful basis
 may be "Legal Obligation" or "Public Task".
 
 We will generally not process data on you which is "Special Category" unless
 you explicitly make it public, for instance by sending it to channels. In
-rare instances - for instance in the event we believe criminal activity is 
+rare instances - for instance in the event we believe criminal activity is
 being undertaken on our systems - we may process it for reasons of
 substantial public interest.
 
@@ -82,8 +82,8 @@ personal information you share as it may be logged by third parties, which is
 beyond the control of Libera Chat.
 
 Libera Chat will not share your data with third parties for direct marketing
-purposes. Rarely, we may share information with third parties such as other 
-service providers or Law Enforcement Agencies in order to prevent the abuse 
+purposes. Rarely, we may share information with third parties such as other
+service providers or Law Enforcement Agencies in order to prevent the abuse
 of our systems, staff, or users. We will only do this on a case-by-case basis,
 and where necessary to prevent significant harm, disruption, or criminal use
 of our systems or targeting of our staff.
@@ -102,7 +102,7 @@ comes last. The following information is covered by this policy:
 - account registrations for the purposes of network policy violation (email
   address, nickname, username, hostname, IP address, timestamp, known aliases)
 - other narrative or case-handling data - for instance details of your
-  misuse of our systems or interactions with our staff or others - where 
+  misuse of our systems or interactions with our staff or others - where
   needed for handling a specific case
 
 Data collected by email or our support system in relation to project
