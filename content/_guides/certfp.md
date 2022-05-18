@@ -134,7 +134,7 @@ Create the .pem file as per above, then place it wherever you want.
 Start Konversation, then open the Identity dialogue by either pressing
 <kbd>F8</kbd> or via the Settings menu entry. Choose the identity you use
 for the Libera.Chat network or create a new one.
-In the part `Auto Identity` you have to choose `SASL External (Cert)`
+In the part `Auto Identify` you have to choose `SASL External (Cert)`
 as the `Type` for SASL External or `SSL CLient Certificate` for CertFP.
 SASL External requires at least version 1.7 of Konversation.
 Optionally fill in your account name in the `Account` field.
