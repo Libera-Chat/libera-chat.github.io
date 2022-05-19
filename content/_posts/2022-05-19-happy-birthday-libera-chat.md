@@ -10,7 +10,7 @@ today we celebrate the anniversary of Libera.Chat going public!
 
 Exactly one year ago Libera.Chat was unveiled as a real time communication
 and collaboration service for free and open-source software, peer-directed
-project, openly licensed content and collaboration. Starting from scratch
+projects, openly licensed content and collaboration. Starting from scratch
 we managed, just within a few months, to become the largest IRC network.
 
 Starting from scratch, we managed to gain around 50&#8239;000 users in just
@@ -35,7 +35,7 @@ gadgets and liberating your hardware or someones scratch-your-own-itch image
 viewer that call Libera.Chat their home.
 
 In summary we had a phenomenal first year and all of this would not have
-been possible with many helping hands. So we want to send out a big thank
+been possible without many helping hands. So we want to send out a big thank
 you for all the volunteers, sponsors, projects and users that supported us
 since we started.
 
