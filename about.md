@@ -33,7 +33,6 @@ organisation, will be published in a yearly
 The current auditors are:
 
 - **Auditor**: A_Dragon
-- **Auditor**: Allie
 
 ## Projects and community team
 
