@@ -76,8 +76,9 @@ main *, .hero * {
 
 body {
   background-color: var(--c-bg);
-  min-height: 100vh;
+  height: 100vh;
   display: grid;
+  overflow-y: scroll;
   grid-template-rows: var(--header-height) min-content auto auto min-content;
   grid-template-columns: 1fr;
   grid-template-areas: "header" "hero" "main" "aside" "footer";
@@ -142,6 +143,7 @@ main :is(h2, h3, h4, h5, h6) a:hover::before {
 
 @media screen and (min-width: 800px) {
   body {
+    overflow-y: hidden;
     grid-template-columns: min-content 8fr;
     grid-template-rows: 4rem min-content auto min-content;
     grid-template-areas: "header header" "hero hero" "aside main" "footer footer";
@@ -328,6 +330,10 @@ header nav details a {
     border-block-end: 1px solid var(--c-border);
     padding: 1rem;
   }
+
+  main {
+    overflow-y: scroll;
+  }
 }
 
 main {
@@ -379,6 +385,10 @@ footer div a:not([rel*=license]), footer div .copyright {
 }
 
 @media screen and (min-width: 800px) {
+  footer {
+    position: sticky;
+  }
+
   footer div {
     line-height: 1.5;
   }
