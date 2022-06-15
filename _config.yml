@@ -74,5 +74,7 @@ plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
 
+markdown: GFM
+
 include:
   - .well-known

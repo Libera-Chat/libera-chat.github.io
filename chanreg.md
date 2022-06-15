@@ -105,7 +105,7 @@ blessing of someone who is able to speak for the project. This could be:
 ### How to register as a project
 
 We recommend you contact us as per the
-[Projects & Community team](#the-projects--community-team) section
+[Projects & Community team](#the-projects-amp-community-team) section
 before registering, so we can already check whether your project is likely to
 be considered eligible to a registration. Once done, we will need the
 following information from you:
@@ -168,7 +168,7 @@ eligible for a project registration but do not have an official representation
 ### How to register as a community
 
 We recommend you contact us as per the
-[Projects & Community team](#the-projects--community-team) section
+[Projects & Community team](#the-projects-amp-community-team) section
 before registering, so we can already check whether your community is likely
 to be considered eligible to a registration. Once done, we will need the
 following information from you:
