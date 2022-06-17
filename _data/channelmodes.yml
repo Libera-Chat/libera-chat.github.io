@@ -12,7 +12,7 @@
     For example:
     `/mode #channel +b example!*@*$##fix_your_connection` would forward the
     user with nick example to the channel `##fix_your_connection`.
-    `/mode #channel +b $~a$#channel-unreg would forward unidentified users to
+    `/mode #channel +b $~a$#channel-unreg` would forward unidentified users to
     the channel `#channel-unreg`.
 - mode: c
   name: colour filter
