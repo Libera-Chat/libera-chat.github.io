@@ -2,7 +2,7 @@
 title: Libera Chat Bylaws
 ---
 
-v 2022-01-28, organisation number 802535-6448
+v 2022-03-25, organisation number 802535-6448
 
 ## Organisation and purpose
 
@@ -27,7 +27,7 @@ v 2022-01-28, organisation number 802535-6448
 3. The organisation is an ideologically and religiously unaffiliated Swedish
    "ideell förening".
 
-4. The seat of the organisation is in Höganäs, Höganäs Kommun.
+4. The seat of the organisation is in Ängelholm, Ängelholms Kommun.
 
 5. The fiscal year of the organisation is from the 1st January to the 31st
    December.
@@ -75,11 +75,11 @@ v 2022-01-28, organisation number 802535-6448
 2. All meetings may be held through digital channels such as video, voice, or
    text.
 
-3. All meeting minutes should be signed digitally with PGP or physically
+3. All meeting minutes shall be signed digitally with PGP or physically
    signed.
 
 4. Decisions are generally taken by consensus. If consensus cannot be reached
-   a vote should be held.
+   a vote shall be held.
 
 5. If a vote is held, a simple majority is enforced. In other words, more than
    50% of the votes are needed for a proposal to win. Abstentions are not
@@ -96,19 +96,19 @@ v 2022-01-28, organisation number 802535-6448
      until a person fulfils this condition.
 
    - If only two persons remain and the round ends in a tie the winner out of
-     the two should be determined randomly.
+     the two shall be determined randomly.
 
 8. Voting by proxy is not allowed.
 
 ## Monthly General Meeting
 
-1. The Monthly General Meeting should be held once per month.
+1. The Monthly General Meeting shall be held once per month.
 
-2. The board should invite the membership to the monthly general meeting at
-   least one (1) week before it commences. The invitation should include
+2. The board shall invite the membership to the monthly general meeting at
+   least one (1) week before it commences. The invitation must include
    the date, time, and location for the meeting.
 
-3. All meeting documents should be available to the membership at least
+3. All meeting documents shall be available to the membership at least
    one (1) week before the start of the meeting.
 
 4. All members of the organisation have the right to participate, speak, make
@@ -120,7 +120,7 @@ v 2022-01-28, organisation number 802535-6448
 6. Auditors have the right to participate and speak during the meeting, and
    the right to make proposals in questions pertaining to their duties.
 
-7. The monthly general meeting should deal with at least the following:
+7. The monthly general meeting shall deal with at least the following:
 
    - The opening of the meeting.
 
@@ -143,7 +143,7 @@ v 2022-01-28, organisation number 802535-6448
    - The closing of the meeting.
 
 8. During either the January, February, or March monthly general meeting the
-   following additional items should be dealt with:
+   following additional items shall be dealt with:
 
    - Presentation and approval of:
 
@@ -167,15 +167,18 @@ v 2022-01-28, organisation number 802535-6448
 
      - Vice chair of the board.
 
+   Monthly General Meetings may additionally deal with any of these items at
+   any other time.
+
 9. All documents, including the minutes, from a monthly general meeting
-   should be adjusted and published to the membership no more than four (4)
+   shall be adjusted and published to the membership no more than four (4)
    weeks after the end of the meeting.
 
 10. All documents, including the adjusted minutes from a monthly general
-    meeting should be released publicly no more than six (6) weeks after the
+    meeting shall be released publicly no more than six (6) weeks after the
     end of the meeting.
 
-    Minutes should normally include the essence of discussion and substantive
+    Minutes shall normally include the essence of discussion and substantive
     decision-making, but not specific comments or identifiable details of
     members.
 
@@ -184,7 +187,7 @@ v 2022-01-28, organisation number 802535-6448
     legal privilege, or are otherwise sensitive.
 
     The reason for treating an item as 'confidential' must be noted in the
-    released minutes, and items to be redacted should normally be discussed
+    released minutes, and items to be redacted shall normally be discussed
     during the meeting, but may also be introduced by the secretary
     following the meeting.
 
@@ -206,7 +209,7 @@ v 2022-01-28, organisation number 802535-6448
 
 1. The board is responsible for managing the organisation's member list,
    finances, and other assets in accordance with the will of the monthly
-   general meetings. The board should also ensure that the bylaws are
+   general meetings. The board shall also ensure that the bylaws are
    followed.
 
 2. The board must ensure that meeting minutes and financial records are
@@ -223,12 +226,20 @@ v 2022-01-28, organisation number 802535-6448
 5. In addition to the board members, the auditors have the right to
    participate and speak at board meetings.
 
-6. The monthly general meeting electing the chair of the board should also
+6. The monthly general meeting electing the chair of the board shall also
    elect a vice chair to act as chair in the chair's absence.
+
+7. Board members can resign from the board and remain members of the
+   organisation. A resigning board member shall prepare an interim report for
+   their successor.
+
+8. Board members can be recalled by any Monthly General Meeting.
 
 ## Auditors
 
-1. Once per year the general meeting elects up to two auditors.
+1. Once per year, or whenever there are no auditors, the general meeting elects
+   up to two auditors. If there is just one auditor, the general meeting may
+   optionally elect one more.
 
 2. The duties of the auditors are:
 
@@ -240,7 +251,7 @@ v 2022-01-28, organisation number 802535-6448
      will be covered during.
 
    - To include their opinion of how the board has carried out their duties
-     and a proposal for if the board should be granted discharge in the audit
+     and a proposal for if the board shall be granted discharge in the audit
      report.
 
 3. The auditors have the right to inspect any activities carried out by
@@ -249,6 +260,15 @@ v 2022-01-28, organisation number 802535-6448
 
 4. The auditors cannot be members of the board.
 
+5. Auditors can resign as auditors and, if they are also members of the
+   organisation, remain so. A resigning auditor shall prepare an interim report
+   for their successor or a remaining auditor.
+
+6. Auditors can be recalled by any Monthly General Meeting. An auditor so
+   recalled shall prepare an interim report for their successor or a remaining
+   auditor.
+
+
 ## Complaints
 
 1. The membership shall appoint a Complaints Rota to handle complaints about the
@@ -256,7 +276,7 @@ v 2022-01-28, organisation number 802535-6448
    organisation.
 
 2. If, at the time of a Monthly General Meeting, there are fewer than four
-   members on the Complaints Rota, the meeting should attempt to appoint more
+   members on the Complaints Rota, the meeting shall attempt to appoint more
    members until there are at least four such members.
 
 3. On receiving a complaint, the Complaints Rota shall select two of its
@@ -270,7 +290,7 @@ v 2022-01-28, organisation number 802535-6448
    other parties. The Complaint Processors may recruit other members of the
    organisation to assist with their invstigation. Other members, including the
    Board and Complaints Rota members who are not actively working on the
-   complaint, should not have automatic access to it.
+   complaint, must not have automatic access to it.
 
 6. If any party to a complaint disagrees with the result, they can appeal it.
    Libera Chat members require no permission to appeal, while non-members must
@@ -292,14 +312,14 @@ v 2022-01-28, organisation number 802535-6448
    membership to hear the appeal.
 
 8. A complaint that is appealed to the entire membership of the organisation may
-   contain sensitive information that should not be shared widely. The Complaint
-   Processors should prepare a case for the membership, excluding such details.
+   contain sensitive information that must not be shared widely. The Complaint
+   Processors must prepare a case for the membership, excluding such details.
    The Auditors of the organisation may be called upon to attest that the
    Complaint Processors' case is a faithful account of the complaint.
 
 9. Parties to complaints who are Libera Chat members have the right to speak at
-   their own final appeal, and to hear all sides' arguments. They should not be
-   present when the resulting actions are discussed. The Board should dismiss
+   their own final appeal, and to hear all sides' arguments. They must not be
+   present when the resulting actions are discussed. The Board shall dismiss
    any such party if they reveal, or threaten to reveal, private information
    about the complaint, or the other parties to it.
 
@@ -343,6 +363,7 @@ v 2022-01-28, organisation number 802535-6448
     calendar days by the end of the current calendar month, the Monthly General
     Meeting must decide whether or not to continue their temporary suspension.
 
+
 ## Specialised Committees
 
 1. There are three specialised committees: Operations, Engineering, and
@@ -368,7 +389,7 @@ v 2022-01-28, organisation number 802535-6448
 
 ## Signing authority
 
-1. The board should appoint one or more board members to sign on behalf of
+1. The board shall appoint one or more board members to sign on behalf of
    the organisation, either jointly or individually.
 
 ## Suspension
@@ -378,9 +399,9 @@ v 2022-01-28, organisation number 802535-6448
    participate during the discussion of their suspension.
 
 2. If a member's staff status on the Libera Chat IRC network is suspended, a
-   discussion and vote on suspending their membership should be held on the
+   discussion and vote on suspending their membership shall be held on the
    next monthly general meeting. If the member is not suspended, their staff
-   status should be reinstated.
+   status shall be reinstated.
 
 ## Interpretation of the bylaws
 
@@ -389,7 +410,7 @@ v 2022-01-28, organisation number 802535-6448
    opinion of the auditors before making their decision.
 
 2. Decisions about interpretations of the bylaws must be raised at the next
-   general meeting where they should be ratified.
+   general meeting where they must be ratified.
 
 ## Changes to the bylaws
 
@@ -404,5 +425,5 @@ v 2022-01-28, organisation number 802535-6448
 2. Dissolution requires a vote with at least a two-thirds majority on two
    consecutive monthly general meetings.
 
-3. The first monthly general meeting that votes for dissolution should also
+3. The first monthly general meeting that votes for dissolution shall also
    determine what should happen with the assets of the organisation.

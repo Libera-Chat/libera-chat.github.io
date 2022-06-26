@@ -32,7 +32,7 @@ organisation, will be published in a yearly
 [transparency report](/annual-reports/).
 The current auditors are:
 
-- **Auditor**: A_Dragon
+- **Auditor**: A_Dragon, tomaw
 
 ## Projects and community team
 
