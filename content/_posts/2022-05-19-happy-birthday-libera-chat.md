@@ -1,6 +1,6 @@
 ---
 title: Happy Birthday, Libera Chat!
-author: Libera staff
+author: staff
 ---
 
 Hello everyone,
