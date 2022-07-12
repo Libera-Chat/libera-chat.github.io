@@ -268,7 +268,6 @@ v 2022-03-25, organisation number 802535-6448
    recalled shall prepare an interim report for their successor or a remaining
    auditor.
 
-
 ## Complaints
 
 1. The membership shall appoint a Complaints Rota to handle complaints about the
@@ -362,7 +361,6 @@ v 2022-03-25, organisation number 802535-6448
     suspended, and will have been temporarily suspended for more than 59
     calendar days by the end of the current calendar month, the Monthly General
     Meeting must decide whether or not to continue their temporary suspension.
-
 
 ## Specialised Committees
 
