@@ -76,3 +76,5 @@ plugins:
 
 include:
   - .well-known
+
+theme: jekyll-theme-minimal
