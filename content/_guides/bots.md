@@ -39,6 +39,8 @@ This bot will need the `+o` flag in your channel so that it can op itself to
 remove bans when they expire; `/msg chanserv flags #yourchannel litharge +o`.
 
 When requesting litharge for your channel, simply `/invite litharge #yourchannel`.
+At least 10 users must be present in the channel for litharge to join and
+your channel must not be [`+s`](/guides/channelmodes).
 
 ### Usage
 
