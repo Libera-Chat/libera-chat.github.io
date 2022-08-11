@@ -59,11 +59,6 @@ existing NickServ account with a **verified email address**. Connections from
 these ranges will be refused with the message `SASL access only`. You can
 follow the instructions above to configure many commonly used clients.
 
-Our webchat clients use SASL authentication when a password is provided, but
-they are **no longer exempt** from the SASL access only restriction. You will
-need to find an alternative connection to register your account on before
-swapping to using the SASL access only connection.
-
 If your home internet providers are restricted, consider using public access
 wifi hotspots such as those provided by most libraries and many school or
 work campuses. If you are concerned about access point privacy, you can
