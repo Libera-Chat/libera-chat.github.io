@@ -27,7 +27,7 @@ In particular:
 - You can delete your information from our database.
 
 You may also exercise your rights by contacting <policy@libera.chat>.
-If you wish to file a complaint see the website of the
+If you wish to file a complaint, see the website of the
 [Swedish Authority for Privacy Protection (IMY)][imy] for their contact details.
 
 When using Libera Chat services, Libera Chat may work with the following personal
