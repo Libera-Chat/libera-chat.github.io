@@ -23,7 +23,6 @@ by the membership. The current board members are:
 - **Treasurer**: Swant
 - **Projects and Community Rep**: Fuchs
 - **Engineering Rep, Vice Chair**: edk
-- **Operations Rep**: glguy
 
 In addition to this the organisation has two auditors elected by the membership.
 Their role is to audit the board's actions on behalf of the membership.
