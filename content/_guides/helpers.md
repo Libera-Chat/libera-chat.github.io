@@ -93,10 +93,11 @@ If they are identified, there will be a line saying so. It looks like this:
 [Nickname] is logged in as Accountname
 ```
 
-If they are not identified, check if they will be unable to join because of `+r`
-in the channel modes, or if they will be unable to talk because of a `+q` on
-`$~a` (users that are not identified). This is how you would check for the
-`#windows` channel:
+If they are not identified, check if they will be unable to join
+because of `+r` in the channel modes, or
+if they will be unable to talk because of `+R` in the channel modes or
+`+q` on `$~a` (users that are not identified).
+This is how you would check for the `#windows` channel:
 
 ```irc
 /mode #windows

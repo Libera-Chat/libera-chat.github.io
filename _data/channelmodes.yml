@@ -67,10 +67,12 @@
 - mode: I
   name: invite exemption
   description: |
-    Takes a [mask](#masks) parameter. Matching clients do not need to be invited
-    to join the channel when it is invite-only (`+i`). Unlike the `/invite`
-    command, this does not override `+j`, `+l` and `+r`. Only channel operators
-    can see `+I` changes or see the list with `/mode #channel +I`.
+    Takes a [mask](#masks) parameter. Matching clients do not need to be
+    invited to join the channel when it is invite-only (`+i`)
+    or blocking unidentified users (`+r`).
+    Unlike the `/invite` command, this does not override `+j` or `+l`.
+    Only channel operators can see `+I` changes or see the list
+    with `/mode #channel +I`.
 
     Commonly used with the $a extban.
     `/mode #channel +I $a:example`
@@ -136,6 +138,11 @@
   name: block unidentified
   description: |
     Prevents users who are not identified to services from joining the channel.
+- mode: R
+  name: silence unidentified
+  description:
+    Prevents users who are not identified to services from sending messages
+    to the channel.
 - mode: s
   name: secret
   description: |

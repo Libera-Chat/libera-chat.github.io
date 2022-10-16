@@ -53,8 +53,9 @@ out what's preventing you from joining.
 
 ## Why can't I talk in a channel?
 
-The two most common causes for this are either a quiet mask -- use
+The three most common causes for this are a quiet mask -- use
 `/mode #channel q` to see the list and then check the advice above regarding
-bans -- or mode `+m`, which prevents anyone who isn't voiced from talking.
+bans -- mode `+m`, which prevents anyone who isn't voiced from talking,
+or mode `+R`, which prevents anyone who isn't logged in from talking.
 If you're still unsure, again, feel free to ask staff for help in working
 out what the problem might be.

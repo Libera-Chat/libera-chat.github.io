@@ -52,11 +52,15 @@ Use the instructions below, but replace `#libera` with your channel instead.
 If you wish for your new visitors to have a different pre-filled nick then
 you can replace `Guest` in the URLs with the prefix of your choice.
 
-Keep in mind that webchat visitors frequently don’t have accounts. Often it's
-their first time on IRC. If your channel has set the `+r` mode, then they will
-not be able to join. You may need to reconsider the use of `+r`. While it is a
-good idea to [advise users to register](/guides/registration), if this is
-required it will discourage some users.
+Keep in mind that webchat visitors frequently don’t have accounts.
+Often it's their first time on IRC.
+If your channel has set the `+r` mode, then they will not be able to join.
+If the `+R` mode or `+q $~a` is used, then they will not be able to speak.
+You may need to reconsider the use of these modes.
+While it is a good idea to [advise users to register](/guides/registration),
+if this is required it will discourage some users.
+If you need to require registration to participate in the channel,
+then channel mode `+R` is the least-discouraging way to do so.
 
 ### Kiwiirc
 

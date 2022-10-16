@@ -117,11 +117,11 @@ log in, you can manually identify:
 
 If a channel is set to mode `+r`, you won't be able to join it unless you
 are registered and identified to NickServ. If you try to join, you might be
-forwarded to a different channel. If a channel is set to quiet unregistered
-users (mode `+q $~a`), you won't be able to speak while on that channel
-unless you are registered and identified.
+forwarded to a different channel. If a channel is set to mode `+R`
+or set to quiet unregistered users (mode `+q $~a`), you won't be able to speak
+while on that channel unless you are registered and identified.
 
-Both of these modes are used by some channels to reduce channel harassment
+These modes are used by some channels to reduce channel harassment
 and abuse.
 
 Once you have registered and are logged in, this issue should disappear.
