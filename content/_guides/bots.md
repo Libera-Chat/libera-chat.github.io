@@ -9,8 +9,9 @@ or questions about our utility bots can be asked in `#libera-bots`.
 
 ## ozone
 
-ozone is anti spam bot which kills and klines spammers. ozone is an instance
-of [Sigyn](https://github.com/Libera-Chat/Sigyn).
+ozone is anti spam bot which kills and klines spammers.
+ozone's code is located in our
+[GitHub repo](https://github.com/Libera-Chat/ozone).
 
 When your channel is being targeted by spam bots, you can `/invite ozone`
 **If you run some bots, you should voice them** otherwise ozone could ban them
