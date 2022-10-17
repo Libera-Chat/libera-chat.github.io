@@ -20,8 +20,8 @@
 - mode: i
   name: invisible
   description: |
-    Hides you from global `WHO` and `WHOIS` by normal users, and shows only
-    shared channels in `/WHOIS` output.
+    Hides you from global `WHO` by normal users, and shows only shared
+    channels in `/WHOIS` output.
 - mode: Q
   name: disable forwarding
   description: |
