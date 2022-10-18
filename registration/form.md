@@ -3,11 +3,12 @@ title: Libera Chat account verification
 layout: nohead
 ---
 
+{% raw %}
 {::nomarkdown}
 <!-- markdownlint-disable MD033 -->
 
 <div class="verification">
-  {%raw%}<form method="POST" action="/curite/verify/{{account}}/{{token}}">{%endraw%}
+  <form method="POST" action="/curite/verify/{{account}}/{{token}}">
     <input type="submit" value="Verify">
   </form>
   <script>
@@ -20,7 +21,9 @@ layout: nohead
 
 {:/}
 
-By clicking above your Libera Chat NickServ account
-`{%raw%}{{account}}{%endraw%}` will be verified.
+By clicking above your Libera Chat NickServ account `{{account}}` will be
+verified.
 
 If you have JS enabled you should be automatically redirected.
+
+{% endraw %}
