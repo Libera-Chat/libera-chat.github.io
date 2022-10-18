@@ -8,7 +8,7 @@ layout: nohead
 <!-- markdownlint-disable MD033 -->
 
 <div class="verification">
-  <form method="POST" action="/curite/verify/{{account}}/{{token}}">
+  <form method="POST" action="{{target}}">
     <input type="submit" value="Verify">
   </form>
   <script>
