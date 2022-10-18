@@ -153,3 +153,31 @@ main .sponsors a img {
     height: 5rem;
   }
 }
+
+.verification form {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: center;
+  width: 100%;
+}
+
+.verification input[type="submit"] {
+  border: none;
+  display: block;
+  background-color: var(--c-hl);
+  color: var(--c-text-on-hl);
+  cursor: pointer;
+  text-decoration: none;
+  font-weight: 500;
+  padding: var(--content-inline-padding);
+  min-width: 25ch;
+  text-align: center;
+  margin: calc(var(--content-inline-padding) / 2) 0;
+}
+
+.verification input[type="submit"]:hover {
+  background-color: var(--c-hl-secondary);
+  color: var(--c-text-on-hl-secondary);
+}

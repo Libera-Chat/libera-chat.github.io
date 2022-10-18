@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html lang="en">
+{%- include head.html -%}
+
+<body>
+  <main id="main">
+    {% if page.title %}
+    <h1>{{ page.title }}</h1>
+    {% endif %}
+    {{ content }}
+  </main>
