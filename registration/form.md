@@ -20,10 +20,10 @@ layout: nohead
 </div>
 
 {:/}
+{% endraw %}
 
-By clicking above your Libera Chat NickServ account `{{account}}` will be
-verified.
+By clicking above your Libera Chat NickServ account
+`{% raw %}{{account}}{% endraw %}` will be verified.
 
 If you have JS enabled you should be automatically redirected.
 
-{% endraw %}
