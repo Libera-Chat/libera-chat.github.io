@@ -1,0 +1,42 @@
+name: Deploy Jekyll site to Pages
+
+on:
+  workflow_run:
+    workflows: [Build Jekyll site]
+    branches: [main, jess/actions-test]
+    types: [completed]
+
+permissions:
+  pages: write
+  id-token: write
+
+# Allow one concurrent deployment
+concurrency:
+  group: "pages"
+  cancel-in-progress: true
+
+jobs:
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: Setup Pages
+        id: pages
+        uses: actions/configure-pages@v2
+      # grab the already-built jekyll site, built by the workflow that triggered us
+      - name: Download artifact
+        id: download
+        uses: dawidd6/action-download-artifact@v2
+        with:
+          workflow: ${{ github.event.workflow_run.workflow_id }}
+          name: github-pages
+      - name: Upload artifact
+        uses: actions/upload-artifact@v3
+        with:
+          name: github-pages
+          path: artifact.tar
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v1
