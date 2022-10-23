@@ -312,12 +312,17 @@ restarts.
 
 ## Why did you scan my address?
 
-To reduce network abuses, we perform open proxy checks on hosts at connection
-time. If an open proxy is detected, then the connection will be terminated.
+To reduce abuse on our network, we perform a handful of scans against IPs that
+connect to us so we can detect and disconnect abuse-prone hosts. These scans
+intend to detect hosts that are open to being abused by random people if they
+know how to, due to having limited or no access requirements.
 
-Open proxies mean that anyone on the internet can use your connection if they
-know the right tricks. This means that an open proxy would allow them to use
-your connection for abusive purposes, even without you knowing.
+These scans are uninvasive and are exceedingly unlikely to break something.
+They mostly consist of:
 
-If you are unsure why a proxy is being detected on your address, you're
+- Attempting to use your host as an anonymous HTTP/SOCKS proxy
+- Fingerprinting specific server software
+- Checking what registration requirements Matrix homeservers have
+
+If you are unsure why your address is being detected as abuse-prone, you're
 welcome to contact staff by email: <support@libera.chat>.
