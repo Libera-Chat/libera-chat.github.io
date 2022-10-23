@@ -42,6 +42,7 @@ Desktop clients:
 - [LimeChat](http://limechat.net/mac/) - macOS (free)
 - [Konversation](https://konversation.kde.org/) - Windows, Linux (free)
 - [mIRC](http://www.mirc.com/) - Windows (paid)
+- [Pidgin](https://pidgin.im/) - Linux, macOS, FreeBSD, Windows (free)
 - [Textual](https://www.codeux.com/textual/) - macOS (paid)
 
 Mobile clients:
