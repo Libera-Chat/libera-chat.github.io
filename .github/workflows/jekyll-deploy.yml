@@ -22,9 +22,6 @@ jobs:
       url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
     steps:
-      - name: Setup Pages
-        id: pages
-        uses: actions/configure-pages@v2
       # grab the already-built jekyll site, built by the workflow that triggered us
       - name: Download artifact
         id: download
