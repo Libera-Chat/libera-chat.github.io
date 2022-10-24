@@ -2,10 +2,6 @@ name: Build Jekyll site
 
 on: [push, pull_request]
 
-permissions:
-  contents: read
-  id-token: write
-
 jobs:
   build:
     runs-on: ubuntu-latest
