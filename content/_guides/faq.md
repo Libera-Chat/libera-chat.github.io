@@ -317,8 +317,8 @@ connect to us so we can detect and disconnect abuse-prone hosts. These scans
 intend to detect hosts that are open to being abused by random people if they
 know how to, due to having limited or no access requirements.
 
-These scans are uninvasive and are exceedingly unlikely to break something.
-They mostly consist of:
+These scans are uninvasive and are very unlikely to break anything. They
+mostly consist of:
 
 - Attempting to use your host as an anonymous HTTP/SOCKS proxy
 - Fingerprinting specific server software
