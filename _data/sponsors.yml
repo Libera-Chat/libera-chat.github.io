@@ -58,7 +58,10 @@
 
 - name: Capitol Hosting Solutions
   link: https://chs.gg
-  image: /static/img/chs-logo-light.png
+  image: /static/img/chs-logo-dark.svg
+  sources:
+    - srcset: /static/img/chs-logo-light.svg
+      media: '(prefers-color-scheme: dark)'
   current: true
 
 - name: Hyperfilter
