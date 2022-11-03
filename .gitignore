@@ -7,3 +7,6 @@ node_modules
 # we don't need a lock file, better to just grab the most up to date versions
 # since we only use a cli tool
 package-lock.json
+
+# mac OS is noisy sometimes, this keeps it's fluff out.
+.DS_Store
