@@ -59,7 +59,7 @@ Terminal or text-based clients are clients which you primarily navigate with
 keyboard shortcuts. These typically do not need mouse navigation, so they are
 great for running on servers and accessing remotely.
 
-Both of these are free and run under Linux, macOS, and Windows (using WSL or Cygwin)
+Both of these are free and run under Linux, macOS, and Windows (using WSL or Cygwin):
 
 - [Irssi](https://irssi.org/)
 - [WeeChat](https://weechat.org/)
