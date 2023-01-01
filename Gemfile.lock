@@ -1,8 +1,10 @@
 GEM
   remote: https://rubygems.org/
   specs:
-    addressable (2.8.0)
-      public_suffix (>= 2.0.2, < 5.0)
+    addressable (2.8.1)
+      public_suffix (>= 2.0.2, < 6.0)
+    ansi (1.5.0)
+    ast (2.4.2)
     colorator (1.1.0)
     concurrent-ruby (1.1.10)
     em-websocket (0.5.3)
@@ -67,10 +69,13 @@ GEM
       racc (~> 1.4)
     nokogumbo (2.0.5)
       nokogiri (~> 1.8, >= 1.8.4)
+    oga (3.4)
+      ast
+      ruby-ll (~> 2.1)
     parallel (1.21.0)
     pathutil (0.16.2)
       forwardable-extended (~> 2.6)
-    public_suffix (4.0.6)
+    public_suffix (5.0.1)
     racc (1.5.2)
     rainbow (3.0.0)
     rb-fsevent (0.11.2)
@@ -78,6 +83,9 @@ GEM
       ffi (~> 1.0)
     rexml (3.2.5)
     rouge (4.0.0)
+    ruby-ll (2.1.2)
+      ansi
+      ast
     safe_yaml (1.0.5)
     sassc (2.4.0)
       ffi (~> 1.9)
@@ -94,11 +102,13 @@ PLATFORMS
   x86_64-linux
 
 DEPENDENCIES
+  addressable (~> 2.8)
   html-proofer
   jekyll (~> 4.3.0)
   jekyll-feed (~> 0.12)
   jekyll-seo-tag (~> 2.7.1)
   jekyll-sitemap (~> 1.4.0)
+  oga (~> 3.4)
   tzinfo (~> 1.2)
   tzinfo-data
   wdm (~> 0.1.1)

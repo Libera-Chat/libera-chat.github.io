@@ -1,6 +1,6 @@
 ---
 title: Libera Chat account verification
-layout: nohead
+absolutify: true
 ---
 
 {% raw %}

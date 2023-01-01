@@ -30,3 +30,6 @@ gem "wdm", "~> 0.1.1", :platforms => [:mingw, :x64_mingw, :mswin]
 
 gem 'html-proofer'
 gem "webrick", "~> 1.7"
+# used for _plugins/absolutist.rb
+gem "oga", "~> 3.4"
+gem "addressable", "~> 2.8"
