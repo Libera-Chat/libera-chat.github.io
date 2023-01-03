@@ -60,3 +60,11 @@ licensed under [CC-BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/).
 
 Additional helpful ERC configuration advice may be found on
 [John2x's home page](https://www.john2x.com/emacs.html).
+
+
+In the upcoming Emacs 29, ERC finally supports sasl!  
+According to `doc/misc/erc.texi` and my testing,
+the only thing you need is to load the `sasl` module by adding it into `erc-modules`.  
+If you set the value without using `customize`,
+remember to call `(erc-update-modules)` after you change it.  
+That's all, then use `erc-tls` as above :)
