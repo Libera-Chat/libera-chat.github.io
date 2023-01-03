@@ -12,10 +12,8 @@ absolutify: true
     <input type="submit" value="Verify">
   </form>
   <script>
-    /*
     const form = document.getElementById('verification-form')
     form.submit()
-    */
   </script>
 </div>
 
