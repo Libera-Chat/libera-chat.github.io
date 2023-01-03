@@ -8,7 +8,7 @@ absolutify: true
 <!-- markdownlint-disable MD033 -->
 
 <div class="verification">
-  <form method="POST" action="{{target}}">
+  <form method="POST" action="{{target}}" id="verification-form">
     <input type="submit" value="Verify">
   </form>
   <script>
