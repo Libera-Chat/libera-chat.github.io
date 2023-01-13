@@ -2,7 +2,7 @@
 title: Privacy
 ---
 
-This page was last updated {% site.privacy_last_modified %} ([history][hist]).
+This page was last updated {{ site.privacy_last_modified }} ([history][hist]).
 
 Libera Chat is a non-profit organisation based in Sweden (org.nr. 802535-6448).
 Libera Chat operates the Libera Chat IRC network, and the website Libera.Chat,
