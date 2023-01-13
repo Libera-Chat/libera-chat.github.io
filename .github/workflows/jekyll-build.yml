@@ -17,6 +17,9 @@ jobs:
           ruby-version: '3.0' # Not needed with a .ruby-version file
           bundler-cache: true # runs 'bundle install' and caches installed gems automatically
           cache-version: 0 # Increment this number if you need to re-download cached gems
+      - name: Define additional Jekyll variables
+        run: |
+          echo "privacy_last_modified: $(git log -1 --format=%cd --date=short -- privacy.md)" >> _config.yml
       - name: Build with Jekyll
         # Outputs to the './_site' directory by default
         run: bundle exec jekyll build --baseurl "${{ steps.pages.outputs.base_path }}"
