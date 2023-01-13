@@ -5,14 +5,14 @@ author: jess
 
 Hello everyone,
 
-We're deploying an update to our Services software (the thing that supplies
+We've deployed an update to our Services software (the thing that supplies
 the network with NickServ, ChanServ, etc.) to support turning off the
 incessant `"failed to login as <you>"` messages a lot of our users get.
 
-Those messages are almost always a false positive rather than an indication
-that someone is attempting to brute force your account. They're almost
-always [misconfigured Thunderbird][0] clients that are simply retrying the
-same password over and over again for months, if not years.
+Those messages are almost always false positives rather than indications
+that someone is attempting to brute force your account. They are almost
+always caused by [misconfigured Thunderbird][0] clients that are simply
+retrying the same password over and over again for months, if not years.
 
 The [changes][1] we've made in the Services software we use ([Atheme][2])
 change two main things; they add much tighter throttles to failed login
@@ -20,8 +20,8 @@ attempts and add a system by which people can explicitly opt-in or opt-out
 of receiving a notification when someone fails to log in to their account.
 
 Network staff will still see and react to brute force attempts against our
-users, whether they've opted-in or opted-out. When we first launch this
-change, we intend to opt users in to receiving these messages by default.
+users, whether they've opted-in or opted-out. At this time,
+we intend to opt users in to receiving these messages by default.
 However, in the long run, we plan to opt users out of receiving these messages
 by default. If you explicitly opt-in to or opt-out of receiving these messages,
 your preferences will be retained regardless of what we set the default to.
