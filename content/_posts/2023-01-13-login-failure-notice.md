@@ -48,4 +48,3 @@ We'll further communicate when we intend to change the default behaviour.
 [0]: https://atheme.org/
 [1]: https://bugzilla.mozilla.org/show_bug.cgi?id=1618061
 [2]: https://github.com/atheme/atheme/commit/d671237
-
