@@ -44,7 +44,7 @@ v 2022-03-25, organisation number 802535-6448
    years without simultaneously approving them for membership.
 
 3. All staff of the Libera Chat IRC network must be approved for membership no
-   later than two (2) regularly scheduled monthly general meetings after
+   later than three (3) regularly scheduled monthly general meetings after
    becoming staff, or have their staff status revoked.
 
 4. There are two levels of membership: ordinary member, and quorum member.
