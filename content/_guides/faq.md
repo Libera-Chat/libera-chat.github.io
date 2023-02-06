@@ -266,6 +266,15 @@ for using the IRC bridge. If you still have questions about using the
 Libera.Chat bridge, visit `#libera-matrix` from IRC or
 `#libera-matrix:libera.chat` from Matrix.
 
+Matrix-specific issues should be reported to one of Matrix's bugtrackers
+([IRC bridge](https://github.com/matrix-org/matrix-appservice-irc/issues),
+[Synapse](https://github.com/matrix-org/synapse/issues), ...) instead of
+the above channel. These issues include: `Failed to make_join via any server`,
+`Can't join remote room because no servers that are in the room have been provided`,
+IRC puppet present in channel even if you are not joined to the Matrix room,
+`@appservice:libera.chat` and NickServ/ChanServ bots not answering you,
+room joins taking a long time, or failing to plumb rooms to IRC channels.
+
 The bridge has an interface called an appservice that lets you manage your
 presence on the bridge. If it does not contact you automatically, start a
 conversation with `@appservice:libera.chat`. For example Element has `/msg`:
