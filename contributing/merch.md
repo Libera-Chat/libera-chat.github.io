@@ -8,7 +8,7 @@ In addition to you showing your support and spreading the word about us,
 we receive a donation (currently up to around 2.5 Euro) per piece sold.
 
 Have a look at
-[the FreeWear.org online store](https://www.freewear.org/LiberaChat)
+[the FreeWear.org online store](https://www.freewear.org/Libera.Chat)
 to check out what Libera Chat branded merch is currently available!
 
 Money received through this channel is handled the same as donations,

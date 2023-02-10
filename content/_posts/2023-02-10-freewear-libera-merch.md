@@ -41,7 +41,7 @@ organisation, backed by a Swedish non-profit as our legal entity.
 
 We start off with a small amount of base items with our logo on it.
 You can find Libera.Chat branded stuff at
-[the Libera subsection on FreeWear.org](https://www.freewear.org/LiberaChat).
+[the Libera subsection on FreeWear.org](https://www.freewear.org/Libera.Chat).
 We might add more designs in the future.
 
 As usual, we would like to thank our supporters who,
