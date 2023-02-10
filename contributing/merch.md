@@ -1,5 +1,5 @@
 ---
-title: Buy merchandise to support Libera Chat
+title: Buy merch to support Libera Chat
 ---
 
 We have a partnership with [FreeWear.org](https://www.freewear.org)
