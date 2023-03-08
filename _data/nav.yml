@@ -20,6 +20,8 @@
   items:
   - name: Donate
     link: /contributing/donate
+  - name: Buy merch
+    link: /contributing/merch
   - name: Sponsor Us
     link: /contributing/sponsor
   - name: Development
