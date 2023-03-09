@@ -197,8 +197,8 @@ in other places.
 If the attempts are very frequent and persistent, feel welcome to let staff
 know, just in case.
 
-_At your own risk_, and depending on your client, you may be able to filter
-the alerts. Ask your client's support channel if this is possible.
+_At your own risk_, you can mute these alerts.
+See `/msg Nickserv HELP SET BADPASSWDMSG`.
 
 ## Warez or Adult content sharing?
 
