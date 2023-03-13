@@ -39,7 +39,7 @@ The following channel modes can only be added by Libera.Chat staff.
 The common form of a mask is `nick!user@host`. The wildcards `*` and `?` are
 allowed, matching zero-or-more and exactly-one characters, respectively. Bans
 set on IP addresses will apply even if the affected user joins with a resolved
-or cloaked hostname.
+or hostname, but will not apply if the user has a cloak.
 [CIDR notation](https://en.wikipedia.org/wiki/Classless_Inter-Domain_Routing#CIDR_notation)
 is supported in bans.
 
