@@ -300,9 +300,9 @@ The lines in their responses might be out of order. This issue is in the
 Matrix message handling. It may also affect time-critical responses elsewhere.
 
 The bridge is run by [EMS](https://ems.element.io/). The
-[EMS ToS](https://element.io/terms-of-service) and
-[Privacy Policy](https://element.io/privacy) apply when using it. Libera.Chat
-staff do **not** have access to EMS data.
+[EMS Acceptable Use Policy](https://static.element.io/pdfs/acceptable-use-policy.pdf)
+and [Privacy Policy](https://element.io/privacy) apply when using it.
+Libera.Chat staff do **not** have access to EMS data.
 
 Libera.Chat prohibits double-bridging IRC to IRC through the EMS-hosted
 Libera.Chat bridge and may request intervention if any bridged channels cause
