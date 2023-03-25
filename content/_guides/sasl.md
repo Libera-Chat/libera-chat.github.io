@@ -27,7 +27,7 @@ not support `DH-BLOWFISH`
 - [AndroIRC](https://web.archive.org/web/20210319221818/http://wiki.androirc.com/nickserv_sasl)
 - [catgirl](/guides/catgirl)
 - [Chatzilla](/guides/chatzilla)
-- [Emacs ERC](/guides/emacs-erc)
+- [Emacs ERC](https://elpa.gnu.org/packages/doc/erc.html#SASL)
 - [EPIC5](/guides/epic5)
 - [glirc](https://github.com/glguy/irc-core/wiki/Automatically-authenticating-to-NickServ)
 - [HexChat](/guides/hexchat)
