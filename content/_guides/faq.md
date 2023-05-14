@@ -266,7 +266,8 @@ for using the IRC bridge. If you still have questions about using the
 Libera.Chat bridge, visit `#libera-matrix` from IRC or
 `#libera-matrix:libera.chat` from Matrix.
 
-Matrix-specific issues should be reported to one of Matrix's bugtrackers
+Matrix-specific issues should be reported to
+[Matrix.org support](https://matrix.org/contact/) or one of its bugtrackers
 ([IRC bridge](https://github.com/matrix-org/matrix-appservice-irc/issues),
 [Synapse](https://github.com/matrix-org/synapse/issues), ...) instead of
 the above channel. These issues include: `Failed to make_join via any server`,
