@@ -196,7 +196,7 @@ in other places.
 
 If the attempts are very frequent and persistent, feel welcome to let staff
 know, just in case. Libera.Chat does stop actual bruteforce attacks and
-these messages were [disabled by default](https://libera.chat/news/badpasswdmsg-default),
+these messages were [disabled by default](/news/badpasswdmsg-default),
 due to excessive noise. To disable them:
 
 ```irc
