@@ -13,7 +13,7 @@ with a cloak as `jsmith@user/jsmith`.
 A cloak can help other users and bots identify you simply and consistently. It
 can also help limit the exposure of your IP address on the network, although
 it does not necessarily provide anonymity or prevent the discovery of your IP
-address.
+address, see [below](#limitations-of-cloaks).
 
 As an individual, you can get a generic user cloak in the form of
 `user/username`. If you are involved with a well-known project or community,
@@ -60,17 +60,17 @@ directly if the self-service channel does not cloak you.
 
 ### Generic bot cloaks
 
-If you run a bot on the network, you may also get the bot cloaked. While you
-can simply obtain a self-service user cloak for the bot, it is recommended to
-get a proper bot cloak by
+If you run a bot on the network, you should also get the bot cloaked. While
+you can simply obtain a self-service user cloak for the bot, it is strongly
+recommended to get a proper bot cloak by
 [contacting staff](/guides/faq#how-to-find-libera-chat-staff). These look
-like `user/<your username>/bot/<bot's username>` and help
-other users know to find you if something goes wrong with the bot.
+like `user/<your username>/bot/<bot's username>` and help others to find
+you if something goes wrong with the bot.
 
 ## Project or community cloaks
 
-[Projects](https://libera.chat/chanreg#project-registration) and
-[communities](https://libera.chat/chanreg#community-registration) that are
+[Projects](/chanreg#project-registration) and
+[communities](/chanreg#community-registration) that are
 aligned with our mission are eligible for group registrations. One of the
 perks of group registration is the ability to request cloaks for participants.
 
@@ -118,33 +118,39 @@ others users.
 ## Removing your cloak
 
 Cloak removal is not automated. To remove your user cloak, ask [someone on
-staff](https://libera.chat/about#wider-staff-and-organisation-membership) for
+staff](/about#wider-staff-and-organisation-membership) for
 help. To remove your project or community affiliation cloak, ask the group
 contact for your project or community.
 
 ## Anonymity and privacy
 
-Cloaks are not intended as a privacy feature.
+Cloaks are not intended to be used solely as a privacy feature.
 
 While a cloak helps limit the exposure of your IP address, other tools can
 more reliably provide a greater degree of privacy protection, including
 bouncers, cloud-based hosts, and Tor. To connect to Libera.Chat via Tor, see
 [Connecting to Libera.Chat](/guides/connect#accessing-liberachat-via-tor).
 
-### Caveats of Cloaks
+Additionally, your IP address can be exposed if your client features a
+link preview feature, DCC functionality or similar.
 
-- Caveat: Your ip or hostname is visible when you join channels before
-  your account is associated with a cloak.
-  - Workaround: Do not visit channels, other than the cloaking channel,
-    before you are cloaked.
-  - Even with the above, `/whowas yournick` will show your pre-cloaked ip
-    or hostname for an indeterminate number of hours.
-- Your ip or hostname is visible if you join channels after connecting but
-  before identifying to your account.
-  - Workaround: Use only the [SASL](/guides/sasl) authentication method and configure
-    the client to abort or retry if authentication fails.
-- Caveat: If you click on links, your internet browser can disclose your ip.
-  - Workaround: Copy-paste the link into a browser that you know is using a
-    VPN or Tor.
-- Caveat: Some IRC functionality will inherently reveal your IP or hostname.
-  We do the best we can to prevent this but we cannot prevent all of it.
+### Limitations of cloaks
+
+Before your account has been assigned a cloak, your IP address or
+hostname will be visible, especially if you have joined any channels.
+Even when you have not joined any, your connecting host will be
+visible in `/whowas <yournick>`.
+
+Additionally,
+**you must use [SASL](/guides/sasl) or your IP will be exposed briefly**
+when using e.g automatic `/msg NickServ identify` as provided by your client.
+It will look like this to other users:
+
+```irc
+--> jsmith (~jsmith@10-10-32-1.res.dsl.example.com) has joined #channel
+<-- jsmith (~jsmith@10-10-32-1.res.dsl.example.com) has quit (Changing host)
+--> jsmith (~jsmith@user/jsmith) has joined #channel
+```
+
+Other than that, only Libera.Chat staff can see your connecting host
+after that, which is only looked at in cases of abuse.
