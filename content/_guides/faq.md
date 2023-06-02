@@ -184,9 +184,9 @@ expired again.
 
 ## Why are people trying to log in as me?
 
-Sometimes you might get alerts from NickServ or SaslServ about attempts to log
-in to your account. These alerts are almost always caused by clients that are
-misconfigured.
+When you have `BADPASSWDMSG` enabled, you might get alerts from NickServ
+or SaslServ about attempts to log in to your account. These alerts are
+almost always caused by clients that are misconfigured.
 
 If you have lots of nicks grouped or if you have a common name or word
 grouped, you will get an above average number of alerts.
@@ -195,10 +195,13 @@ You do not need to worry if you have chosen a strong password that is not used
 in other places.
 
 If the attempts are very frequent and persistent, feel welcome to let staff
-know, just in case.
+know, just in case. Libera.Chat does stop actual bruteforce attacks and
+these messages were [disabled by default](/news/badpasswdmsg-default),
+due to excessive noise. To disable them:
 
-_At your own risk_, and depending on your client, you may be able to filter
-the alerts. Ask your client's support channel if this is possible.
+```irc
+/msg Nickserv SET BADPASSWDMSG OFF
+```
 
 ## Warez or Adult content sharing?
 
