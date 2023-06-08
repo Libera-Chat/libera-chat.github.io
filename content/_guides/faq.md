@@ -270,10 +270,9 @@ Libera.Chat bridge, visit `#libera-matrix` from IRC or
 `#libera-matrix:libera.chat` from Matrix.
 
 Matrix-specific issues should be reported to
-[Matrix.org support](https://matrix.org/contact/) or one of its bugtrackers
-([IRC bridge](https://github.com/matrix-org/matrix-appservice-irc/issues),
-[Synapse](https://github.com/matrix-org/synapse/issues), ...) instead of
-the above channel. These issues include: `Failed to make_join via any server`,
+[the Libera.Chat bridge bugtracker](https://github.com/matrix-org/libera-chat/issues)
+instead of the above channel. These issues include:
+`Failed to make_join via any server`,
 `Can't join remote room because no servers that are in the room have been provided`,
 IRC puppet present in channel even if you are not joined to the Matrix room,
 `@appservice:libera.chat` and NickServ/ChanServ bots not answering you,
