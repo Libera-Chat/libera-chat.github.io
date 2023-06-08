@@ -54,7 +54,7 @@ In the meantime, users should continue to report any issues with the bridge
 directly to [EMS][support].
 
 _NB: A previous version of this post linked to the matrix.org contact page.
-EMS have now set up an issue tracker specifically for Libera.chat bridge
+EMS have now set up an issue tracker specifically for Libera.Chat bridge
 issues, and the link above has been updated to reflect this._
 
 We'd really like to stress that EMS are working very hard to find a
