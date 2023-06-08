@@ -52,6 +52,8 @@ iOS (paid)
 - [Palaver](https://apps.apple.com/us/app/palaver/id538073623) - iOS (paid)
 - [RevolutionIRC](https://play.google.com/store/apps/details?id=io.mrarm.irc)
 \- Android, also on [F-Droid](https://f-droid.org/packages/io.mrarm.irc/) (free)
+- [Goguma](https://sr.ht/~emersion/goguma/)
+\- Android, also on [F-Droid](https://fdroid.emersion.fr/#goguma-nightly) (free)
 
 ### Terminal clients
 
