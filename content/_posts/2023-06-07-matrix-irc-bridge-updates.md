@@ -53,6 +53,10 @@ facilitate their own access to IRC
 In the meantime, users should continue to report any issues with the bridge
 directly to [EMS][support].
 
+_NB: A previous version of this post linked to the matrix.org contact page.
+EMS have now set up an issue tracker specifically for Libera.Chat bridge
+issues, and the link above has been updated to reflect this._
+
 We'd really like to stress that EMS are working very hard to find a
 solution to the long-term sustainability of the bridge, and the work
 they're doing is appreciated; the road ahead is not a trivial endeavour
@@ -63,5 +67,5 @@ Cheers,
 Allie @ Libera.Chat
 
 [guidelines]: https://libera.chat/guides/faq#are-bridges-allowed
-[support]: https://matrix.org/contact/
+[support]: https://github.com/matrix-org/libera-chat/issues
 [secret]: https://libera.chat/guides/channelmodes
