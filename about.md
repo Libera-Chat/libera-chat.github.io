@@ -21,7 +21,7 @@ by the membership. The current board members are:
 
 - **Chair**: moonmoon
 - **Treasurer**: Swant
-- **Projects and Community Rep**: *Vacant*
+- **Projects and Community Rep**: Allie
 - **Engineering Rep**: spb
 - **Operations Rep, Vice Chair**: tomaw
 
