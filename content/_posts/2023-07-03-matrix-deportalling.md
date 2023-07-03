@@ -45,4 +45,4 @@ Thank you so much for your understanding,
 
 Allie @ Libera.Chat
 
-[prev]: https://libera.chat/news/Matrix-irc-bridge-updates
+[prev]: https://libera.chat/news/matrix-irc-bridge-updates
