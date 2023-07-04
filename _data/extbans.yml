@@ -11,8 +11,8 @@
     Takes a parameter that is matched as a normal `nick!username@host` ban
     (supports CIDR notation) but does not match logged-in users.
     The parameter accepts wildcards. If the parameter contains a `#`,
-    the portion after the `#` is matched on a client's gecos,
-    and the portion before the first `#` is matched as a normal ban.
+    the portion after the first `#` is matched on a client's gecos,
+    and the portion before the `#` is matched as a normal ban.
 - type: $j
   name: cannot join other channel
   description: |
