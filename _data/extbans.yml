@@ -6,9 +6,13 @@
     For example: `/mode #channel +q $a:example` would quiet a user identified
     to services as example.
 - type: $g
-  name: full match on guest
+  name: matching guest
   description: |
-    Matches as `$x` but does not match logged-in users.
+    Takes a parameter that is matched as a normal `nick!username@host` ban
+    (supports CIDR notation) but does not match logged-in users.
+    The parameter accepts wildcards. If the parameter contains a `#`,
+    the portion after the `#` is matched on a client's gecos,
+    and the portion before the first `#` is matched as a normal ban.
 - type: $j
   name: cannot join other channel
   description: |
@@ -25,13 +29,13 @@
 - type: $x
   name: full match
   description: |
-    If the parameter contains a `#`, the portion after the `#` is matched
-    against a client's gecos, and the portion before the `#` is matched
-    against the client's `nick!username@host`.
-    Otherwise, the whole parameter is matched against the client's
-    `nick!username@host`. The parameter accepts wildcards and CIDR notation.
+    Takes a parameter that is matched on a client's full
+    `nick!username@host#gecos`. The parameter accepts wildcards.
+    If the parameter contains a `#`, the portion after the first `#` is
+    matched against a client's gecos, and the portion before the `#` is
+    matched as a normal `nick!username@host` ban (supports CIDR notation).
     For example, `/mode #channel +b $x:*#Foo*` will ban any user whose gecos
-    begins with Foo.
+    begins with "Foo".
 - type: $z
   name: connected securely
   description: |
