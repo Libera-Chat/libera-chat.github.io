@@ -24,6 +24,8 @@ IRC-side Matrix experience.
 We will **not** be disabling plumbed channels: If your community relies on
 the bridge to link your IRC and Matrix presences, we would recommend
 you look into plumbing **now** if you have not already.
+See [the Matrix documentation](https://matrix-org.github.io/matrix-appservice-irc/latest/irc_operators.html#portals-and-plumbed)
+for the difference between portal and plumbed channels.
 
 ## Looking into the future: A new Matrix Channel Mode
 
