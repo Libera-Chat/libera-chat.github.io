@@ -1,72 +1,77 @@
 ---
 title: Finding Channels
 category: using
-credits: web7
 weight: 40
 ---
 
 ## Finding Channels on Libera.Chat
 
-With many channels already on Libera.Chat and more being registered all the
-time, a good way to search for channels of interest to you is useful.
+Libera.Chat has thousands of channels. There are several ways to
+search for them depending on your needs and preferences.
+Note that the following methods do not show all channels,
+only those that have opted to be listed by having channel mode `s` unset
+(which is set by default for new channels).
 
-Enter `alis`, a network service designed for exactly that purpose.
+### Using Webchat
 
-At the most simple, you can use `/msg alis LIST *searchterm*` to find channels
-whose name contains the term in question - for instance,
-`/msg alis LIST *linux*`.
+If you have an internet connection that's faster than 30 kbps
+(but ideally at least 3 Mbps) and are using our KiwiIRC-based webchat at
+[web.libera.chat](https://web.libera.chat), you can use the `/list` command.
+This command has the network return a full list of channels and their
+topics that you can then search through entirely within the client.
 
-You can also search on the channel's current topic, require a minimum number of
-users (to weed out barely-used channels), and use various wildcards to control
-your search - for instance, `/msg alis LIST #libera* -min 10` would find all
-channels whose names begin with `#libera` and which have at least 10 users.
+### Using `alis`
 
-For full details on how to use alis, `/msg alis HELP LIST` will send you back
-the following help text:
+`alis` is a network service to search for channels server-side.
+`alis` is invoked using `/msg alis list <pattern> [options]`.
 
-```irc
-***** alis Help *****
+`<pattern>` is matched on channel names.
+For example, `/msg alis list #linux*` will list single-"#" channels whose
+names begin with "linux". If the pattern does not contain any wildcards
+nor begin with a "#", `alis` will implicitly surround the pattern with `*`s.
 
-Help for LIST:
+`[options]` is a space-separated list of options to refine the search,
+each of which can only be used once.
+For example, you can also search by the channel's current topic or
+require a minimum number of users (to weed out barely-used channels).
+`/msg alis list * -min 100 -topic social` would find all channels whose
+topic contains the word "social" and that have at least 100 users.
 
-LIST gives a list of channels matching the
-pattern, modified by the other options.
+The options you can use after the initial pattern are:
+- `-min <n>`: Show only channels with at least `<n>` users.
+- `-max <n>`: Show only channels with at most `<n>` users.
+- `-skip <n>`: Skip first `<n>` matches.
+- `-show [m][t]`: Include the modes and/or topic setter in the output.
+- `-mode <op><modes>`: Filter by channel modes based on the value of `<op>`:
+  - `+`: Require the channel modes to include `<modes>`.
+  - `-`: Require the channel modes to exclude `<modes>`.
+  - `=`: Require the channel modes to equal `<modes>`.
+  - Note that this cannot be used to search by restricted modes such as `P`.
+- `-topic <pattern>`: Require the topic to include `<pattern>`.
 
-Syntax: LIST <pattern> [options]
+Alis output is limited to 64 channels. You can skip the first 64 channels by
+adding `-skip 64` to the argument list, then the next 64 by instead using
+`-skip 128`, the next 64 with `-skip 192`, and so on.
 
-Options are:
-    -min <n>: show only channels with at least <n> users
-    -max <n>: show only channels with at most <n> users
-    -skip <n>: skip first <n> matches
-    -show [m][t]: show modes/topicsetter
-    -mode <+|-|=><modes>: modes set/unset/equal
-    -topic <pattern>: topic matches pattern
+### Using netsplit.de
 
-The pattern can contain * and ? wildcards. The pattern has to
-match the full channel name or a full topic, depending on where it
-is used; the wildcards are important. The pattern is also
-automatically surrounded by * wildcards if
-- a channel name pattern does not start with a wildcard or a #, or
-- a topic pattern contains no * wildcards.
+A method of searching that does not require connecting to Libera.Chat is to
+use [netsplit.de](https://netsplit.de/channels/?net=libera.chat).
+netsplit.de is a third-party index of IRC networks and their channels.
+It also maintains a record of topic changes and user counts.
+For example, [here is their page about #libera][0].
 
-For example, for channel names, from most to least specific:
- ?bar       - any character followed by "bar" with no other characters
- #bar*      - anything starting with "#bar"
- ##*bar*    - anything starting with ## and containing "bar"
- *cows*moo* - anything containing "cows", 0 or more characters, and "moo"
- *bar*      - anything containing "bar" (equivalent to "bar")
+[0]: https://netsplit.de/channels/details.php?room=%23libera&net=Libera.Chat
 
-Examples:
-    /msg alis LIST searchterm
-    /msg alis LIST * -topic multiple*ordered*search*terms
-    /msg alis LIST * -min 50
-    /msg alis LIST #foo*
-    /msg alis LIST #foo* -mode =n
-    /msg alis LIST *freetopic* -mode -t -show mt
-    /msg alis LIST ##nocolors* -mode +c -show t
+### Using other IRC clients
 
-***** End of Help *****
-```
+`LIST` is a standard IRC command and most clients allow you to use it by
+typing `/list`. How they present the output from `LIST` will vary;
+many will just dump the output in the server messages buffer.
 
-An alternative method to search is to do so via the web, using
-[netsplit.de](https://netsplit.de/channels/?net=libera.chat).
+How long it takes to fully display the output from `/list`
+depends on the speed of your internet connection.
+As with webchat, 3Mbps or faster is recommended.
+A common myth is that you can instantly disconnect yourself using `/list`
+due to your client not keeping up with the output;
+this is true for some IRC server software but is not the case on Libera.
