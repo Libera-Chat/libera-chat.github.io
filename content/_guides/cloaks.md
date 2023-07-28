@@ -61,8 +61,8 @@ directly if the self-service channel does not cloak you.
 ### Generic bot cloaks
 
 If you run a bot on the network, you should also get the bot cloaked. While
-you can simply obtain a self-service user cloak for the bot, it is strongly
-recommended to get a proper bot cloak by
+you can simply obtain a self-service user cloak for the bot, it is
+encouraged to get a proper bot cloak by
 [contacting staff](/guides/faq#how-to-find-libera-chat-staff). These look
 like `user/<your username>/bot/<bot's username>` and help others to find
 you if something goes wrong with the bot.
@@ -139,12 +139,13 @@ link preview feature, DCC functionality or similar.
 Before your account has been assigned a cloak, your IP address or
 hostname will be visible, especially if you have joined any channels.
 Even when you have not joined any, your connecting host will be
-visible in `/whowas <yournick>`.
+visible in `/whowas <yournick>` once you disconnect.
 
-Additionally,
-**you must use [SASL](/guides/sasl) or your IP will be exposed briefly**
-when using e.g automatic `/msg NickServ identify` as provided by your client.
-It will look like this to other users:
+When using a cloak, it is strongly recommended to use [SASL](/guides/sasl)
+instead of `/msg NickServ identify` to log into your account.
+SASL guarantees that you will be logged in and cloaked before
+your connection is visible to the rest of the Libera.Chat network,
+which prevents IP address exposures like this from happening:
 
 ```irc
 --> jsmith (~jsmith@10-10-32-1.res.dsl.example.com) has joined #channel
@@ -152,5 +153,7 @@ It will look like this to other users:
 --> jsmith (~jsmith@user/jsmith) has joined #channel
 ```
 
-Other than that, only Libera.Chat staff can see your connecting host
-after that, which is only looked at in cases of abuse.
+Once you are cloaked, only you and Libera.Chat staff can see
+your connecting host. Staff will refuse requests to disclose the
+IP addresses, host names, or connection metadata of cloaked users
+as per Libera.Chat's [privacy policy](/privacy).
