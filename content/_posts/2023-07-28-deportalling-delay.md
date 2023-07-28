@@ -20,7 +20,8 @@ the deadline we have previously agreed.
 
 **Given the nature of the issues, we have agreed to extend the deadline to the
 11th of August, 2023, providing an additional 2 weeks to address these high
-priority issues and improve the plumbing situation.**
+priority issues and improve the plumbing situation. New portal creation will be
+disabled on the 31st, with all portals being turned off on the 11th.**
 
 We understand that this means breaking the promise we have made to our users,
 and we're sorry for any users who have rushed ahead of their preferred schedule
