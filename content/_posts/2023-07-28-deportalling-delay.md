@@ -51,4 +51,4 @@ Yours aye,
 kline
 
 [prev]: https://libera.chat/news/matrix-deportalling
-[matrixblog]: 
+[matrixblog]: https://matrix.org/blog/2023/07/postponing-libera-chat-deportalling/
