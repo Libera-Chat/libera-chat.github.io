@@ -124,8 +124,6 @@ contact for your project or community.
 
 ## Anonymity and privacy
 
-Cloaks are not intended to be used solely as a privacy feature.
-
 While a cloak helps limit the exposure of your IP address, other tools can
 more reliably provide a greater degree of privacy protection, including
 bouncers, cloud-based hosts, and Tor. To connect to Libera.Chat via Tor, see
