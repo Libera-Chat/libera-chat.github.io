@@ -138,6 +138,7 @@
   name: block unidentified
   description: |
     Prevents users who are not identified to services from joining the channel.
+    Users already in the channel are not affected.
 - mode: R
   name: silence unidentified
   description:
