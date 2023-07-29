@@ -168,6 +168,6 @@
 - mode: z
   name: reduced moderation
   description: |
-    The effects of `+b`, `+q`, and `+m` are relaxed. For each message, if that
+    The effects of `+b`, `+q`, `+R`, and `+m` are relaxed. For each message, if that
     message would normally be blocked by one of these modes, it is instead
     sent to channel operators (`+o`).
