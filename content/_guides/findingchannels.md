@@ -16,7 +16,7 @@ only those that have opted to be listed by having channel mode `s` unset
 
 If you have an internet connection that's faster than 30 kbps
 (but ideally at least 3 Mbps) and are using our KiwiIRC-based webchat at
-[web.libera.chat](https://web.libera.chat), you can use the `/list` command.
+[`web.libera.chat`](https://web.libera.chat), you can use the `/list` command.
 This command has the network return a full list of channels and their
 topics that you can then search through entirely within the client.
 
@@ -41,6 +41,7 @@ require a minimum number of users (to weed out barely-used channels).
 topic contains the word "social" and that have at least 100 users.
 
 The options you can use after the initial pattern are:
+
 - `-min <n>`: Show only channels with at least `<n>` users.
 - `-max <n>`: Show only channels with at most `<n>` users.
 - `-skip <n>`: Skip first `<n>` matches.
@@ -74,6 +75,7 @@ depends on the speed of your internet connection.
 As with webchat, 3Mbps or faster is recommended to load the list quickly.
 
 **There are some caveats to note before using this command:**
+
 - Many clients just dump the output of `LIST` as messages in some buffer.
 If you have a scrollback limit that's less than several tens of thousands of
 lines, this may make `/list` effectively useless.
