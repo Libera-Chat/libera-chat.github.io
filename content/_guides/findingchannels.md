@@ -8,7 +8,7 @@ weight: 40
 
 Libera.Chat has thousands of channels. There are several ways to
 search for them depending on your needs and preferences.
-Note that the following methods do not show all channels,
+The following methods do not show all channels,
 only those that have opted to be listed by having channel mode `s` unset
 (which is set by default for new channels).
 
@@ -19,6 +19,9 @@ If you have an internet connection that's faster than 30 kbps
 [web.libera.chat](https://web.libera.chat), you can use the `/list` command.
 This command has the network return a full list of channels and their
 topics that you can then search through entirely within the client.
+
+Other clients also support `/list`, but please read on for
+[caveats](#using-other-irc-clients).
 
 ### Using `alis`
 
@@ -45,7 +48,7 @@ The options you can use after the initial pattern are:
 - `-mode <op><modes>`: Filter by channel modes based on the value of `<op>`:
   - `+`: Require the channel modes to include `<modes>`.
   - `-`: Require the channel modes to exclude `<modes>`.
-  - `=`: Require the channel modes to equal `<modes>`.
+  - `=`: Require the channel modes to exactly match `<modes>`.
   - Note that this cannot be used to search by restricted modes such as `P`.
 - `-topic <pattern>`: Require the topic to include `<pattern>`.
 
@@ -66,12 +69,16 @@ For example, [here is their page about #libera][0].
 ### Using other IRC clients
 
 `LIST` is a standard IRC command and most clients allow you to use it by
-typing `/list`. How they present the output from `LIST` will vary;
-many will just dump the output in the server messages buffer.
-
-How long it takes to fully display the output from `/list`
+typing `/list`. How long it takes to fully receive the output from `/list`
 depends on the speed of your internet connection.
-As with webchat, 3Mbps or faster is recommended.
+As with webchat, 3Mbps or faster is recommended to load the list quickly.
+
+**There are some caveats to note before using this command:**
+- Many clients just dump the output of `LIST` as messages in some buffer.
+If you have a scrollback limit that's less than several tens of thousands of
+lines, this may make `/list` effectively useless.
+- Some clients may become unresponsive while receiving `LIST` output.
+
 A common myth is that you can instantly disconnect yourself using `/list`
 due to your client not keeping up with the output;
 this is true for some IRC server software but is not the case on Libera.
