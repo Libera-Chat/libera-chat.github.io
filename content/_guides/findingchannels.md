@@ -46,12 +46,12 @@ The options you can use after the initial pattern are:
 - `-max <n>`: Show only channels with no more than `<n>` users.
 - `-skip <n>`: Skip the first `<n>` matches.
 - `-show [m][t]`: Include the modes and/or topic setter in the output.
-- `-mode <op><modes>`: Filter by channel modes based on the value of `<op>`:
-  - `+`: Require the channel modes to include `<modes>`.
-  - `-`: Require the channel modes to exclude `<modes>`.
-  - `=`: Require the channel modes to exactly match `<modes>`.
+- `-mode <op><modes>`: Filter by channel modes depending on `<op>`:
+  - `+`: Show only channels whose modes include `<modes>`.
+  - `-`: Show only channels whose modes exclude `<modes>`.
+  - `=`: Show only channels whose modes exactly match `<modes>`.
   - Note that this cannot be used to search by restricted modes such as `P`.
-- `-topic <pattern>`: Require the topic to contain `<pattern>`.
+- `-topic <pattern>`: Show only channels whose topics contain `<pattern>`.
 
 `alis` output is limited to 64 channels. You can skip the first 64 channels by
 adding `-skip 64` to the argument list, then the next 64 by instead using
