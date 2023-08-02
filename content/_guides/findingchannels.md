@@ -37,23 +37,23 @@ nor begin with a "#", `alis` will implicitly surround the pattern with `*`s.
 each of which can only be used once.
 For example, you can also search by the channel's current topic or
 require a minimum number of users (to weed out barely-used channels).
-`/msg alis list * -min 100 -topic social` would find all channels whose
+`/msg alis list * -min 100 -topic social` would find channels whose
 topic contains the word "social" and that have at least 100 users.
 
 The options you can use after the initial pattern are:
 
 - `-min <n>`: Show only channels with at least `<n>` users.
-- `-max <n>`: Show only channels with at most `<n>` users.
-- `-skip <n>`: Skip first `<n>` matches.
+- `-max <n>`: Show only channels with no more than `<n>` users.
+- `-skip <n>`: Skip the first `<n>` matches.
 - `-show [m][t]`: Include the modes and/or topic setter in the output.
 - `-mode <op><modes>`: Filter by channel modes based on the value of `<op>`:
   - `+`: Require the channel modes to include `<modes>`.
   - `-`: Require the channel modes to exclude `<modes>`.
   - `=`: Require the channel modes to exactly match `<modes>`.
   - Note that this cannot be used to search by restricted modes such as `P`.
-- `-topic <pattern>`: Require the topic to include `<pattern>`.
+- `-topic <pattern>`: Require the topic to contain `<pattern>`.
 
-Alis output is limited to 64 channels. You can skip the first 64 channels by
+`alis` output is limited to 64 channels. You can skip the first 64 channels by
 adding `-skip 64` to the argument list, then the next 64 by instead using
 `-skip 128`, the next 64 with `-skip 192`, and so on.
 
