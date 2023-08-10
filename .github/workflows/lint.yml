@@ -50,6 +50,6 @@ jobs:
           key: ${{ runner.os }}-htmlproofer
       - run: echo "::add-matcher::.github/workflow-support/htmlproofer-matcher.json"
       - name: Check for broken links
-        run: bundle exec htmlproofer --url-swap "https\://libera.chat:" --assume-extension ./_site --url-ignore /liberapay.com/,/www.imy.se/,/twitter.com/
+        run: bundle exec htmlproofer --url-swap "https\://libera.chat:" --assume-extension ./_site --url-ignore /liberapay.com/,/www.imy.se/,/twitter.com/,/chs.gg/
       - run: echo "::remove-matcher owner=htmlproofer::"
         if: success() || failure()
