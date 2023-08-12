@@ -141,7 +141,7 @@ visible in `/whowas <yournick>` once you disconnect.
 
 When using a cloak, it is strongly recommended to use [SASL](/guides/sasl)
 instead of `/msg NickServ identify` to log into your account.
-SASL guarantees that you will be logged in and cloaked before
+SASL allows you to automatically log in and be cloaked before
 your connection is visible to the rest of the Libera.Chat network,
 which prevents IP address exposures like this from happening:
 
@@ -150,6 +150,12 @@ which prevents IP address exposures like this from happening:
 <-- jsmith (~jsmith@10-10-32-1.res.dsl.example.com) has quit (Changing host)
 --> jsmith (~jsmith@user/jsmith) has joined #channel
 ```
+
+When using SASL, consider ensuring that your client disconnects if
+it doesn't authenticate; some clients do not do this by default and
+must be specifically configured to do so. This ensures that your
+IP address will not be exposed whenever `NickServ` is
+briefly unavailable due to maintenance.
 
 Once you are cloaked, only you and Libera.Chat staff can see
 your connecting host. Staff will refuse requests to disclose the
