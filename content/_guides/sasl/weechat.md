@@ -7,6 +7,8 @@ credits: web7
 Here's a simple guide for password-based authentication, based on the
 [WeeChat quick-start guide](https://weechat.org/files/doc/stable/weechat_quickstart.en.html).
 
+If you are using WeeChat 4.0 or later, replace 'ssl' with 'tls' in the following instructions.
+
 If you haven't already set up your connection to Libera.Chat, use this command:
 
 ```irc
