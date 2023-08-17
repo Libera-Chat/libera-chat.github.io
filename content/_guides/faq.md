@@ -260,64 +260,32 @@ hit connection limits or trip anti-abuse measures. Please contact
 
 ## Can I connect with Matrix?
 
-While it is not designed as an IRC client, you can use Matrix to connect to
-Libera.Chat through a bridge.
+As of 2023-08-05, the official Libera.Chat bridge operated by
+[EMS](https://ems.element.io/) was taken down temporarily until
+important fixes can be implemented.
 
-The Matrix bridge team has published a
-[guide](https://matrix-org.github.io/matrix-appservice-irc/latest/usage.html)
-for using the IRC bridge. If you still have questions about using the
-Libera.Chat bridge, visit `#libera-matrix` from IRC or
-`#libera-matrix:libera.chat` from Matrix.
+Third-party operated Matrix bridges are allowed on Libera.Chat. You will only
+be able to connect to an IRC channel with Matrix if the channel has been made
+accessible through a Matrix bridge.
 
-Matrix-specific issues should be reported to
-[the Libera.Chat bridge bugtracker](https://github.com/matrix-org/libera-chat/issues)
-instead of the above channel. These issues include:
-`Failed to make_join via any server`,
-`Can't join remote room because no servers that are in the room have been provided`,
-IRC puppet present in channel even if you are not joined to the Matrix room,
-`@appservice:libera.chat` and NickServ/ChanServ bots not answering you,
-room joins taking a long time, or failing to plumb rooms to IRC channels.
+We do not maintain a directory of Matrix bridges.
 
-The bridge has an interface called an appservice that lets you manage your
-presence on the bridge. If it does not contact you automatically, start a
-conversation with `@appservice:libera.chat`. For example Element has `/msg`:
+Lines sent or received on Matrix from IRC may be out of order. This issue is
+due to the Matrix protocol's message handling. It may affect time-critical
+responses or alter the meaning of relayed information.
 
-```irc
-/msg @appservice:libera.chat !help
-```
+Libera.Chat prohibits double-bridging IRC to IRC through Matrix and may
+request intervention if any bridged channels cause problems.
 
-You can use the appservice to store authentication. Please see the output of
-the above `!help` command or
-[the guide](https://matrix-org.github.io/matrix-appservice-irc/latest/admin_room.html)
-for the options. Currently these are the `storepass` and `username` options.
+## Can I connect with XMPP
 
-To join channels on Libera.Chat through matrix, navigate to
-`<channelname>:libera.chat` either through the Element.io interface or with
-`/join`. For example:
+Third-party operated XMPP bridges are allowed on Libera.Chat, however we
+prohibit double bridging, including over XMPP. We also request that
+XMPP bridges are configured to display the JID in the connection's gecos
+field to allow individuals to be banned instead of the entire bridge, since
+JID hashes in idents can collide.
 
-```irc
-/join #libera-matrix:libera.chat
-```
+We prohibit bridging Matrix to IRC over XMPP due to abuse, and XMPP bridges
+that allow this might end up blocked as a result.
 
-If you wish to use network services, such as to register an account or channel
-you can message them directly. The following will get their help text:
-
-```irc
-/msg @NickServ:libera.chat help
-/msg @ChanServ:libera.chat help
-/msg @MemoServ:libera.chat help
-```
-
-The lines in their responses might be out of order. This issue is in the
-Matrix message handling. It may also affect time-critical responses elsewhere.
-
-The bridge is run by [EMS](https://ems.element.io/). The
-[EMS Acceptable Use Policy](https://static.element.io/pdfs/acceptable-use-policy.pdf)
-and [Privacy Policy](https://element.io/privacy) apply when using it.
-Libera.Chat staff do **not** have access to EMS data.
-
-Libera.Chat prohibits double-bridging IRC to IRC through the EMS-hosted
-Libera.Chat bridge and may request intervention if any bridged channels cause
-problems. At our request, the EMS-hosted Libera.Chat bridge regularly prunes
-idle connections to minimize disruptions to IRC channels during bridge
-restarts.
+We do not maintain a directory of XMPP bridges.
