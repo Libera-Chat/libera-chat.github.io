@@ -5,11 +5,11 @@ weight: 60
 ---
 
 Communities are healthiest when everyone works together to maintain the space
-and shape the culture. If we leave all the emotional labor for Operators to
+and shape the culture. If we leave all the emotional labor for operators to
 deal with, they will be more likely to
 [burn out](/guides/catalyst#remember-to-take-breaks-to-avoid-burn-out).
 
-These are some things non-Operator helpers can keep in mind during challenging
+These are some things non-operator helpers can keep in mind during challenging
 situations to avoid making more work for others.
 
 ## Let small things slide
@@ -155,13 +155,13 @@ contributing to the noise. Instead, try to [seek out a channel operator](/guides
 quietly, such as with private messages or in an `-ops` channel if there is
 one.
 
-If you know that someone else around is an Operator, and they seem to be
+If you know that someone else around is an operator, and they seem to be
 paying attention to the channel while the disruption is occurring, they might
-already be talking to the person in private. Check with the Operator if you're
+already be talking to the person in private. Check with the operator if you're
 unsure before also trying to intervene.
 
-When an Operator starts handling the situation, continuing to engage with the
-person who is misbehaving may derail the Operator's efforts, as the person may
+When an operator starts handling the situation, continuing to engage with the
+person who is misbehaving may derail the operator's efforts, as the person may
 become defensive at being "ganged up on".
 
 If necessary, use the `/ignore` functionality in your client to stop
