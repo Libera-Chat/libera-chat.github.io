@@ -5,7 +5,7 @@ weight: 10
 ---
 
 A person who joins an _empty_ and unregistered channel is granted
-**temporary** Operator status. This does not guarantee their ownership of the
+**temporary** operator status. This does not guarantee their ownership of the
 channel. They need to `REGISTER` the channel with `ChanServ` to gain ownership
 of it.
 
@@ -72,7 +72,7 @@ The next step of creating a channel is to `/join` it.
 ```
 
 If the channel you joined was empty and is unregistered, you will have the
-temporary Operator status now. Depending on your client, you should appear in
+temporary operator status now. Depending on your client, you should appear in
 the user list with an `@` or another symbol before your nick.
 
 ## Registering with `ChanServ`
@@ -90,7 +90,7 @@ Congratulations on your new Libera.Chat channel!
 
 ### Troubleshooting
 
-If you do not get the Operator status, but believe you already registered
+If you do not get the operator status, but believe you already registered
 this channel during a previous session, try using `ChanServ OP`:
 
 ```irc
@@ -98,12 +98,12 @@ this channel during a previous session, try using `ChanServ OP`:
 ```
 
 If you did not previously attempt to register, and you do not get the
-Operator status on join, it could be because there are people already in the
+operator status on join, it could be because there are people already in the
 channel. You will need to ask them to leave while you set it up. If they do
 not cooperate, you will likely need to pick a new name.
 
 If the channel is already registered by someone else, but not in use, or there
-are no active Operators, it may be subject to [expiry](/policies#channels),
+are no active operators, it may be subject to [expiry](/policies#channels),
 depending on the type of namespace it belongs to. As part of the expiry
 process, staff will take input from both you and any existing channel members.
 
@@ -188,14 +188,14 @@ To toggle `r` off, so everyone else can join again:
 Once you have your channel registered, and your users start dropping in, you
 might also need to do some [channel management](/guides/catalyst) if some of
 them outstay their welcome. If you enlist help for this, you will need to give
-your new Operators permissions.
+your new operators permissions.
 
 The permissions you can give are outlined in the output of
 `/msg ChanServ HELP FLAGS`, along with instructions about the use of
 `TEMPLATE` functionality.
 
-If your channel is **not** set `SECURE`, then you can trial new Operators by
-_temporarily_ giving them the Operator status.
+If your channel is **not** set `SECURE`, then you can trial new operators by
+_temporarily_ giving them the operator status.
 
 ```irc
 /msg ChanServ OP <#channel> [nickname]
@@ -203,7 +203,7 @@ _temporarily_ giving them the Operator status.
 
 Substitute `DEOP` in place of `OP` to remove their status if you don't like
 their performance. `VOICE` and `DEVOICE` are the equivalents for giving and
-taking Voiced status.
+taking voiced status.
 
 The `SECURE` channel flag limits `OP|DEOP|VOICE|DEVOICE` functionality to
 only those who possess the corresponding `ChanServ` flags, which will prevent
@@ -221,7 +221,7 @@ will not be able to get the channel back without their cooperation or by
 [registering as a group](/chanreg).
 
 We also recommend against using `+O` or `+V` as these flags mean people will
-be given Operator or Voiced status on joining a channel. See
+be given operator or voiced status on joining a channel. See
 [the catalyst guide](/guides/catalyst#only-be-opped-up-when-necessary)
 for the philosophy behind this.
 

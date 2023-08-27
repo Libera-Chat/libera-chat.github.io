@@ -147,13 +147,13 @@ When you're in channels, you might notice that some people in the membership
 list have symbols next to their nicknames. Most people will not have a role in
 the channels.
 
-The people with symbols have either the "Operator" or "Voiced" roles.
+The people with symbols have either the "operator" or "voiced" modes.
 Operators are the people that run that specific channel. They do things like
 change channel modes, curate the topic, manage channel access. They're also
 responsible for moderating the chat, so sometimes they might silence people
 individually or set the channel to moderated mode. When the channel is in
-moderated mode, Voiced users comments can still be seen. Often channels will
-give Voiced or Operator roles to their helper bots.
+moderated mode, voiced users comments can still be seen. Often channels will
+give voiced or operator modes to their helper bots.
 
 ## IRC commands cheat sheet
 
@@ -201,7 +201,7 @@ Libera Chat.
 
 The Libera Chat network is run by volunteers. You can usually
 [find the volunteer staff](/guides/faq#how-to-find-libera-chat-staff) in
-`#libera`, where their channel role will highlight them in the channel
+`#libera`, where their channel mode will highlight them in the channel
 membership list.
 
 You are invited to message any staff member _without_ asking permission first.

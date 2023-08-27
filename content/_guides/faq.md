@@ -52,7 +52,7 @@ with by doing:
 /who libera/staff/*
 ```
 
-Additionally, most staff have the Operator mode in `#libera` to make them easy
+Additionally, most staff have the operator mode in `#libera` to make them easy
 to find when they're connected. There are also some robots, currently
 `ChanServ` and `ozone`, with that mode. The robots do not answer questions.
 
