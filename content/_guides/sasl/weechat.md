@@ -29,7 +29,7 @@ commands to ensure that SSL/TLS is enabled for your connection:
 Now, configure SASL:
 
 ```irc
-/set irc.server.libera.sasl_mechanism PLAIN
+/set irc.server.libera.sasl_mechanism plain
 /set irc.server.libera.sasl_username <nickname>
 /set irc.server.libera.sasl_password <password>
 /save
