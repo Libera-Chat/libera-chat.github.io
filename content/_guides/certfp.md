@@ -89,11 +89,16 @@ certificate.
 
 ### weechat
 
-Move the certificates you created above to ~/.weechat/certs
+Note: You may need to replace ~/.local/share/weechat with ~/.weechat if the
+latter exists but the former doesn't. New WeeChat configurations use the former,
+but if your first run was on a version older than WeeChat 3.2, you would likely need
+to use ~/.weechat.
+
+Move the certificates you created above to ~/.local/share/weechat/certs
 
 ```sh
-mkdir ~/.weechat/certs
-mv libera.pem ~/.weechat/certs
+mkdir ~/.local/share/weechat/certs
+mv libera.pem ~/.local/share/weechat/certs
 ```
 
 Now disconnect and remove the current Libera.Chat server(s). Re-add it with
