@@ -20,7 +20,7 @@ title: Contributing to Libera Chat
   - [ChanTracker
     (called litharge here)](https://github.com/ncoevoet/ChanTracker) -
     ban tracking which is used by many channels.
-  - [Limnoria](https://github.com/ProgVal/Limnoria) -
+  - [Limnoria](https://github.com/progval/Limnoria) -
     it powers ozone, litharge and countless other community-managed bots on
     the network.
   - [ircrobots](https://github.com/jesopo/ircrobots) -
