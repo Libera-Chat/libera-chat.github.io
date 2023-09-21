@@ -164,6 +164,18 @@ them.
 
 The default modes set on a new channel are `+Cnst`.
 
+`C` blocks CTCP commands other than the `/me` action, such as channel-wide
+queries of client info.
+
+`n` prevents people who are not in the channel from sending messages to it.
+
+`s` prevents the channel from being discoverable through channel lists,
+allowing you to choose when your channel is ready to be public.
+**If you want your channel to be [searched for](/guides/findingchannels),
+please remove this mode**.
+
+`t` limits channel topic changes to those with operator status.
+
 To set channel modes, you use `/mode <#channelname> [+|-]<mode>`.
 
 For example, during a spambot attack you might choose to only allow users who
