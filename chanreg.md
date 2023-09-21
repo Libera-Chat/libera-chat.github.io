@@ -25,7 +25,7 @@ channel's existing community for you to take it over.
 
 Once your channel is registered with ChanServ, regardless of channel
 namespace, you are free to use it in accordance with
-[network policy](/policy). You do **not** need the explicit approval of
+[network policy](/policies). You do **not** need the explicit approval of
 Libera.Chat staff in order to register a channel and start using it on our
 network. Formal group registration is **not** required to make use of channels
 in the on-topic project and community channel namespace, and we recommend that
@@ -33,8 +33,8 @@ new initiatives do not immediately attempt a formal group registration.
 
 ## Channel namespaces
 
-Our [policies](/policy) outline that channels on Libera.Chat fall into one of
-three categories and two namespaces. Channels that begin with only a single
+Our [policies](/policies) outline that channels on Libera.Chat fall into one
+of three categories and two namespaces. Channels that begin with only a single
 `#` character are for on-topic project and community channels (e.g. `#linux`).
 Channels that begin with two or more `#` characters are for informal channels
 (e.g. `##chat`).
@@ -44,8 +44,8 @@ Channels that begin with two or more `#` characters are for informal channels
 Projects considered to be on-topic for Libera.Chat are primarily free and
 open-source software projects, and other peer-directed projects, for instance
 Linux User Groups (LUGs), student societies, hacker- or makerspaces and other
-collaborative efforts. It can also cover projects or companies of general
-interest to our user base.
+collaborative efforts. At staff discretion, it can also cover projects or
+companies of general interest to our user base.
 
 If your channel fits the above criteria and you are or have the official
 blessing of someone who is able to speak for the project or group, then you
@@ -161,14 +161,18 @@ on IRC. If none are online, feel free to reach out to staff in general and
 they will forward your request to the team, which will get back to you as soon
 as possible. Once you have discussed your project or community with a staff
 member, you’ll be asked to email <projects@libera.chat> with the details of
-your request. Please do not email us without having first discussed your
-registration on IRC with a member of staff.
+your request.
+
+We ask that you do not email us without having first discussed your
+registration on IRC with a member of staff. This helps ensure that your
+project or community is deemed to be on-topic and that we have a chance to
+answer any questions you may have about the group registration process.
 
 Please note that we only register established projects and communities. If
 your project or community does not yet exist, you are still free to register a
 channel with ChanServ to discuss and bootstrap your project or community. Once
-you feel you've gotten established enough to move forward with a formal
-registration, reach out to us.
+you feel your project or community is established enough to move forward with
+a formal registration, reach out to us.
 
 To ensure the registration process goes as smoothly as possible, please be
 prepared with the answers to the following questions:
@@ -177,7 +181,7 @@ prepared with the answers to the following questions:
 - What is a brief description (1-2 sentences) of your project or community?
 - Which URLs can we visit to find out more information about your project or
   community? For example, a project website or source code repositories.
-- Can we list your project publicly, such as on the libera.chat website?
+- Can we list your project publicly, such as on the Libera.Chat website?
 - What is your relationship to or position in the project or community?
 - What are the NickServ account names for the group contacts for your project
   and community (including yourself if desired), and should they be publicly

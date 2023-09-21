@@ -69,8 +69,7 @@ you if something goes wrong with the bot.
 
 ## Project or community cloaks
 
-[Projects](/chanreg#project-registration) and
-[communities](/chanreg#community-registration) that are
+[Projects and communities](/chanreg#what-is-on-topic) that are
 aligned with our mission are eligible for group registrations. One of the
 perks of group registration is the ability to request cloaks for participants.
 
