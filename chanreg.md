@@ -96,6 +96,7 @@ name. Libera.Chat staff will assist in determining which type of official
 registration is appropriate for your project or community.
 
 ### Benefits of group registration
+
 On-topic projects and communities who have formally registered with
 Libera.Chat have extra tools at their disposal to help manage their
 IRC presence:
@@ -152,16 +153,16 @@ namespaces. Hidden group contacts are known only to you and Libera.Chat staff.
 
 ### Registering a group
 
-The [Projects & Community team](#the-projects--community-team) will act as
-your liaisons during the formal group registration process and throughout your
-tenure on the Libera.Chat network. If you wish to discuss the registration
-process, find out if Libera.Chat could be a good fit for your group or
-register your group, please feel free to drop any of the team members a line
-on IRC. If none are online, feel free to reach out to staff in general and
-they will forward your request to the team, which will get back to you as soon
-as possible. Once you have discussed your project or community with a staff
-member, you’ll be asked to email <projects@libera.chat> with the details of
-your request.
+The [Projects & Community team](/about#projects-and-community-team) will act
+as your liaisons during the formal group registration process and throughout
+your tenure on the Libera.Chat network. If you wish to discuss the
+registration process, find out if Libera.Chat could be a good fit for your
+group or register your group, please feel free to drop any of the team members
+a line on IRC. If none are online, feel free to reach out to staff in general
+and they will forward your request to the team, which will get back to you as
+soon as possible. Once you have discussed your project or community with a
+staff member, you’ll be asked to email <projects@libera.chat> with the details
+of your request.
 
 We ask that you do not email us without having first discussed your
 registration on IRC with a member of staff. This helps ensure that your
