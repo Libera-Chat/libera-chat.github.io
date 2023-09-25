@@ -9,7 +9,7 @@ SASL is a way for your IRC client to automatically login to
 an existing [Libera.Chat account](/guides/registration).
 Libera.Chat sometimes requires SASL authentication; if you were
 disconnected with a message saying you need SASL, skip to the section on
-[connecting from a SASL-only address](#sasl-access-only-IP-address-ranges).
+[connecting from a SASL-only address](#sasl-access-only-ip-ranges).
 
 SASL is **not** the same thing as SSL or TLS. We strongly recommend
 [using TLS](/guides/connect#accessing-liberachat-via-tls) to connect.
