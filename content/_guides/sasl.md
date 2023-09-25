@@ -5,14 +5,28 @@ credits: web7
 weight: 30
 ---
 
+## How do I connect with SASL?
+
+To use SASL, you need to have a [Libera Chat
+account registered](/guides/registration) **before connecting**. You cannot
+use SASL without one.
+
+If you **do not** already have an account with Libera Chat services, you will
+first need to connect to Libera Chat from a different internet service; for
+example the public wifi at school, work, or a library, or if the restricted IP
+is a server, try your regular home internet.
+
+Remember to check your email and verify the address on your account before you
+try to connect from the IP that is restricted.
+
+Once you **do** have an account, there are
+[instructions on configuring your client below](#sasl-client-configuration).
+
+## What is SASL
+
 SASL is a method that allows identification to services (NickServ) during the
 connection process, before anything else happens - therefore eliminating the
-need to `/msg NickServ identify`. To use SASL, you must
-[register your nickname](/guides/registration). This includes following the
-emailed instructions to verify the address on your account.
-
-Libera.Chat [**requires** the use of SASL](#sasl-access-only-ip-ranges) for
-certain IP ranges.
+need to `/msg NickServ identify`.
 
 SASL is **not** the same thing as SSL or TLS. You should also [use TLS](/guides/connect#accessing-liberachat-via-tls)
 to connect.
