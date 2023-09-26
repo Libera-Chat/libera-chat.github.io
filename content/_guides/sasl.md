@@ -48,7 +48,7 @@ Documentation on how to create certificates and add their fingerprints to
 NickServ for `EXTERNAL` authentication can be found in
 [the article on NickServ and certificates](/guides/certfp).
 
-Libera.Chat also supports `ECDSA-NIST256p-CHALLENGE`.
+Libera.Chat also supports `ECDSA-NIST256P-CHALLENGE`.
 For information on how to provide NickServ with your public key,
 see `/msg NickServ help set pubkey`.
 
