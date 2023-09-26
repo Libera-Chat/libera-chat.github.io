@@ -19,7 +19,7 @@ you are using Windows and do not have a copy, you might consider using Cygwin.
 You can generate a certificate with the following command:
 
 ```sh
-openssl req -x509 -new -newkey rsa:4096 -sha256 -days 1096 -nodes -out libera.pem -keyout libera.pem
+openssl req -x509 -new -newkey ed25519 -sha256 -days 1096 -nodes -out libera.pem -keyout libera.pem
 ```
 
 You will be prompted for various pieces of information about the certificate.
