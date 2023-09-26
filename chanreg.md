@@ -46,7 +46,11 @@ name followed by a hyphen (e.g. `#libera-dev`). A registered group may have
 control over multiple channel namespaces. To check if a registered channel
 belongs to a particular group's channel namespace, you can use the
 `/msg ChanServ INFO` command on that channel; if it is, you will receive a
-line like "The #libera namespace is registered to the libera.chat project".
+line like the following towards the bottom of the output:
+
+```irc
+The #libera namespace is registered to the libera.chat project
+```
 
 ### What is on-topic?
 
