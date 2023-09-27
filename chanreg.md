@@ -1,100 +1,108 @@
 ---
-title: Channel registration
+title: Channel and group registration
 ---
 
-## Channel Namespaces
-
-Our [policies](/policies) outline that channels on Libera.Chat fall into one
-of three categories and two namespaces. Channels that begin with only a single
-`#` character are either project or community channels. Channels that begin
-with two `#` characters are informal channels.
-
-### Project Channels
-
-Project channels are reserved for on-topic channels as per our
-[on-topic projects](#on-topic-projects), represented by owners with an official
-claim to that name. A registered project as per the
-[registration below](#registering-a-channel) can claim ownership over project
-channels bearing the group's names or name prefixes. For example, Libera.Chat
-itself owns the channel `#libera` and all channels beginning with `#libera-`.
-As per our [policies](/policies), these channels do not expire.
-
-### Community Channels
-
-Community channels are reserved for on-topic channels as per our
-[community groups](#community-registration). An official claim to the name is
-not needed, but not having it bears the risk of losing the channel should an
-on-topic entity with a valid claim start an official presence on Libera.Chat.
-Staff will try to find a good solution for both parties in such cases.
-
-### Informal Channels
-
-Informal channels are for topics not covered by our
-[on-topic projects](#on-topic-projects). As per our [policies](/policies),
-such channels can exist on Libera.Chat as long as they do not disturb the
-operations of our network and our project and community channels, and adhere
-to the network policies. Informal channels are given out on a first-come,
-first-served basis. They will expire if unused for a long time, see our
-[policies](/policies) for details regarding when this occurs. You can
-contact us on IRC with a request to take over an expired secondary channel.
+This document aims to explain how to register a channel or group here on
+Libera.Chat as well as our policies surrounding channels and channel
+namespaces.
 
 ## Registering a channel
 
-How to register a channel depends on what type of channel described above it
-is.
+When joining an unregistered and empty channel, you will automatically be
+given channel operator access on the channel. After verifying that your
+channel is in the correct namespace, you should
+[register it with ChanServ](/guides/creatingchannels) in order to establish
+long-term control over the channel. We recommend that you choose the
+[appropriate namespace](#channel-namespaces) to avoid a disruptive move later.
 
-### Project channels
+Should the channel already exist but is
+[expired or otherwise unused](#expiration-and-disputes), Libera.Chat staff may
+be able to assist you in taking over the channel. For channels in the on-topic
+project and community namespace, this may involve proceeding with a
+[formal group registration](#formal-group-registration) with us. For informal
+channels, we will check if it is expired and if there is consensus within the
+channel's existing community for you to take it over.
 
-Primary channels in the namespace of an already registered project can be
-registered directly via ChanServ's `REGISTER` command. So if e.g. the project
-"MyFossCalendar" wants to add `#myfosscalendar-social` to the existing
-channels, they can just grab it. For Projects not yet registered as such with
-us, please see [project registration](#project-registration). If you like to add
-additional channel namespaces to your existing project, please contact the
-projects and community team at <projects@libera.chat>.
+Once your channel is registered with ChanServ, regardless of channel
+namespace, you are free to use it in accordance with
+[network policy](/policies). You do **not** need the explicit approval of
+Libera.Chat staff in order to register a channel and start using it on our
+network. Formal group registration is **not** required to make use of channels
+in the on-topic project and community channel namespace, and we recommend that
+new initiatives do not immediately attempt a formal group registration.
 
-### Community channels
+## Channel namespaces
 
-Community channels in the namespace of an already existing community can be
-registered directly via ChanServ's `REGISTER` command. So if e.g. the owners of
-`#linux` would like to add `#linux-social` to the existing channels, they can
-just grab it. For namespaces not yet registered as such with us, please see
-[community registration](#community-registration).
+Our [policies](/policies) outline that channels on Libera.Chat fall into one
+of three categories and two namespaces. Channels that begin with only a single
+`#` character are for on-topic project and community channels (e.g. `#linux`).
+Channels that begin with two or more `#` characters are for informal channels
+(e.g. `##chat`).
 
-### Informal channels
+[Registered groups](#formal-group-registration) additionally have their own
+channel namespaces that they control. This includes the "main" channel for
+that namespace (e.g. `#libera`) as well as all channels beginning with that
+name followed by a hyphen (e.g. `#libera-dev`). A registered group may have
+control over multiple channel namespaces. To check if a registered channel
+belongs to a particular group's channel namespace, you can use the
+`/msg ChanServ INFO` command on that channel; if it is, you will receive a
+line like the following towards the bottom of the output:
 
-Informal channels that are not already taken can be registered by any user in
-it who has channel operator status, which is usually the first user to join an
-empty, unregistered channel. In this case you can use the `REGISTER` command
-in chanserv to register it to your account. See `/msg ChanServ help REGISTER`
-for details. If a channel is unregistered but nobody has operator status,
-please contact network staff and we shall see if we can find a solution that
-is acceptable for the local community.
+```irc
+The #libera namespace is registered to the libera.chat project
+```
 
-## Project registration
-
-Project registration allows your project or organisation to have an official
-representation on our services and relationship with us.
-
-### On-topic projects
+### What is on-topic?
 
 Projects considered to be on-topic for Libera.Chat are primarily free and
 open-source software projects, and other peer-directed projects, for instance
 Linux User Groups (LUGs), student societies, hacker- or makerspaces and other
-collaborative efforts. It can also cover projects/companies of general
-interest to our user base.
+collaborative efforts. At staff discretion, it can also cover projects or
+companies of general interest to our user base.
 
-### Claim to the name and representation
+If your channel fits the above criteria and you are or have the official
+blessing of someone who is able to speak for the project or group, then you
+would qualify for an on-topic project channel. If your channel fits the above
+criteria but is otherwise unofficial, then you would qualify for an on-topic
+community channel. If your channel does not fit the above criteria, and it is
+not otherwise
+[off-topic for Libera.Chat](/policies/#unwanted-content-and-behaviour), then
+you would qualify for an informal channel.
 
-A claim to the name is given if your project is on-topic as per the above and
-named like that, or commonly called / abbreviated that. In case of name
-clashes, e.g. other on-topic projects already present using the same name or
-there being obvious trademark issues, our team will try to find a good
-solution. The same applies if your name contains characters that can't be used
-on our services for technical reasons.
+### Expiration and disputes
 
-The registration should be either done by or have received the official
-blessing of someone who is able to speak for the project. This could be:
+On-topic project channels and on-topic community channels do not expire. An
+official claim to the name of an on-topic community channel is not needed, but
+not having it bears the risk of losing the channel should an on-topic entity
+with a valid claim start an official presence on Libera.Chat. Staff will try
+to find a good solution for both parties in such cases.
+
+Informal channels are claimed on a first-come, first-served basis. They will
+expire if unused for a long time, see our [policies](/policies/#channels) for
+details regarding when this occurs. You can
+[contact a staff member on IRC](/guides/faq#how-to-find-libera-chat-staff)
+with a request to take over an expired informal channel; they are not
+automatically deleted once they expire. Such requests are not automatically
+granted; we will ask you to work with the channel's other members to determine
+if you are the best person to take it over or not.
+
+Staff reserve the right to reassign control over any channel, regardless of
+which channel namespace it was registered in and regardless of its expiration
+status. This is not an action we take lightly, but may become necessary if
+disputes regarding channel control cannot be resolved via other means.
+
+## Formal group registration
+
+Established on-topic projects and communities are able to formally register
+their project or community with Libera.Chat. This typically happens after the
+channel is already registered with ChanServ and both the channel as well as
+the project have existed for a while, and the channel decides it wishes to
+establish a larger IRC presence on Libera.Chat. There is no requirement for
+on-topic projects and communities to formally register with us.
+
+A formal project registration is done for on-topic project channels, and
+requires someone who is able to speak on behalf of the project to reach out to
+us to initiate the registration. This could be:
 
 - The project founder
 - A lead developer
@@ -102,127 +110,109 @@ blessing of someone who is able to speak for the project. This could be:
 - A board member
 - ...
 
-### How to register as a project
+A formal community registration is done for on-topic community channels, and
+does not require the registrant to have an official claim to the channel's
+name. Libera.Chat staff will assist in determining which type of formal
+registration is appropriate for your project or community.
 
-We recommend you contact us as per the
-[Projects & Community team](#the-projects--community-team) section
-before registering, so we can already check whether your project is likely to
-be considered eligible to a registration. Once done, we will need the
-following information from you:
+### Benefits of group registration
 
-```markdown
-# About your project
-Your project name(s):
-Your project description:
-Can we list your project publicly, such as on the libera.chat website:
-Libera Chat staff member you have discussed this registration with:
-Links to places we can find out more about your project:
-(e.g. website, source code repositories or similar)
+On-topic projects and communities who have formally registered with
+Libera.Chat have extra tools at their disposal to help manage their
+IRC presence:
 
-# About you and your staff
-Your NickServ account:
-Your relationship to / position in the project:
-NickServ of group contacts and if their status is hidden/public:
+- Your liaisons with us, known as group contacts, will be invited to
+  `#libera-communities` where they can more easily reach Libera.Chat staff and
+  can be involved in discussions concerning potential future directions and
+  improvements for Libera.Chat.
+- Control over their group's channel namespaces. For example,
+  Libera.Chat itself owns the channel `#libera` and all channels beginning
+  with `#libera-`. Group contacts can register or take over channels within
+  their group's channel namespace with the `/msg ChanServ CLAIM` command.
+- By default, any user will be able to register channels within your channel
+  namespaces with ChanServ. This makes it easier for users to create topical
+  sub-channels for purposes such as a more in-depth discussion than the main
+  channel can accomodate or as social hangout spots. You can optionally
+  restrict this so that only group contacts are able to register channels
+  within your namespace with ChanServ, for tighter control over your project's
+  presence on Libera.Chat. Regardless of the setting you choose, group
+  contacts will receive notice of all channels registered under their
+  namespace and can audit their channel list at any time with
+  `/msg ChanServ LISTGROUPCHANS`.
+- Group contacts will be able request cloaks for their group's members which
+  highlight that member's involvement or association with their group. For
+  example, Libera.Chat staff each have cloaks beginning with `libera/staff/`
+  and official bots managed by Libera.Chat have cloaks beginning with
+  `libera/bot/` to represent their respective associations with Libera.Chat.
+  Formal community registration cloaks will begin with an `about/` prefix to
+  indicate that the community is not official. Group contacts can audit the
+  list of users with cloaks under their project at any time with
+  `/msg NickServ LISTGROUPCLOAKS`.
+- We offer to send messages about important releases or events of formally
+  registered project as a "wallop" message to our users.
 
-# Channels and cloaks (see below)
-Channels you'd like to claim:
-(typically #projectname and #projectname-*)
-Would you like ONLY group contacts to be able to register these channels with
-ChanServ?:
-Cloak namespaces you'd like to claim:
-(typically projectname/*)
-```
+### Group contacts
 
-Group contacts are the members in your project that will be the
-official interface between Libera.Chat and your organization.
-They are the ones who can claim channels in your namespace(s) and
-request cloaks for your members/users.
-You can tell us whether these should be visible to the public or not.
-If you need specific rules or abilities for your group contacts,
-check with our team to get the option that fits your structure best.
+Group contacts are the people ultimately responsible for your project here on
+Libera.Chat. They are empowered to claim channels within your namespace,
+assign cloaks to other users, and act as liaisons between Libera.Chat staff
+and your project. We **strongly recommend** having between 2-4 group contacts
+and that at least one group contact is publicly listed to act as a point of
+contact for any users interested in your project.
 
-Please send this information as an e-mail to <projects@libera.chat>.
+Group contacts must have registered accounts with NickServ on Libera.Chat.
+Usually, you will want to establish yourself as one of the group contacts if
+you are formally registering a group with us. The list of group contacts for
+your project or community can be modified later by sending an email to
+<projects@libera.chat> as the need arises.
 
-Our team will then get in touch with you and do a claim verification. These
-are done per case and usually contain some sort of check of domain / code
-repository ownership or the likes.
+Group contacts can be either publicly listed or hidden, and this choice can be
+made individually per group contact. Publicly listed contacts will be shown in
+`/msg ChanServ INFO` output for all channels within your group's channel
+namespaces. Hidden group contacts are known only to you and Libera.Chat staff.
 
-### Benefits of registered projects
+### Registering a group
 
-Registered projects can profit from the following benefits:
+The [Projects & Community team](/about#projects-and-community-team) will act
+as your liaisons during the formal group registration process and throughout
+your tenure on the Libera.Chat network. If you wish to discuss the
+registration process, find out if Libera.Chat could be a good fit for your
+group or register your group, please feel free to drop any of the team members
+a line on IRC. If none are online, feel free to reach out to staff in general
+and they will forward your request to the team, which will get back to you as
+soon as possible. Once you have discussed your project or community with a
+staff member, you’ll be asked to email <projects@libera.chat> with the details
+of your request.
 
-- Channels in their namespace can be claimed
-- Optional cloaks are available for members.
-  These replace the hostname part with a custom string, e.g.
-  `@yourproject/developer/alex` or `@yourproject/taylor`
-- We offer to send messages about important releases or events of your project
-  as a "wallop" message to all our users who opted in to receiving these
+Do not email us without having first discussed your registration on IRC with a
+member of staff. This helps ensure that your project or community is deemed to
+be on-topic, that we have a chance to answer any questions you may have about
+the group registration process, and that you have a point of contact
+throughout the group registration process to ensure your email is not
+overlooked or forgotten.
 
-## Community registration
+Please note that we only register established projects and communities. If
+your project or community does not yet exist, you are still free to register a
+channel with ChanServ to discuss and bootstrap your project or community. Once
+you feel your project or community is established enough to move forward with
+a formal registration, reach out to us.
 
-Community channels on Libera.Chat are for topics that would otherwise be
-eligible for a project registration but do not have an official representation
-(e.g. `#linux`), or are significantly relevant to our intended userbase (e.g.
-`#windows`).
+To ensure the registration process goes as smoothly as possible, please be
+prepared with the answers to the following questions:
 
-### How to register as a community
-
-We recommend you contact us as per the
-[Projects & Community team](#the-projects--community-team) section
-before registering, so we can already check whether your community is likely
-to be considered eligible to a registration. Once done, we will need the
-following information from you:
-
-```markdown
-# About your community
-Your community name(s):
-Your community description:
-Can we list your community publicly, such as on the libera.chat website:
-Libera Chat staff member you have discussed this registration with:
-
-# About you and your staff
-Your NickServ account:
-Your relationship / affiliation with the community:
-NickServ of group contacts and if their status is hidden/public:
-
-# Channels and cloaks (see below)
-Channels you'd like to claim:
-(typically #communityname and #communityname-*)
-Would you like ONLY group contacts to be able to register these channels with
-ChanServ?:
-(The cloaks will be formatted like this:
-about/YourCommunityNameHere/name or about/YourCommunityNameHere/role/name)
-```
-
-group contacts are the members in your community that will be the official
-interface between you and Libera.Chat.
-They are the ones who can claim channels in your namespace(s) and request
-cloaks for your members/users.
-You can tell us whether these should be visible to the public or not.
-If you need specific rules or abilities for your group contacts,
-check with our team to get the option that fits your structure best.
-
-Please send this information as an e-mail to <projects@libera.chat>, our team
-will then get in touch with you.
-
-### Benefits of a community
-
-Registered communities can profit from the following benefits:
-
-- Channels in their namespace can be claimed (with `/msg ChanServ CLAIM`)
-- Optional cloaks are available for members.
-  These replace the hostname part with `@about/yourcommunity/custompart`,
-  and can be requested on `#libera-communities`.
-
-## The Projects & Community Team
-
-The Projects & Community Team will act as your liaisons during the project
-registration or topic claiming process and throughout your tenure on the
-Libera.Chat network. If you wish to discuss the registration process, find out
-if Libera.Chat could be a good fit for your project or register your project,
-please feel free to drop any of the
-[team members](/about#projects-and-community-team) a line on IRC. If none are
-online, feel free to reach out to staff in general and they will forward your
-request to the team, which will get back to you as soon as possible. Once you
-have discussed your project with a staff member, you'll be asked to email
-<projects@libera.chat> with the details of your request as per the above.
+- What is the name of your project or community?
+- What is a brief description (1-2 sentences) of your project or community?
+- Which URLs can we visit to find out more information about your project or
+  community? For example, a project website or source code repositories.
+- Can we list your project publicly, such as on the Libera.Chat website?
+- What is your relationship to or position in the project or community?
+- What are the NickServ account names for the group contacts for your project
+  and community (including yourself if desired), and should they be publicly
+  listed or hidden?
+- Which channel namespaces should be controlled by your project or community
+  (typically `#projectname` and `#projectname-*`)?
+- Would you like to restrict channel registration in your channel namespaces
+  such that only group contacts are able to register channels with ChanServ?
+- What cloaks would you like to be available for your project or community's
+  members (typically `projectname/*` for project registrations and
+  `about/communityname/*` for community registrations)?
