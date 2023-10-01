@@ -5,23 +5,19 @@ credits: web7
 weight: 30
 ---
 
-SASL is a method that allows identification to services (NickServ) during the
-connection process, before anything else happens - therefore eliminating the
-need to `/msg NickServ identify`. To use SASL, you must
-[register your nickname](/guides/registration). This includes following the
-emailed instructions to verify the address on your account.
+SASL is a way for your IRC client to automatically login to
+an existing [Libera.Chat account](/guides/registration).
+Libera.Chat sometimes requires SASL authentication; if you were
+disconnected with a message saying you need SASL, skip to the section on
+[connecting from a SASL-only address](#sasl-access-only-ip-ranges).
 
-Libera.Chat [**requires** the use of SASL](#sasl-access-only-ip-ranges) for
-certain IP ranges.
-
-SASL is **not** the same thing as SSL or TLS. You should also [use TLS](/guides/connect#accessing-liberachat-via-tls)
-to connect.
+SASL is **not** the same thing as SSL or TLS. We strongly recommend
+[using TLS](/guides/connect#accessing-liberachat-via-tls) to connect.
 
 ## SASL Client Configuration
 
-We have instructions on how to configure SASL for some clients, below. If
-asked to choose an authentication mechanism, be aware that Libera.Chat does
-not support `DH-BLOWFISH`
+We have instructions on how to configure SASL for some clients below.
+These instructions are for `PLAIN` (username+password) authentication.
 
 - [AdiIRC](https://dev.adiirc.com/projects/adiirc/wiki/SASL)
 - [AndroIRC](https://web.archive.org/web/20210319221818/http://wiki.androirc.com/nickserv_sasl)
@@ -49,27 +45,41 @@ If you know of any additions or corrections to the lists above, or would like
 to contribute a script or (better) documentation, contact us on IRC.
 
 Documentation on how to create certificates and add their fingerprints to
-NickServ for `SASL EXTERNAL` can be found in
+NickServ for `EXTERNAL` authentication can be found in
 [the article on NickServ and certificates](/guides/certfp).
+
+Libera.Chat also supports `ECDSA-NIST256P-CHALLENGE`.
+For information on how to provide NickServ with your public key,
+see `/msg NickServ help set pubkey`.
 
 ## SASL access only IP ranges
 
 Some IP address ranges are configured to require SASL authentication to an
-existing NickServ account with a **verified email address**. Connections from
-these ranges will be refused with the message `SASL access only`. You can
-follow the instructions above to configure many commonly used clients.
+**existing NickServ account with a verified email address**.
+If you **do not** already have an account with Libera.Chat services,
+you will need to connect from an IP address that isn't restricted
+to [create and verify an account](/guides/registration).
 
-If your home internet providers are restricted, consider using public access
+If you are using a VPN or other anonymization service,
+consider temporarily disabling it, connecting to Libera.Chat,
+and only re-enabling it after you have created and verified the account.
+
+If your home internet provider is restricted, consider using public access
 wifi hotspots such as those provided by most libraries and many school or
 work campuses. If you are concerned about access point privacy, you can
 [change your password](/guides/sendpass) once you are on a network you trust.
 
-Connecting bots which lack SASL support from SASL access only ranges can be
+Connecting bots which lack SASL support from SASL-only ranges can be
 achieved if you connect the bot via a bouncer that does support SASL
 authentication. [ZNC](https://wiki.znc.in/ZNC) is a popular bouncer that
 supports SASL.
 
-SASL access only restrictions are typically applied to address ranges that are
+Remember to check your email and verify the address on your account before you
+try to connect from the IP that is restricted.
+Once you **do** have an account, there are
+[instructions on configuring your client above](#sasl-client-configuration).
+
+SASL-only restrictions are typically applied to address ranges that are
 the source of frequent policy violations due to providing easy access to
 dynamic addresses to a wide range of users. These ranges are typically used
 by VPN, cloud-computing, and mobile network providers.
