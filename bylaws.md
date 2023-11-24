@@ -287,8 +287,8 @@ v 2022-03-25, organisation number 802535-6448
 
 5. The Complaint Processors must respect the privacy of complainants and all
    other parties. The Complaint Processors may recruit other members of the
-   organisation to assist with their invstigation. Other members, including the
-   Board and Complaints Rota members who are not actively working on the
+   organisation to assist with their investigation. Other members, including
+   the Board and Complaints Rota members who are not actively working on the
    complaint, must not have automatic access to it.
 
 6. If any party to a complaint disagrees with the result, they can appeal it.
