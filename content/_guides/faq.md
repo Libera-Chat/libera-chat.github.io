@@ -243,6 +243,8 @@ does support SASL.
 We do allow user operated bridges on Libera.Chat. Please get permission from
 the operators of channels that you bridge.
 
+You also need to be prepared to moderate the content that is bridged.
+
 Consider informing users that what they say may be visible to people not
 represented in the channel at the time. The spirit of our
 [public logging policy](/policies#public-logging) applies here.
@@ -260,22 +262,8 @@ hit connection limits or trip anti-abuse measures. Please contact
 
 ## Can I connect with Matrix?
 
-As of 2023-08-05, the official Libera.Chat bridge operated by
-[EMS](https://ems.element.io/) was taken down temporarily until
-important fixes can be implemented.
-
-Third-party operated Matrix bridges are allowed on Libera.Chat. You will only
-be able to connect to an IRC channel with Matrix if the channel has been made
-accessible through a Matrix bridge.
-
-We do not maintain a directory of Matrix bridges.
-
-Lines sent or received on Matrix from IRC may be out of order. This issue is
-due to the Matrix protocol's message handling. It may affect time-critical
-responses or alter the meaning of relayed information.
-
-Libera.Chat prohibits double-bridging IRC to IRC through Matrix and may
-request intervention if any bridged channels cause problems.
+Please consult our [Matrix FAQ](/guides/matrix) for information on connecting
+with Matrix, getting support for Matrix, and other Matrix related questions.
 
 ## Can I connect with XMPP
 
