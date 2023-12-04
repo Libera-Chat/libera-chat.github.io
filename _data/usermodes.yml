@@ -25,6 +25,12 @@
   description: |
     Hides you from global `WHO` by normal users, and shows only shared
     channels in `/WHOIS` output.
+- mode: I
+  name: disable idle time
+  description: |
+    Prevents your idle time (shown by some `/whois` and `/who` commands)
+    from being seen by other users.
+    Also prevents you from seeing other users' idle times.
 - mode: Q
   name: disable forwarding
   description: |

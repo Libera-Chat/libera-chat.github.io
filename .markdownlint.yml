@@ -29,6 +29,11 @@ MD024:
   # Only check sibling headings
   siblings_only: false
 
+# MD026/no-trailing-punctuation - Trailing punctuation in heading
+MD026:
+  # Disallowed trailing punctuation
+  punctuation: ".,;:"
+
 # MD033/no-inline-html - Inline HTML
 MD033:
   # Allowed elements
