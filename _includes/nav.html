@@ -11,7 +11,7 @@
     <a id="nav-close" class="nav-close hidden" aria-controls="main-nav"><span>Close</span></a>
     {% for navgroup in site.data.nav %}
     {% if navgroup.items %}
-    <details>
+    <details name="main-navigation">
       <summary
         {% if navgroup.highlight %}class="highlight"{% endif %}
       >{{ navgroup.name }}</summary>
