@@ -211,6 +211,40 @@ This is explicitly
 You can find other networks which may be ok with these activities on
 [netsplit.de](https://netsplit.de).
 
+## What is meant by "bot", "bouncer", or "bridge"?
+
+Bots, bouncers, and bridges are different types of client applications that
+connect to the IRC network. Sometimes these clients match multiple of the
+following definitions.
+
+A **bot** is a utility client that provides automated responses to private
+input or channel activity from others connected to the network.
+
+Some bots can roam around the network without a being piloted. Roaming bots
+can become a big problem and you should ask staff before deploying them.
+
+A **bouncer** connects to the network on behalf of one or more clients. The
+bouncer acts like both a server and a client; a client app would act like
+it is a network, and a network's server would act like it is a client.
+
+Both people and bots can connect through bouncers. Users of a bouncer can
+roam around the network. They can join and leave channels, send private
+messages to other users, and authenticate to network services.
+
+Bouncers do not explicitly connect channels together. Each user on a bouncer
+has their own puppeted client connected on the IRC network.
+
+A **bridge** does explicitly connect a channel to another, and relays the
+conversation and actions in each channel to the other one. In general, these
+channels or rooms are on different networks and sometimes on different
+protocols. IRC can be connected to IRC, or IRC can be connected to Discord,
+Telegram, Matrix, XMPP, etc.
+
+Bridging can either connect one client to represent multiple people, or one
+client per participant. Most per-participant connections of bridges cannot
+roam around the network and are confined to the channel that has been
+connected. However, some bridges also have the bouncer abilities available.
+
 ## Are bots allowed?
 
 Users may run bots that connect to Libera.Chat. Please get permission from the
