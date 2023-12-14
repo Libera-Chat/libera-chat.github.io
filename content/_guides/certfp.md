@@ -161,25 +161,17 @@ right of the screen to save.
 
 ### KVIrc
 
-Create `libera.pem` e.g. in your KVIrc config directory
-(e.g. `~/.config/KVIrc`), or move it there.
-
-In `Settings/Configure KVIrc...` expand `Connections` and click `Advanced`.
-
-In the `SSL` tab ...
-
-Check `Use SSL certificate`.
-
-At `Certificate location` configure the location of libera.pem.
-
-Check `Use SSL private key`.
-
-At `Private key location` configure the location of libera.pem.
-
-If you have certificate and private key in separate files, use these respectively.
-
-Click `OK` or `Apply`.
-
+1. You can create/put `libera.pem` in your KVIrc config directory (e.g.
+   `~/.config/KVIrc`).
+2. In `Settings/Configure KVIrc...` expand `Connections` and click `Advanced`.
+3. In the `SSL` tab ...
+4. Check `Use SSL certificate`.
+5. At `Certificate location` configure the location of libera.pem.
+6. Check `Use SSL private key`.
+7. At `Private key location` configure the location of libera.pem.
+8. If you have certificate and private key in separate files, use these
+   respectively.
+9. Click `OK` or `Apply`.
 
 ## Add your fingerprint to NickServ
 
