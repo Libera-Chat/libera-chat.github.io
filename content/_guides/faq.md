@@ -220,8 +220,9 @@ following definitions.
 A **bot** is a utility client that provides automated responses to private
 input or channel activity from others connected to the network.
 
-Some bots can roam around the network without a being piloted. Roaming bots
-can become a big problem and you should ask staff before deploying them.
+Some bots can roam around the network without being piloted. Roaming bots
+can be a big problem and are generally not allowed on Libera.Chat. You 
+*must* ask staff before deploying them.
 
 A **bouncer** connects to the network on behalf of one or more clients. The
 bouncer acts like both a server and a client; a client app would act like
