@@ -221,7 +221,7 @@ A **bot** is a utility client that provides automated responses to private
 input or channel activity from others connected to the network.
 
 Some bots can roam around the network without being piloted. Roaming bots
-can be a big problem and are generally not allowed on Libera.Chat. You 
+can be a big problem and are generally not allowed on Libera.Chat. You
 *must* ask staff before deploying them.
 
 A **bouncer** connects to the network on behalf of one or more clients. The
