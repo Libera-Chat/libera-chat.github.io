@@ -95,7 +95,8 @@ limit usage.
 
 Because of this, we arranged to have all the IRC ghosts removed from the
 `libera.chat` homeserver. They will no longer have membership in rooms that used
-to bridge to Libera.Chat.
+to bridge to Libera.Chat. More information about this process can be found
+[on the Matrix.org blog](https://matrix.org/blog/2023/12/libera-chat-alias-cleanup/).
 
 ## How can I get support for Matrix?
 
@@ -105,7 +106,7 @@ directly.
 
 To contact EMS, please refer to [their help page](https://element.io/help).
 
-To contact The Matrix,org Foundation, please refer to [their contact page](https://matrix.org/contact/).
+To contact The Matrix.org Foundation, please refer to [their contact page](https://matrix.org/contact/).
 
 Key Matrix community support rooms are:
 
