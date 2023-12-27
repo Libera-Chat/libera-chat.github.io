@@ -31,12 +31,17 @@
   width: 50%;
 }
 
+.hero .logo picture {
+  display: flex;
+  justify-content: center;
+}
+
 .hero .logo h1 {
   margin: 0;
   font-family: Comfortaa, Ubuntu, sans-serif;
   font-weight: 400;
   font-size: 2rem;
-  margin-block-start: -1.5rem;
+  margin-block-start: 0;
   text-align: center;
   font-weight: bold;
 }
@@ -87,7 +92,7 @@
   }
   .hero .logo h1 {
     font-size: 3.25rem;
-    margin-block-start: -2.5rem;
+    margin-block-start: -0.5rem;
   }
   .hero .tagline, .hero .cta {
     justify-self: start;
