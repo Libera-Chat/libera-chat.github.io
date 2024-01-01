@@ -3,6 +3,11 @@ title: Matrix Bridge Temporary Shutdown, a Retrospective
 author: el, She, Allie, Ben
 ---
 
+{::options parse_block_html="true" /}
+>Update: We no longer have an official Matrix bridge. Please see our
+>[FAQ about Matrix][matrixfaq] for more information about using Matrix on
+>Libera.Chat.
+
 Hello Libera users,
 
 Some people have requested transparency into how Libera came to the conclusion
@@ -240,3 +245,4 @@ el, She, Allie, Ben, and the rest of the Libera.Chat staff body.
 [marchminutes]: https://libera.chat/minutes/2023-03-31-public
 [juneminutes]: https://libera.chat/minutes/2023-06-30-public
 [chanreg]: https://libera.chat/chanreg/
+[matrixfaq]: https://libera.chat/guides/matrix
