@@ -6,7 +6,6 @@ url: https://libera.chat
 markdown: kramdown
 kramdown:
   input: GFM
-  parse_block_html: true
 
 highlighter: rouge
 
