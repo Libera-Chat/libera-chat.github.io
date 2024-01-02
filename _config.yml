@@ -3,6 +3,12 @@ description: A next-generation IRC network for FOSS projects collaboration!
 baseurl: ""
 url: https://libera.chat
 
+markdown: kramdown
+kramdown:
+  input: GFM
+
+highlighter: rouge
+
 twitter:
   username: liberachat
   card: summary
