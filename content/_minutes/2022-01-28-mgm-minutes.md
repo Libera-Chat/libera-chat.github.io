@@ -28,6 +28,7 @@ This has previously been discussed on the [July 2021 MGM][2021-07-sm], and the
 
 <details>
 <summary>Patch for bylaws change</summary>
+<div markdown="1">
 
 ```patch
  bylaws.md | 89 +++++++++++++++++++++++++++++++++++++++++++++++++++++++
@@ -135,6 +136,7 @@ index 0000000..0000000 100644
  1. There are three specialised committees: Operations, Engineering, and
 ```
 
+</div>
 </details>
 
 ### Privacy policy update for abuse mitigation data
@@ -148,6 +150,7 @@ adopted. This increases the retention period for abuse mitigation data.
 
 <details>
 <summary>Patch for privacy policy change</summary>
+<div markdown="1">
 
 ```patch
  privacy.md | 10 ++++++++++
@@ -176,6 +179,7 @@ index 0000000..0000000 100644
  least until the project is deregistered or the sponsorship is terminated, this
 ```
 
+</div>
 </details>
 
 ### Preparations for chair elections
