@@ -200,6 +200,7 @@ a formal registration, reach out to us.
 To ensure the registration process goes as smoothly as possible, please be
 prepared with the answers to the following questions:
 
+- Which staff member did you discuss your registration with prior to emailing?
 - What is the name of your project or community?
 - What is a brief description (1-2 sentences) of your project or community?
 - Which URLs can we visit to find out more information about your project or
