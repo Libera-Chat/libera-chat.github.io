@@ -9,14 +9,13 @@ kramdown:
 
 highlighter: rouge
 
-twitter:
-  username: liberachat
-  card: summary
 facebook:
   publisher: liberachat
 mastodon:
   username: liberachat
   instance: fosstodon.org
+bluesky:
+  profile: libera.chat
 irc:
   plaintext:
     name: irc.libera.chat:6667 (plaintext)
