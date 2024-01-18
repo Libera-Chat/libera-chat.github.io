@@ -68,3 +68,11 @@
   link: https://www.hyperfilter.com/
   image: /static/img/hyperlogo.png
   current: true
+
+- name: Gandi
+  link: https://www.gandi.net
+  image: /static/img/gandi-black.svg
+  sources:
+    - srcset: /static/img/gandi-white.svg
+      media: '(prefers-color-scheme: dark)'
+  current: true
