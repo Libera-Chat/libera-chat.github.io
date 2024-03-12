@@ -3,6 +3,11 @@ title: Disabling Matrix Portalling
 author: Allie
 ---
 
+{::options parse_block_html="true" /}
+>Update: We no longer have an official Matrix bridge. Please see our
+>[FAQ about Matrix][matrixfaq] for more information about using Matrix on
+>Libera.Chat.
+
 Hello again, Libera.Chat users!
 
 [Last month][prev], I wrote about the actions we were considering taking in
@@ -48,3 +53,4 @@ Thank you so much for your understanding,
 Allie @ Libera.Chat
 
 [prev]: https://libera.chat/news/matrix-irc-bridge-updates
+[matrixfaq]: https://libera.chat/guides/matrix

@@ -3,6 +3,11 @@ title: Delays in Disabling Matrix Portalling
 author: kline
 ---
 
+{::options parse_block_html="true" /}
+>Update: We no longer have an official Matrix bridge. Please see our
+>[FAQ about Matrix][matrixfaq] for more information about using Matrix on
+>Libera.Chat.
+
 Good afternoon, all
 
 [At the start of this month][prev] my colleague Allie wrote a blog post
@@ -53,3 +58,4 @@ kline
 
 [prev]: https://libera.chat/news/matrix-deportalling
 [matrixblog]: https://matrix.org/blog/2023/07/postponing-libera-chat-deportalling/
+[matrixfaq]: https://libera.chat/guides/matrix

@@ -3,6 +3,11 @@ title: Updates on the matrix<>IRC bridge
 author: Allie
 ---
 
+{::options parse_block_html="true" /}
+>Update: We no longer have an official Matrix bridge. Please see our
+>[FAQ about Matrix][matrixfaq] for more information about using Matrix on
+>Libera.Chat.
+
 Hello Libera.Chat users,
 
 We are aware that the Libera.Chat matrix<>IRC bridge
@@ -69,3 +74,4 @@ Allie @ Libera.Chat
 [guidelines]: https://libera.chat/guides/faq#are-bridges-allowed
 [support]: https://github.com/matrix-org/libera-chat/issues
 [secret]: https://libera.chat/guides/channelmodes
+[matrixfaq]: https://libera.chat/guides/matrix
