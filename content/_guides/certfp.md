@@ -101,6 +101,14 @@ the SSL flag, using your newly generated certificate. Note that these commands
 are just examples, you have to adapt them to your current servers.
 
 ```irc
+# For Weechat version >= 4.0.0
+/set irc.server.liberachat.addresses irc.libera.chat/6697
+/set irc.server.liberachat.tls on
+/set irc.server.liberachat.tls_verify on
+/set irc.server.liberachat.tls_cert %h/certs/libera.pem
+/set irc.server.liberachat.sasl_mechanism external
+
+# For Weechat version < 4.0.0
 /set irc.server.liberachat.addresses irc.libera.chat/6697
 /set irc.server.liberachat.ssl on
 /set irc.server.liberachat.ssl_verify on
