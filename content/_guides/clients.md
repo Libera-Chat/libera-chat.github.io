@@ -38,9 +38,10 @@ These are clients that you navigate primarily with your mouse cursor or touch.
 
 Desktop clients:
 
+- [Halloy](https://github.com/squidowl/halloy) - Windows, Linux, macOS (free)
 - [Hexchat](https://hexchat.github.io/) - Windows, Linux (free)
-- [LimeChat](http://limechat.net/mac/) - macOS (free)
 - [Konversation](https://konversation.kde.org/) - Windows, Linux (free)
+- [LimeChat](http://limechat.net/mac/) - macOS (free)
 - [mIRC](http://www.mirc.com/) - Windows (paid)
 - [Pidgin](https://pidgin.im/) - Linux, macOS, FreeBSD, Windows (free)
 - [Textual](https://www.codeux.com/textual/) - macOS (paid)
