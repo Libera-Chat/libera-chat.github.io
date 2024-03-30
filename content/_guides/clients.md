@@ -39,12 +39,12 @@ These are clients that you navigate primarily with your mouse cursor or touch.
 Desktop clients:
 
 - [Halloy](https://github.com/squidowl/halloy) - Windows, Linux, macOS (free)
-- [Hexchat](https://hexchat.github.io/) - Windows, Linux (free)
-- [Konversation](https://konversation.kde.org/) - Windows, Linux (free)
+- [Konversation](https://konversation.kde.org/) - Linux (free)
 - [LimeChat](http://limechat.net/mac/) - macOS (free)
 - [mIRC](http://www.mirc.com/) - Windows (paid)
 - [Pidgin](https://pidgin.im/) - Linux, macOS, FreeBSD, Windows (free)
 - [Textual](https://www.codeux.com/textual/) - macOS (paid)
+- [Quassel](https://quassel-irc.org/downloads) - Windows, Linux, macOS (free)
 
 Mobile clients:
 
@@ -54,7 +54,8 @@ iOS (paid)
 - [RevolutionIRC](https://play.google.com/store/apps/details?id=io.mrarm.irc)
 \- Android, also on [F-Droid](https://f-droid.org/packages/io.mrarm.irc/) (free)
 - [Goguma](https://sr.ht/~emersion/goguma/)
-\- Android, also on [F-Droid](https://fdroid.emersion.fr/#goguma-nightly) (free)
+\- Android, also on [F-Droid](https://fdroid.emersion.fr/#goguma-nightly)
+(free), iOS (paid)
 
 ### Terminal clients
 
@@ -62,7 +63,8 @@ Terminal or text-based clients are clients which you primarily navigate with
 keyboard shortcuts. These typically do not need mouse navigation, so they are
 great for running on servers and accessing remotely.
 
-Both of these are free and run under Linux, macOS, and Windows (using WSL or Cygwin)
+Both of these are free and run under Linux, macOS, and Windows (using WSL or
+Cygwin)
 
 - [Irssi](https://irssi.org/)
 - [WeeChat](https://weechat.org/)
