@@ -16,56 +16,36 @@ it does not necessarily provide anonymity or prevent the discovery of your IP
 address, see [below](#limitations-of-cloaks).
 
 As an individual, you can get a generic user cloak in the form of
-`user/username`. If you are involved with a well-known project or community,
+`user/<username>`. If you are involved with a well-known project or community,
 you may be able to get a cloak that indicates your affiliation with that
 group.
 
 You may also sometimes see some temporary or `gateway` cloaks associated with
 gateway services, such as when using our
-[tor hidden service](/guides/connect#accessing-liberachat-via-tor). These only
+[Tor hidden service](/guides/connect#accessing-liberachat-via-tor). These only
 last for the duration that the user is connected through that service and help
 users of the service be differentiated from each other. You cannot request
 these cloaks.
 
 ## Generic user cloaks
 
-You can request a generic user cloak from the bot in `#libera-cloak`. The
-cloak will be in the form of `user/<NickServ username>`. Registration with
-`NickServ` is required.
-
-### Requesting a self-service user cloak
-
-Please note: This process may change in the future.
-
-1. [Register with NickServ](/guides/registration) if you have not already
-   done so. You will also need to be
-   [identified](/guides/registration#logging-in).
-2. `/join #libera-cloak`
-3. Say `!cloakme`
-
-The bot will give your account a generic user cloak and then — because its
-work is done — politely kick and ban you from the channel.
-
-Your new cloak takes effect immediately. It will automatically activate each
-time you log in to your nickserv account in the future.
-
-### If it does not work
-
-If you already have a cloak and wish to change the nickname in it, you will
-need to have a staff member update it. This is to prevent abuse.
-
-Also for abuse prevention, accounts sometimes get flagged. When this happens
-it will require a human to approve the cloak. Please contact a staff member
-directly if the self-service channel does not cloak you.
+Accounts that have a verified email address are automatically assigned a
+generic user cloak. If your nickname contains characters that are not
+valid in a hostname (e.g. underscores or brackets), a colon and number will
+be added to the end to help ensure uniqueness. If your account does not have
+a cloak, or if it has a cloak and you wish to change the nickname in it,
+you will need to [contact staff][contact]. This is to prevent abuse.
 
 ### Generic bot cloaks
 
-If you run a bot on the network, you should also get the bot cloaked. While
-you can simply obtain a self-service user cloak for the bot, it is
-encouraged to get a proper bot cloak by
-[contacting staff](/guides/faq#how-to-find-libera-chat-staff). These look
-like `user/<your username>/bot/<bot's username>` and help others to find
-you if something goes wrong with the bot.
+If you run a bot on the network, it is encouraged to register an account for
+it that is separate from your personal user account. It is also encouraged
+to get a bot cloak for your bot's account by [contacting staff][contact].
+Staff will likely ask you to verify that you own the account by having you
+PM a specific message from the bot (or a connection using its account).
+
+Bot cloaks look like `user/<your username>/bot/<bot's username>`
+and help others to find you if something goes wrong with the bot.
 
 ## Project or community cloaks
 
@@ -79,22 +59,23 @@ If you are involved with a registered project or community, you may
 request a cloak indicating your affiliation. Rules and procedures for project
 or community cloaks vary by group. For help with this, ask a group contact for
 your project or community. If your project has listed group contacts publicly,
-they will be listed as "Public contacts" in `/msg ChanServ INFO <channel>`. If
-not, ask for help in the relevant channel.
+they will be listed as "Public contacts" in `/msg ChanServ INFO <channel>`.
+If not, ask for help in the relevant channel.
 
 ### Instructions for Group Contacts
 
 If your project or community has had an official group registration approved,
 then you are probably able to request cloaks for your users and contributors.
-Registered projects are represented by Group Contacts (also referred to as GCs).
+Registered projects are represented by Group Contacts (also known as GCs).
 Only these people have the right to request cloaks for group members.
-If you are a GC, then you will have a standing invite to #libera-communities
+If you are a GC, then you will have a standing invite to `#libera-communities`
 where you may request cloaks for projects that you are a registered GC for.
 
 While it is not mandatory, we do recommend having some internal standards for
 your users to meet to be eligible for your project's cloaks. Bearers of your
-cloaks are seen by others as representatives of your community and as such the
-bearer's behaviour will reflect onto the reputation of your project or community.
+cloaks are seen by others as representatives of your community and as such
+the bearer's behaviour will reflect onto the reputation of
+your project or community.
 
 ## Re-identifying with NickServ
 
@@ -116,10 +97,11 @@ others users.
 
 ## Removing your cloak
 
-Cloak removal is not automated. To remove your user cloak, ask [someone on
-staff](/about#wider-staff-and-organisation-membership) for
-help. To remove your project or community affiliation cloak, ask the group
-contact for your project or community.
+Cloak removal is not automated. To remove your user cloak,
+[contact staff][contact] for help. You can also request for your
+project or community affiliation cloak to be reset to a generic user cloak.
+In most cases, staff will impose a cooldown of several weeks before you can
+personally request a cloak change again.
 
 ## Anonymity and privacy
 
@@ -160,3 +142,5 @@ Once you are cloaked, only you and Libera.Chat staff can see
 your connecting host. Staff will refuse requests to disclose the
 IP addresses, host names, or connection metadata of cloaked users
 as per Libera.Chat's [privacy policy](/privacy).
+
+[contact]: /guides/faq#how-to-find-libera-chat-staff
