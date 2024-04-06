@@ -16,9 +16,9 @@ it does not necessarily provide anonymity or prevent the discovery of your IP
 address, see [below](#limitations-of-cloaks).
 
 As an individual, you can get a generic user cloak in the form of
-`user/<username>`. If you are involved with a well-known project or community,
-you may be able to get a cloak that indicates your affiliation with that
-group.
+`user/<account-name>`. If you are involved with a registered
+project or community, you may be able to get a cloak that indicates your
+affiliation with that group.
 
 You may also sometimes see some temporary or `gateway` cloaks associated with
 gateway services, such as when using our
@@ -30,11 +30,12 @@ these cloaks.
 ## Generic user cloaks
 
 Accounts that have a verified email address are automatically assigned a
-generic user cloak. If your nickname contains characters that are not
-valid in a hostname (e.g. underscores or brackets), a colon and number will
-be added to the end to help ensure uniqueness. If your account does not have
-a cloak, or if it has a cloak and you wish to change the nickname in it,
-you will need to [contact staff][contact]. This is to prevent abuse.
+generic user cloak. If your account name (the nickname you registered with)
+contains characters that are not valid in a hostname
+(e.g. underscores or brackets), a colon and number will be added to the end to
+help ensure uniqueness. If your account does not have a cloak, or if it has a
+cloak and you wish to change the nickname in it, you will need to
+[contact staff][contact]. This is to prevent abuse.
 
 ### Generic bot cloaks
 
@@ -44,7 +45,7 @@ to get a bot cloak for your bot's account by [contacting staff][contact].
 Staff will likely ask you to verify that you own the account by having you
 PM a specific message from the bot (or a connection using its account).
 
-Bot cloaks look like `user/<your username>/bot/<bot's username>`
+Bot cloaks look like `user/<your-account-name>/bot/<bot-account-name>`
 and help others to find you if something goes wrong with the bot.
 
 ## Project or community cloaks
@@ -105,6 +106,11 @@ personally request a cloak change again.
 
 ## Anonymity and privacy
 
+Once you are cloaked, only you and Libera.Chat staff can see
+your connecting host. Staff will refuse requests to disclose the
+IP addresses, host names, or connection metadata of cloaked users
+as per Libera.Chat's [privacy policy](/privacy).
+
 While a cloak helps limit the exposure of your IP address, other tools can
 more reliably provide a greater degree of privacy protection, including
 bouncers, cloud-based hosts, and Tor. To connect to Libera.Chat via Tor, see
@@ -114,11 +120,6 @@ Additionally, your IP address can be exposed if your client features a
 link preview feature, DCC functionality or similar.
 
 ### Limitations of cloaks
-
-Before your account has been assigned a cloak, your IP address or
-hostname will be visible, especially if you have joined any channels.
-Even when you have not joined any, your connecting host will be
-visible in `/whowas <yournick>` once you disconnect.
 
 When using a cloak, it is strongly recommended to use [SASL](/guides/sasl)
 instead of `/msg NickServ identify` to log into your account.
@@ -137,10 +138,5 @@ it doesn't authenticate; some clients do not do this by default and
 must be specifically configured to do so. This ensures that your
 IP address will not be exposed whenever `NickServ` is
 briefly unavailable due to maintenance.
-
-Once you are cloaked, only you and Libera.Chat staff can see
-your connecting host. Staff will refuse requests to disclose the
-IP addresses, host names, or connection metadata of cloaked users
-as per Libera.Chat's [privacy policy](/privacy).
 
 [contact]: /guides/faq#how-to-find-libera-chat-staff
