@@ -22,8 +22,8 @@ by the membership. The current board members are:
 - **Chair**: moonmoon
 - **Treasurer**: Swant
 - **Projects and Community Rep**: Allie
-- **Engineering Rep**: spb
-- **Operations Rep, Vice Chair**: tomaw
+- **Engineering Rep, Vice Chair**: spb
+- **Operations Rep**: tomaw
 
 In addition to this the organisation has two auditors elected by the membership.
 Their role is to audit the board's actions on behalf of the membership.
@@ -32,7 +32,7 @@ organisation, will be published in a yearly
 [transparency report](/annual-reports/).
 The current auditors are:
 
-- **Auditor**: amdj, kline
+- **Auditor**: amdj
 
 ## Projects and community team
 
