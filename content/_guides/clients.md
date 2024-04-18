@@ -45,6 +45,7 @@ Desktop clients:
 - [mIRC](http://www.mirc.com/) - Windows (paid)
 - [Pidgin](https://pidgin.im/) - Linux, macOS, FreeBSD, Windows (free)
 - [Textual](https://www.codeux.com/textual/) - macOS (paid)
+- [Thunderbird](https://www.thunderbird.net/) - Linux, macOs, Windows (free)
 
 Mobile clients:
 
