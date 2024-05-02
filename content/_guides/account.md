@@ -54,7 +54,8 @@ connection time outs.)
 Most clients use the default stored nickname with a `_` or a number at the
 end, so take a look at your client's settings and see what it has stored.
 
-To add a new nickname to your account, while logged in, change your nickname to it and run the following
+To add a new nickname to your account, while logged in, change your nickname
+to it and run the following
 command in your IRC client:
 
 ```irc
