@@ -23,7 +23,7 @@ the following in your IRC client:
 /msg NickServ SET PASSWORD newpasswordhere
 ```
 
-Simply change `yournewpassword` to something that is hard to guess. Once
+Simply change `newpasswordhere` to something that is hard to guess. Once
 the password is changed with `NickServ` update it in your [client's SASL details](/guides/sasl)
 and for bonus points also store it in a password manager!
 
