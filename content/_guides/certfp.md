@@ -167,6 +167,20 @@ to `CREATE NEW` and when you tap this, a certificate will be randomly generated
 and a certificate fingerprint will be displayed. Tap the tick symbol on the top
 right of the screen to save.
 
+### KVIrc
+
+1. You can create/put `libera.pem` in your KVIrc config directory (e.g.
+   `~/.config/KVIrc`).
+2. In `Settings/Configure KVIrc...` expand `Connection` and click `Advanced`.
+3. In the `SSL` tab ...
+4. Check `Use SSL certificate`.
+5. At `Certificate location` configure the location of libera.pem.
+6. Check `Use SSL private key`.
+7. At `Private key location` configure the location of libera.pem.
+8. If you have certificate and private key in separate files, use these
+   respectively.
+9. Click `OK` or `Apply`.
+
 ## Add your fingerprint to NickServ
 
 You can then check whether you have a fingerprint by using `whois` on yourself:
