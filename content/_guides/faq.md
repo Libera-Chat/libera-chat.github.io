@@ -244,7 +244,7 @@ Telegram, Matrix, XMPP, etc.
 Bridging can either connect one client to represent multiple people, or one
 client per participant. Most per-participant connections of bridges cannot
 roam around the network and are confined to the channel that has been
-connected. However, some bridges also have the bouncer abilities available.
+connected. Additionally, some bridges also have the bouncer abilities available.
 
 ## Are bots allowed?
 
