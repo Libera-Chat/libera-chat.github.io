@@ -3,6 +3,11 @@ title: Temporarily disabling the Matrix Bridge
 author: Allie and el
 ---
 
+{::options parse_block_html="true" /}
+>Update: We no longer have an official Matrix bridge. Please see our
+>[FAQ about Matrix][matrixfaq] for more information about using Matrix on
+>Libera.Chat.
+
 Hello Libera users,
 
 As you know per [previous blogs][news], we have been liasing with
@@ -63,3 +68,4 @@ Allie & el on behalf of the entire Libera.Chat staff body
 [bridging]: https://libera.chat/guides/faq#are-bridges-allowed
 [maihowto]: https://github.com/whitequark/catircservices.org/
 [heisenbridge]: https://github.com/hifi/heisenbridge
+[matrixfaq]: https://libera.chat/guides/matrix
