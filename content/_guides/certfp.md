@@ -163,7 +163,7 @@ right of the screen to save.
 
 1. You can create/put `libera.pem` in your KVIrc config directory (e.g.
    `~/.config/KVIrc`).
-2. In `Settings/Configure KVIrc...` expand `Connections` and click `Advanced`.
+2. In `Settings/Configure KVIrc...` expand `Connection` and click `Advanced`.
 3. In the `SSL` tab ...
 4. Check `Use SSL certificate`.
 5. At `Certificate location` configure the location of libera.pem.
