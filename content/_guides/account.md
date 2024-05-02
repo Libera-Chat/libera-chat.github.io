@@ -89,7 +89,6 @@ be swapped out for any other nickname you have grouped.
 
 ```irc
 /msg NickServ SET ACCOUNTNAME yourgroupednick
-
 ```
 
 There are various reasons why people change their account names. While most of
