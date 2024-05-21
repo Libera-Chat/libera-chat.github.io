@@ -117,7 +117,7 @@ controls for directly managing channel/capability associtations are restricted
 and can only be accessed by network staff.
 
 This means, when you remove flags for a user you must also request staff
-assistance to remove the corrisponding settings from litharge (given that user
+assistance to remove the corresponding settings from litharge (given that user
 was oberved by litherage setting a ban or quiet in the given channel).
 
 See the [FAQ](https://libera.chat/guides/faq#how-to-find-libera-chat-staff)
