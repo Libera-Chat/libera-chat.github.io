@@ -138,7 +138,7 @@ You can find new channels [using a service](/guides/findingchannels) to search
 by channel name or by topic description.
 
 There are lots of different topics on any IRC network. On Libera Chat, most of
-our channels are about freely-licensed software and collaborative projects.
+our channels are about freely-licenced software and collaborative projects.
 Our [network policies](/policies) define what we want the network to be like.
 
 ## Channel roles
@@ -220,4 +220,4 @@ troubleshooting problems you encounter.
 
 If you want a more technical overview of IRC, some history of the protocol, or
 info on future plans, we recommend [ircdocs.horse](https://ircdocs.horse) and
-the [IRCv3 working group](https://ircv3.net/) websites.
+the [IRCV3 working group](https://ircv3.net/) websites.

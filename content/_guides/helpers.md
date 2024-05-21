@@ -5,7 +5,7 @@ weight: 60
 ---
 
 Communities are healthiest when everyone works together to maintain the space
-and shape the culture. If we leave all the emotional labour for operators to
+and shape the culture. If we leave all the emotional labor for operators to
 deal with, they will be more likely to
 [burn out](/guides/catalyst#remember-to-take-breaks-to-avoid-burn-out).
 
@@ -68,7 +68,7 @@ They may have different cultural norms or a language barrier that
 unintentionally changes their perceived tone.
 
 It is best to let small things slide and not raise the channel temperature by
-calling them out. If a person's demeanour bothers you, quietly refrain from
+calling them out. If a person's demeanor bothers you, quietly refrain from
 engaging with them instead of telling them off. If a channel member is
 hostile, it is important not to worsen the situation by responding in kind.
 

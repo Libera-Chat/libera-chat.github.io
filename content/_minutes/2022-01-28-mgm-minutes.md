@@ -61,7 +61,7 @@ index 0000000..0000000 100644
 +
 +5. The Complaint Processors must respect the privacy of complainants and all
 +   other parties. The Complaint Processors may recruit other members of the
-+   organisation to assist with their investigation. Other members, including the
++   organisation to assist with their invstigation. Other members, including the
 +   Board and Complaints Rota members who are not actively working on the
 +   complaint, should not have automatic access to it.
 +

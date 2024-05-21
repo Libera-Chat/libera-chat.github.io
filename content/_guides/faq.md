@@ -96,7 +96,7 @@ in that channel.
 Some people do not wish to get messages from unregistered users. If you are
 not currently logged in then you will also be affected.
 
-This is probably **not** targeted at you personally.
+This is probably **not** targetted at you personally.
 
 First, check if you are [registered](/guides/registration). If you do have
 an account then make sure you have
@@ -189,7 +189,7 @@ You do not need to worry if you have chosen a strong password that is not used
 in other places.
 
 If the attempts are very frequent and persistent, feel welcome to let staff
-know, just in case. Libera.Chat does stop actual brute force attacks and
+know, just in case. Libera.Chat does stop actual bruteforce attacks and
 these messages were [disabled by default](/news/badpasswdmsg-default),
 due to excessive noise. To disable them:
 
@@ -263,7 +263,7 @@ Users may run bots that connect to Libera.Chat. Please get permission from the
 operators of any channels that the bot is in.
 
 While operators may not notice a quiet bot, they very likely will notice and
-may take offence to unauthorised bots that are noisy or interactive.
+may take offense to unauthorised bots that are noisy or interactive.
 
 If your bot is storing information in a publicly accessible way, you should
 follow our [public logging policy](/policies#public-logging).

@@ -10,4 +10,3 @@ package-lock.json
 
 # mac OS is noisy sometimes, this keeps it's fluff out.
 .DS_Store
-.vscode
