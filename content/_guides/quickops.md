@@ -183,7 +183,7 @@ with the account name "accountname" to join freely, you would use:
 In rare cases, it may be necessary to set exemptions for people to
 bypass bans or quiets that affect them.
 Exemptions use channel mode `e` and are like invexes.
-Use sparringly; exemptions can get confusing if you later need to
+Use sparingly; exemptions can get confusing if you later need to
 remove those people from the channel and have forgotten about the exemption!
 
 ## Querying and removing bans/quiets/invexes/exemptions
