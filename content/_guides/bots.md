@@ -114,7 +114,7 @@ intended mode change.
 
 Litharge uses [AutoRegister](https://github.com/ncoevoet/AutoRegister) to
 create accounts on the bot based on network services accounts.  Currently, the
-controls for directly managing channel/capability associtations are restricted
+controls for directly managing channel/capability associations are restricted
 and can only be accessed by network staff.
 
 This means, when you remove flags for a user you must also request staff
