@@ -132,7 +132,7 @@ IRC presence:
 - By default, any user will be able to register channels within your channel
   namespaces with ChanServ. This makes it easier for users to create topical
   sub-channels for purposes such as a more in-depth discussion than the main
-  channel can accomodate or as social hangout spots. You can optionally
+  channel can accommodate or as social hangout spots. You can optionally
   restrict this so that only group contacts are able to register channels
   within your namespace with ChanServ, for tighter control over your project's
   presence on Libera.Chat. Regardless of the setting you choose, group

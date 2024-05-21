@@ -40,7 +40,7 @@ As long as within our policies, our communities will manage themselves and are
 free to expand our rules with their own. Libera.Chat staff will not usually
 interfere in channel management and disputes unless network-wide policies are
 violated. We can offer to mediate or help out if our workload allows it, but
-we should not be the first line of defense.
+we should not be the first line of defence.
 
 We encourage our users, communities, channel owner, and operators to follow our
 [guidelines](/guidelines) to base their rules and conduct on.

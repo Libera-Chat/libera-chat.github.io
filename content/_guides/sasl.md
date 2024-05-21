@@ -60,7 +60,7 @@ If you **do not** already have an account with Libera.Chat services,
 you will need to connect from an IP address that isn't restricted
 to [create and verify an account](/guides/registration).
 
-If you are using a VPN or other anonymization service,
+If you are using a VPN or other anonymisation service,
 consider temporarily disabling it, connecting to Libera.Chat,
 and only re-enabling it after you have created and verified the account.
 
