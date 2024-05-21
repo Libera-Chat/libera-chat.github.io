@@ -13,7 +13,8 @@ ozone is anti spam bot which kills and klines spammers.
 ozone's code is located in our
 [GitHub repo](https://github.com/Libera-Chat/ozone).
 
-When your channel is being targeted by spam bots, you can `/invite ozone`
+When your channel is being targeted by spam bots, you can `/invite ozone`.
+
 **If you run some bots, you should voice them** otherwise ozone could ban them
 if they are too verbose.
 
@@ -113,12 +114,12 @@ intended mode change.
 
 Litharge uses [AutoRegister](https://github.com/ncoevoet/AutoRegister) to
 create accounts on the bot based on network services accounts.  Currently, the
-controls for directly managing channel/capability associtations are restricted
+controls for directly managing channel/capability associations are restricted
 and can only be accessed by network staff.
 
 This means, when you remove flags for a user you must also request staff
-assistance to remove the corrisponding settings from litharge (given that user
-was oberved by litherage setting a ban or quiet in the given channel).
+assistance to remove the corresponding settings from litharge (given that user
+was observed by litharge setting a ban or quiet in the given channel).
 
 See the [FAQ](https://libera.chat/guides/faq#how-to-find-libera-chat-staff)
 for information on how to contact staff.
