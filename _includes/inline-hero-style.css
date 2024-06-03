@@ -4,7 +4,7 @@
   min-height: 40vh;
   max-height: min-content;
   border-block-end: 1px solid var(--c-border);
-  padding: 0 0 2rem 0;
+  padding: 2rem 0;
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 2fr auto auto;
@@ -31,14 +31,8 @@
   width: 50%;
 }
 
-.hero .logo picture {
-  display: flex;
-  justify-content: center;
-}
-
 .hero .logo h1 {
   margin: 0;
-  padding-top: 1rem;
   font-family: Comfortaa, Ubuntu, sans-serif;
   font-weight: 400;
   font-size: 2rem;
