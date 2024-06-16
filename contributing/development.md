@@ -11,6 +11,8 @@ title: Contributing to Libera Chat
     the IRCd powering the network
   - [Atheme](https://github.com/atheme/atheme) - the services in use
     (e.g NickServ, ChanServ)
+  - [Sable](https://github.com/Libera-Chat/sable) -
+    the work-in-progress IRCd with built-in services and link redundancy
   - [Kiwi IRC](https://github.com/kiwiirc/kiwiirc/) -
     our [web chat](https://web.libera.chat)
   - [gamja](https://sr.ht/~emersion/gamja/) -
