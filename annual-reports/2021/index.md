@@ -55,7 +55,7 @@ the constituting general meeting: Md (Marco d’Itri), and kline (Gareth Pulham)
 
 Libera Chat was assigned an organisation number late May.
 
-The Libera Chat Bylaws have been revised by 5 Montly General Meetings.
+The Libera Chat Bylaws have been revised by 5 Monthly General Meetings.
 
 ## Finances
 
