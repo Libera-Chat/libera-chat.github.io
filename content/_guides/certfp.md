@@ -116,6 +116,12 @@ and then reconnect to Libera.Chat.
 
 Refer to znc's [official documentation](https://wiki.znc.in/Cert).
 
+### soju
+
+Soju cannot use self-generated certificates.
+Instead, certificate generation and setup are handled automatically for you,
+see `certfp generate` in the [IRC service manual](https://soju.im/doc/soju.1.html#IRC_SERVICE).
+
 ### HexChat
 
 Place the .pem file in `certs/client.pem` in the HexChat config
