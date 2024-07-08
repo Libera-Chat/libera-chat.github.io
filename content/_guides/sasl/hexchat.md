@@ -20,7 +20,7 @@ length of __85 characters__.
    then hit enter and click on Edit
 4. Replace the string `newserver/6667` with `irc.libera.chat/+6697`
 5. In the `User name` field, enter your primary nick
-6. Select `SASL (username + password)` for the `Login method` field
+6. Select `SASL PLAIN (username + password)` for the `Login method` field
 7. In the `Password` field, enter your NickServ password
 
 If you are unable to edit the `User name` field, the change can be made in the
