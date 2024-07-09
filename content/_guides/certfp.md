@@ -19,24 +19,18 @@ you are using Windows and do not have a copy, you might consider using Cygwin.
 You can generate a certificate with the following command:
 
 ```sh
-openssl req -x509 -new -newkey ed25519 -sha256 -days 1096 -nodes -out libera.pem -keyout libera.pem
+openssl req -x509 -new -newkey ed25519 -sha256 -nodes -out libera.pem -keyout libera.pem
 ```
 
 You will be prompted for various pieces of information about the certificate.
 The contents do not matter for our purposes, but `openssl` needs at least one
-of them to be non-empty. This certificate will last about 3 years, so consider
-setting a calendar reminder.
+of them to be non-empty. This certificate will have the default expiry of 30
+days, as Libera.Chat no longer checks for certificate expiry.
 
 The `.pem` file will have the same access to your NickServ account as your
 password does, so take appropriate care in securing it.
 
 ## Inspecting your certificate
-
-The expiration date can be checked with the following command:
-
-```sh
-openssl x509 -in libera.pem -noout -enddate
-```
 
 The fingerprint can be checked with the following command:
 
