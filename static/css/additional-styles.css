@@ -181,3 +181,23 @@ main .sponsors a img {
   background-color: var(--c-hl-secondary);
   color: var(--c-text-on-hl-secondary);
 }
+
+/* Print Styles - Enhancing Readability for Printing */
+@media print {
+  header, 
+  footer, 
+  aside { 
+    display: none; /* Hide header, footer, and aside menu */ 
+  }
+
+  body {
+    background-color: transparent; 
+    margin: 0; /* Remove default body margins */
+  } 
+
+  /* Apply to text blocks (replace 'p' with the actual class name if needed) */
+  p { 
+    margin: 0; /* Unset any existing margins on text paragraphs */
+    page-break-inside: avoid;  /* Prevent page breaks within paragraphs */
+  }
+}
