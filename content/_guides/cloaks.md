@@ -16,7 +16,7 @@ it does not necessarily provide anonymity or prevent the discovery of your IP
 address, see [below](#limitations-of-cloaks).
 
 As an individual, you can get a generic user cloak in the form of
-`user/<account-name>`. If you are involved with a registered
+`user/<your-account-name>`. If you are involved with a registered
 project or community, you may be able to get a cloak that indicates your
 affiliation with that group.
 
@@ -29,13 +29,17 @@ these cloaks.
 
 ## Generic user cloaks
 
-Accounts that have a verified email address are automatically assigned a
-generic user cloak. If your account name (the nickname you registered with)
-contains characters that are not valid in a hostname
-(e.g. underscores or brackets), a colon and number will be added to the end to
-help ensure uniqueness. If your account does not have a cloak, or if it has a
-cloak and you wish to change the nickname in it, you will need to
-[contact staff][contact]. This is to prevent abuse.
+Accounts registered after March 2024 that have a verified email address are
+automatically assigned a generic user cloak. If you registered prior to
+2024-04-01 and never received a cloak, you may [contact staff][contact]
+to receive one, no questions asked.
+
+If your account name (the nickname you registered with) contains characters
+that are not valid in a hostname (e.g. underscores or brackets), a colon and
+number will be added to the end to help ensure uniqueness.
+If you have a generic user cloak and you wish to change the nickname in it to
+reflect a change in account name, you will need to [contact staff][contact].
+This is to prevent abuse.
 
 ### Generic bot cloaks
 
