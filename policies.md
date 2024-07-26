@@ -131,23 +131,32 @@ nickname.
 Channels on Libera.Chat fall into one of three categories. Details on these
 can be found under [channel registration](/chanreg).
 
-Channels in the primary namespace (`#`) are assigned to registered projects
-and communities. These channels can be registered via the process described in
-[channel registration](/chanreg) and by default, these channels do not expire.
-In case of loss of founders and/or all channel operators, someone
+Channels in the primary namespace (`#`) can be assigned to registered projects
+and communities. Channels assigned to registered projects and communities do
+not expire. In case of loss of founders and/or all channel operators, someone
 representing the project or community should contact staff. In case of an
 official project contacting us about a channel already registered to a
 community, our staff will try to find a good solution. However, a community
 ran channel in the primary namespace could be transferred over in this case.
 
-Channels in the secondary namespace (`##`) are informal channels and allocated
-on a first-come, first-served basis to the first person who registers them
-with ChanServ. As with nicknames, however, we reserve the right to remove or
-alter registrations where we believe they have not been made in good faith.
-They expire after 60 days in which no user on the access list for the channel
-has joined it. If you would like to inherit such a channel, please contact our
-staff. We will gladly have a look and decide which new founder should be
-assigned to best serve the community and our network.
+Channels in the primary namespace (`#`) not assigned to a project or community
+and channels in the secondary namespace (`##`) are informal channels and
+allocated on a first-come, first-served basis to the first person who
+registers them with ChanServ.
+We reserve the right to remove or alter registrations where we believe
+they have not been made in good faith. For example, informal channels
+created with confusingly similar names to other channels (such as creating a
+`#` or `##` variant of an existing channel) may be redirected to the
+original channels, at staff discretion.
+
+An informal channel in the primary namespace (`#`) may be transferred to a
+registered project or community should the need arise. Informal channels which
+are unlikely to ever have a formal group registration should be created in the
+secondary namespace (`##`) to avoid potential future conflicts. Additionally,
+informal channels expire after 60 days in which no user on the access list for
+the channel has joined it. If you would like to inherit such a channel, please
+contact our staff. We will gladly have a look and decide which new founder
+should be assigned to best serve the community and our network.
 
 ## Unlawful activity
 
