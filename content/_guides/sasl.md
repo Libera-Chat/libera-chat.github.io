@@ -26,6 +26,7 @@ These instructions are for `PLAIN` (username+password) authentication.
 - [Emacs ERC](https://elpa.gnu.org/packages/doc/erc.html#SASL)
 - [EPIC5](/guides/epic5)
 - [glirc](https://github.com/glguy/irc-core/wiki/Automatically-authenticating-to-NickServ)
+- [Goguma](https://codeberg.org/emersion/goguma/src/branch/master/doc/connect.md)
 - [HexChat](/guides/hexchat)
 - [IceChat](https://wiki.icechat.net/index.php/New_Server#IRCv3_tab)
 - [irssi](/guides/irssi)
