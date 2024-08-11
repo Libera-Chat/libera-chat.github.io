@@ -81,10 +81,6 @@ to be navigated with your mouse cursor or touch.
   - Other clients that can connect to a Quassel core exist,
     such as [Quasseldroid](https://quasseldroid.info/).
   - Channel: `#quassel` on Libera.Chat
-- [Srain](https://srain.silverrainz.me)
-  - Stylish IRC client.
-  - Runs on Windows, macOS, Linux, and FreeBSD.
-  - Channel: `#srain` on Libera.Chat
 
 ## Mobile Clients
 
