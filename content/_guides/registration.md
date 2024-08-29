@@ -113,6 +113,42 @@ log in, you can manually identify:
 /msg NickServ IDENTIFY YourNick YourPassword
 ```
 
+## Controlling Usage of Your Nicknames
+
+If you are concerned about the fact that people can use your grouped
+nicknames without logging into your account, you can enable the account
+`ENFORCE` setting:
+
+```irc
+/msg NickServ HELP SET ENFORCE
+/msg NickServ HELP SET ENFORCETIME
+```
+
+This is not recommended unless you are concerned about your nickname being
+impersonated while you are not connected to IRC (or while you are, but you
+are using a different nickname for some reason).
+
+Note that enabling this setting is NOT required to secure your account!
+Someone that is using your nickname(s) does not get any access to your
+account or any privileges associated with that (such as persistent access
+to channels).
+
+This is not a default account setting because most people will not reasonably
+benefit from being forced to login to their account just to use their
+nicknames, but would be inconvenienced by having to, especially with the
+combination of a low enforce time and no configured SASL.
+
+This also creates an undue support burden upon network staff, because when
+someone uses the nickname of an account that has enforcement enabled, and
+fails to login to the account in time, the nickname will be taken off of
+them and then locked. This will subsequently prevent you from using it too,
+requiring you to release or regain it first:
+
+```irc
+/msg NickServ HELP RELEASE
+/msg NickServ HELP REGAIN
+```
+
 ## Unable to Speak
 
 If a channel is set to mode `+r`, you won't be able to join it unless you
