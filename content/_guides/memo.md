@@ -4,9 +4,9 @@ category: using
 weight: 61
 ---
 
-Libera.chat supports sending memos to users or channels using MemoServ. Memos
-may be sent to users or channels. You may send memos to offline users for them
-to read when they come online.
+Libera.chat supports sending memos to users or channel operators using
+MemoServ. You may send memos to offline users for them to read when they come
+online.
 
 Both the sender's nick and the target nick or channel name must be registered.
 See [Nickname registration]({% link _guides/registration.md %}) for more
@@ -14,17 +14,15 @@ information.
 
 ## Sending a memo
 
-To send a memo, run the following command in your IRC client:
+To send a memo to a user, run the following command in your IRC client:
 
 ```
-/msg MemoServ SEND <nick/#channel> <memo text>
+/msg MemoServ SEND <nick> <memo text>
 ```
 
-If you send a memo to a channel, all users in the channel receive the memo in
-their memo list.
-
-If you allowed to view the access list for a channel, you can send a message
-to the channel operators by running the following command in your IRC client:
+If you're allowed to view the access list for a channel, you can send a
+message to the channel operators by running the following command in your IRC
+client:
 
 ```
 /msg MemoServ SENDOPS <#channel> <memo text>
