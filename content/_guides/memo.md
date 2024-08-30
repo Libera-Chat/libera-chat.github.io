@@ -101,12 +101,26 @@ your IRC client:
 /msg MemoServ DELETE OLD
 ```
 
-## Ignoring memos from users
+## Ignoring memos
 
-If you don't want to receive memos from a specific user, you can add them to
-your ignore list. You can add up to 40 users to your ignore list.
+You can disable receiving memos from all accounts by running the following
+command in your IRC client:
 
-To add a new user to your ignore list, run the following command in your IRC
+```
+/msg NickServ SET NOMEMO ON
+```
+
+When `NOMEMO` is enabled, you won't receive memos from any account. To
+re-enable memos, run the following command in your IRC client:
+
+```
+/msg NickServ SET NOMEMO OFF
+```
+
+If you want to stop receiving memos from a specific user, you can add the user
+to your ignore list. You can add up to 40 users to your ignore list.
+
+To add a user to your ignore list, run the following command in your IRC
 client:
 
 ```
