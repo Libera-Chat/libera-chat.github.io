@@ -4,7 +4,7 @@ category: using
 weight: 61
 ---
 
-Libera.chat supports sending memos to users or channel operators using
+Libera.Chat supports sending memos to users or channel operators using
 MemoServ. You may send memos to offline users for them to read when they come
 online.
 
@@ -16,7 +16,7 @@ information.
 
 To send a memo to a user, run the following command in your IRC client:
 
-```
+```irc
 /msg MemoServ SEND <nick> <memo text>
 ```
 
@@ -24,7 +24,7 @@ If you're allowed to view the access list for a channel, you can send a
 message to the channel operators by running the following command in your IRC
 client:
 
-```
+```irc
 /msg MemoServ SENDOPS <#channel> <memo text>
 ```
 
@@ -33,7 +33,7 @@ client:
 You can display a list of memos in your inbox by running the following command
 in your IRC client:
 
-```
+```irc
 /msg MemoServ LIST
 ```
 
@@ -45,7 +45,7 @@ number.
 
 To read your new memos, run the following command in your IRC client:
 
-```
+```irc
 /msg MemoServ READ NEW
 ```
 
@@ -54,7 +54,7 @@ MemoServ responds with a list of all unread memo contents.
 To read a specific memo, [find the memo number](#listing-memos) and run the
 following command in your IRC client:
 
-```
+```irc
 /msg MemoServ READ <memo number>
 ```
 
@@ -63,12 +63,12 @@ MemoServ responds with the content of the selected memo.
 ## Forwarding memos
 
 You can forward memos to other users. The recipient nick must be registered on
-Libera.chat.
+Libera.Chat.
 
 To forward a memo, [find the memo number](#listing-memos) and run the
 following command in your IRC client:
 
-```
+```irc
 /msg MemoServ FORWARD <nick> <memo number>
 ```
 
@@ -77,7 +77,7 @@ following command in your IRC client:
 To delete a memo from your list, [find the memo number](#listing-memos) and
 run the following command in your IRC client:
 
-```
+```irc
 /msg MemoServ DELETE <memo number>
 ```
 
@@ -88,14 +88,14 @@ memo.
 To delete all memos in your memo list, run the following command
 in your IRC client:
 
-```
+```irc
 /msg MemoServ DELETE ALL
 ```
 
 To delete all read (old) memos in your memo list, run the following command in
 your IRC client:
 
-```
+```irc
 /msg MemoServ DELETE OLD
 ```
 
@@ -104,14 +104,14 @@ your IRC client:
 You can disable receiving memos from all accounts by running the following
 command in your IRC client:
 
-```
+```irc
 /msg NickServ SET NOMEMO ON
 ```
 
 When `NOMEMO` is enabled, you won't receive memos from any account. To
 re-enable memos, run the following command in your IRC client:
 
-```
+```irc
 /msg NickServ SET NOMEMO OFF
 ```
 
@@ -121,26 +121,27 @@ to your ignore list. You can add up to 40 users to your ignore list.
 To add a user to your ignore list, run the following command in your IRC
 client:
 
-```
+```irc
 /msg MemoServ IGNORE ADD <nick>
 ```
 
 To remove a user from your ignore list, run the following command
 in your IRC client:
 
-```
+```irc
 /msg MemoServ IGNORE DEL <nick>
 ```
 
 To return the whole list of users on your ignore list, run the following
 command in your IRC client:
 
-```
+```irc
 /msg MemoServ IGNORE LIST
 ```
 
-To remove all users from your ignore list, run the following command in your IRC client:
+To remove all users from your ignore list, run the following command in your
+IRC client:
 
-```
+```irc
 /msg MemoServ IGNORE CLEAR
 ```
