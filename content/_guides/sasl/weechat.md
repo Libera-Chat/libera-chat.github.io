@@ -42,6 +42,7 @@ passphrase if already set):
 /secure passphrase <passphrase>
 /secure set libera_password <password>
 /set irc.server.libera.sasl_password "${sec.data.libera_password}"
+/save
 ```
 
 For more complete instructions, including non-password-based mechanisms,
