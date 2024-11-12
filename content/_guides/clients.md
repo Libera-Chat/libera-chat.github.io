@@ -164,7 +164,7 @@ and [iOS](https://apps.apple.com/us/app/irccloud/id672699103).
 IRCCloud has a limited free plan. While on the free plan, you may be required
 to have a [Libera.Chat account](/guides/registration) to connect or
 join some channels. IRCCloud will also disconnect you if you are inactive for
-more than a couple of hours. Finally,
+more than a couple of hours on the free plan. Finally,
 [using a traditional IRC client with IRCCloud][irccloud-bnc] is limited
 to paying users. Free users will typically use one of the apps or the webchat.
 IRCCloud has [a WebSocket API][irccloud-api] for the technically adventurous,
