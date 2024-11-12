@@ -154,8 +154,7 @@ or running these clients under
 ## IRCCloud
 
 [IRCCloud](https://irccloud.com) essentially provides bouncers as a service,
-though they use a custom API that in practice only works with their clients,
-and their server software is closed-source at the time of writing.
+though their server software is closed-source at the time of writing.
 It is fairly popular as it serves as a convenient and possibly cheaper
 alternative to setting up a bouncer yourself on a VPS.
 In addition to its webchat, it also has apps for
@@ -165,7 +164,15 @@ and [iOS](https://apps.apple.com/us/app/irccloud/id672699103).
 IRCCloud has a limited free plan. While on the free plan, you may be required
 to have a [Libera.Chat account](/guides/registration) to connect or
 join some channels. IRCCloud will also disconnect you if you are inactive for
-more than a couple of hours.
+more than a couple of hours on the free plan. Finally,
+[using a traditional IRC client with IRCCloud][irccloud-bnc] is limited
+to paying users. Free users will typically use one of the apps or the webchat.
+IRCCloud has [a WebSocket API][irccloud-api] for the technically adventurous,
+but [it is not currently stable][irccloud-warn].
+
+[irccloud-bnc]: https://blog.irccloud.com/bouncer/
+[irccloud-api]: https://github.com/irccloud/irccloud-tools/wiki#official-api-docs
+[irccloud-warn]: https://github.com/irccloud/irccloud-tools/wiki/API-Overview#important-note
 
 ## Other Clients
 
