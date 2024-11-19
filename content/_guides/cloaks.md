@@ -30,9 +30,8 @@ these cloaks.
 ## Generic user cloaks
 
 Accounts registered after March 2024 that have a verified email address are
-automatically assigned a generic user cloak. If you registered prior to
-2024-04-01 and never requested a cloak, you may [contact staff][contact]
-to receive one.
+automatically assigned a generic user cloak. If your account does not
+currently have a cloak, you may [contact staff][contact] to receive one.
 
 If your account name (the nickname you registered with) contains characters
 that are not valid in a hostname (e.g. underscores or brackets), a colon and
