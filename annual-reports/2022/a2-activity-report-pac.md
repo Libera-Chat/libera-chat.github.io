@@ -29,7 +29,7 @@ build systems and libraries, hackerspaces and Linux User Groups.
 Thanks to the great work of everyone, we are now just a dozen below having
 1000 registered projects and communities! Backlog grew a bit, with currently
 around 70 request that still need to be looked into. This slowdown was
-adressed in our last meeting and we are looking for ways to get
+addressed in our last meeting and we are looking for ways to get
 people who are motivated and have the needed time at hand to handle
 the remaining tickets.
 
