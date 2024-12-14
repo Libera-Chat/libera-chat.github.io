@@ -118,8 +118,8 @@ registration is appropriate for your project or community.
 ### Benefits of group registration
 
 On-topic projects and communities who have formally registered with
-Libera.Chat have extra tools at their disposal to help manage their
-IRC presence:
+Libera.Chat [have extra tools](/guides/groupcontacts) at their disposal to
+help manage their IRC presence:
 
 - Your liaisons with us, known as group contacts, will be invited to
   `#libera-communities` where they can more easily reach Libera.Chat staff and
@@ -156,9 +156,10 @@ IRC presence:
 Group contacts are the people ultimately responsible for your project here on
 Libera.Chat. They are empowered to claim channels within your namespace,
 assign cloaks to other users, and act as liaisons between Libera.Chat staff
-and your project. We **strongly recommend** having between 2-4 group contacts
-and that at least one group contact is publicly listed to act as a point of
-contact for any users interested in your project.
+and your project. They also [get access to some extra tools](/guides/groupcontacts)
+for managing these responsibilities. We **strongly recommend** having between
+2-4 group contacts and that at least one group contact is publicly listed to
+act as a point of contact for any users interested in your project.
 
 Group contacts must have registered accounts with NickServ on Libera.Chat.
 Usually, you will want to establish yourself as one of the group contacts if
