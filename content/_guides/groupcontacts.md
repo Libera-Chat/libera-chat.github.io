@@ -130,5 +130,5 @@ request, transfer of the namespace may be requested through the
 [group registration process](/chanreg).
 
 If you have other questions about changes or processes for your groups, all
-GCs have access to #libera-communities to get support from fellow GCs and
+GCs have access to `#libera-communities` to get support from fellow GCs and
 network staff.
