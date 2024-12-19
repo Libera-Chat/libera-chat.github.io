@@ -77,10 +77,10 @@ This service requires public-key SASL authentication using either the
 [guide on setting up CertFP](/guides/certfp.html) for more information.
 
 Some clients lack SOCKS4a or later support. In this case you will need to
-change your `torrc` file to map a private IP address to the onion service
-address instead and disable TLS hostname verification in your client. Onion
-service names securely identify a service. The connection will still be
-secure.
+either launch your client with a wrapper such as `torsocks`, or change your
+`torrc` file to map a private IP address to the onion service address instead
+and disable TLS hostname verification in your client. Onion service names
+securely identify a service. The connection will still be secure.
 
 The default tor configuration only optimizes some ports for long-lived
 connections: For IRC, only `6667` and `6697`. If you use a different port, you
