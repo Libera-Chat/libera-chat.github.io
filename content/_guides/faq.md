@@ -284,6 +284,14 @@ If you're trying to run a bot on a SASL-only range, your bot will need SASL
 support. If it lacks this support, you can connect it through a bouncer that
 does support SASL.
 
+## Are LLMs allowed?
+
+We have [outlined some best practices](https://libera.chat/news/llm-etiquette)
+for using LLMs on the network.
+
+Training AIs on channel content is considered scraping or public logging,
+which are covered by our [network policies](/policies#public-logging).
+
 ## Are bridges allowed?
 
 We do allow user operated bridges on Libera.Chat. Please get permission from
