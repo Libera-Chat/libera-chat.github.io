@@ -27,7 +27,7 @@ and 500 after a month. Today we are hosting roughly 950 projects
 and communities, and that number is still growing. We are hoping to reach
 the 1000th registration soon!
 
-All these communites are quite diverse. Libera.Chat services are not only
+All these communities are quite diverse. Libera.Chat services are not only
 used by major free/open source operating systems and well known, world wide
 operating institutions such as the Wikimedia Foundation; we also have local
 Linux User Groups, the hackspace around the corner hacking on whimsical
