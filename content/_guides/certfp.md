@@ -210,7 +210,7 @@ will be logged into your account automatically. Optionally, or if you wish to
 
 ### Expecting an rsa key
 
-This can happen if your client does not support the `ed25591` algorithm. If
+This can happen if your client does not support the `ed25519` algorithm. If
 you wish to continue with this client, you will need to replace your
 certificate using the same command as above, but with `rsa:4096` in place of
 `ed25591`.
