@@ -138,7 +138,7 @@ punctuation (e.g. `certs/libera.pem` or `certs/Example Server.pem`).
 
 ### Konversation
 
-Create the .pem file as per above using `rsa:4096` instead of `ed25591`,
+Create the .pem file as per above using `rsa:4096` instead of `ed25519`,
 then place it wherever you want. Start Konversation, then open the Identity
 dialogue by either pressing <kbd>F8</kbd> or via the Settings menu entry.
 Choose the identity you use for the Libera.Chat network or create a new one.
@@ -213,4 +213,4 @@ will be logged into your account automatically. Optionally, or if you wish to
 This can happen if your client does not support the `ed25519` algorithm. If
 you wish to continue with this client, you will need to replace your
 certificate using the same command as above, but with `rsa:4096` in place of
-`ed25591`.
+`ed25519`.
