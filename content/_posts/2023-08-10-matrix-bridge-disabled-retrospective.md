@@ -98,7 +98,7 @@ transparent announcement [until that oversight was pointed out][secretchanleak]
 causing third party bridges and the bridge of at least one other network to
 lag in getting fixed. As a result of all this, we feel we are unable to be
 confident that reported issues have been acknowledged or addressed, and some
-folks have expressed a lack of motiviation to report issues due to past
+folks have expressed a lack of motivation to report issues due to past
 experiences. Our confidence in EMS's capacity to respond to future issues was
 further eroded with the ["reset" of their trust and safety team][tasreset]
 during layoffs at the end of last year.

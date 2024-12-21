@@ -60,7 +60,7 @@ accounting software, and banking services.
 
 We thank everyone who has made a monetary donation or made a purchase via
 our merchandise partnership. These funds directly fund our organisational
-costs. The larger one-time donations we recieved last year is being held
+costs. The larger one-time donations we received last year is being held
 as a reserve in case of unexpected events.
 
 The full financial report can be found in Appendix 1.
