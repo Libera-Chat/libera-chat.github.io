@@ -1,5 +1,5 @@
 ---
-title: Sending memos
+title: Memos
 category: using
 weight: 61
 ---
