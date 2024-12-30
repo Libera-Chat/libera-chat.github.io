@@ -4,8 +4,28 @@
 
 <body>
   {%- include nav.html -%}
+  {%- assign year = "now" | date: "%Y" -%}
+  {%- assign thisyearts = "-01-01 00:00:00" | prepend: year | date: '%s' -%}
+  {%- assign nextyearts = thisyearts | plus: 31536000 | date: '%s' -%}
+  {%- assign startspooky = "-10-01 00:00:00" | prepend: year | date: '%s' -%}
+  {%- assign endspooky = "-11-01 23:59:59" | prepend: year | date: '%s' -%}
+  {%- assign startlights = "-12-14 23:59:59" | prepend: year | date: '%s' -%}
+  {%- assign endlights = "-12-30 23:59:59" | prepend: year | date: '%s'-%}
+  {%- assign startny = "-12-31 00:00:00" | prepend: year | date: '%s' -%}
+  {%- assign endny = "-01-02" | prepend: year | date: '%s'-%}
+  {%- assign today = "now" | date: '%s' -%}
 
-  {%- include hero.html -%}
+  {%- if startspooky <= today and today <= endspooky -%}
+    {%- include heroween.html -%}
+  {%- elsif startlights <= today and today <= endlights -%}
+    {%- include herolights.html -%}
+  {%- elsif startny <= today and today <= nextyearts -%}
+	{%- include heronewyear.html -%}
+  {%- elsif thisyearts <= today and today <= endny -%}
+	{%- include heronewyear.html -%}
+  {%- else -%}
+    {%- include hero.html -%}
+  {% endif %}
 
   <main id="main">
     {%- include article.html article=site.posts.first -%}
