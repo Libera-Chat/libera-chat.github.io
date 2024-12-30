@@ -31,11 +31,6 @@
   width: 50%;
 }
 
-.hero .logo picture {
-  display: flex;
-  justify-content: center;
-}
-
 .hero .logo h1 {
   margin: 0;
   font-family: Comfortaa, Ubuntu, sans-serif;
