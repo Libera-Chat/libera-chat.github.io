@@ -6,13 +6,13 @@
   {%- include nav.html -%}
   {%- assign year = "now" | date: "%Y" -%}
   {%- assign thisyearts = "-01-01 00:00:00" | prepend: year | date: '%s' -%}
-  {%- assign nextyearts = thisyearts | plus: 31536000 | date: '%s' -%}
+  {%- assign nextyearts = "-01-01 00:00:00" | date: "%s" | plus: 31536000 | date: '%s' -%}
   {%- assign startspooky = "-10-01 00:00:00" | prepend: year | date: '%s' -%}
   {%- assign endspooky = "-11-01 23:59:59" | prepend: year | date: '%s' -%}
   {%- assign startlights = "-12-14 23:59:59" | prepend: year | date: '%s' -%}
   {%- assign endlights = "-12-30 23:59:59" | prepend: year | date: '%s'-%}
   {%- assign startny = "-12-30 23:59:59" | prepend: year | date: '%s' -%}
-  {%- assign endny = "-01-02" | prepend: year | date: '%s'-%}
+  {%- assign endny = "-01-02 23:59:59" | prepend: year | date: '%s'-%}
   {%- assign today = "now" | date: '%s' -%}
 
   {%- if startspooky <= today and today <= endspooky -%}
