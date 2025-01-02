@@ -34,6 +34,11 @@ The current auditors are:
 
 - **Auditor**: amdj
 
+The organisation additionally has a general secretary whose role is to ensure
+the timely completion and publication of meeting minutes.
+
+- **General Secretary**: She
+
 ## Projects and community team
 
 The projects and community team manages our relationships with

@@ -2,7 +2,7 @@
 title: Libera Chat Bylaws
 ---
 
-v 2022-03-25, organisation number 802535-6448
+v 2024-12-20, organisation number 802535-6448
 
 ## Organisation and purpose
 
@@ -267,6 +267,33 @@ v 2022-03-25, organisation number 802535-6448
 6. Auditors can be recalled by any Monthly General Meeting. An auditor so
    recalled shall prepare an interim report for their successor or a remaining
    auditor.
+
+## General Secretary
+
+1. At any time, the membership may appoint a member to be the general
+   secretary.
+
+2. The duties of the general secretary are:
+
+   - Follow up with the meeting secretary and adjusters to ensure timely
+     progress on the production and signing of meeting minutes.
+
+   - Should they deem it likely that the meeting minutes will not be
+     produced before the deadline as defined in the bylaws, to appoint
+     another member in attendence during that meeting to produce the minutes
+     based on the meeting secretary's notes.
+
+   - To act as an approver of last resort for meetings in which the
+     general secretary was in attendence and the elected approvers for that
+     meeting have not approved or objected to the minutes by the minute
+     publication deadline.
+
+3. The general secretary cannot be an auditor.
+
+4. The general secretary can resign as general secretary and remain a member
+   of the organisation.
+
+5. The general secretary can be recalled by any Monthly General Meeting.
 
 ## Complaints
 
