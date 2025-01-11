@@ -48,8 +48,14 @@ We encourage our users, communities, channel owner, and operators to follow our
 ## Unwanted content and behaviour
 
 Libera.Chat is bound by Swedish law. Unlawful activities and related
-supporting activities are not allowed. In addition to that, heavy media file
-trading, pornography, and various forms of antisocial behaviour are forbidden.
+supporting activities, including unauthorised distribution of restricted media,
+are not allowed. In addition to that, various forms of antisocial behaviour
+are forbidden.
+
+Libera.Chat is not intended for use by minors. However, services and
+communities dedicated to adult content are not welcome on Libera.Chat.
+Content of an explicit nature is discouraged and must consider the comfort
+and safety of others.
 
 Both by our values and Swedish law, discrimination based on faith, ethnicity,
 sexual orientation, sex or gender expression, disability, or age is not
