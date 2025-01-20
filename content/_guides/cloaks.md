@@ -81,6 +81,8 @@ cloaks are seen by others as representatives of your community and as such
 the bearer's behaviour will reflect onto the reputation of
 your project or community.
 
+You can review your project's cloaks with `/msg nickserv listgroupcloaks <project>/*`.
+
 ## Re-identifying with NickServ
 
 Assigned cloaks must be associated with an account and will not appear if you
