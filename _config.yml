@@ -9,8 +9,6 @@ kramdown:
 
 highlighter: rouge
 
-facebook:
-  publisher: liberachat
 mastodon:
   username: liberachat
   instance: fosstodon.org
