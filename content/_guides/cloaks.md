@@ -54,8 +54,9 @@ and help others to find you if something goes wrong with the bot.
 ## Project or community cloaks
 
 [Projects and communities](/chanreg#what-is-on-topic) that are
-aligned with our mission are eligible for group registrations. One of the
-perks of group registration is the ability to request cloaks for participants.
+aligned with our mission are eligible for [group registrations](/guides/groups).
+One of the perks of group registration is the ability to request cloaks for
+participants.
 
 ### Getting project or community cloaks
 
@@ -65,21 +66,6 @@ or community cloaks vary by group. For help with this, ask a group contact for
 your project or community. If your project has listed group contacts publicly,
 they will be listed as "Public contacts" in `/msg ChanServ INFO <channel>`.
 If not, ask for help in the relevant channel.
-
-### Instructions for Group Contacts
-
-If your project or community has had an official group registration approved,
-then you are probably able to request cloaks for your users and contributors.
-Registered projects are represented by Group Contacts (also known as GCs).
-Only these people have the right to request cloaks for group members.
-If you are a GC, then you will have a standing invite to `#libera-communities`
-where you may request cloaks for projects that you are a registered GC for.
-
-While it is not mandatory, we do recommend having some internal standards for
-your users to meet to be eligible for your project's cloaks. Bearers of your
-cloaks are seen by others as representatives of your community and as such
-the bearer's behaviour will reflect onto the reputation of
-your project or community.
 
 ## Re-identifying with NickServ
 
