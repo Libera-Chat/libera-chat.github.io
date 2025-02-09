@@ -72,8 +72,10 @@ If your project or community has had an official group registration approved,
 then you are probably able to request cloaks for your users and contributors.
 Registered projects are represented by Group Contacts (also known as GCs).
 Only these people have the right to request cloaks for group members.
-If you are a GC, then you will have a standing invite to `#libera-communities`
-where you may request cloaks for projects that you are a registered GC for.
+
+Instructions for managing group cloaks can be found in the
+[GC Guide](/guides/groupcontacts#managing-group-cloaks), along with other
+useful tools.
 
 While it is not mandatory, we do recommend having some internal standards for
 your users to meet to be eligible for your project's cloaks. Bearers of your
