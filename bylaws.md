@@ -163,6 +163,10 @@ v 2024-12-20, organisation number 802535-6448
 
      - Treasurer,
 
+     - Operations committee representative,
+
+     - General board members,
+
      - Auditors,
 
      - Vice chair of the board.
@@ -216,24 +220,29 @@ v 2024-12-20, organisation number 802535-6448
    archived for the lifetime of the organisation and at least seven (7) years
    thereafter.
 
-3. The board consists of the chair and treasurer elected by a general meeting
-   and one representative of each specialised committee.
+3. The board consists of the chair, treasurer, operations committee
+   representative, and two general members, all elected by a general meeting.
 
-4. The board meets if the chair of the board, the auditors, or a majority of
+4. The operations committee representative must be a member of the operations
+   specialised committee. Should the representative leave or be removed from
+   the operations specialised committee, the general meeting shall elect a
+   new operations committee representative.
+
+5. The board meets if the chair of the board, the auditors, or a majority of
    the board members call for it. The board needs a quorum of at least half
    of the board members.
 
-5. In addition to the board members, the auditors have the right to
+6. In addition to the board members, the auditors have the right to
    participate and speak at board meetings.
 
-6. The monthly general meeting electing the chair of the board shall also
+7. The monthly general meeting electing the chair of the board shall also
    elect a vice chair to act as chair in the chair's absence.
 
-7. Board members can resign from the board and remain members of the
+8. Board members can resign from the board and remain members of the
    organisation. A resigning board member shall prepare an interim report for
    their successor.
 
-8. Board members can be recalled by any Monthly General Meeting.
+9. Board members can be recalled by any Monthly General Meeting.
 
 ## Auditors
 
@@ -397,10 +406,7 @@ v 2024-12-20, organisation number 802535-6448
 2. Membership in one of the specialised committees is granted either by a
    monthly general meeting, or by the members of the specialised committee.
 
-3. The specialised committees each elect a representative to the board,
-   subject to approval by the Monthly General Meeting.
-
-4. The specialised committees are responsible for defining their mission
+3. The specialised committees are responsible for defining their mission
    statement and rules of operation, providing these do not conflict with
    these bylaws, and subject to approval by the Monthly General Meeting.
 
