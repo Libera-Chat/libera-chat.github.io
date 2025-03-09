@@ -1,7 +1,10 @@
 @font-face {
   /* ubuntu-mono-regular - latin */
-  font-family: 'Ubuntu Mono';
-  src: local(''), url('/static/fonts/ubuntu-mono-v10-latin-regular.woff2') format('woff2'), url('/static/fonts/ubuntu-mono-v10-latin-regular.woff') format('woff'), url('/static/fonts/ubuntu-mono-v10-latin-regular.ttf') format('truetype');
+  font-family: "Ubuntu Mono";
+  src: local(""),
+    url("/static/fonts/ubuntu-mono-v10-latin-regular.woff2") format("woff2"),
+    url("/static/fonts/ubuntu-mono-v10-latin-regular.woff") format("woff"),
+    url("/static/fonts/ubuntu-mono-v10-latin-regular.ttf") format("truetype");
   font-style: normal;
   font-weight: 400;
   font-display: swap;
@@ -9,8 +12,11 @@
 
 @font-face {
   /* ubuntu-500 - latin */
-  font-family: 'Ubuntu';
-  src: local(''), url('/static/fonts/ubuntu-v15-latin-500.woff2') format('woff2'), url('/static/fonts/ubuntu-v15-latin-500.woff') format('woff'), url('/static/fonts/ubuntu-v15-latin-500.ttf') format('truetype');
+  font-family: "Ubuntu";
+  src: local(""),
+    url("/static/fonts/ubuntu-v15-latin-500.woff2") format("woff2"),
+    url("/static/fonts/ubuntu-v15-latin-500.woff") format("woff"),
+    url("/static/fonts/ubuntu-v15-latin-500.ttf") format("truetype");
   font-style: normal;
   font-weight: 500;
   font-display: swap;
@@ -18,22 +24,28 @@
 
 @font-face {
   /* ubuntu-italic - latin */
-  font-family: 'Ubuntu';
-  src: local(''), url('/static/fonts/ubuntu-v15-latin-italic.woff2') format('woff2'), url('/static/fonts/ubuntu-v15-latin-italic.woff') format('woff'), url('/static/fonts/ubuntu-v15-latin-italic.ttf') format('truetype');
+  font-family: "Ubuntu";
+  src: local(""),
+    url("/static/fonts/ubuntu-v15-latin-italic.woff2") format("woff2"),
+    url("/static/fonts/ubuntu-v15-latin-italic.woff") format("woff"),
+    url("/static/fonts/ubuntu-v15-latin-italic.ttf") format("truetype");
   font-style: italic;
   font-weight: 400;
   font-display: swap;
 }
 
-code, pre, kbd {
-  font-family: 'Ubuntu Mono', monospace;
+code,
+pre,
+kbd {
+  font-family: "Ubuntu Mono", monospace;
   background-color: var(--c-bg-secondary);
   overflow-x: auto;
-  border-radius: .3rem;
+  border-radius: 0.3rem;
 }
 
-code, kbd {
-  padding: .1rem .3rem;
+code,
+kbd {
+  padding: 0.1rem 0.3rem;
   border: 1px solid var(--c-border);
 }
 
@@ -44,7 +56,7 @@ pre code {
 }
 
 pre {
-  padding: .3rem 1rem;
+  padding: 0.3rem 1rem;
   border: 1px solid var(--c-border);
 }
 
@@ -53,7 +65,8 @@ div.table {
   max-width: 100%;
 }
 
-div.table p:first-child, div.table p:last-child {
+div.table p:first-child,
+div.table p:last-child {
   margin: 0;
 }
 
@@ -69,7 +82,8 @@ table tbody tr:nth-child(even) {
   background-color: var(--c-bg-secondary);
 }
 
-table tbody tr:nth-child(even) kbd, table tbody tr:nth-child(even) code {
+table tbody tr:nth-child(even) kbd,
+table tbody tr:nth-child(even) code {
   background-color: var(--c-bg);
 }
 
@@ -78,8 +92,9 @@ table th {
   background-color: var(--c-bg-secondary);
 }
 
-table th, table td {
-  padding: .3rem;
+table th,
+table td {
+  padding: 0.3rem;
   vertical-align: top;
   text-align: start;
   border: 1px solid var(--c-border);
@@ -94,7 +109,7 @@ table td p:first-child {
 }
 
 blockquote {
-  border-inline-start: .25rem solid var(--c-border);
+  border-inline-start: 0.25rem solid var(--c-border);
   margin: 0;
   padding-inline-start: var(--content-inline-padding);
   font-style: italic;
@@ -106,7 +121,7 @@ hr {
   margin: 2rem 10%;
 }
 
-hr+* {
+hr + * {
   margin-block-start: 0;
 }
 
@@ -131,7 +146,7 @@ main .sponsors a {
   align-items: center;
   justify-content: center;
   text-align: center;
-  padding: .5rem;
+  padding: 0.5rem;
 }
 
 main .sponsors a:hover {
@@ -180,4 +195,37 @@ main .sponsors a img {
 .verification input[type="submit"]:hover {
   background-color: var(--c-hl-secondary);
   color: var(--c-text-on-hl-secondary);
+}
+
+@media print {
+  header,
+  footer,
+  aside,
+  nav {
+    display: none !important;
+  }
+
+  body,
+  main,
+  div,
+  * {
+    background: transparent !important;
+    background-color: transparent !important;
+  }
+
+  p,
+  div,
+  section,
+  article {
+    margin-block-start: 0 !important;
+    margin-block-end: 0 !important;
+    margin-inline-start: 0 !important;
+    margin-inline-end: 0 !important;
+  }
+
+  p,
+  tr {
+    page-break-inside: avoid;
+    break-inside: avoid;
+  }
 }
