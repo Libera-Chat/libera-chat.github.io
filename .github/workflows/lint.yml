@@ -9,22 +9,22 @@ jobs:
 
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v4
       - name: Cache
-        uses: actions/cache@v2.1.4
+        uses: actions/cache@v4
         with:
           path: ~/.npm
           key: ${{ runner.os }}-node-${{ hashFiles('**/package.json') }}
           restore-keys: |
             ${{ runner.os }}-node-
-      - uses: actions/setup-node@v2
+      - uses: actions/setup-node@v4
         with:
           node-version: 12
       - run: npm i --prefer-offline
 
-      - uses: xt0rted/markdownlint-problem-matcher@v1
+      - uses: xt0rted/markdownlint-problem-matcher@v3
       - run: npm run lint:md
-      - uses: xt0rted/markdownlint-problem-matcher@v1
+      - uses: xt0rted/markdownlint-problem-matcher@v3
         if: success() || failure()
         with:
           action: remove
@@ -35,7 +35,7 @@ jobs:
     env:
       BUNDLE_PATH: vendor/bundle
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v4
       - name: Ruby
         uses: ruby/setup-ruby@v1
         with:
@@ -44,7 +44,7 @@ jobs:
       - run: bundle exec jekyll build
       - name: Cache HTMLProofer
         id: cache-htmlproofer
-        uses: actions/cache@v2
+        uses: actions/cache@v4
         with:
           path: tmp/.htmlproofer
           key: ${{ runner.os }}-htmlproofer
