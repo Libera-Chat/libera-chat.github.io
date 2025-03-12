@@ -184,13 +184,14 @@ right of the screen to save.
 ### mIRC
 
 1. In the File menu, click Select Servers...
-2. In the Connect -> Servers section of the mIRC Options window, select Libera.Chat, then click the `hamburger` / `three bars` icon, then click Edit.
+2. In the Connect -> Servers section of the mIRC Options window,
+   select Libera.Chat, click the hamburger menu button, then click Edit.
 3. In the `Login Method` dropdown, select `SASL External /CAP`.
 4. Click the `SSL` Tab.
 5. Check `Use private certificate`.
-6. Click the rectange box below and select the certificate file. The file must contain both the certificate and private key.
+6. Click the rectange box below and select the certificate file.
+   The file must contain both the certificate and private key.
 7. Click the OK button.
-
 
 ## Add your fingerprint to NickServ
 
