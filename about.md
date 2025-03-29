@@ -15,9 +15,9 @@ and keeping the member list in sync. There are also three teams within
 the organisation specialising on certain areas: Projects and Community,
 Engineering, and Operations. Members can choose to be part of these teams.
 
-The board of the organisation comprises a chair, a treasurer and a
-representative from each of our specialised teams. Board seats are elected
-by the membership. The current board members are:
+The board of the organisation comprises a chair, a treasurer,
+a representative from the operations team and two general members.
+Board seats are elected by the membership. The current board members are:
 
 - **Chair**: moonmoon
 - **Treasurer**: Swant
