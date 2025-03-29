@@ -21,9 +21,9 @@ by the membership. The current board members are:
 
 - **Chair**: moonmoon
 - **Treasurer**: Swant
-- **Projects and Community Rep**: Allie
-- **Engineering Rep, Vice Chair**: spb
 - **Operations Rep**: tomaw
+- **General Member, Vice Chair**: glguy
+- **General Member**: She
 
 In addition to this the organisation has two auditors elected by the membership.
 Their role is to audit the board's actions on behalf of the membership.
@@ -33,6 +33,7 @@ organisation, will be published in a yearly
 The current auditors are:
 
 - **Auditor**: amdj
+- **Auditor**: Sario
 
 The organisation additionally has a general secretary whose role is to ensure
 the timely completion and publication of meeting minutes.
