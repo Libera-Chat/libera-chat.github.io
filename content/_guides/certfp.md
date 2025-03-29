@@ -32,11 +32,11 @@ openssl req -x509 -new -newkey rsa:4096 -sha256 -nodes -out libera.pem -keyout l
 ```
 
 You will be prompted for various pieces of information about the certificate.
-The contents do not matter for our purposes, but `openssl` needs at least one
-of them to be non-empty. This certificate will have the default expiry of 30
-days, as Libera.Chat no longer checks for certificate expiry.
+The contents do not matter for our purposes, but `openssl` needs **at least
+one** of them to be non-empty. This certificate will have the default expiry
+of 30 days, as Libera.Chat no longer checks for certificate expiry.
 
-The `.pem` file will have the same access to your NickServ account as your
+This `.pem` file will have the same access to your NickServ account as your
 password does, so take appropriate care in securing it.
 
 ## Inspecting your certificate
@@ -106,28 +106,33 @@ certificate.
    mv libera.pem ~/.weechat/certs
    ```
 
-2. Configure your Libera Chat server to use your newly generated certificate.
+2. If you already have a Libera.Chat server, you can skip this step. If you do
+   **not** currently have a Libera.Chat server, you will need to create one:
+   
+   ```irc
+   /set irc.server.liberachat.addresses irc.libera.chat/6697
+   ```
+
+3. Configure your Libera.Chat server to use your newly generated certificate.
    These commands are examples and you must adapt the `liberachat` portion of
    them to the name you gave to the network, as shown with `/server list`.
 
    ```irc
    # For Weechat version >= 4.0.0
-   /set irc.server.liberachat.addresses irc.libera.chat/6697
    /set irc.server.liberachat.tls on
    /set irc.server.liberachat.tls_verify on
    /set irc.server.liberachat.tls_cert %h/certs/libera.pem
 
    # For Weechat version < 4.0.0
-   /set irc.server.liberachat.addresses irc.libera.chat/6697
    /set irc.server.liberachat.ssl on
    /set irc.server.liberachat.ssl_verify on
    /set irc.server.liberachat.ssl_cert %h/certs/libera.pem
    ```
 
-3. (Re)connect to the network.
-4. Follow the instructions [to add the fingerprint](#add-your-fingerprint-to-nickserv)
-to your account.
-5. Set the server's sasl_mechanism to `external`
+4. (Re)connect to the network.
+5. Follow the instructions [to add the fingerprint](#add-your-fingerprint-to-nickserv)
+   to your account.
+6. Set the server's sasl_mechanism to `external`
 
    ```irc
    /set irc.server.liberachat.sasl_mechanism external
@@ -135,8 +140,9 @@ to your account.
 
 Future connections will now use your certificate to authenticate you.
 
-Note that if you are using CertFP to connect to our tor hidden service,
-either set up the alias for palladium or set `ssl_verify` to `off`.
+**Note:** If you are using CertFP to connect to
+[our tor hidden service](/guides/connect#accessing-liberachat-via-tor),
+either set up the alias for palladium, or set `ssl_verify` to `off`.
 
 ### znc
 
@@ -157,11 +163,12 @@ see `certfp generate` in the [IRC service manual](https://soju.im/doc/soju.1.htm
 3. Once the file is there, all subsequent SSL connections will use the
    certificate.
 
-If you connect to multiple IRC networks, you should keep in mind that using
-the filename `certs/client.pem` will send the same certificate to all networks.
-If you prefer per-network certificates, use the name of the network exactly
-as it appears in the network list (Ctrl-S), **including capitalisation and
-punctuation** (e.g. `certs/libera.pem` or `certs/Example Server.pem`).
+**Note:** If you connect to multiple IRC networks, you should keep in mind
+that using the filename `certs/client.pem` will send the same certificate to
+all networks. If you prefer per-network certificates, use the name of the
+network exactly as it appears in the network list (`Ctrl-S`), **including
+capitalisation and punctuation** (e.g. `certs/libera.pem` or `certs/Example
+Server.pem`).
 
 ### Konversation
 
@@ -205,40 +212,44 @@ you:
    and a certificate fingerprint will be displayed.
 3. Tap the tick symbol on the top right of the screen to save.
 
-Follow the instructions [to add the fingerprint](#add-your-fingerprint-to-nickserv)
+Finally, follow the instructions [to add the fingerprint](#add-your-fingerprint-to-nickserv)
 to your account. Future connections will now use your certificate to
 authenticate you.
 
 ### KVIrc
 
-1. You can create/put `libera.pem` in your KVIrc config directory (e.g.
-   `~/.config/KVIrc`).
+1. [Create the certificate](#creating-a-self-signed-certificate) and place
+   it in your KVIrc config directory (e.g. `~/.config/KVIrc`).
 2. In `Settings/Configure KVIrc...` expand `Connection` and click `Advanced`.
-3. In the `SSL` tab ...
-4. Check `Use SSL certificate`.
-5. At `Certificate location` configure the location of libera.pem.
-6. Check `Use SSL private key`.
-7. At `Private key location` configure the location of libera.pem.
-8. (optional) If you have certificate and private key in separate files, use
-   these in the respective fields instead.
-9. Click `OK` or `Apply`.
-10. Follow the instructions [to add the fingerprint](#add-your-fingerprint-to-nickserv)
-    to your account.
+3. Select the `SSL` tab.
+4. Check `Use SSL certificate` and configure `Certificate location` as the
+   location of `libera.pem`.
+5. Check `Use SSL private key` and configure `Private key location` as the
+   location of `libera.pem` as well. 
+6. Click `OK` or `Apply`.
+7. Follow the instructions [to add the fingerprint](#add-your-fingerprint-to-nickserv)
+   to your account.
 
 Future connections will now use your certificate to authenticate you.
 
+**Note:** If you used the [certificate creation instructions](#creating-a-self-signed-certificate),
+for steps 4 and 5, both locations should be the same. If you used other
+instructions and have a certificate and private key in separate files, use
+these in the respective fields instead.
+
 ### mIRC
 
-1. In the `File` menu, click `Select Server...`
-2. In the `Connect` -> `Servers` section of the `mIRC Options` window,
+1. [Create your certificate](#creating-a-self-signed-certificate).
+2. In the `File` menu, click `Select Server...`
+3. In the `Connect` -> `Servers` section of the `mIRC Options` window,
    select Libera.Chat, click the hamburger menu button, then click `Edit`.
-3. In the `Login Method` dropdown, select `SASL External /CAP`.
-4. Click the `SSL` Tab.
-5. Check `Use private certificate`.
-6. Click the rectangle box below and select the certificate file.
+4. In the `Login Method` dropdown, select `SASL External /CAP`.
+5. Click the `SSL` Tab.
+6. Check `Use private certificate`.
+7. Click the rectangle box below and select the certificate file.
    The file must contain both the certificate and private key.
-7. Click the `OK` button.
-8. Follow the instructions [to add the fingerprint](#add-your-fingerprint-to-nickserv)
+8. Click the `OK` button.
+9. Follow the instructions [to add the fingerprint](#add-your-fingerprint-to-nickserv)
    to your account.
 
 Future connections will now use your certificate to authenticate you.
@@ -259,15 +270,15 @@ Future connections will now use your certificate to authenticate you.
 
 Future connections will now use your certificate to authenticate you.
 
-Note: The option to have Adiirc generate a certificate for you does not
+**Note:** The option to have Adiirc generate a certificate for you does not
 currently generate a compatible certificate.
 
 <!-- markdownlint-disable MD022 -->
 ## Add your fingerprint to NickServ
 {: .no_toc}
 
-You can then check whether you have a fingerprint by using `whois` on
-yourself:
+After connecting, you can check whether you have a fingerprint by using
+`whois` on yourself:
 
 ```irc
 /whois YourOwnNick
@@ -277,19 +288,19 @@ YourOwnNick has client certificate fingerprint 959c0bdfa9877d3466c5848f55264f72f
 ```
 
 To allow NickServ to recognise you based on your certificate, you need to add
-the **sha512** fingerprint to your account (you will need to log in by other
-means in order to do so).
+the certificate's fingerprint to your account. You will need to log in to your
+account with a password method to do this.
 
-You can then authorise your current certificate fingerprint:
+Once logged in, you can authorise your current certificate fingerprint:
 
 ```irc
 /msg NickServ CERT ADD
 ```
 
-In the future, any connections you make to Libera.Chat with your certificate
-will be logged into your account automatically. Optionally, or if you wish to
-[connect via Tor](/guides/connect), you can enable SASL with the `EXTERNAL`
-mechanism.
+Future connections you make to Libera.Chat with any client configured to use
+**that** certificate, will be logged into your account automatically. You may
+need to configure the client to use SASL with the `EXTERNAL` mechanism to get
+the benefits of using SASL, or to [connect over tor](/guides/connect#accessing-liberachat-via-tor).
 
 ## Troubleshooting
 {: .no_toc}
