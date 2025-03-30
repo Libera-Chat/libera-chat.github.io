@@ -15,7 +15,6 @@ For `SASL EXTERNAL` to work, you must [connect over TLS](/guides/connect).
 ## Creating a self-signed certificate
 {: .no_toc}
 
-
 In order to follow these instructions, you will need the `openssl` utility. If
 you are using Windows and do not have a copy, you might consider using Cygwin.
 
@@ -108,7 +107,7 @@ certificate.
 
 2. If you already have a Libera.Chat server, you can skip this step. If you do
    **not** currently have a Libera.Chat server, you will need to create one:
-   
+
    ```irc
    /set irc.server.liberachat.addresses irc.libera.chat/6697
    ```
@@ -225,7 +224,7 @@ authenticate you.
 4. Check `Use SSL certificate` and configure `Certificate location` as the
    location of `libera.pem`.
 5. Check `Use SSL private key` and configure `Private key location` as the
-   location of `libera.pem` as well. 
+   location of `libera.pem` as well.
 6. Click `OK` or `Apply`.
 7. Follow the instructions [to add the fingerprint](#add-your-fingerprint-to-nickserv)
    to your account.
