@@ -114,8 +114,9 @@ main img {
   display: block;
   margin: 1.5rem auto;
   max-width: var(--content-max-width);
-  max-height: 40vh;
+  max-height: 45vh;
 }
+
 
 main .sponsors {
   display: grid;
@@ -151,6 +152,10 @@ main .sponsors a img {
   }
   main .sponsors a {
     height: 5rem;
+  }
+  
+  main img.feature{
+    max-height: 100vw;
   }
 }
 
