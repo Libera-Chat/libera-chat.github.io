@@ -90,8 +90,8 @@ they are attached.
 
 The financial report and the auditor's report are also attached.
 
-- Appendix 1: Financial Report
-- Appendix 2: Activity Report - Projects & Community
-- Appendix 3: Activity Report - Engineering Team
-- Appendix 4: Activity Report - Operations Team
-- Appendix 5: Auditor's Report
+- [Appendix 1: Financial Report](./a1-financial-report)
+- [Appendix 2: Activity Report - Projects & Community](./a2-activity-report-pac)
+- [Appendix 3: Activity Report - Engineering Team](./a3-activity-report-eng)
+- [Appendix 4: Activity Report - Operations Team](./a4-activity-report-ops)
+- [Appendix 5: Auditor's Report](./a5-auditors-report)
