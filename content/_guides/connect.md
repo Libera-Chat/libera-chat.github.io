@@ -38,7 +38,7 @@ CA certificates. On most linux distributions this will be in a package named
 something like ca-certificates. Many systems install these by default, but some
 (such as FreeBSD) do not. For FreeBSD, the package is named ca\_root\_nss,
 which will install the appropriate root certificates in
-/usr/local/share/certs/ca-root-nss.crt.
+`/usr/local/share/certs/ca-root-nss.crt`.
 
 Certificate verification will generally only work when connecting to
 **`libera.chat`**. If your client thinks the server's certificate is invalid,

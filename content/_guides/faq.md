@@ -73,7 +73,7 @@ you can enquire about the ban by sending an email to us at <bans@libera.chat>.
 ## You need to identify via SASL to use this server
 
 You have tried to connect from a
-[SASL access only range](/guides/sasl#sasl-access-only-ip-ranges)
+[SASL access only range](/guides/sasl#sasl-access-only-ip-ranges).
 
 ## Cannot send to nick/channel
 
@@ -319,7 +319,7 @@ hit connection limits or trip anti-abuse measures. Please contact
 Please consult our [Matrix FAQ](/guides/matrix) for information on connecting
 with Matrix, getting support for Matrix, and other Matrix related questions.
 
-## Can I connect with XMPP
+## Can I connect with XMPP?
 
 Third-party operated XMPP bridges are allowed on Libera.Chat, however we
 prohibit double bridging, including over XMPP. We also request that
