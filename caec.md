@@ -2,6 +2,13 @@
 title: Rules for the Computer-Aided Enrichment Center
 ---
 
+>Update: This was our April 1st 2025 prank. It was a reminder that burnout is
+>real, especially in volunteer efforts, and that it has no easy answers. This
+>is also a protest about the social burden created by LLMs - often trained
+>using questionable ethics - including on the quality of support resources.
+>And sometimes with the ultimate goal of replacing real human interactions
+>that make communities like ours so special. <3
+
 1. **Be nice to each other. No bigotry or personal attacks.**
 
    This rule is all about promoting a friendly and respectful atmosphere. It
@@ -31,9 +38,11 @@ title: Rules for the Computer-Aided Enrichment Center
 Overall, these rules are meant to keep the game fair, fun, and respectful for
 everyone involved.
 
+<!-- markdownlint-disable MD033 -->
 <picture>
     <source srcset="/static/img/aprildark.png"
     media="(prefers-color-scheme: dark)">
-    <img class="feature" alt="Introducing APRIL"
-    src="/static/img/aprilbright.png" data-proofer-ignore>
+	<img class="feature" alt="Introducing APRIL"
+	src="/static/img/aprilbright.png" data-proofer-ignore>
 </picture>
+<!-- markdownlint-restore -->
