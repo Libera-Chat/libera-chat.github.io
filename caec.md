@@ -42,7 +42,7 @@ everyone involved.
 <picture>
     <source srcset="/static/img/aprildark.png"
     media="(prefers-color-scheme: dark)">
-	<img class="feature" alt="Introducing APRIL"
-	src="/static/img/aprilbright.png" data-proofer-ignore>
+    <img class="feature" alt="Introducing APRIL"
+    src="/static/img/aprilbright.png" data-proofer-ignore>
 </picture>
 <!-- markdownlint-restore -->
