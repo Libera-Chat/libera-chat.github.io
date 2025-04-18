@@ -6,7 +6,11 @@ weight: 20
 ---
 
 Various modes can be set on channels. Use `/mode #channel` to list current
-channel modes and `/msg chanserv info #channel` to list modes set with MLOCK.
+channel modes and `/msg ChanServ info #channel` to list modes set with MLOCK.
+
+Using `/msg ChanServ LISTMODES` will give you the current channel modes and
+MLOCK of all channels which you have privileges in, avoiding the need to check
+each channel individually.
 
 All channel modes will be lost when a channel becomes empty. Enable GUARD to
 preserve modes.

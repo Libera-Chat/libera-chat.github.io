@@ -88,6 +88,10 @@ branding rules you need to comply with.
 
 Congratulations on your new Libera.Chat channel!
 
+By default, your channel has the `s` mode which means it is secret and will
+not appear in [searches](/guides/findingchannels). When your channel is ready
+for visitors, you can [remove this mode](#setting-channel-modes).
+
 ### Troubleshooting
 
 If you do not get the operator status, but believe you already registered
@@ -118,12 +122,43 @@ Once you have resolved the conflict, you can resume
 
 ### Special Instructions for Group Contacts
 
-Libera.Chat uses Atheme's `ProjectServ`, which provides Group Contacts with
-some [additional tools for managing group namespaces](/guides/groupcontacts).
+Libera.Chat uses an Atheme feature called `ProjectServ` to track group
+registrations. It shows some additional information in `NickServ` and allows
+for convenient features such as `CLAIM` in `ChanServ`.
 
-This includes a new command in `ChanServ` to `CLAIM` a channel that already
-exists within a registered namespace. This will add you as a new founder of an
-existing channel, or register the channel if it didn't exist.
+If you already have a group registration set up with us and you are listed as
+a Group Contact (GC) for the namespace you have chosen, it will be displayed
+to you in your `NickServ` info. Look for a line like:
+
+```irc
+NickServ: Group contact for projectname (#projectname; projectname/*)
+```
+
+`CLAIM` will allow you to acquire a channel _within your namespace_ even if
+that channel is already registered to someone else, without the need for staff
+intervention. It can also be used for initial registration even if it is not
+already taken.
+
+```irc
+09:23 -- ChanServ: ***** ChanServ Help *****
+09:23 -- ChanServ:  
+09:23 -- ChanServ: Help for CLAIM:
+09:23 -- ChanServ:  
+09:23 -- ChanServ: The CLAIM command allows you to take control of a channel
+09:23 -- ChanServ: belonging to a project you are authorized to represent.
+09:23 -- ChanServ:  
+09:23 -- ChanServ: Syntax: CLAIM <#channel>                            
+09:23 -- ChanServ:  
+09:23 -- ChanServ: Examples:
+09:23 -- ChanServ:     /msg ChanServ CLAIM #coolproject-dev            
+09:23 -- ChanServ:  
+09:23 -- ChanServ: ***** End of Help *****
+```
+
+Using `CLAIM` to grab a channel from someone else might be seen as hostile, or
+it could confuse people, so it is a good idea to at least give some warning.
+Try to ask for the cooperation of people who have already occupied or
+registered a channel before taking it from them.
 
 ## Setting channel modes
 

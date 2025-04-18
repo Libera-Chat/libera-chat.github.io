@@ -62,6 +62,9 @@ their namespace.
 -- ChanServ: ***** End of Help *****
 ```
 
+Channels which are displayed with `(SECRET)` have the `s`
+[channel mode](/guides/creatingchannels#setting-channel-modes) set to on.
+
 `CLAIM` can be used for any channels that should not be there.
 
 ## Managing group cloaks
