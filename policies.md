@@ -30,9 +30,11 @@ on-topic projects and groups are also welcome to have channels and discussions
 about other content.
 
 Please note that groups wanting to use our network for other subjects (e.g.
-financial, political, or dating chats) should use a network that is better
-suited for that kind of content. If you are unsure and wish to avoid a future
-inconvenience, we invite you to check with us first.
+political or dating chats) should use a network that is better suited for
+that kind of content. In particular, topics which can put users at risk of
+misinformation (e.g. financial, medical, or legal) are better suited
+elsewhere. If you are unsure and wish to avoid a future inconvenience, we
+invite you to check with us first.
 
 ## Community rules and recommendations
 
