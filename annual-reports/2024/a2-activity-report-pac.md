@@ -10,12 +10,14 @@ that, we keep up communications and good relationships both on the network and
 also through other channels, such as social media.
 
 ## Registrations
+
 At the end of fiscal year 2024 we had 1024 registered projects. In a first
 since the inception of Libera.Chat, our project registration backlog is now
 empty! This will allow us to respond to any future requests in a much more
 expedient fashion.
 
 ## Improvements
+
 We have revised our project registration and channel namespace policies to help
 clarify what we look for in a registered project, and to assist people with
 setting up and maintaining channels without requiring formal registration.
@@ -24,17 +26,20 @@ network, to help provide guidance to our communities that they can take and
 further customise according to their needs.
 
 ## Social Media
+
 During 2024 we decided to stop posting content to Facebook and the social media
 site formerly known as Twitter. Our focus is now on our Fosstodon fediverse
 account and our account on Bluesky. We have been posting community-building
 content to these accounts, such as our April Fools Day prank.
 
 ## Team Internals
+
 The PaC team consisted of 17 members at the end of fiscal year 2024. We did not
 hold any formal PaC meetings during 2024, however there was much activity on our
 internal IRC channel.
 
 ## Looking Forwards
+
 As we move into 2025, we expect to see a slowdown in new project registrations
 due to many communities already established on Libera.Chat already having
 registrations as well as our revised channel namespace guidelines that reduce
