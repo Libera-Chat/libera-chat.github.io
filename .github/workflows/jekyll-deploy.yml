@@ -17,6 +17,7 @@ concurrency:
 
 jobs:
   deploy:
+    if: github.repository == 'Libera-Chat/libera-chat.github.io'
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
