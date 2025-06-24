@@ -89,7 +89,7 @@
     grid-template-areas: "logo tagline" "logo cta";
   }
   .hero .logo, .hero .tagline, .hero .cta {
-    max-width: calc(var(--content-max-width) / 1.5);
+    max-width: calc(var(--content-max-width) / 1.90);
   }
   .hero .logo {
     justify-self: end;
