@@ -58,7 +58,8 @@ appear in WHOIS (a 276 numeric).
 ## Accessing Libera.Chat Via Tor
 
 Libera.Chat is reachable via [Tor](https://www.torproject.org/) using our
-[onion service](https://community.torproject.org/onion-services/).
+[onion service](https://community.torproject.org/onion-services/),
+provided you already have an account (created without using Tor).
 
 Configuration requirements with details below:
 
