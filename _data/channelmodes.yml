@@ -107,13 +107,18 @@
 - mode: m
   name: moderated
   description: |
-    Only opped and voiced users can send to the channel. This mode does not
-    prevent users from changing nicks.
+    Only opped (`+o`) and voiced (`+v`) users can send to the channel.
+    This mode does not prevent users from changing nicks.
 - mode: 'n'
   name: prevent external send
   description: |
     Users outside the channel may not send messages to it.
     Keep in mind that bans and quiets will not apply to external users.
+- mode: o
+  name: operator
+  description: |
+    Matching users are channel operators. They have full control over modes
+    and the topic, and may ban, kick, quiet, or op other users.
 - mode: p
   name: private
   description: |
@@ -166,6 +171,10 @@
     Receive messages that are filtered server side by Libera.Chat based on
     content, usually spam. Set `+u` if you want the channel to receive these
     messages. Also see the corresponding [user mode](/guides/usermodes).
+- mode: v
+  name: voiced
+  description: |
+    Allows matching users to speak regardless of `+m` or `+q` flags.
 - mode: z
   name: reduced moderation
   description: |
