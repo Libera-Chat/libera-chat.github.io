@@ -9,21 +9,53 @@ seo:
 - TOC
 {:toc}
 
+## How to find channels?
+
+If you are using our KiwiIRC webchat and have decent internet,
+type `/list`. Otherwise, please see our guide on
+[finding channels](https://libera.chat/guides/findingchannels).
+
 ## How to find Libera Chat staff?
+
+### In `#libera`
+
+`#libera` is the main support channel for users of the network.
+Staff in `#libera` are opped up,
+see [this link](https://libera.chat/guides/catalyst#why-is-libera-different)
+for why we do this.
+There are also some bots, currently `ChanServ` and `ozone`,
+that are opped at all times. The robots do not answer questions.
+
+Note that `#libera` is one of the largest channels on the network.
+Please be considerate of others' privacy when sharing information.
 
 ### Immediately available staff
 
 [Staff](/about#wider-staff-and-organisation-membership) make use of a list
 to highlight staff members who are immediately available. This allows you to
-find and contact staff discreetly and is our preferred method of taking
-questions.
+find and contact staff discreetly while being reasonably sure you will
+get a timely answer.
 
-The list may appear in your network window instead of the current one.
-Request the list by doing:
+On most clients, you can request the list with the following command:
 
 ```irc
 /stats p
 ```
+
+The list may appear in your network window instead of the current one.
+If the list is empty, staff may still be available for private messages.
+
+### Other ways to find staff
+
+If no staff are listed with `/stats p`, most clients will allow you to
+find staff member members that share channels with you with:
+
+```irc
+/who libera/staff/*
+```
+
+As with `/stats p`,
+this list may appear in your network window instead of the current one.
 
 ### Contacting staff privately
 
@@ -32,9 +64,7 @@ member.** They will answer if they notice your message in time. If they're not
 responsive, you may attempt to talk to other staff members instead.
 
 You can confirm that someone you are talking to is a member of network
-staff by their `@libera/staff/<TheirNick>` vhost, also known as a
-[cloak](/guides/cloaks).
-
+staff by their `libera/staff/*` [cloak](/guides/cloaks).
 In many clients the cloak might appear at the top of a PM window. If not, it
 will show in the information you get when you `/whois <TheirNick>`. For
 example, the first line of the output for `/whois el` looks like:
@@ -43,21 +73,11 @@ example, the first line of the output for `/whois el` looks like:
 06:50 -- [el] (~el@libera/staff/el): el
 ```
 
-### Other ways to find staff
+### Email
 
-If no staff are listed with `/stats p` you can find staff you share channels
-with by doing:
-
-```irc
-/who libera/staff/*
-```
-
-Additionally, most staff have the operator mode in `#libera` to make them easy
-to find when they're connected. There are also some robots, currently
-`ChanServ` and `ozone`, with that mode. The robots do not answer questions.
-
-If you are unable to [connect to the network](/guides/connect) at all, you can
-contact staff by email: <support@libera.chat>.
+If you are unable to [connect to the network](/guides/connect) at all
+or have a longer query that isn't well-expressed over IRC,
+you can contact staff [by email to <support@libera.chat>](mailto:support@libera.chat).
 
 ## The server says I am banned! Why?
 
@@ -79,13 +99,14 @@ You have tried to connect from a
 
 ## Cannot change nickname while banned on channel
 
-First, check that you are [registered](/guides/registration).
+Some channels have a quiet on `$~a`, which prevents unregistered users from
+sending messages to the channel or changing nicknames while in the channel.
+This is because most botnets and disruptive people do not make accounts,
+and channel mode `+R` did not always exist on the network.
 
+First, check that you are [registered](/guides/registration).
 If you already have an account then [identify](/guides/registration#logging-in)
 to it.
-
-Some channels require users to be registered to participate. This is because
-most botnets and disruptive people do not make accounts.
 
 If you are both registered and identified and still cannot join or talk, you
 might be [banned or quieted](/guides/faq#how-do-i-get-unbanned-or-unquieted)
@@ -102,26 +123,43 @@ First, check if you are [registered](/guides/registration). If you do have
 an account then make sure you have
 [identified](/guides/registration#logging-in) to it.
 
+## I have a cloak, but I still see my IP address in `/whois`!
+
+The output you receive from commands is not indicative of the output others
+receive from those same commands. The line that contains your IP address
+is not shown for other users. You can confirm this for yourself by launching
+[the webchat](https://web.libera.chat) and `/whois`-ing your primary
+connection from the webchat.
+
 ## How do I get unbanned or unquieted?
 
 If you have been banned from or quieted in a channel, you will need to resolve
 the issue with the people who run the channel. If you cannot remember who
 banned or quieted you, there are a few options.
 
-You can try to find your ban/quiet, and the operator who set it, by viewing
+Some channels have `-ops` channels where the operators of the channel
+are available for ban appeals and other discussion about channel management.
+For example, a channel named `#example` might have an `#example-ops` channel.
+It is a common courtesy not to idle in such channels out of respect for the
+privacy of others who might join after you.
+Please note that some channels, like `#libera`, have `-ops` channels that
+are private. If attempting to join an `-ops` channel gives you an error that
+you must be invited, the channel is probably not meant for appeals.
+
+You can try to find your ban/quiet and the operator who set it by viewing
 the ban and quiet lists for the channel (this may output a lot of lines):
 
 ```irc
 /mode #channelname bq
 ```
 
-If that is too overwhelming, or if `PUBACL` (public access control lists) is
-off, or if all the bans are attributed to Libera.Chat domains, you can instead
-try to
+If that is too overwhelming, or if the ChanServ `PUBACL` setting
+(public access control lists) is off, you can instead try to
 [find out who runs the channel](faq#how-to-find-out-who-runs-a-channel).
 
 Remember, channel ops are **not** obligated to negotiate with you, and evading
-bans (sneaking back in) usually makes the matter worse.
+bans (sneaking back in) usually makes the matter worse. In fact, intentionally
+evading channel bans is often grounds for removal from the network.
 
 Asking network staff will not work as we **will not** override a ban or quiet
 set by a channel operator, and will not reveal information that is private. We
@@ -146,8 +184,9 @@ topic:
 /topic #channelname
 ```
 
-If the channel is set `PRIVATE` then you will not get information with those
-commands.
+If the channel is has the `PRIVATE` setting
+or does *not* have the `PUBACL` setting,
+then you may not get information with those commands.
 
 Your only remaining option is to find someone else in the channel who might
 help you get in contact.
@@ -176,27 +215,6 @@ If your nickname was requested by someone else because it had expired, the
 above process will not work. You may be able to request it back if it becomes
 expired again.
 
-## Why are people trying to log in as me?
-
-When you have `BADPASSWDMSG` enabled, you might get alerts from NickServ
-or SaslServ about attempts to log in to your account. These alerts are
-almost always caused by clients that are misconfigured.
-
-If you have lots of nicks grouped or if you have a common name or word
-grouped, you will get an above average number of alerts.
-
-You do not need to worry if you have chosen a strong password that is not used
-in other places.
-
-If the attempts are very frequent and persistent, feel welcome to let staff
-know, just in case. Libera.Chat does stop actual brute force attacks and
-these messages were [disabled by default](/news/badpasswdmsg-default),
-due to excessive noise. To disable them:
-
-```irc
-/msg Nickserv SET BADPASSWDMSG OFF
-```
-
 ## What are Global Notices and Wallops, and can I opt out of them?
 
 **Global Notices** are network wide messages that staff can send to everyone on
@@ -210,9 +228,9 @@ mentioned in a global notice, messages that are intended to encourage
 community building, or to celebrate milestones in the projects and communities
 that are the network's primary stakeholders. Messages sent with wallops
 **can** be opted out of with `/mode yourname -w`. This will need to be done
-each time you connect to the network as this is a default user mode on Libera
-Chat. Nearly all clients can send commands at connection time; see their
-documentation or support channels for details.
+each time you connect to the network as this is a default user mode on
+Libera.Chat. Nearly all clients can send commands at connection time;
+see their documentation or support channels for details.
 
 ## Warez or Adult content sharing?
 
@@ -272,7 +290,9 @@ follow our [public logging policy](/policies#public-logging).
 
 Users and bots with the flags `+v` or `+o` within a channel have protection
 against triggering flood mitigation. For this reason, it is recommended that
-noisy bots have one of these flags.
+noisy bots have one of these flags. Please be aware that this does *not*
+exempt bots from the typical rate limits for sending messages, which allow
+one message to be sent every two seconds.
 
 Additional exemptions may be allocated when the need for them is demonstrated.
 If you find that your bot is hitting limits, email <support@libera.chat> for
