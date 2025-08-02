@@ -29,9 +29,10 @@ a member of staff will be happy to discuss it and answer any questions you
 may have.
 
 1. **Select** a main, "primary", nickname. If the nickname you want is
-   registered but has expired, just ask a staffer and in most cases, we
-   will be happy to drop it for you. Please avoid using the name of a
-   community project or trademarked entity, to avoid conflicts.
+   registered but has [expired](/policies#nickname-expiration), just ask
+   a staffer and in most cases, we will be happy to drop it for you. Please
+   avoid using the name of a community project or trademarked entity, to avoid
+   conflicts.
 
 2. **Switch** to your desired nickname. This will also be your account name.
 
@@ -166,7 +167,7 @@ Once you have registered and are logged in, this issue should disappear.
 
 Registered nicknames and accounts will expire if they're not used for a long
 time, after which they'll be available for another user to take over. See our
-[policies](/policies) for details of when this occurs.
+[policies](/policies#nickname-expiration) for details of when this occurs.
 
 While nicknames and accounts do not automatically get deleted when they
 expire—only when another user requests to take over the registration-we do
