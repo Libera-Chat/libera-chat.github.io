@@ -96,16 +96,10 @@ may have.
 ## Logging In
 
 You'll need to log in to your account each time you connect to Libera.Chat.
-
-The simplest, and most robust, way to do this is to configure
-[SASL](/guides/sasl), if your client supports it. If not, you can supply
-your login details, in the form `<account>:<password>`, as a server password
-and they will be forwarded to NickServ when you finish connecting.
-For example:
-
-```irc
-/connect irc.libera.chat 6667 YourNick:YourPassword
-```
+**It is highly recommended to use [SASL](/guides/sasl) for this,
+which is supported by every notable modern IRC client.**
+Instructions for your client can likely be found
+[here](/guides/sasl#sasl-client-configuration).
 
 If you are already connected to the network and do not wish to reconnect to
 log in, you can manually identify:
@@ -113,6 +107,13 @@ log in, you can manually identify:
 ```irc
 /msg NickServ IDENTIFY YourNick YourPassword
 ```
+
+If your client does not support SASL, you can log in by supplying
+your account name and password as a
+[connection password](https://dd.ircdocs.horse/refs/commands/pass)
+of the form `<account>:<password>`, for example `my_cool_nick:password123`.
+The method of setting a connection password varies significantly
+between clients. Please refer to your client's documentation.
 
 ## Controlling Usage of Your Nicknames
 
