@@ -33,11 +33,11 @@ new initiatives do not immediately attempt a formal group registration.
 
 ## Channel namespaces
 
-Our [policies](/policies) outline that channels on Libera.Chat fall into one
-of three categories and two namespaces. Channels that begin with only a single
-`#` character are primarily for on-topic project and community channels
-(e.g. `#linux`). Channels that begin with two or more `#` characters are for
-informal channels (e.g. `##chat`).
+Our [policies](/policies/#channels) outline that channels on Libera.Chat fall
+into one of three categories and two namespaces. Channels that begin with only
+a single `#` character are primarily for on-topic project and community
+channels (e.g. `#linux`). Channels that begin with two or more `#` characters
+are for informal channels (e.g. `##chat`).
 
 [Registered groups](#formal-group-registration) additionally have their own
 channel namespaces that they control. This includes the "main" channel for
