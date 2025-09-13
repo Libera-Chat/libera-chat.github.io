@@ -94,6 +94,10 @@ prerequisites for recommendation.
 
 - [goguma](https://codeberg.org/emersion/goguma#readme)
   - Simple user-friendly IRC client.
+  - Goguma only supports a very small set of common IRC client commands.
+    Some commands for basic functionality that experienced IRC users
+    take for granted will be missing. This will limit the assistance
+    you can get while using this client.
   - Available on:
     - [F-Droid][goguma-fdroid]
     - [Google Play Store (Unofficial)][goguma-google]
