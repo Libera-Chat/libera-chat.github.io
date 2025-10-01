@@ -5,6 +5,9 @@ title: Donate to Libera Chat
 Libera Chat accepts donations via
 [Liberapay](https://liberapay.com/liberachat/donate).
 
+For one-off payments requiring an invoice, or other arrangements, please reach
+out to <donations@libera.chat>.
+
 We currently use these donations to cover the operational costs of the network
 as well as the administrative upkeep of the legal entity.
 
