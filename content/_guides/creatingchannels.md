@@ -206,24 +206,18 @@ might also need to do some [channel management](/guides/catalyst) if some of
 them outstay their welcome. If you enlist help for this, you will need to give
 your new operators permissions.
 
+To _permanently_ give someone the permission to voice and devoice themself:
+
+```irc
+/msg ChanServ FLAGS <#channel> [accountname] +v
+```
+
+Substitute the `+v` for any combination of available permissions. `+vo` would
+grant them the permissions to toggle voice and op statuses for themself.
+
 The permissions you can give are outlined in the output of
 `/msg ChanServ HELP FLAGS`, along with instructions about the use of
 `TEMPLATE` functionality.
-
-If your channel is **not** set `SECURE`, then you can trial new operators by
-_temporarily_ giving them the operator status.
-
-```irc
-/msg ChanServ OP <#channel> [nickname]
-```
-
-Substitute `DEOP` in place of `OP` to remove their status if you don't like
-their performance. `VOICE` and `DEVOICE` are the equivalents for giving and
-taking voiced status.
-
-The `SECURE` channel flag limits `OP|DEOP|VOICE|DEVOICE` functionality to
-only those who possess the corresponding `ChanServ` flags, which will prevent
-people from receiving these statuses on a temporary basis.
 
 **Be very careful who you grant the `F` flag to. They will have full
 permissions on the channel and will be able to remove your own `F`.** The `f`
@@ -237,9 +231,24 @@ will not be able to get the channel back without their cooperation or by
 [registering as a group](/chanreg).
 
 We also recommend against using `+O` or `+V` as these flags mean people will
-be given operator or voiced status on joining a channel. See
-[the catalyst guide](/guides/catalyst#only-be-opped-up-when-necessary)
+be given operator or voiced status automatically when joining the channel.
+See [the catalyst guide](/guides/catalyst#only-be-opped-up-when-necessary)
 for the philosophy behind this.
+
+If your channel is **not** set `SECURE`, then you can trial new operators by
+_temporarily_ giving them the operator status:
+
+```irc
+/msg ChanServ OP <#channel> [nickname]
+```
+
+Substitute `DEOP` in place of `OP` to remove their status if you don't like
+their performance. `VOICE` and `DEVOICE` are the equivalents for giving and
+taking voiced status.
+
+The `SECURE` channel flag limits `OP|DEOP|VOICE|DEVOICE` functionality to
+only those who possess the corresponding `ChanServ` flags, which will prevent
+people from receiving these statuses on a temporary basis.
 
 ## Other channel settings
 
