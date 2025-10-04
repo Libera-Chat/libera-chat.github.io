@@ -209,7 +209,7 @@ your new operators permissions.
 To _permanently_ give someone the permission to voice and devoice themself:
 
 ```irc
-/msg ChanServ FLAGS <#channel> [nickname] +v
+/msg ChanServ FLAGS <#channel> [accountname] +v
 ```
 
 Substitute the `+v` for any combination of available permissions. `+vo` would
