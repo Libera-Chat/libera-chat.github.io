@@ -202,3 +202,9 @@ have gotten permission from all participants before doing so.
 
 You can find details about what data we collect, keep, and for how long
 in our [privacy policy](/privacy).
+
+## Security policy
+
+For information about what constitutes "security" in the context of
+Libera.Chat and how to confidentially report security vulnerabilities,
+please see our [security policy](/security).

@@ -1,0 +1,5 @@
+Contact: mailto:security@libera.chat
+Expires: 2026-04-23T11:52:43.961Z
+Preferred-Languages: en, sv
+Canonical: https://libera.chat/.well-known/security.txt
+Policy: https://libera.chat/security
