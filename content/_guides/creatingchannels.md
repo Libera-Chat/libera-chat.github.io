@@ -231,7 +231,7 @@ will not be able to get the channel back without their cooperation or by
 [registering as a group](/chanreg).
 
 We also recommend against using `+O` or `+V` as these flags mean people will
-be given operator or voiced status automatically when joining the channel. 
+be given operator or voiced status automatically when joining the channel.
 See [the catalyst guide](/guides/catalyst#only-be-opped-up-when-necessary)
 for the philosophy behind this.
 
