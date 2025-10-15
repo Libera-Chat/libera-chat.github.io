@@ -174,7 +174,10 @@
 - mode: v
   name: voiced
   description: |
-    Allows matching users to speak regardless of `+m` or `+q` flags.
+    Allows matching users to speak regardless of `+m` or `+q` flags. Also
+    recommended for bots that talk in channels, as it exempts matching
+    users from some channel flood controls, and will prevent network
+    staff and the network's spam-management bots from being notified.
 - mode: z
   name: reduced moderation
   description: |
