@@ -1,6 +1,7 @@
 ---
 title: Libera.Chat and FreeWear.org partnership for merchandise
 author: Fuchs
+excerpt: Buy stuff with our logo on it to support us!
 ---
 
 Hello Libera Chat users,

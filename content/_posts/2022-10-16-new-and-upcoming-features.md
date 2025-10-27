@@ -1,6 +1,7 @@
 ---
 title: New And Upcoming Features
 author: She
+excerpt: IRC features to try out and look forward to.
 ---
 
 Hello Libera Chat users,

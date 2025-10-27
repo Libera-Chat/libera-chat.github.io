@@ -1,6 +1,7 @@
 ---
 title: Are your channels visible enough?
 author: el
+excerpt: How to ensure that channels which should be findable _are_ findable.
 ---
 
 Hello!

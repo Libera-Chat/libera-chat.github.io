@@ -1,6 +1,7 @@
 ---
 title: Login Failure Notice Opt-Out
 author: jess
+excerpt: Introducing the NickServ `BADPASSWDMSG` setting.
 ---
 
 Hello everyone,
