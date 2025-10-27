@@ -1,7 +1,6 @@
 ---
 title: Account Auto-Cloaking
 author: She
-excerpt: The cloaks bot is dead, all hail the cloaks service module!
 ---
 
 Hello Libera.Chat users!

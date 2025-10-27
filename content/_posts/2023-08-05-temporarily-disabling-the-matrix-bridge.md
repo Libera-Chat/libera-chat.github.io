@@ -1,7 +1,6 @@
 ---
 title: Temporarily disabling the Matrix Bridge
 author: Allie and el
-excerpt: The Matrix bridge is down for now due to a regression.
 ---
 
 {::options parse_block_html="true" /}

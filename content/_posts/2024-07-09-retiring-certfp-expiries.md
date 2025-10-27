@@ -1,7 +1,6 @@
 ---
 title: "Retiring CertFP Expiration Verification"
 author: el
-excerpt: Your expired TLS client certificates will no longer be rejected.
 ---
 
 Here is some good news for folks who use [CertFP][certfp] to log in to

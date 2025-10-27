@@ -1,7 +1,6 @@
 ---
 title: Welcome to Libera Chat
 author: staff
-excerpt: A warm welcome to a new IRC network!
 ---
 
 We're excited to announce the launch of Libera.Chat, and welcome you to a

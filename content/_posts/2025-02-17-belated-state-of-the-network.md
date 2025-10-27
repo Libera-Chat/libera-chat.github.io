@@ -1,7 +1,6 @@
 ---
 title: A belated state of the network
 author: el
-excerpt: The state of the network at the end of 2024.
 ---
 
 Happy 2025 everyone!

@@ -1,7 +1,6 @@
 ---
 title: Matrix Bridge Temporary Shutdown, a Retrospective
 author: el, She, Allie, Ben
-excerpt: How did things with the Matrix bridge get to this point?
 ---
 
 {::options parse_block_html="true" /}

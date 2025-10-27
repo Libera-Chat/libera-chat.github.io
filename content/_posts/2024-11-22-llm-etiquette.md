@@ -1,7 +1,6 @@
 ---
 title: "Establishing an etiquette for LLM use on Libera.Chat"
 author: staff
-excerpt: Best practices for LLM usage on Libera.Chat.
 ---
 
 Greetings fellow humans!

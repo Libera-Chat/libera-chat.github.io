@@ -1,7 +1,6 @@
 ---
 title: OSUOSL is worth saving
 author: el
-excerpt: The Oregon State University Open Source Lab needs help!
 ---
 
 Hey everyone,

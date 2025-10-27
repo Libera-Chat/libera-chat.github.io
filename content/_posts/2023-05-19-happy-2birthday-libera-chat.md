@@ -1,7 +1,6 @@
 ---
 title: Happy 2nd Birthday, Libera Chat!
 author: Fuchs
-excerpt: The state of the network after two years of operation.
 ---
 
 Hello everyone,

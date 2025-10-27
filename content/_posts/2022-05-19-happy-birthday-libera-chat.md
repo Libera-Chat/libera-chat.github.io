@@ -1,7 +1,6 @@
 ---
 title: Happy Birthday, Libera Chat!
 author: staff
-excerpt: The state of the network after one year of operation.
 ---
 
 Hello everyone,

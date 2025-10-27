@@ -1,7 +1,6 @@
 ---
 title: Updates on the matrix<>IRC bridge
 author: Allie
-excerpt: About possible future limitations on the bridge.
 ---
 
 {::options parse_block_html="true" /}

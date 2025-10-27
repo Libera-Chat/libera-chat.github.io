@@ -1,7 +1,6 @@
 ---
 title: Delays in Disabling Matrix Portalling
 author: kline
-excerpt: Portalling will now be disabled on 2023-08-11 at EMS's request.
 ---
 
 {::options parse_block_html="true" /}

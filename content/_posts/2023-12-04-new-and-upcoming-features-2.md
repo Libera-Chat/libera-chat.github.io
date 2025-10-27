@@ -1,7 +1,6 @@
 ---
 title: New And Upcoming Features #2
 author: el, glguy, moonmoon, She, spb
-excerpt: Some more IRC features to try or look forward to.
 ---
 
 Hello Libera.Chat users,

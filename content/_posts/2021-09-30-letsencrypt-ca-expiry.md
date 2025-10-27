@@ -1,7 +1,6 @@
 ---
 title: Let's Encrypt root CA expiry
 author: edk
-excerpt: Why Hexchat on Windows started getting TLS failures recently.
 ---
 
 Hello,

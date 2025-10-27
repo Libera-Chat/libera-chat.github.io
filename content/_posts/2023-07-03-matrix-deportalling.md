@@ -1,7 +1,6 @@
 ---
 title: Disabling Matrix Portalling 
 author: Allie
-excerpt: Portalled channels will be going away on 2023-07-31. Details below.
 ---
 
 {::options parse_block_html="true" /}
