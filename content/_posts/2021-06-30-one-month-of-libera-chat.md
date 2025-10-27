@@ -1,6 +1,7 @@
 ---
 title: One month of Libera Chat
 author: Fuchs
+excerpt: The state of the network after one month of operation.
 ---
 
 Whew - what a month (and a couple of days).

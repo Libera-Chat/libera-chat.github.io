@@ -1,6 +1,7 @@
 ---
 title: Changing Default For Login Failure Notices
 author: She
+excerpt: `BADPASSWDMSG` now defaults to `OFF`.
 ---
 
 Hello Libera.Chat users,

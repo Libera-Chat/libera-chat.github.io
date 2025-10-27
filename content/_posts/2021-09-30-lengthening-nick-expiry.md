@@ -1,6 +1,7 @@
 ---
 title: Lengthening Nickname Expiry
 author: kline
+excerpt: Nicknames now expire after 20 weeks instead of 10.
 ---
 
 Hello Libera Chat users,

@@ -1,6 +1,7 @@
 ---
 title: One week of Libera Chat
 author: kline
+excerpt: The state of the network after one week of operation.
 ---
 
 Hello, Libera Chat users!

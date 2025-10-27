@@ -1,6 +1,7 @@
 ---
 title: Just over 100 days of Libera Chat
 author: el, glguy
+excerpt: The state of the network after just over three months of operation.
 ---
 
 Hello everyone!

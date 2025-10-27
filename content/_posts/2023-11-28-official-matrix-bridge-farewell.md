@@ -1,6 +1,7 @@
 ---
 title: Official Matrix bridge farewell
 author: el
+excerpt: Next steps for Matrix users following the shutdown of the EMS bridge.
 ---
 
 Hello, I am the bearer of unfortunate news.
