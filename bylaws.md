@@ -2,7 +2,7 @@
 title: Libera Chat Bylaws
 ---
 
-v 2025-04-26, organisation number 802535-6448
+v 2025-11-28, organisation number 802535-6448
 
 ## Organisation and purpose
 
@@ -58,9 +58,12 @@ v 2025-04-26, organisation number 802535-6448
 
 6. Membership is terminated if:
 
-   - The member withdraws their membership by notifying the membership, or
+   - The member withdraws their membership by notifying the membership,
 
-   - The member is suspended.
+   - The member is suspended, or
+
+   - The member does not cast a ballot in two (2) consecutive Annual
+     Asynchronous Elections.
 
 7. All membership changes must be documented in an archived and searchable
    record.
@@ -91,7 +94,8 @@ v 2025-04-26, organisation number 802535-6448
 
 6. For each meeting each member of the given organ has one vote.
 
-7. When electing persons, the following additional points apply:
+7. When electing persons outside of an Annual Asynchronous Election, the
+   following additional points apply:
 
    - To be elected, each candidate must have over 50% of the votes cast
 
@@ -161,7 +165,7 @@ v 2025-04-26, organisation number 802535-6448
 
    - Membership fee.
 
-   - Election of:
+   - Tally and certification of Annual Asynchronous Election for:
 
      - Chair of the board,
 
@@ -171,9 +175,9 @@ v 2025-04-26, organisation number 802535-6448
 
      - General board members,
 
-     - Auditors,
+     - Auditors.
 
-     - Vice chair of the board.
+   - Election of vice chair of the board.
 
    Monthly General Meetings may additionally deal with any of these items at
    any other time.
@@ -307,6 +311,55 @@ v 2025-04-26, organisation number 802535-6448
    of the organisation.
 
 5. The general secretary can be recalled by any Monthly General Meeting.
+
+## Annual Asynchronous Election
+
+1. Once per year, an Annual Asynchronous Election is held to elect the
+   following roles:
+
+   - Chair of the board,
+
+   - Treasurer,
+
+   - Operations committee representative,
+
+   - General board members,
+
+   - Auditors.
+
+2. The Annual Asynchronous Election shall commence at least thirty (30) days
+   prior to the Monthly General Meeting scheduled to tally and certify its
+   votes.
+
+3. No ballots may be cast after the start of the Monthly General Meeting
+   which tallies and certifies the votes of the Annual Asynchronous Election.
+
+4. Prior to the commencement of the Annual Asynchronous Election, the
+   Monthly General Meeting decides upon the voting platform to be used and
+   its configuration. The configuration shall, at minimum, allow all members
+   to cast ballots, allow members to cast blank ballots, and allow the
+   membership to view the list of voters who have cast ballots.
+
+5. At least two (2) weeks prior to the commencement of the Annual Asynchronous
+   Election, members who wish to run for one or more positions on the ballot
+   shall announce their candidacies to the membership. Once the election has
+   commenced, no new candidacies may be announced.
+
+6. A member can withdraw their announced candidacy at any time.
+
+7. The board shall notify the members of all relevant dates related to the
+   Annual Asynchronous Election at least one (1) week prior to any of these
+   dates:
+
+   - The date that candidacy announcements may begin,
+
+   - The date the election commences, and
+
+   - The date of the Monthly General Meeting responsible for tallying and
+     certifying the results of the election.
+
+   This notification shall also include instructions for how the members
+   can cast their ballots.
 
 ## Complaints
 
