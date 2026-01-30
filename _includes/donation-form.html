@@ -1,0 +1,40 @@
+<div class="donation">
+  <form method="post" action="{{ site.data.donations.backend }}/libera/donate">
+    <label>Email</label>
+    <input type="email" name="email" required>
+
+    <fieldset class="amount">
+      <legend>Amount</legend>
+
+      <select name="currency" required aria-label="Currency">
+        {% assign sorted_currencies = site.data.donations.supported_currencies | sort %}
+        {% for currency in sorted_currencies %}
+        <option value="{{ currency }}" {% if currency == "sek" %}selected{% endif %}>{{ currency | upcase }}</option>
+        {% endfor %}
+      </select>
+
+      <input type="number" name="amount" min="0" required aria-label="Amount">
+
+      <select name="type" required aria-label="Recurrence">
+        <option value="recurring">Per Month</option>
+        <option value="one-time">One-time</option>
+      </select>
+    </fieldset>
+
+    <div class="donation-buttons">
+      <input type="submit" value="Donate">
+      <a target="_blank" href="{{ site.data.donations.manage }}">
+        <button class="secondary" type="button">Manage Recurring Donations</button>
+      </a>
+    </div>
+  </form>
+
+  <p>
+    Your donation is processed securely via Stripe.
+    When you click "Donate", you will be redirected to Stripe's payment page
+    where you can complete the payment or subscription. For recurring donations,
+    you can manage your subscriptions via the "Manage Recurring Donations"
+    button, we will also send you a reminder email before each charge with
+    instructions on how to cancel the subscription if you wish to do so.
+  </p>
+</div>

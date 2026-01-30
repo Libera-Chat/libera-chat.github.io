@@ -153,7 +153,7 @@ main .sponsors a img {
   main .sponsors a {
     height: 5rem;
   }
-  
+
   main img.feature{
     max-height: 100vw;
   }
@@ -166,6 +166,24 @@ main .sponsors a img {
   align-items: flex-start;
   justify-content: center;
   width: 100%;
+}
+
+.donation form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  width: 100%;
+}
+
+.donation fieldset.amount {
+  display: grid;
+  grid-template-columns: 10ch auto 15ch;
+  width: 100%;
+  gap: calc(var(--content-inline-padding) / 2);
+  margin: 0;
+  padding: 0;
+  border: none;
 }
 
 .verification input[type="submit"] {
@@ -182,7 +200,53 @@ main .sponsors a img {
   margin: calc(var(--content-inline-padding) / 2) 0;
 }
 
-.verification input[type="submit"]:hover {
+.donation input, .donation select {
+  width: 100%;
+  margin: calc(var(--content-inline-padding) / 2) 0;
+  border: 4px solid var(--c-hl);
+  background-color: var(--c-bg-secondary);
+}
+
+.donation .donation-buttons {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  gap: calc(var(--content-inline-padding) / 2);
+  margin-top: var(--content-inline-padding);
+}
+
+.donation :is(input[type="submit"], button) {
+  width: initial;
+  border: 4px solid var(--c-hl);
+  background-color: var(--c-hl);
+  display: block;
+  color: var(--c-text-on-hl);
+  cursor: pointer;
+  text-decoration: none;
+  font-weight: 500;
+  padding: calc(var(--content-inline-padding) / 2);
+  min-width: 25ch;
+  text-align: center;
+  margin: 0;
+}
+
+.donation a button.secondary {
+  background-color: var(--c-bg-secondary);
+  color: var(--c-text);
+}
+
+.donation a:has(button) {
+  text-decoration: none;
+}
+
+.verification input[type="submit"]:hover,
+.donation :is(input[type="submit"]):hover {
   background-color: var(--c-hl-secondary);
+  border-color: var(--c-hl-secondary);
   color: var(--c-text-on-hl-secondary);
+}
+
+.donation button.secondary:hover {
+  border-color: var(--c-hl-secondary);
 }

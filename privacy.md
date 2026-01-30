@@ -38,6 +38,7 @@ information about you:
 - IP address/hostname
 - Name and version of the software you use to connect to us
 - Name and project affiliation
+- Billing information
 - Other information about your role, including if you volunteer for us
 - Data regarding our interactions with you
 
@@ -94,8 +95,9 @@ registration, sponsorship and channel namespace management will be stored at
 least until the project is deregistered or the sponsorship is terminated, this
 information may be stored for longer for purposes of restoration.
 
-Any financial transactions with Libera Chat such as when sponsoring the
-organisation will be stored for 7 years to comply with Swedish law.
+Any financial transactions with Libera Chat such as when sponsoring or donating
+to the organisation will be stored for at least 7 years to comply with
+Swedish law.
 
 Data collected by other means will be reviewed yearly and any data no longer
 needed for the purposes it was originally collected for will be deleted.
