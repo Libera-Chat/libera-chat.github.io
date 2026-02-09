@@ -1,0 +1,18 @@
+- title: Your account
+  suggest:
+    - title: How to make an account
+      guide: /guides/registration
+    - title: How to log in
+      guide: /guides/registration#logging-in
+    - title: I need to reset my password
+      guide: /guides/sendpass
+    - title: How to update my account
+      guide: /guides/account
+- title: Your channels
+  suggest:
+    - title: I'm looking for channels
+      guide: /guides/findingchannels
+    - title: How to make a channel
+      guide: /guides/creatingchannels
+    - title: How to moderate channels
+      guide: /guides/quickops

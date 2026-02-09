@@ -10,6 +10,25 @@
     {% if page.title %}
     <h1>{{ page.title }}</h1>
     {% endif %}
+
+    {% if page.slug == "faq" %}
+      <div class="cards">
+      {% assign cards = site.data.faqcards %}
+      {% for card in cards %}
+        <div class="card">
+          <h3>{{ card.title }}</h3>
+          <ul>
+          {% for suggest in card.suggest %}
+          <li><a href="{{ suggest.guide }}">{{ suggest.title }}</a></li>
+          {% endfor %}
+          </ul>
+        </div>
+      {% endfor %}
+      </div>
+
+      <h2>Other questions:</h2>
+    {% endif %}
+
     {{ content }}
 
     {% if page.credits %}
