@@ -1,12 +1,12 @@
 ---
-title: Using SASL
+title: Set Up Automatic Login
 category: connecting
 credits: web7
 weight: 30
 ---
 
-SASL is a way for your IRC client to automatically login to
-an existing [Libera.Chat account](/guides/registration).
+Most IRC clients can automatically login to an existing
+[Libera.Chat account](/guides/registration) using a process called SASL.
 Libera.Chat sometimes requires SASL authentication; if you were
 disconnected with a message saying you need SASL, skip to the section on
 [connecting from a SASL-only address](#sasl-access-only-ip-ranges).
@@ -14,7 +14,7 @@ disconnected with a message saying you need SASL, skip to the section on
 SASL is **not** the same thing as SSL or TLS. We strongly recommend
 [using TLS](/guides/connect#accessing-liberachat-via-tls) to connect.
 
-## SASL Client Configuration
+## Client Configuration
 
 We have instructions on how to configure SASL for some clients below.
 These instructions are for `PLAIN` (username+password) authentication.
@@ -79,7 +79,7 @@ supports SASL.
 Remember to check your email and verify the address on your account before you
 try to connect from the IP that is restricted.
 Once you **do** have an account, there are
-[instructions on configuring your client above](#sasl-client-configuration).
+[instructions on configuring your client above](#client-configuration).
 
 SASL-only restrictions are typically applied to address ranges that are
 the source of frequent policy violations due to providing easy access to

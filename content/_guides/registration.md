@@ -1,5 +1,5 @@
 ---
-title: Nickname Registration
+title: Register an account
 category: using
 credits: web7
 weight: 10
@@ -99,7 +99,7 @@ You'll need to log in to your account each time you connect to Libera.Chat.
 **It is highly recommended to use [SASL](/guides/sasl) for this,
 which is supported by every notable modern IRC client.**
 Instructions for your client can likely be found
-[here](/guides/sasl#sasl-client-configuration).
+[here](/guides/sasl#client-configuration).
 
 If you are already connected to the network and do not wish to reconnect to
 log in, you can manually identify:

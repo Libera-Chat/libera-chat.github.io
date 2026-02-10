@@ -1,5 +1,5 @@
 ---
-title: Basics of IRC
+title: New to Using IRC
 category: about-irc
 weight: 10
 ---
