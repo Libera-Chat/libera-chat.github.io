@@ -10,6 +10,11 @@
     {% if page.title %}
     <h1>{{ page.title }}</h1>
     {% endif %}
+
+    {% if page.slug == "faq" %}
+      {%- include faqcards.html -%}
+    {% endif %}
+
     {{ content }}
 
     {% if page.credits %}

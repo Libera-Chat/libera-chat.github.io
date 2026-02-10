@@ -396,3 +396,30 @@ footer div a:not([rel*=license]), footer div .copyright {
     display: initial;
   }
 }
+
+.cards {
+  display: grid;
+  grid-template-columns: auto;
+  padding: 20px 0;
+  gap: 20px;
+}
+
+.card {
+  background-color: var(--c-bg-secondary);
+  border: 1px solid var(--c-border);
+  padding: 20px;
+}
+
+.card h3 {
+  margin-top: 0 !important;
+}
+
+.card ul {
+  padding-top: 10px;
+}
+
+@media screen and (min-width: 800px) {
+  .cards {
+    grid-template-columns: 1fr 1fr;
+  }
+}

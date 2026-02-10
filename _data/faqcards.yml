@@ -1,0 +1,32 @@
+- title: Your account
+  suggest:
+    - title: How to make an account?
+      guide: /guides/registration
+    - title: How to log in?
+      guide: /guides/registration#logging-in
+    - title: I need to reset my password!
+      guide: /guides/sendpass
+    - title: How to update my account?
+      guide: /guides/account
+- title: Your channels
+  suggest:
+    - title: I'm looking for channels!
+      guide: /guides/findingchannels
+    - title: How to make a channel?
+      guide: /guides/creatingchannels
+    - title: How to moderate channels?
+      guide: /guides/quickops
+    - title: Why <code>#</code> and <code>##</code> channels?
+      guide: /chanreg#channel-namespaces
+- title: Fixing bans
+  suggest:
+    - title: I'm banned from a channel!
+      guide: /guides/faq#how-do-i-get-unbanned-or-unquieted
+    - title: I'm banned from the network!
+      guide: /policies#network-bans
+    - title: I'm on "DroneBL" or "EFnet RBL"!
+      guide: /guides/faq#what-is-dronebl
+- title: Your question is not here?
+  suggest:
+    - title: "In your IRC client, type:<br><code>/join #libera</code>"
+    - title: Or email us at <a href="mailto:support@libera.chat"><code>support@libera.chat</code></a>

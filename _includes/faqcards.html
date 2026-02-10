@@ -1,0 +1,23 @@
+      <div class="cards">
+      {% assign cards = site.data.faqcards %}
+      {% for card in cards %}
+        <div class="card">
+          <h3>{{ card.title }}</h3>
+          <ul>
+          {% for suggest in card.suggest %}
+            {% if suggest.guide %}
+          <li><a href="{{ suggest.guide }}">{{ suggest.title }}</a></li>
+            {% endif %}
+            {% if suggest.tip %}
+          <li>{{ suggest.title }} <blockquote>{{ suggest.tip }}</blockquote></li>
+            {% endif %}
+            {% unless suggest.guide | unless suggest.tip %}
+            <li>{{ suggest.title }}</li>
+            {% endunless %}
+          {% endfor %}
+          </ul>
+        </div>
+      {% endfor %}
+      </div>
+
+      <h2>Other questions:</h2>
