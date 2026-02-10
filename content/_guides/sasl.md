@@ -79,7 +79,7 @@ supports SASL.
 Remember to check your email and verify the address on your account before you
 try to connect from the IP that is restricted.
 Once you **do** have an account, there are
-[instructions on configuring your client above](#sasl-client-configuration).
+[instructions on configuring your client above](#client-configuration).
 
 SASL-only restrictions are typically applied to address ranges that are
 the source of frequent policy violations due to providing easy access to
