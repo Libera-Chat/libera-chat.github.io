@@ -16,6 +16,8 @@
       guide: /guides/creatingchannels
     - title: How to moderate channels?
       guide: /guides/quickops
+    - title: Why <code>#</code> and <code>##</code> channels?
+      guide: /chanreg#channel-namespaces
 - title: Fixing bans
   suggest:
     - title: I'm banned from a channel!
