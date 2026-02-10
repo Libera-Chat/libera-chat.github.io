@@ -4,18 +4,22 @@
     link: /policies
   - name: Channel Guidelines
     link: /guidelines
-  - name: Blog & News
-    link: /news
+  - name: Project Registration
+    link: /chanreg
   - name: About Libera Chat
     link: /about
   - name: Bylaws
     link: /bylaws
+  - name: Sponsors
+    link: /sponsors
+- name: Archives
+  items:
+  - name: Blog & News
+    link: /news
   - name: Meeting Minutes
     link: /minutes
   - name: Annual Reports
     link: /annual-reports
-  - name: Sponsors
-    link: /sponsors
 - name: Contribute
   items:
   - name: Donate
@@ -26,12 +30,10 @@
     link: /contributing/sponsor
   - name: Development
     link: /contributing/development
-- name: Channel Namespaces
-  link: /chanreg
-- name: Guides
-  link: /guides
-- name: FAQ
+- name: Help
   link: /guides/faq
+- name: New to IRC?
+  link: /guides/basics
 - name: Connect
   highlight: true
   items:
