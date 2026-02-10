@@ -399,7 +399,7 @@ footer div a:not([rel*=license]), footer div .copyright {
 
 .cards {
   display: grid;
-  grid-template-columns: auto auto;
+  grid-template-columns: auto;
   padding: 20px 0;
   gap: 20px;
 }
@@ -416,4 +416,10 @@ footer div a:not([rel*=license]), footer div .copyright {
 
 .card ul {
   padding-top: 10px;
+}
+
+@media screen and (min-width: 800px) {
+  .cards {
+    grid-template-columns: 1fr 1fr;
+  }
 }
