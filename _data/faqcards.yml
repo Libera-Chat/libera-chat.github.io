@@ -22,5 +22,5 @@
       guide: /guides/faq#how-do-i-get-unbanned-or-unquieted
     - title: I'm banned from the network!
       guide: /policies#network-bans
-    - title: I'm on "DroneBL" or "EfnetRBL"!
-      tip: Follow the instructions you were linked to in the ban message.
+    - title: I'm on "DroneBL" or "EFnet RBL"!
+      guide: /guides/faq#what-is-dronebl

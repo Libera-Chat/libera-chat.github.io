@@ -167,6 +167,23 @@ also **will not** confiscate channels for "unfair" banning practices.
 
 If all this fails it is likely best for everyone involved if you just move on.
 
+## What is DroneBL?
+
+[DroneBL](https://dronebl.org/) is a database of IP addresses that have been
+sources of automated abuse in the past. Because of dynamic IP address
+assignment, the data on DroneBL tends to eventually become stale. If you are
+banned due to your host being on DroneBL, follow the link in the ban message
+and click on the link on the page for your IP address that says
+"request removal".
+
+Libera.Chat also uses [EFnet RBL](https://rbl.efnetrbl.org/).
+As with DroneBL, you will receive a link that you can use to request removal
+from this list.
+
+If, after requesting removal, you are not unbanned within a day or so,
+please contact Libera.Chat staff. We can grant temporary exemptions and,
+in the case of DroneBL, potentially expedite removal.
+
 ## How to find out who runs a channel?
 
 There are several ways to find who owns or runs a channel. `ChanServ` might
