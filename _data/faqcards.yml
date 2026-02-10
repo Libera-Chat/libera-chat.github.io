@@ -24,3 +24,7 @@
       guide: /policies#network-bans
     - title: I'm on "DroneBL" or "EFnet RBL"!
       guide: /guides/faq#what-is-dronebl
+- title: Your question is not here?
+  suggest:
+    - title: "In your IRC client, type:<br><code>/join #libera</code>"
+    - title: Or email us at <a href="mailto:support@libera.chat"><code>support@libera.chat</code></a>

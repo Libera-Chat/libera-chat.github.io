@@ -11,23 +11,13 @@
             {% if suggest.tip %}
           <li>{{ suggest.title }} <blockquote>{{ suggest.tip }}</blockquote></li>
             {% endif %}
+            {% unless suggest.guide | unless suggest.tip %}
+            <li>{{ suggest.title }}</li>
+            {% endunless %}
           {% endfor %}
           </ul>
         </div>
       {% endfor %}
-        <div class="card">
-	      <h3>Brand new to IRC?</h3>
-	      <ul>
-	        <li><a href="/guides/basics">See our guide for new users!</a></li>
-          </ul>
-          <h3>Your question is not here?</h3>
-          <ul>
-            <li>In your IRC client, type:<br>
-            <code>/join #libera</code></li>
-            <li>Or email us at
-            <a href="mailto:support@libera.chat"><code>support@libera.chat</code></a></li>
-          </ul>
-        </div>
       </div>
 
       <h2>Other questions:</h2>
