@@ -1,0 +1,32 @@
+      <div class="cards">
+      {% assign cards = site.data.faqcards %}
+      {% for card in cards %}
+        <div class="card">
+          <h3>{{ card.title }}</h3>
+          <ul>
+          {% for suggest in card.suggest %}
+            {% if suggest.guide %}
+          <li><a href="{{ suggest.guide }}">{{ suggest.title }}</a></li>
+            {% endif %}
+            {% if suggest.tip %}
+          <li>{{ suggest.title }} <blockquote>{{ suggest.tip }}</blockquote></li>
+            {% endif %}
+          {% endfor %}
+          </ul>
+        </div>
+      {% endfor %}
+        <div class="card">
+	      <h3>Brand new to IRC?</h3>
+	      <ul>
+	        <li><a href="/guides/basics">Check out our guide for new users!</a></li>
+          </ul>
+          <h3>Your question is not here?</h3>
+          <ul>
+            <li>In your IRC client, type:<br>
+            <code>/join #libera</code></li>
+            <li>Or email us: <code>support@libera.chat</code></li>
+          </ul>
+        </div>
+      </div>
+
+      <h2>Other questions:</h2>
