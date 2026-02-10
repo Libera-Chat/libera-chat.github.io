@@ -1,5 +1,5 @@
 ---
-title: Nickname Registration
+title: Register an account
 category: using
 credits: web7
 weight: 10

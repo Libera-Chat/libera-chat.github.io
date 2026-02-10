@@ -1,5 +1,5 @@
 ---
-title: Using CertFP
+title: Login With a Certificate (CertFP)
 category: connecting
 credits: web7
 weight: 40
@@ -7,7 +7,7 @@ weight: 40
 
 As an alternative to password-based authentication, you can connect to
 Libera.Chat with a TLS certificate and have services recognise it
-automatically.
+automatically. *This is not necessary for most users.*
 
 For `SASL EXTERNAL` to work, you must [connect over TLS](/guides/connect).
 
