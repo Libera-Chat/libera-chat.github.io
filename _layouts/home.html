@@ -2,7 +2,7 @@
 <html lang="en">
 {%- include head.html with_hero=true -%}
 
-<body>
+<body style="overflow-y: scroll;">
   {%- include nav.html -%}
   {%- assign year = "now" | date: "%Y" -%}
   {%- assign thisyearts = "-01-01 00:00:00" | prepend: year | date: '%s' -%}
@@ -27,7 +27,7 @@
     {%- include hero.html -%}
   {% endif %}
 
-  <main id="main">
+  <main id="main" style="overflow-y: visible;">
     {%- include article.html article=site.posts.first -%}
   </main>
 
