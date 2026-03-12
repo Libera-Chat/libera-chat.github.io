@@ -77,3 +77,8 @@
   link: https://www.irccloud.com/
   image: /static/img/irccloud.svg
   current: true
+
+- name: UTAW
+  link: https://utaw.tech
+  image: /static/img/utaw.svg
+  current: true
