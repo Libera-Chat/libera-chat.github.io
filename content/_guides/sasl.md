@@ -27,7 +27,7 @@ These instructions are for `PLAIN` (username+password) authentication.
 - [EPIC5](/guides/epic5)
 - [glirc](https://github.com/glguy/irc-core/wiki/Automatically-authenticating-to-NickServ)
 - [Goguma](https://codeberg.org/emersion/goguma/src/branch/master/doc/connect.md)
-- [Halloy](https://halloy.chat/configuration/servers/sasl-plain.html)
+- [Halloy](https://www.halloy.chat/configuration/servers#sasl-plain)
 - [HexChat](/guides/hexchat)
 - [IceChat](https://wiki.icechat.net/index.php/New_Server#IRCv3_tab)
 - [irssi](/guides/irssi)
