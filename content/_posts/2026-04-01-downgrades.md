@@ -4,6 +4,12 @@ author: Libera.Chat Staff
 excerpt: Backporting IRCv3 `+typing` tags and more to older clients.
 ---
 
+>Update: This was our April 1st 2026 prank.
+>`CompatServ`/`pyrite` will be online for a few days following the publication
+>date of this post, but we will not be forcing it on our users.
+>If anyone would like to host it for their own channels,
+>the source code can be found [here](https://github.com/Libera-Chat/pyrite).
+
 Hello Libera.Chat users,
 
 First off, we would like to thank the community for the warm reception our
