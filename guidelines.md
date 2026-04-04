@@ -72,8 +72,8 @@ are:
   try to give out all information needed, and show some effort to
   get it answered or resolved.
 - We recommend not pasting multiple lines into a channel.
-  How many lines are acceptable depends on the channel; a
-  round 3 is usually a good number. You should use an external pastebin service
+  How many lines are acceptable depends on the channel;
+  around 3 is usually a good number. You should use an external pastebin service
   for larger sections of text.
 - Asking the same question in multiple channels at the same time
   ("cross posting") is often seen as rude. Try to find the correct place
