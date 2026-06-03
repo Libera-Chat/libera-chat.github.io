@@ -4,6 +4,10 @@ author: staff
 excerpt: Planned updates to our policies regarding bots and LLMs
 ---
 
+>Update: The policy updates discussed below are now in effect. Please see the
+>[bot section](/policies/#bots) and [LLM section](/policies/#llms) of our
+>policies for the actual wording that was ultimately agreed-upon by staff.
+
 Happy International Workers' Day.
 
 We need to talk about bots, particularly bots with LLMs.
