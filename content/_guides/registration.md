@@ -21,6 +21,25 @@ Some terms you should know:
 - "NickServ" is a Libera.Chat service that behaves like a user
   (which you can send private messages to)
 
+## Warning
+
+The following instructions assume that the `/msg` command exists
+on your client, which may not be true for esoteric clients or **Goguma**.
+Additionally, many IRC clients will treat messages that begin with spaces
+as regular messages, not commands. For instance, the following could
+expose your private information to whatever channel you currently have
+focused (note the leading space):
+
+```irc
+ /msg NickServ REGISTER BadPassword private.email@example.com`
+```
+
+It is recommended to open a private message window with NickServ before
+running these commands. Many clients let you do this with `/query NickServ`.
+If your client does not support `/msg`, then all of the NickServ commands
+below can instead be sent in a private message window to NickServ
+with the `/msg NickServ` portion omitted.
+
 ## Registering
 
 The following steps are the recommended method to register and set up a new
