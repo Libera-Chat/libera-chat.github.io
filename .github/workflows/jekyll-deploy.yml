@@ -26,15 +26,15 @@ jobs:
       # grab the already-built jekyll site, built by the workflow that triggered us
       - name: Download artifact
         id: download
-        uses: dawidd6/action-download-artifact@v8
+        uses: dawidd6/action-download-artifact@v21
         with:
           workflow: ${{ github.event.workflow_run.workflow_id }}
           name: github-pages
       - name: Upload artifact
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v7
         with:
           name: github-pages
           path: artifact.tar
       - name: Deploy to GitHub Pages
         id: deployment
-        uses: actions/deploy-pages@v4
+        uses: actions/deploy-pages@v5
