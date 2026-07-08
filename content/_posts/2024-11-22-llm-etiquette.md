@@ -4,6 +4,9 @@ author: staff
 excerpt: Best practices for LLM usage on Libera.Chat.
 ---
 
+>Update: These guidelines were superseded by [an update to our policies]
+>in 2026.
+
 Greetings fellow humans!
 
 For better or for worse, controversially perhaps, we are now immersed in an
@@ -40,6 +43,7 @@ we do have [a broad prohibition on antisocial behaviour][behaviour]. We
 encourage folks to consider whether their application of LLMs is reasonably
 prosocial or antisocial.
 
+[an update to our policies]: /news/bot-policy-update
 [logging]: https://libera.chat/policies/#public-logging
 [behaviour]: https://libera.chat/policies/#unwanted-content-and-behaviour
 [policy]: https://libera.chat/policies/
