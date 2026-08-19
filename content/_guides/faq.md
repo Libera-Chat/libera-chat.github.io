@@ -294,14 +294,10 @@ connected. Additionally, some bridges also have the bouncer abilities available.
 
 ## Are bots allowed?
 
-Users may run bots that connect to Libera.Chat. Please get permission from the
-operators of any channels that the bot is in.
+Bots are allowed providing they comply with the [Bot Policy](/policies#bots).
 
-While operators may not notice a quiet bot, they very likely will notice and
-may take offence to unauthorised bots that are noisy or interactive.
-
-If your bot is storing information in a publicly accessible way, you should
-follow our [public logging policy](/policies#public-logging).
+This policy incorporates and expands upon the informal etiquette that our
+communities have used for many years.
 
 ### Flood exemptions for bots
 
@@ -323,11 +319,25 @@ does support SASL.
 
 ## Are LLMs allowed?
 
-We have [outlined some best practices](https://libera.chat/news/llm-etiquette)
-for using LLMs on the network.
+LLM use on the network must comply with the [LLMs Policy](/policies#llms).
+This policy *supersedes* the informal etiquette previously posted on our blog.
 
-Training AIs on channel content is considered scraping or public logging,
-which are covered by our [network policies](/policies#public-logging).
+This policy is to ensure that our network stays a place for people to interact
+with other people.
+
+The policy is broadly _*not compatible with*_ connections from LLM-driven or
+Agentic frameworks. This means connections where it is _*possible*_ for the
+LLM process to perform actions not initiated by a human. Staff cannot have
+confidence that LLMs capable of altering their own configuration will not
+become misconfigured and violate the network policies. As a result this kind
+of LLM presence is not allowed.
+
+All LLM functions are assumed to be sending all observed data to APIs, which
+might store and send that content to other parties. There is no reasonable
+way to prove otherwise. As a result, we must consider every LLM consuming
+content on the network to be a potential privacy violation of other users.
+In practice, this means we must consider all LLM use to be
+[public logging](/policies#public-logging).
 
 ## Are bridges allowed?
 
