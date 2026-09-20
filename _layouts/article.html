@@ -6,6 +6,24 @@
   {%- include nav.html -%}
 
   <main id="main">
+
+{% if page.collection == "posts" %}
+{% assign page_ts = page.date | date: '%s' %}
+{% assign site_ts = site.time | date: '%s' %}
+{% assign difference = site_ts | minus: page_ts %}
+{% assign expiry_ts = site.expiry_months | times: 2628000  %}
+{% if difference > expiry_ts %}
+
+<blockquote>
+This post is more than {{ difference | divided_by: 2628000 }} months old. The
+contents may no longer be correct. You should check
+<a href="/news">newer posts</a> or refer to our
+<a href="/guides">guides section</a> to verify details.
+</blockquote>
+
+{% endif %}
+{% endif %}
+
     {%- include article.html article=page -%}
   </main>
 
