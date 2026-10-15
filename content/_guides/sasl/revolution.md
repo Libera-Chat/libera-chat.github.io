@@ -9,7 +9,7 @@ Edit, and skip to step 5.
 
 1. On the `Manage servers` screen, the main screen, press `+` button on the
     bottom-right of the screen
-2. Enter a name (perhaps liberachat)
+2. Enter a name (perhaps libera)
 3. Enter `irc.libera.chat` as `Server address`, making sure `Port` is set to
     `6697` and `Use SSL/TLS` is ticked
 4. Make sure `Server password` is blank
