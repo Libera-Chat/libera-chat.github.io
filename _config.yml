@@ -37,6 +37,8 @@ collections:
     output: true
     permalink: /:collection/:year-:month-:day-:title
 
+expiry_months: 12
+
 feed:
   path: atom.xml
   collections:
