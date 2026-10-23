@@ -32,7 +32,7 @@
 :root {
   --header-height: 4rem;
   --content-inline-padding: 1.3rem;
-  --content-max-width: 80ch;
+  --content-max-width: 100ch;
   /* define our palette for all themes */
   --white: #fff;
   --gray-100: #f3f4f6;
@@ -338,6 +338,10 @@ main {
   min-width: 0;
   width: 100%;
   margin: 2rem auto;
+}
+
+main.front {
+  max-width: calc(var(--content-max-width) - 20ch);
 }
 
 nav.article-nav {
