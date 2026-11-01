@@ -31,7 +31,7 @@ expose your private information to whatever channel you currently have
 focused (note the leading space):
 
 ```irc
- /msg NickServ REGISTER BadPassword private.email@example.com`
+ /msg NickServ REGISTER BadPassword private.email@example.com
 ```
 
 It is recommended to open a private message window with NickServ before
