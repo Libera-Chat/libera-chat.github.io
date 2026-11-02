@@ -14,6 +14,15 @@
     user with nick example to the channel `##fix_your_connection`.
     `/mode #channel +b $~a$#channel-unreg` would forward unidentified users to
     the channel `#channel-unreg`.
+- mode: B
+  name: restrict bots
+  description: |
+    Prevents bots with bot mode from joining unless they match an `+I` entry.
+    Additionally, prevents bots from sending messages to this channel unless
+    they are voiced or opped (`+e` has no effect).
+
+    Setting this channel mode allows others to safely assume that any clients
+    with bot mode who have joined this channel are permitted to have done so.
 - mode: c
   name: colour filter
   description: Strip colour and formatting codes from channel messages.

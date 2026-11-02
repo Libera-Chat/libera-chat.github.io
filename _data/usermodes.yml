@@ -1,3 +1,15 @@
+- mode: B
+  name: bot mode
+  description: |
+    Marks a client as a bot. The client will be identified as a bot in
+    `/whois` replies, `/who` replies, and by the `bot` tag attached to
+    its messages (if your client supports `message-tags`). Refer to
+    [the IRCv3 bot mode specification](https://ircv3.net/specs/extensions/bot-mode)
+    for details.
+
+    It is highly recommended that all bots on Libera.Chat set this mode.
+    This mode cannot be changed while a client is joined to channels,
+    so it must be set before auto-joining.
 - mode: D
   name: deaf
   description: |
