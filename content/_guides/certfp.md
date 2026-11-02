@@ -7,7 +7,7 @@ weight: 40
 
 As an alternative to password-based authentication, you can connect to
 Libera.Chat with a TLS certificate and have services recognise it
-automatically. *This is not necessary for most users.*
+automatically. _This is not necessary for most users._
 
 For `SASL EXTERNAL` to work, you must [connect over TLS](/guides/connect).
 
@@ -59,23 +59,23 @@ may need to adapt this example for your existing configuration (the network
 and hostname should match what you already use).
 
 ```irc
-/server add -tls_cert ~/.irssi/certs/libera.pem -network LiberaChat irc.libera.chat 6697
+/server add -tls_cert ~/.irssi/certs/libera.pem -network libera irc.libera.chat 6697
 ```
 
 For the first time, connect to Libera.Chat using password authentication so
 that you can add the certificate fingerprint to NickServ.
 
 ```irc
-/connect LiberaChat
+/connect libera
 ```
 
 Now follow the instructions [to add the fingerprint](#add-your-fingerprint-to-nickserv).
 When done, you can switch the authentication to certificates.
 
 ```irc
-/disconnect LiberaChat
-/network add -sasl_password '' -sasl_mechanism EXTERNAL LiberaChat
-/connect LiberaChat
+/disconnect libera
+/network add -sasl_password '' -sasl_mechanism EXTERNAL libera
+/connect libera
 ```
 
 If you did everything right you should now be authenticated using your
@@ -83,34 +83,42 @@ certificate.
 
 ### weechat
 
-Move the certificates you created above to ~/.weechat/certs
+Move the certificates you created above to ~/.config/weechat/certs
+
+Note that for older versions (< 3.2) or if the WEECHAT_HOME environment
+variable is set, the directory is ~/.weechat instead of ~/.config/weechat/certs
 
 ```sh
-mkdir ~/.weechat/certs
-mv libera.pem ~/.weechat/certs
+mkdir -p ~/.config/weechat/certs
+mv libera.pem ~/.config/weechat/certs
 ```
 
-Now disconnect and remove the current Libera.Chat server(s). Re-add it with
+Next disconnect and remove the current Libera.Chat server(s). Re-add it with
 the SSL flag, using your newly generated certificate. Note that these commands
 are just examples, you have to adapt them to your current servers.
 
 ```irc
 # For Weechat version >= 4.0.0
-/set irc.server.liberachat.addresses irc.libera.chat/6697
-/set irc.server.liberachat.tls on
-/set irc.server.liberachat.tls_verify on
-/set irc.server.liberachat.tls_cert %h/certs/libera.pem
-/set irc.server.liberachat.sasl_mechanism external
+/set irc.server.libera.addresses irc.libera.chat/6697
+/set irc.server.libera.tls on
+/set irc.server.libera.tls_verify on
+/set irc.server.libera.tls_cert %h/certs/libera.pem
 
 # For Weechat version < 4.0.0
-/set irc.server.liberachat.addresses irc.libera.chat/6697
-/set irc.server.liberachat.ssl on
-/set irc.server.liberachat.ssl_verify on
-/set irc.server.liberachat.ssl_cert %h/certs/libera.pem
+/set irc.server.libera.addresses irc.libera.chat/6697
+/set irc.server.libera.ssl on
+/set irc.server.libera.ssl_verify on
+/set irc.server.libera.ssl_cert %h/certs/libera.pem
+```
+
+Now follow the instructions [to add the fingerprint](#add-your-fingerprint-to-nickserv).
+Next run:
+
+```irc
 /set irc.server.liberachat.sasl_mechanism external
 ```
 
-and then reconnect to Libera.Chat.
+Finally reconnect to libera.
 
 ### znc
 
@@ -142,6 +150,7 @@ Create the .pem file as per above using `rsa:4096` instead of `ed25519`,
 then place it wherever you want. Start Konversation, then open the Identity
 dialogue by either pressing <kbd>F8</kbd> or via the Settings menu entry.
 Choose the identity you use for the Libera.Chat network or create a new one.
+Now follow the instructions [to add the fingerprint](#add-your-fingerprint-to-nickserv).
 In the part `Auto Identify` you have to choose `SASL External (Cert)`
 as the `Type` for SASL External or `SSL CLient Certificate` for CertFP.
 SASL External requires at least version 1.7 of Konversation.

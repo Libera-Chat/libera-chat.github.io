@@ -10,7 +10,7 @@ select the Libera.Chat server, and skip to step five.
 1. Click Settings, and the Configure Servers
 2. Anywhere in the Servers window that appears, right click and select
    New network
-3. Enter a name (perhaps liberachat)
+3. Enter a name (perhaps libera)
 4. Right click on the network you just added, and click New Server
 5. Enter `irc.libera.chat` as the server name, and then click Advanced
 6. In the Connection tab, enter 6697 for the port, then check the
