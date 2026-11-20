@@ -64,7 +64,7 @@ provided you already have an account (created without using Tor).
 Configuration requirements with details below:
 
 - Update `torrc` configuration file to map to the onion service.
-- Configure your client to use your Tor SOCKS proxy (typically `localhost:9050`).
+- Configure your client to use your Tor SOCKS5 proxy (typically `localhost:9050` for the standalone Tor daemon, or `localhost:9150` for the Tor browser).
 - Configure *public-key* (not plain) SASL authentication.
 - Connect to `palladium.libera.chat`.
 
