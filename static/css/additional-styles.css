@@ -25,8 +25,8 @@
   font-display: swap;
 }
 
-code, pre, kbd {
-  font-family: 'Ubuntu Mono', monospace;
+code, pre, kbd, code *, pre *, kbd * {
+  font-family: 'Ubuntu Mono', monospace !important;
   background-color: var(--c-bg-secondary);
   overflow-x: auto;
   border-radius: .3rem;

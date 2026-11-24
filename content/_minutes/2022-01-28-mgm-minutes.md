@@ -30,7 +30,7 @@ This has previously been discussed on the [July 2021 MGM][2021-07-sm], and the
 <summary>Patch for bylaws change</summary>
 <div markdown="1">
 
-```patch
+{% highlight diff %}
  bylaws.md | 89 +++++++++++++++++++++++++++++++++++++++++++++++++++++++
  1 file changed, 89 insertions(+)
 
@@ -134,7 +134,7 @@ index 0000000..0000000 100644
  ## Specialised Committees
 
  1. There are three specialised committees: Operations, Engineering, and
-```
+{% endhighlight %}
 
 </div>
 </details>
@@ -152,7 +152,7 @@ adopted. This increases the retention period for abuse mitigation data.
 <summary>Patch for privacy policy change</summary>
 <div markdown="1">
 
-```patch
+{% highlight diff %}
  privacy.md | 10 ++++++++++
  1 file changed, 10 insertions(+)
 
@@ -177,7 +177,7 @@ index 0000000..0000000 100644
  Data collected by email or our support system in relation to project
  registration, sponsorship and channel namespace management will be stored at
  least until the project is deregistered or the sponsorship is terminated, this
-```
+{% endhighlight %}
 
 </div>
 </details>
