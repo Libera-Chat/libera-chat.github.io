@@ -23,7 +23,7 @@ commands to ensure that SSL/TLS is enabled for your connection:
 
 ```irc
 /set irc.server.libera.addresses "irc.libera.chat/6697"
-/set irc.server.libera.ssl on
+/set irc.server.libera.tls on
 ```
 
 Now, configure SASL:
